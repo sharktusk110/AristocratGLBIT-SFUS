@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<folder name="Browser Utilities" />
+		<folder name="CommonUtilities">
+			<child name="AccountCreation_Name" key="{D1A050D2-8A50-4BC5-B99F-FFAF838C618B}" path="AccountCreation_Name.js" />
+			<child name="DataRead" key="{9F20CAD3-A4AC-451F-BEDF-BA026AB77C2F}" path="DataRead.js" />
+		</folder>
+		<folder name="Pages">
+			<child name="OpportunityCreation" key="{63A3FB4C-4CAA-4B53-8646-CFC0FF1D6328}" path="OpportunityCreation.js" />
+			<child name="ConfigOpportunity_For_OutrightSale" key="{10B269D2-301B-4E42-862F-59213E3B579C}" path="ConfigOpportunity_For_OutrightSale.js" />
+			<child name="ConfigOpportunity_For_ConversionSale" key="{89D7067C-3534-45A4-8510-B2B6FA07C1D5}" path="ConfigOpportunity_For_ConversionSale.js" />
+			<child name="SwitchUser" key="{63AAD0CB-4B12-4C47-A70B-F905026ED777}" path="SwitchUser.js" />
+		</folder>
+		<folder name="Tests">
+			<folder name="OpportunityCreation">
+				<child name="OpportunityCreation_Test" key="{1E22A1D5-31E5-4E4A-8D98-20086EB43B3E}" path="OpportunityCreation_Test.js" />
+				<child name="ConfigOpportunityOutright_Test" key="{7984F146-6587-4787-A9DE-79EE28057571}" path="ConfigOpportunityOutright_Test.js" />
+				<child name="ConfigOpportunityConversion_Test" key="{07BBA548-EC6B-409C-A69F-528F69B4CACB}" path="ConfigOpportunityConversion_Test.js" />
+				<child name="LegalUserValidation_Test" key="{832FAC7B-4EFB-4BCD-BB96-CE63CA5D9992}" path="LegalUserValidation_Test.js" />
+			</folder>
+		</folder>
+	</children>
+</Root>

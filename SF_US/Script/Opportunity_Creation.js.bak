@@ -1,0 +1,78 @@
+﻿function SF_NewOpportunityButton(){
+  var objPageAccounts=NameMapping.Sys.browser.pageAccounts;
+  waitingObject_Load_Visible_Click(objPageAccounts,30000);
+  var objbuttonAccountNewOpportunity=objPageAccounts.buttonAccountNewOpportunity;
+  Log.Message("Action: Click on Account NewOpportunity Buton.")
+  waitingObject_Load_Visible_Click(objbuttonAccountNewOpportunity,30000);
+  
+ /* if (objPageAccounts.buttonAccountNewOpportunity.Exists){
+     objPageAccounts.buttonAccountNewOpportunity.Click();
+     Log.Message("Clicked on Account NewOpportunity Buton.")
+   }else{
+     Log.Error("Unable to Clicked on Account NewOpportunity Buton.")
+   } */
+}
+
+/*Function Name: SF_NewOpportunityWindow(ObjParent,row,data)
+  I/P Parameters: ObjParent,row,data //var ObjParent=Aliases.browser.pageNewOpportunity.sectionOpportunityName,//var row =1, //var data= dataReader(WorkBookName,sheetName)
+  O/P Parameter: N/A
+  Description: This function handles the creation of a new Opportunity within the application. 
+              It dynamically retrieves the required information (Opportunity Name, Gaming Classification, Type, Market Segment, 
+              Lead Source) from an Excel file based on the specified row number. Additionally, it accepts the parent object of the 
+              Opportunity page for accurate object identification and interaction.
+*/
+
+function SF_NewOpportunityWindow(ObjParent,row,data)
+{
+  
+  //var ObjParent=Aliases.browser.pageNewOpportunity.sectionOpportunityName
+  Log.Message("Action: Create NewOpportunity.");
+  var objpageNewOpportunity=Aliases.browser.pageNewOpportunity
+  waitingObject_Load_Visible (objpageNewOpportunity,30000);
+  
+  var objParent=objpageNewOpportunity.sectionOpportunityName    //parent
+  waitingObject_Load_Visible(objParent,30000);
+  
+  var objOpportunityName=objParent.textboxOpportunityName;
+  waitingObject_Load_Visible(objOpportunityName,30000);
+  
+  if(objOpportunityName.VisibleOnScreen)
+  {
+    var tdOpportunityName=data[row]["OpportunityName"]
+    waitingObject_Load_Visible_Click(objOpportunityName,30000);
+    setTextOperation(objOpportunityName,tdOpportunityName,30000); //"GREEN VALLEY RANCH RESORT SPA CASINO - Test - 01/19/2025
+    
+    var tdGamingClassification=data[row]["GamingClassification"];
+    var objGamingClassification=objParent.dropdownGamingClassification;
+    waitingObject_Load_Visible_Click(objGamingClassification,30000);
+    ConfirmExpectedDropDownSelection(objGamingClassification,tdGamingClassification,"GamingClassification");
+    
+    var tdType=data[row]["Type"];
+    var objType=objParent.dropdownType
+    waitingObject_Load_Visible_Click(objType,30000);
+    ConfirmExpectedDropDownSelection(objType,tdType,"GamingClassification");
+    
+    var tdMarketSegment=data[row]["MarketSegment"]
+    var objMarketSegment=objParent.dropdownMarketSegment
+   // SelectingDropDownValue(objMarketSegment,tdMarketSegment)
+    waitingObject_Load_Visible(objMarketSegment,30000);
+    objMarketSegment.Click();
+    objMarketSegment.Keys (tdMarketSegment);
+    LLPlayer.MouseMove(100, 100,100);
+    ConfirmExpectedDropDownSelection(objMarketSegment,tdMarketSegment,"MarketSegment")
+    
+    var tdLeadSource=data[row]["LeadSource"]
+    var objLeadSource=objParent.panelLeadSource
+    waitingObject_Load_Visible(objLeadSource,30000);
+    objLeadSource.Click();
+    objLeadSource.Keys (tdMarketSegment);
+    LLPlayer.MouseMove(100, 100,100);
+    ConfirmExpectedDropDownSelection(objLeadSource,tdLeadSource,"LeadSource")
+    
+    objParent.buttonSave.Click();
+ 
+  }else
+  {
+  Log.Error("Create NewOpportunity page is not displaying.")
+  }
+}

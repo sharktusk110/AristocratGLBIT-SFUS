@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{C07F6915-DBCA-4E0A-AA69-1E553A1BB882}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="0" kind="0" dateTime="45789.3708564815" objectName="Aliases.browser.pageAccountSalesforc.sectionSkipToNavigation.textnodeNew.textnodeNew2.New_Account" objectLeft="-1" objectTop="-1" objectRight="-1" objectBottom="-1" clickPointX="-1" clickPointY="-1" imageFileName="tcvi499144390228760.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="1" kind="0" dateTime="45789.3710648148" objectName="Aliases.browser.pageQuote.footerNext.Click_Next" objectLeft="-1" objectTop="-1" objectRight="-1" objectBottom="-1" clickPointX="-1" clickPointY="-1" imageFileName="tcvi499162125228761.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="45789.37125" objectName="Aliases.browser.pageUsers.textnodeSuccessMessageAccount.Click_Save" objectLeft="-1" objectTop="-1" objectRight="-1" objectBottom="-1" clickPointX="-1" clickPointY="-1" imageFileName="tcvi499178390228764.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

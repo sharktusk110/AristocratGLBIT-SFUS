@@ -1,0 +1,12 @@
+﻿//USEUNIT SwitchUser
+
+function LegalUserValidation_Test()
+{
+  Account_Switch()
+  OpenNewCreated_Opportunity()
+  Type_Validation()
+
+
+
+
+}

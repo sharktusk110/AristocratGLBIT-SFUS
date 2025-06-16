@@ -1,0 +1,55 @@
+﻿function Account_Switch()
+{
+  Delay(3000);
+  //Clicks the 'LaraLogOut_Tab' link.
+  Aliases.browser.Account_Switch.LogOutDan_Tab.Click();
+  //Delays the test execution for the specified time period.
+  Delay(3000);
+  //This url is used to open Dem Beaston profile for login.
+  Browsers.Item(btChrome).Navigate("https://aristocrat-global--qa1.sandbox.my.salesforce-setup.com/lightning/setup/ManageUsers/page?address=%2F0057F000005np8MQAQ%3Fnoredirect%3D1%26isUserEntityOverride%3D1%26retURL%3D%252Fsetup%252Fhome");
+  //Delays the test execution for the specified time period.
+  Delay(2000);
+  //Performs a single click on the specified button.
+  Aliases.browser.Page_Login.Login_Form.Login_Button.ClickButton();
+}
+
+
+
+
+function OpenNewCreated_Opportunity()
+{
+
+//Clicks the 'GlobalSearch_Tab' control.
+Sys.HighlightObject(Aliases.browser.Page_Login.GlobalSearch_Tab);
+  Aliases.browser.Page_Login.GlobalSearch_Tab.Click();
+  //Delays the test execution for the specified time period.
+  Delay(2000);
+  //Clicks the 'Opportunity_Tab' control.
+  Aliases.browser.AccountCreation_Page.NewAccount_Panel.Opportunity_Tab.Click();
+  //Delays the test execution for the specified time period.
+  Delay(2000);
+  //Clicks the 'GlobalSearch_Bar' control.
+  Aliases.browser.Page_Login.GlobalSearch_Bar.Click();
+  //Delays the test execution for the specified time period.
+  Delay(2000);
+  //Sets the text Project.Variables.OpportunityName in the 'GlobalSearch_Bar' text editor.
+  Aliases.browser.Page_Login.GlobalSearch_Bar.SetText(Project.Variables.OpportunityName);
+  //Delays the test execution for the specified time period.
+  Delay(2000);
+  //Enters '[Enter]' in the 'GlobalSearch_Bar' object.
+  Aliases.browser.Page_Login.GlobalSearch_Bar.Keys("[Enter]");
+  //Delays the test execution for the specified time period.
+  Delay(2000);
+  //Clicks the 'NewOpportunity_Tab' link.
+  Aliases.browser.PostAccountApproval_Tab.NewOpportunity_Tab.Click();
+  //Delays the test execution for the specified time period.
+  Delay(2000);
+  
+  
+  }
+  
+
+function Type_Validation()
+{
+  aqObject.CheckProperty(Aliases.browser.PostAccountApproval_Tab.D365CompanyCode_Field.panelType, "Enabled", cmpEqual, true);
+}

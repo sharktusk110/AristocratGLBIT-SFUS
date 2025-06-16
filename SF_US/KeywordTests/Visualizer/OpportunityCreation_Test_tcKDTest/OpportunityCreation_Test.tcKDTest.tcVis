@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{5CF0615A-4E31-4A51-8384-AD904B5425D8}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="0" kind="0" dateTime="45820.4447106481" objectName="Aliases.browser.Page_Login.GlobalSearch_Tab" objectLeft="585" objectTop="243" objectRight="743" objectBottom="281" clickPointX="709" clickPointY="263" imageFileName="tcvi193437296176600.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="45820.4447685185" objectName="Aliases.browser.PreAccountApproval_Tabs.Home_Panel.UserLogedIn_Panel.SearchAccount_Tab.Account_Tab" objectLeft="635" objectTop="383" objectRight="693" objectBottom="403" clickPointX="651" clickPointY="389" imageFileName="tcvi193442468176602.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="4" kind="0" dateTime="45820.4448148148" objectName="Aliases.browser.PreAccountApproval_Tabs.Home_Panel.UserLogedIn_Panel.GlobalSearch_Field" objectLeft="805" objectTop="243" objectRight="1228" objectBottom="281" clickPointX="-1" clickPointY="-1" imageFileName="tcvi193446640176604.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="6" kind="0" dateTime="45820.4448842593" objectName="Aliases.browser.PreAccountApproval_Tabs.Home_Panel.UserLogedIn_Panel.SelectAccount_Tab" objectLeft="743" objectTop="346" objectRight="1228" objectBottom="410" clickPointX="931" clickPointY="375" imageFileName="tcvi193452015176605.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>
