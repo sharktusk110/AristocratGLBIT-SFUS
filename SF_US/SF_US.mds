@@ -78,6 +78,13 @@
 								<environments activeCloud="SWT" />
 								<children />
 							</testItem>
+							<testItem name="Close_Program" key="{61B7D0FE-CC83-4053-BE9B-193FCEF7CFD7}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{88009DF8-8042-4464-A734-06BF1F6B4C79}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+								<testParameters>
+									<param0 name="Program" type="1" localVarName="" value="chrome.exe" />
+								</testParameters>
+								<environments activeCloud="SWT" />
+								<children />
+							</testItem>
 						</children>
 					</testItem>
 				</children>
@@ -143,6 +150,59 @@
 					</testItem>
 				</children>
 			</testItem>
+			<testItem name="343151_B03_RFC_Quote_creation_(BDE/COE)" key="{D5A892E0-493A-4A5D-8561-6383407AD7DD}" group="False" parallel="False" enabled="True" load="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+				<testParameters />
+				<environments activeCloud="SWT" />
+				<children>
+					<testItem name="Step 1: Login to SalseForce" key="{F0149C92-BC98-4392-80A4-3BD882186784}" group="False" parallel="False" enabled="True" load="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+						<testParameters />
+						<environments activeCloud="SWT" />
+						<children>
+							<testItem name="Login to Salesforce with service account." key="{35428441-62F6-467F-BF0D-BFBB131626B3}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{21823095-49D7-4B3D-973C-DEC7CADA04DD}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+								<testParameters />
+								<environments activeCloud="SWT" />
+								<children />
+							</testItem>
+						</children>
+					</testItem>
+					<testItem name="Step 2: RFC quote creation with sync" key="{224CDD40-2326-405F-A942-A8897133470E}" group="False" parallel="False" enabled="True" load="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+						<testParameters />
+						<environments activeCloud="SWT" />
+						<children>
+							<testItem name="RFC_Quote_Creation_Test" key="{C364D874-9CAF-4013-833B-096FF1FB448D}" group="False" parallel="False" enabled="True" load="False" testMoniker="{6C11C8D3-5ADE-4B83-8F62-4CAFEFFE5065}RFC_Quote_Creation_Test" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+								<testParameters />
+								<environments activeCloud="SWT" />
+								<children />
+							</testItem>
+						</children>
+					</testItem>
+					<testItem name="Step 3: Update and validate EGM and conversion counts" key="{C0E00F8B-3242-46F8-BD5A-4F76B42542A2}" group="False" parallel="False" enabled="True" load="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+						<testParameters />
+						<environments activeCloud="SWT" />
+						<children />
+					</testItem>
+					<testItem name="Step 4: Verify apply preferences for outright sale" key="{700686DD-B020-458C-A9F6-F6B75E137EC4}" group="False" parallel="False" enabled="True" load="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+						<testParameters />
+						<environments activeCloud="SWT" />
+						<children />
+					</testItem>
+					<testItem name="Step 5: Verify discount price and EGM count for outright sale" key="{F6AA828E-42B1-4AF7-8340-ABFE3F2D6940}" group="False" parallel="False" enabled="True" load="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+						<testParameters />
+						<environments activeCloud="SWT" />
+						<children />
+					</testItem>
+					<testItem name="Step 6: Verify discount price nd EGM count for conversion sale" key="{F47EC893-129B-4292-AB87-7FC8F880E53D}" group="False" parallel="False" enabled="True" load="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+						<testParameters />
+						<environments activeCloud="SWT" />
+						<children />
+					</testItem>
+					<testItem name="Step 7: verify selling model GOps ,Jackpot funded " key="{FC2FED9F-477A-4C5C-B53F-B45C7803D02D}" group="False" parallel="False" enabled="True" load="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+						<testParameters />
+						<environments activeCloud="SWT" />
+						<children />
+					</testItem>
+				</children>
+			</testItem>
 		</children>
 	</testItems>
 	<variables key="{350913AB-D488-49BA-853C-4A0450655799}">
@@ -163,10 +223,13 @@
 				<Variable Name="SF_URL" Type="String" Local="True">
 					<DefValue StrValue="https://test.salesforce.com/" />
 				</Variable>
-				<Variable Name="ParentAccount1" Type="String" Local="False">
-					<DefValue StrValue="BELLAGIO LAS VEGAS" />
-				</Variable>
 				<Variable Name="OpportunityName" Type="String" Local="True">
+					<DefValue />
+				</Variable>
+				<Variable Name="ParentAccount" Type="String" Local="True">
+					<DefValue />
+				</Variable>
+				<Variable Name="RFC_Quote_Name" Type="String" Local="True">
 					<DefValue />
 				</Variable>
 			</Items>

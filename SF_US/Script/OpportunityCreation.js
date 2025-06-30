@@ -4,37 +4,41 @@
 function Create_opportunity()
 {
   
+  var LoginDataMap=dataReader("SF_opportunity"); //Sheetname
+  var Type=LoginDataMap["B02"]["Type"];
+  var GamingClassification=LoginDataMap["B02"]["GamingClassification"];
+  var LeadSource=LoginDataMap["B02"]["LeadSource"];
+  var MarketSegment=LoginDataMap["B02"]["MarketSegment"];
+  var AccountName=LoginDataMap["B02"]["AccountName"];
+
+  Delay(2000);
+  Aliases.browser.Page__PreAccountApproval.Home__Panel.NewOpportunity__button.Click();
+
+  Delay(2000);
+  var randomNumber = Math.floor(Math.random() * 1000) + 1;
+  var AccountName1  = AccountName + "-" + "Test" + randomNumber  ;
+  Project.Variables.OpportunityName = AccountName1 ;
   
-var LoginDataMap=dataReader("SF_opportunity"); //Sheetname
-var Type=LoginDataMap["B02"]["Type"];
-var GamingClassification=LoginDataMap["B02"]["GamingClassification"];
-var LeadSource=LoginDataMap["B02"]["LeadSource"];
-var MarketSegment=LoginDataMap["B02"]["MarketSegment"];
-var AccountName=LoginDataMap["B02"]["AccountName"];
-
-
-
-Delay(2000);
-Aliases.browser.PreAccountApproval_Tabs.Home_Panel.NewOpportunity_button.Click()
-
-
-Delay(2000);
- var randomNumber = Math.floor(Math.random() * 1000) + 1;
- var AccountName1  = AccountName + "-" + "Test" + randomNumber  ;
- Project.Variables.OpportunityName = AccountName1 ;
-
-Aliases.browser.Opportunity_Panel.OpportunityName_Panel.OpportunityName_Field.SetText(AccountName1);
-Aliases.browser.Opportunity_Panel.OpportunityName_Panel.GamingClassification_List.Click();
-ListSelection (GamingClassification); //"Class III"
-//Aliases.browser.Opportunity_Panel.OpportunityName_Panel.GamingClassification_List.keys("Class III");
-//KeyboardOperations("ENTER",1);
-Aliases.browser.Opportunity_Panel.OpportunityName_Panel.Type_List.Click();
-ListSelection (Type)//"Regular"
-Aliases.browser.Opportunity_Panel.OpportunityName_Panel.MarketSegment_List.Click();
-ListSelection (MarketSegment) //"Class III"
-Aliases.browser.Opportunity_Panel.OpportunityName_Panel.LeadSource_List.Click();
-ListSelection (LeadSource) //"Customer"
-NameMapping.Sys.browser.pageCasinoRoyaleAccountSalesforc.buttonSave.Click();
+  Log.Message("AccountName");
+  Aliases.browser.Page__Opportunity.OpportunityName__Panel.OpportunityName__Field.SetText(AccountName1);
+  
+  Log.Message("GamingClassification");
+  Aliases.browser.Page__Opportunity.OpportunityName__Panel.GamingClassification__List.Click();
+  ListSelection (GamingClassification); //"Class III"
+  
+  
+  Log.Message("Type");
+  Aliases.browser.Page__Opportunity.OpportunityName__Panel.Type__List.Click();
+  ListSelection (Type)//"Regular"
+  
+  Log.Message("MarketSegment");
+  Aliases.browser.Page__Opportunity.OpportunityName__Panel.MarketSegment__List.Click();
+  ListSelection (MarketSegment) //"Class III"
+  
+  Log.Message("LeadSource");
+  Aliases.browser.Page__Opportunity.OpportunityName__Panel.LeadSource__List.Click();
+  ListSelection (LeadSource) //"Customer"
+  NameMapping.Sys.browser.pageCasinoRoyaleAccountSalesforc.Save__Button.Click();
 
 }
 
@@ -42,7 +46,7 @@ NameMapping.Sys.browser.pageCasinoRoyaleAccountSalesforc.buttonSave.Click();
 function Opportunity_Success_Validation()
 {
   
-  aqObject.CheckProperty(Aliases.browser.Page_Login.FindElement("//div[contains(@class, 'slds-theme--success')]"), "Enabled", cmpEqual, true);
+  aqObject.CheckProperty(Aliases.browser.Page__Login.FindElement("//div[contains(@class, 'slds-theme--success')]"), "Enabled", cmpEqual, true);
 }
 
 
@@ -51,19 +55,22 @@ function Opportunity_Success_Validation()
 function OpenAccount_Page()
 {
   //Clicks the 'GlobalSearch_Tab' control.
-  Aliases.browser.Page_Login.GlobalSearch_Tab.Click();
+  Aliases.browser.Page__PreAccountApproval.Home__Panel.UserLogedIn__Panel.GlobalAccount__Tab.Click();
   //Delays the test execution for the specified time period.
   Delay(2000);
   //Clicks the 'Account_Tab' control.
-  Aliases.browser.PreAccountApproval_Tabs.Home_Panel.UserLogedIn_Panel.SearchAccount_Tab.Account_Tab.Click();
+  Aliases.browser.Page__AccountCreation.NewAccount__Panel.Account__Tab.Click();
   //Delays the test execution for the specified time period.
   Delay(2000);
   //Sets the text Project.Variables.ParentAccount1 in the 'GlobalSearch_Field' text editor.
-  Aliases.browser.PreAccountApproval_Tabs.Home_Panel.UserLogedIn_Panel.GlobalSearch_Field.SetText(Project.Variables.ParentAccount1);
+  Aliases.browser.Page__PreAccountApproval.Home__Panel.headerOneheader2.GlobalSearch__Field.Keys(Project.Variables.ParentAccount);
   //Delays the test execution for the specified time period.
+  
+  
+ 
   Delay(2000);
   //Clicks the 'SelectAccount_Tab' control.
-  Aliases.browser.PreAccountApproval_Tabs.Home_Panel.UserLogedIn_Panel.SelectAccount_Tab.Click();
+  Aliases.browser.Page__PreAccountApproval.Home__Panel.UserLogedIn__Panel.SelectAccount__Tab.Click();
   //Delays the test execution for the specified time period.
   Delay(2000);
 }

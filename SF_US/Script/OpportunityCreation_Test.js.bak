@@ -1,8 +1,9 @@
 ﻿//USEUNIT OpportunityCreation
 
 function New_Opportunity_Create(){
-  Create_opportunity();
-  Opportunity_Success_Validation();
+  OpenAccount_Page()
+  //Create_opportunity();
+  //Opportunity_Success_Validation();
 }
 
 

@@ -6,7 +6,6 @@
 			<folder name="Login">
 				<child name="Login" key="{7803AE75-5B58-4CD6-A7B5-386452B26E07}" path="Login.tcKDTest" />
 			</folder>
-			<folder name="QuoteGeneration" />
 			<folder name="AccountCreation">
 				<child name="Account_Switch" key="{B257C12A-7B1C-43B4-A990-B9F11A9C58CB}" path="Account_Switch.tcKDTest" />
 				<child name="Submit_For_Approval" key="{7663B850-A105-4FD1-B76A-960CFEFAE394}" path="Submit_For_Approval.tcKDTest" />
@@ -16,7 +15,6 @@
 				<child name="Adress_Addition" key="{14CCA54F-3FEA-45A0-AC44-78E51631FE1B}" path="Adress_Addition.tcKDTest" />
 				<child name="PostApproval_AccountStatus" key="{B3660BE9-14C7-4CDF-9FF7-E408D8440BA1}" path="PostApproval_AccountStatus.tcKDTest" />
 			</folder>
-			<folder name="OpportunityCreation" />
 		</folder>
 		<folder name="BrowserUtilities">
 			<child name="Close_Program" key="{88009DF8-8042-4464-A734-06BF1F6B4C79}" path="Close_Program.tcKDTest" />
@@ -26,7 +24,6 @@
 			<folder name="Login_Test">
 				<child name="Login_Test" key="{21823095-49D7-4B3D-973C-DEC7CADA04DD}" path="Login_Test.tcKDTest" />
 			</folder>
-			<folder name="Slug" />
 			<folder name="Account_Creation_Test">
 				<child name="AccountCreation_Test" key="{EF2414B8-D42C-4051-9522-C9F32E4842C8}" path="AccountCreation_Test.tcKDTest" />
 				<child name="CompanyCode_Test" key="{798966B0-0666-413D-8C55-E7FF2F18F174}" path="CompanyCode_Test.tcKDTest" />
@@ -36,7 +33,6 @@
 				<child name="OpportunityCreation_Test" key="{5CF0615A-4E31-4A51-8384-AD904B5425D8}" path="OpportunityCreation_Test.tcKDTest" />
 			</folder>
 		</folder>
-		<folder name="Quote" />
-		<folder name="Exceptions" />
+		<child name="Test3" key="{52A206F0-0E1F-4B31-88B5-F19C3B8192AF}" path="Test3.tcKDTest" />
 	</children>
 </Root>

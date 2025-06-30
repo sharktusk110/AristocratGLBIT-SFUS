@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{52A206F0-0E1F-4B31-88B5-F19C3B8192AF}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="0" kind="0" dateTime="45837.8131018519" objectName="Aliases.browser.Page__Login.GlobalSearch_Tab" objectLeft="607" objectTop="236" objectRight="716" objectBottom="265" clickPointX="695" clickPointY="247" imageFileName="tcvi29078084390920.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="0" dateTime="45837.8133796296" objectName="Aliases.browser.Page__PreAccountApproval.Home__Panel.UserLogedIn__Panel.SelectAccount__Tab" objectLeft="744" objectTop="309" objectRight="1210" objectBottom="363" clickPointX="912" clickPointY="331" imageFileName="tcvi29080485990925.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

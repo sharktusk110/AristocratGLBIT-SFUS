@@ -23,30 +23,30 @@
 		<Node name="logs">
 			<Node name="log idx=0000">
 				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="45821.7022153009"/>
+				<Prp name="datetime" type="D" value="45838.0534675463"/>
 				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{80542D62-823F-4864-8DFA-80191A859DEF}"/>
-				<Prp name="nameofroot" type="S" value="82030_B01_Accounts_Creation_Approve"/>
-				<Prp name="relpath" type="S" value="6_13_2025_4_51 PM_11_402\Description.tcLog"/>
+				<Prp name="key" type="S" value="{738D4742-BDE7-4595-98D4-C0FEE8375124}"/>
+				<Prp name="nameofroot" type="S" value="RFC_Quote_Creation_Test"/>
+				<Prp name="relpath" type="S" value="6_30_2025_1_16 AM_59_596\Description.tcLog"/>
 				<Prp name="status" type="I" value="2"/>
 			</Node>
 			<Node name="log idx=0001">
 				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="45821.7030143981"/>
+				<Prp name="datetime" type="D" value="45838.0555078704"/>
 				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{08D33F7D-FFBA-44D3-B73A-A5F56B938459}"/>
-				<Prp name="nameofroot" type="S" value="Step 1: Login to SalseForce"/>
-				<Prp name="relpath" type="S" value="6_13_2025_4_52 PM_20_444\Description.tcLog"/>
+				<Prp name="key" type="S" value="{864A5039-803F-42B2-A214-9FF5DFBAA76F}"/>
+				<Prp name="nameofroot" type="S" value="Step 2: RFC quote creation with sync"/>
+				<Prp name="relpath" type="S" value="6_30_2025_1_19 AM_55_880\Description.tcLog"/>
 				<Prp name="status" type="I" value="2"/>
 			</Node>
 			<Node name="log idx=0002">
 				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="45821.7044987732"/>
+				<Prp name="datetime" type="D" value="45838.3992559954"/>
 				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{16C2B608-6774-4DF2-BD70-35CB293A275C}"/>
-				<Prp name="nameofroot" type="S" value="Step 1: Login to SalseForce"/>
-				<Prp name="relpath" type="S" value="6_13_2025_4_54 PM_28_694\Description.tcLog"/>
-				<Prp name="status" type="I" value="1"/>
+				<Prp name="key" type="S" value="{189E60CB-5A3D-4E69-81CA-9711FCA80192}"/>
+				<Prp name="nameofroot" type="S" value="343151_B03_RFC_Quote_creation_(BDE/COE)"/>
+				<Prp name="relpath" type="S" value="6_30_2025_9_34 AM_55_718\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
 			</Node>
 		</Node>
 		<Prp name="signature" type="S" value="{681DCC69-A39F-4C4D-8E7D-B2D9362FAF4F}"/>

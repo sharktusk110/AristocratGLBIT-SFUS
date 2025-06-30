@@ -26,7 +26,7 @@
 			<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
 				<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.browser.Page_Login.FindElement(&quot;//div[@role=&apos;main&apos;]//records-record-layout-row[3]/slot/records-record-layout-item[2]/div/div[contains(@class, &apos;slds-form-element&apos;)]&quot;)" />
+						<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.browser.Page__Login.FindElement(&quot;//div[@role=&apos;main&apos;]//records-record-layout-row[3]/slot/records-record-layout-item[2]/div/div[contains(@class, &apos;slds-form-element&apos;)]&quot;)" />
 						<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="contentText" />
 						<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="0" />
 						<Parameter Name="Value" DefVarType="12" VarType="8" ValueType="9" ValueValue="500072006F0073007000650063007400200041007000700072006F00760061006C0020005300740061007400750073000A00480065006C0070002000500072006F0073007000650063007400200041007000700072006F00760061006C0020005300740061007400750073000A00500072006F0073007000650063007400200041007000700072006F00760061006C0020005300740061007400750073000A0041007000700072006F007600650064000A0045006400690074002000500072006F0073007000650063007400200041007000700072006F00760061006C002000530074006100740075007300" />
@@ -64,8 +64,8 @@
 			<Operation Type="{FB11A755-C568-41D9-8F05-1F7BDAF42205}">
 				<Data Description="Posts an image to the test log.">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="Picture" DefVarType="12" ParamType="{2B146992-A675-4CF3-9B71-7EE4A1CA11B2}" Expression="Aliases.browser.Page_Login.Picture(4, 212, 1895, 621)" />
-						<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Account has been approved" />
+						<Parameter Name="Picture" DefVarType="12" ParamType="{2B146992-A675-4CF3-9B71-7EE4A1CA11B2}" Expression="Aliases.browser.Page__PostAccountApproval.Detail__Tab.ApprovalStatus_Panel.Picture()" />
+						<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Account Approved successfully." />
 						<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
 						<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
 							<Values IsEnum="True">

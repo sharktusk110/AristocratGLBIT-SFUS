@@ -2,7 +2,7 @@
 {
   Delay(3000);
   //Clicks the 'LaraLogOut_Tab' link.
-  Aliases.browser.Account_Switch.LogOutDan_Tab.Click();
+  Aliases.browser.Page__Login.Account__Switch.LogOutDan__Tab.Click();
   //Delays the test execution for the specified time period.
   Delay(3000);
   //This url is used to open Dem Beaston profile for login.
@@ -10,7 +10,7 @@
   //Delays the test execution for the specified time period.
   Delay(2000);
   //Performs a single click on the specified button.
-  Aliases.browser.Page_Login.Login_Form.Login_Button.ClickButton();
+  Aliases.browser.Page__Login.Account__Switch.button__Login.ClickButton();
 }
 
 
@@ -20,28 +20,28 @@ function OpenNewCreated_Opportunity()
 {
 
 //Clicks the 'GlobalSearch_Tab' control.
-Sys.HighlightObject(Aliases.browser.Page_Login.GlobalSearch_Tab);
-  Aliases.browser.Page_Login.GlobalSearch_Tab.Click();
+
+  Aliases.browser.Page__PreAccountApproval.Home__Panel.UserLogedIn__Panel.GlobalAccount__Tab.Click();
   //Delays the test execution for the specified time period.
   Delay(2000);
   //Clicks the 'Opportunity_Tab' control.
-  Aliases.browser.AccountCreation_Page.NewAccount_Panel.Opportunity_Tab.Click();
+  Aliases.browser.Page__PreAccountApproval.Home__Panel.UserLogedIn__Panel.GlobalOpportunities__Tab.Click();
   //Delays the test execution for the specified time period.
   Delay(2000);
   //Clicks the 'GlobalSearch_Bar' control.
-  Aliases.browser.Page_Login.GlobalSearch_Bar.Click();
+  Aliases.browser.Page__PreAccountApproval.Home__Panel.headerOneheader2.GlobalSearch__Field.Click();
   //Delays the test execution for the specified time period.
   Delay(2000);
   //Sets the text Project.Variables.OpportunityName in the 'GlobalSearch_Bar' text editor.
-  Aliases.browser.Page_Login.GlobalSearch_Bar.SetText(Project.Variables.OpportunityName);
+  Aliases.browser.Page__PreAccountApproval.Home__Panel.headerOneheader2.GlobalSearch__Field.SetText(Project.Variables.OpportunityName);
   //Delays the test execution for the specified time period.
   Delay(2000);
   //Enters '[Enter]' in the 'GlobalSearch_Bar' object.
-  Aliases.browser.Page_Login.GlobalSearch_Bar.Keys("[Enter]");
+  Aliases.browser.Page__PreAccountApproval.Home__Panel.headerOneheader2.GlobalSearch__Field.Keys("[Enter]");
   //Delays the test execution for the specified time period.
   Delay(2000);
   //Clicks the 'NewOpportunity_Tab' link.
-  Aliases.browser.PostAccountApproval_Tab.NewOpportunity_Tab.Click();
+  Aliases.browser.Page__PostAccountApproval.NewOpportunity__Tab.Click();
   //Delays the test execution for the specified time period.
   Delay(2000);
   
@@ -51,5 +51,5 @@ Sys.HighlightObject(Aliases.browser.Page_Login.GlobalSearch_Tab);
 
 function Type_Validation()
 {
-  aqObject.CheckProperty(Aliases.browser.PostAccountApproval_Tab.D365CompanyCode_Field.panelType, "Enabled", cmpEqual, true);
+  aqObject.CheckProperty(Aliases.browser.Page__PostAccountApproval.D365CompanyCode__Field.EditStatusForLegalUser_Tab, "Enabled", cmpEqual, true);
 }

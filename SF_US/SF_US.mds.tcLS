@@ -31,7 +31,7 @@
 					</Node>
 					<Node name="var1">
 						<Node name="value">
-							<Prp name="strvalue" type="H" value="540065007300740020004100630063006F0075006E00740020003400300035003600300039003700340030003400350034003200"/>
+							<Prp name="strvalue" type="H" value="540065007300740020004100630063006F0075006E00740020003600320032003100320032003600390032003600300035003800"/>
 						</Node>
 						<Prp name="name" type="S" value="Accountname"/>
 					</Node>
@@ -48,13 +48,22 @@
 						<Prp name="name" type="S" value="SF_URL"/>
 					</Node>
 					<Node name="var5">
-						<Prp name="name" type="S" value="ParentAccount1"/>
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="420045004C004C004100470049004F0020004C00410053002000560045004700410053002D005400650073007400340039003200"/>
+						</Node>
+						<Prp name="name" type="S" value="OpportunityName"/>
 					</Node>
 					<Node name="var6">
 						<Node name="value">
-							<Prp name="strvalue" type="H" value="420045004C004C004100470049004F0020004C00410053002000560045004700410053002D005400650073007400310031003400"/>
+							<Prp name="strvalue" type="H" value="57004800450045004C0049004E0047002000490053004C0041004E0044002000520041004300450054005200410043004B00200041004E0044002000470041004D0049004E0047002000430045004E00540045005200"/>
 						</Node>
-						<Prp name="name" type="S" value="OpportunityName"/>
+						<Prp name="name" type="S" value="ParentAccount"/>
+					</Node>
+					<Node name="var7">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value=" "/>
+						</Node>
+						<Prp name="name" type="S" value="RFC_Quote_Name"/>
 					</Node>
 				</Node>
 				<Prp name="version" type="I" value="4"/>
