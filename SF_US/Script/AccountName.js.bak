@@ -1,5 +1,0 @@
-﻿function GenerateUniqueName() {
-  var timestamp = aqDateTime.Now();
-  var formattedTime = aqConvert.VarToStr(timestamp).replace(/[: ]/g, '');
-  return "Test User_" + formattedTime;
-}
