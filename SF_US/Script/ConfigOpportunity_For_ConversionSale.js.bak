@@ -81,14 +81,3 @@ aqObject.CheckProperty(Aliases.browser.Page__Login.FindElement("//div[contains(@
 
 
 
-function Test1()
-{
-  Browsers.Item(btChrome).Navigate("https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Opportunity/0069r00000HGISHAA5/view");
-  NameMapping.Sys.browser.Maximize__.Maximize();
-  
-  let button = browser.Page__EditLineItem.Save__button;
-  button.ClickButton();
-  aqObject.CheckProperty(browser.textnodeProductConfigurationSave, "contentText", cmpEqual, "Product Configuration saved.");
-  button.ClickButton();
-  aqObject.CheckProperty(Aliases.browser.Page__Login.FindElement("//div[contains(@class, 'slds-theme--success')]"), "Enabled", cmpEqual, true);
-}

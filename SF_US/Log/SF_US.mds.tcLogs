@@ -23,29 +23,29 @@
 		<Node name="logs">
 			<Node name="log idx=0000">
 				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="45838.0534675463"/>
+				<Prp name="datetime" type="D" value="45845.4260532755"/>
 				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{738D4742-BDE7-4595-98D4-C0FEE8375124}"/>
-				<Prp name="nameofroot" type="S" value="RFC_Quote_Creation_Test"/>
-				<Prp name="relpath" type="S" value="6_30_2025_1_16 AM_59_596\Description.tcLog"/>
+				<Prp name="key" type="S" value="{FA260A40-49BB-4F73-855D-A74E42CCBA9D}"/>
+				<Prp name="nameofroot" type="S" value="Step 4: Verify apply preferences for outright sale"/>
+				<Prp name="relpath" type="S" value="7_7_2025_10_13 AM_31_3\Description.tcLog"/>
 				<Prp name="status" type="I" value="2"/>
 			</Node>
 			<Node name="log idx=0001">
 				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="45838.0555078704"/>
+				<Prp name="datetime" type="D" value="45845.429681956"/>
 				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{864A5039-803F-42B2-A214-9FF5DFBAA76F}"/>
-				<Prp name="nameofroot" type="S" value="Step 2: RFC quote creation with sync"/>
-				<Prp name="relpath" type="S" value="6_30_2025_1_19 AM_55_880\Description.tcLog"/>
-				<Prp name="status" type="I" value="2"/>
+				<Prp name="key" type="S" value="{1A7C06B1-A1FA-49ED-AD09-96C3244486ED}"/>
+				<Prp name="nameofroot" type="S" value="82032_B02_Opportunity_creation_BDE-COE"/>
+				<Prp name="relpath" type="S" value="7_7_2025_10_18 AM_44_521\Description.tcLog"/>
+				<Prp name="status" type="I" value="1"/>
 			</Node>
 			<Node name="log idx=0002">
 				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="45838.3992559954"/>
-				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{189E60CB-5A3D-4E69-81CA-9711FCA80192}"/>
+				<Prp name="datetime" type="D" value="45845.4349024074"/>
+				<Prp name="description" type="S" value="343151_B03_RFC_Quote_creation_(BDE/COE)"/>
+				<Prp name="key" type="S" value="{054A8FBF-D978-4A8D-B4BC-4609CADE8CA4}"/>
 				<Prp name="nameofroot" type="S" value="343151_B03_RFC_Quote_creation_(BDE/COE)"/>
-				<Prp name="relpath" type="S" value="6_30_2025_9_34 AM_55_718\Description.tcLog"/>
+				<Prp name="relpath" type="S" value="7_7_2025_10_26 AM_15_568\Description.tcLog"/>
 				<Prp name="status" type="I" value="2"/>
 			</Node>
 		</Node>

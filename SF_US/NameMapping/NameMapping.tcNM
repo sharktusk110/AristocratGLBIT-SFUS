@@ -1323,6 +1323,249 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="panelShowHideChildItems" Key="{F72262E0-38A7-4146-8F68-A06AF9C3162C}">
+										<Image FileName="301735133" Left="135" Top="232" Right="1807" Bottom="911" />
+										<TypeInfo Item0="{4A69AE82-D5F3-414A-91F4-8BD9F181897E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//section//c-add-edit-line-items//div//div[contains(@class, &apos;flex-item-one-autoscroll&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;wrapper-body&apos;]//c-add-edit-line-items/div/div/div/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//c-add-edit-line-items/div/div/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelRequired" Key="{A70466C3-9B7C-44C2-9980-B117316D61CE}">
+										<Image FileName="-1941831858" Left="363" Top="582" Right="932" Bottom="604" />
+										<TypeInfo Item0="{4A69AE82-D5F3-414A-91F4-8BD9F181897E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//tr[17]/td/c-egm-configurator-line-item-editor-row//div[contains(@class, &apos;errorInfo&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelRequired2" Key="{1F404433-0EAB-4BB0-8918-3B081C79EA58}">
+										<Image FileName="1490354214" Left="363" Top="546" Right="932" Bottom="568" />
+										<TypeInfo Item0="{4A69AE82-D5F3-414A-91F4-8BD9F181897E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;Required !&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr/td/c-egm-configurator-line-item-editor-row//div[contains(@class, &apos;errorInfo&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;wrapper-body&apos;]//c-egm-configurator-line-item-editor-row/div/div/div/div/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//c-egm-configurator-line-item-editor-row/div/div/div/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelSuccessNotification12" Key="{3A0DB018-FB95-4C01-8C6F-7AC0827CF46F}">
+										<Image FileName="634839545" Left="701" Top="251" Right="1241" Bottom="305" />
+										<TypeInfo Item0="{4A69AE82-D5F3-414A-91F4-8BD9F181897E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;slds-theme--success&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="select4" Key="{F17F7934-47D0-4498-8BE2-F56A4B295097}">
+										<Image FileName="1375926739" Left="352" Top="538" Right="921" Bottom="570" />
+										<TypeInfo Item0="{CC1902BA-FF21-4621-B766-3414CAF9A721}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//tr[17]/td/c-egm-configurator-line-item-editor-row//select[contains(@class, &apos;slds-select&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;wrapper-body&apos;]//tr[17]/td/c-egm-configurator-line-item-editor-row//select" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr[17]/td/c-egm-configurator-line-item-editor-row//select" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelShowHideChildItems2" Key="{14BCDD25-C257-49E5-B548-ACB2AAEF1954}">
+										<Image FileName="-119666819" Left="135" Top="232" Right="1807" Bottom="911" />
+										<TypeInfo Item0="{4A69AE82-D5F3-414A-91F4-8BD9F181897E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//section//c-add-edit-line-items//div//div[contains(@class, &apos;flex-item-one-autoscroll&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;wrapper-body&apos;]//c-add-edit-line-items/div/div/div/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//c-add-edit-line-items/div/div/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel2" Key="{2475570F-1D2C-4C0D-A0FC-30830E8DE63C}">
+										<Image FileName="-1223898272" Left="160" Top="675" Right="350" Bottom="697" />
+										<TypeInfo Item0="{4A69AE82-D5F3-414A-91F4-8BD9F181897E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//tr[2]/td/c-egm-configurator-line-item-editor-row//div[contains(@class, &apos;slds-m-right_x-small&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;wrapper-body&apos;]//tr[2]/td/c-egm-configurator-line-item-editor-row/div/div/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr[2]/td/c-egm-configurator-line-item-editor-row/div/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel3" Key="{F47492E8-2AC8-4666-94FF-64A3DE021D96}">
+										<Image FileName="-1223898272" Left="160" Top="609" Right="350" Bottom="631" />
+										<TypeInfo Item0="{4A69AE82-D5F3-414A-91F4-8BD9F181897E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//tr/td/c-egm-configurator-line-item-editor-row//div[contains(@class, &apos;slds-m-right_x-small&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;wrapper-body&apos;]//c-egm-configurator-line-item-editor-row/div/div/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//c-egm-configurator-line-item-editor-row/div/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel4" Key="{E32C27AC-A7DB-4400-9435-22C4C774C2C3}">
+										<Image FileName="-1189199598" Left="160" Top="613" Right="350" Bottom="635" />
+										<TypeInfo Item0="{4A69AE82-D5F3-414A-91F4-8BD9F181897E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//tr[17]/td/c-egm-configurator-line-item-editor-row//div[contains(@class, &apos;slds-m-right_x-small&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;wrapper-body&apos;]//tr[17]/td/c-egm-configurator-line-item-editor-row/div/div/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr[17]/td/c-egm-configurator-line-item-editor-row/div/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeUsd1250002" Key="{54306C0F-ACBE-4D02-95F9-6535276D55C8}">
+										<Image FileName="-329574186" Left="62" Top="801" Right="154" Bottom="822" />
+										<TypeInfo Item0="{4A69AE82-D5F3-414A-91F4-8BD9F181897E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//lightning-formatted-text[.=&apos;USD 1,250.00&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//flexipage-tab2[@id=&apos;tab-15&apos;]//records-record-layout-section[6]//slot/records-formula-output/slot/lightning-formatted-text" />
+											</Selector>
+											<Selector>
+												<Value Value="//records-lwc-record-layout/forcegenerated-detailpanel_quote___0127f000000htv1qaa___full___view___recordlayout2/records-record-layout-block/slot/records-record-layout-section[6]//lightning-formatted-text" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeEgmCount" Key="{1D359CCC-F314-416A-8086-FA6EC5AA513F}">
+										<Image FileName="-620702014" Left="963" Top="442" Right="1103" Bottom="483" />
+										<TypeInfo Item0="{4A69AE82-D5F3-414A-91F4-8BD9F181897E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//records-lwc-highlights-panel/records-lwc-record-layout/forcegenerated-highlightspanel_quote___0127f000000htv1qaa___compact___view___recordlayout2/records-highlights2//slot/records-highlights-details-item[4]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelConversionLineItemCount" Key="{1B719EDA-BEF0-4A7C-9040-EC95AB198BEB}">
+										<Image FileName="-620702014" Left="1139" Top="442" Right="1304" Bottom="483" />
+										<TypeInfo Item0="{4A69AE82-D5F3-414A-91F4-8BD9F181897E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@id=&apos;brandBand_2&apos;]//forcegenerated-highlightspanel_quote___0127f000000htv1qaa___compact___view___recordlayout2/records-highlights2//slot/records-highlights-details-item[5]/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//records-lwc-record-layout/forcegenerated-highlightspanel_quote___0127f000000htv1qaa___compact___view___recordlayout2/records-highlights2//slot/records-highlights-details-item[5]/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeEgmCount2" Key="{25FD3971-957A-4386-A5E5-A72F2DF872A9}">
+										<Image FileName="-521254680" Left="1076" Top="442" Right="1216" Bottom="485" />
+										<TypeInfo Item0="{4A69AE82-D5F3-414A-91F4-8BD9F181897E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//records-highlights-details-item[contains(., &apos;EGM Count&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelConversionLineItemCount2" Key="{367F4DE4-C76B-431D-B730-83492883A7A9}">
+										<Image FileName="-521254680" Left="1252" Top="442" Right="1417" Bottom="483" />
+										<TypeInfo Item0="{4A69AE82-D5F3-414A-91F4-8BD9F181897E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@id=&apos;brandBand_2&apos;]//records-highlights-details-item[6]/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//records-highlights-details-item[6]/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode12EqualMonthlyPayments" Key="{CA479BD9-4985-40DB-89C2-1C544ED92F53}">
+										<Image FileName="1866727996" Left="62" Top="513" Right="255" Bottom="534" />
+										<TypeInfo Item0="{4A69AE82-D5F3-414A-91F4-8BD9F181897E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//lightning-formatted-text[.=&apos;12 Equal Monthly Payments&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//flexipage-tab2[@id=&apos;tab-53&apos;]//forcegenerated-detailpanel_opportunity___0127f000000hsqbqaa___full___view___recordlayout2/records-record-layout-block/slot/records-record-layout-section[6]//lightning-formatted-text" />
+											</Selector>
+											<Selector>
+												<Value Value="//records-lwc-record-layout/forcegenerated-detailpanel_opportunity___0127f000000hsqbqaa___full___view___recordlayout2/records-record-layout-block/slot/records-record-layout-section[6]//lightning-formatted-text" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelQuote" Key="{513EEC36-AFDE-4453-817F-94C3C2190B5C}">
+										<Image FileName="306051776" Left="25" Top="-2096" Right="1895" Bottom="3256" />
+										<TypeInfo Item0="{4A69AE82-D5F3-414A-91F4-8BD9F181897E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//forcegenerated-flexipage_quote_rfc_record_page_quote__view_js___lmt___1714503592000//records-record-layout-event-broker/slot/slot/flexipage-record-home-with-subheader-template-desktop2/div[contains(@class, &apos;slds-grid&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;brandBand_2&apos;]//forcegenerated-flexipage_quote_rfc_record_page_quote__view_js___lmt___1714503592000//slot/slot/flexipage-record-home-with-subheader-template-desktop2/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//forcegenerated-flexipage_quote_rfc_record_page_quote__view_js___lmt___1714503592000//records-record-layout-event-broker/slot/slot/flexipage-record-home-with-subheader-template-desktop2/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode5" Key="{C1BCE205-D336-4D9A-8D72-3583D361DDE0}">
+										<Image FileName="1402848042" Left="999" Top="461" Right="1008" Bottom="482" />
+										<TypeInfo Item0="{4A69AE82-D5F3-414A-91F4-8BD9F181897E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@id=&apos;brandBand_2&apos;]//p/slot/records-formula-output/slot/lightning-formatted-number" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//p/slot/records-formula-output/slot/lightning-formatted-number" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel5" Key="{B6427CD3-C353-4431-BFB8-DE5D9C6F175A}">
+										<Image FileName="-876690909" Left="982" Top="623" Right="1755" Bottom="645" />
+										<TypeInfo Item0="{4A69AE82-D5F3-414A-91F4-8BD9F181897E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;GOps MSP Coin In Jackpot Funded&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr[11]/td/div[contains(@class, &apos;slds-truncate&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;wrapper-body&apos;]//c-selling-model-selector//tr[11]/td/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//c-selling-model-selector//tr[11]/td/div" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageAccounts" Key="{EFF4F021-D956-40F4-9E87-A24D11739C05}">
@@ -2875,10 +3118,10 @@
 										<TypeInfo Item0="{E2BFDE41-B447-499C-9316-C54CB87CBEF5}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//button[.=&apos;Edit Type&apos;]" />
+												<Value Value="//button[@title=&apos;Edit Type&apos;]" />
 											</Selector>
 											<Selector>
-												<Value Value="//button[@title=&apos;Edit Type&apos;]" />
+												<Value Value="//button[.=&apos;Edit Type&apos;]" />
 											</Selector>
 											<Selector>
 												<Value Value="//slot/records-record-layout-row[13]/slot/records-record-layout-item//button[contains(@class, &apos;test-id__inline-edit-trigger&apos;)]" />
@@ -2976,11 +3219,17 @@
 										</Selectors>
 									</Child>
 									<Child Name="textnodeRegular2" Key="{E1CC0EB2-C7AE-4A8F-A6CE-3CE530F8B0BD}">
-										<Image FileName="-1979190140" Left="111" Top="853" Right="581" Bottom="875" />
+										<Image FileName="-1204942297" Left="11" Top="141" Right="11" Bottom="141" />
 										<TypeInfo Item0="{125957F6-DF91-4BD5-8034-030FE74ACC7F}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//lightning-base-combobox-item[20]/span[contains(@class, &apos;slds-media__body&apos;)]" />
+												<Value Value="//span[@title=&apos;Regular&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//flexipage-tab2[@id=&apos;tab-9&apos;]//div[@role=&apos;listbox&apos;]/lightning-base-combobox-item[2]/span/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div/div[@role=&apos;listbox&apos;]/lightning-base-combobox-item[2]/span/span" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -3088,20 +3337,11 @@
 										</Selectors>
 									</Child>
 									<Child Name="textnodeOpportunities" Key="{E7A96023-A1AD-47DE-B01B-D419637A417D}">
-										<Image FileName="-2077954603" Left="645" Top="444" Right="733" Bottom="464" />
+										<Image FileName="-775269314" Left="11" Top="141" Right="11" Bottom="141" />
 										<TypeInfo Item0="{125957F6-DF91-4BD5-8034-030FE74ACC7F}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//span[text()=&apos;Opportunities&apos;]" />
-											</Selector>
-											<Selector>
-												<Value Value="//ul/li/lightning-base-combobox-item//span[@title=&apos;Opportunities&apos;]" />
-											</Selector>
-											<Selector>
-												<Value Value="//lightning-base-combobox-item[@id=&apos;combobox-input-90-13-90&apos;]//span/span" />
-											</Selector>
-											<Selector>
-												<Value Value="//div[@role=&apos;listbox&apos;]/ul/li[15]/lightning-base-combobox-item/span/span" />
+												<Value Value="//li[8]/lightning-base-combobox-item/span[contains(@class, &apos;slds-media__body&apos;)]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -3393,7 +3633,7 @@
 											</Selector>
 										</Selectors>
 									</Child>
-									<Child Name="textnode4" Key="{1FCB5D79-14D0-4531-ABF3-132FE6E73F41}">
+									<Child Name="ConverTool__Tab" Key="{1FCB5D79-14D0-4531-ABF3-132FE6E73F41}">
 										<Image FileName="597611407" Left="1684" Top="282" Right="1698" Bottom="297" />
 										<TypeInfo Item0="{125957F6-DF91-4BD5-8034-030FE74ACC7F}" />
 										<Selectors>
@@ -3708,21 +3948,6 @@
 											</Selector>
 										</Selectors>
 									</Child>
-									<Child Name="textnode200" Key="{58CB1E89-B091-4539-9D7D-26DC2EA9E440}">
-										<Image FileName="-861322629" Left="925" Top="471" Right="956" Bottom="493" />
-										<TypeInfo Item0="{125957F6-DF91-4BD5-8034-030FE74ACC7F}" />
-										<Selectors>
-											<Selector>
-												<Value Value="//lightning-formatted-number[.=&apos;2.00&apos;]" />
-											</Selector>
-											<Selector>
-												<Value Value="//div[@id=&apos;brandBand_2&apos;]//p/slot/records-formula-output/slot/lightning-formatted-number" />
-											</Selector>
-											<Selector>
-												<Value Value="//div[@role=&apos;main&apos;]//p/slot/records-formula-output/slot/lightning-formatted-number" />
-											</Selector>
-										</Selectors>
-									</Child>
 									<Child Name="panelHelixPlusUpright2" Key="{0FF9265E-9883-481F-9FE8-85B988A53F86}">
 										<Image FileName="-1927266793" Left="395" Top="759" Right="1099" Bottom="782" />
 										<TypeInfo Item0="{125957F6-DF91-4BD5-8034-030FE74ACC7F}" />
@@ -3895,7 +4120,7 @@
 										</Selectors>
 									</Child>
 									<Child Name="buttonPaymentTerms" Key="{B19F8F34-E16E-48CC-91E1-882ADB574020}">
-										<Image FileName="-543233038" Left="615" Top="710" Right="633" Bottom="728" />
+										<Image FileName="-72327010" Left="615" Top="585" Right="633" Bottom="603" />
 										<TypeInfo Item0="{E2BFDE41-B447-499C-9316-C54CB87CBEF5}" />
 										<Selectors>
 											<Selector>
@@ -3905,7 +4130,7 @@
 												<Value Value="//records-lwc-record-layout/forcegenerated-detailpanel_quote___0127f000000htv1qaa___full___view___recordlayout2/records-record-layout-block/slot/records-record-layout-section[5]//button[contains(@class, &apos;test-id__inline-edit-trigger&apos;)]" />
 											</Selector>
 											<Selector>
-												<Value Value="//flexipage-tab2[@id=&apos;tab-17&apos;]//slot/records-record-layout-section[5]/div/div//button" />
+												<Value Value="//flexipage-tab2[@id=&apos;tab-7&apos;]//slot/records-record-layout-section[5]/div/div//button" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -3913,6 +4138,12 @@
 										<Image FileName="-1810299470" Left="11" Top="141" Right="11" Bottom="141" />
 										<TypeInfo Item0="{125957F6-DF91-4BD5-8034-030FE74ACC7F}" />
 										<Selectors>
+											<Selector>
+												<Value Value="xpath=//span[@title=&apos;12 Equal Monthly Payments&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//div[@class=&apos;slds-clearfix detail-panel-root slds-card footer-visible&apos;]//records-form-footer[@class=&apos;slds-docked-form-footer stickyFooter&apos;]" />
+											</Selector>
 											<Selector>
 												<Value Value="#combobox-button-3515-12-3515" />
 											</Selector>
@@ -3930,6 +4161,9 @@
 										<Image FileName="1004816653" Left="669" Top="503" Right="1231" Bottom="539" />
 										<TypeInfo Item0="{E2BFDE41-B447-499C-9316-C54CB87CBEF5}" />
 										<Selectors>
+											<Selector>
+												<Value Value="xpath=//*[@field-label=&quot;Lease Term&quot;]//button" />
+											</Selector>
 											<Selector>
 												<Value Value="#combobox-button-3522" />
 											</Selector>
@@ -3999,25 +4233,16 @@
 										</Selectors>
 									</Child>
 									<Child Name="textnodeTabs4" Key="{D80E46F9-A4F9-4231-9B49-DCADAEAA0726}">
-										<Image FileName="1178271731" Left="1299" Top="408" Right="1865" Bottom="453" />
+										<Image FileName="-487556541" Left="25" Top="-2096" Right="1895" Bottom="3256" />
 										<Selectors>
 											<Selector>
-												<Value Value="//ul[contains(., &apos;Activity&apos;)]" />
+												<Value Value="//forcegenerated-flexipage_quote_rfc_record_page_quote__view_js___lmt___1714503592000//records-record-layout-event-broker/slot/slot/flexipage-record-home-with-subheader-template-desktop2/div[contains(@class, &apos;slds-grid&apos;)]" />
 											</Selector>
 											<Selector>
-												<Value Value="//div[2]/slot/flexipage-component2/slot/flexipage-tabset2//ul[@aria-label=&apos;Tabs&apos;]" />
+												<Value Value="//div[@id=&apos;brandBand_2&apos;]//forcegenerated-flexipage_quote_rfc_record_page_quote__view_js___lmt___1714503592000//slot/slot/flexipage-record-home-with-subheader-template-desktop2/div" />
 											</Selector>
 											<Selector>
-												<Value Value="//div[2]/slot/flexipage-component2/slot/flexipage-tabset2//ul[@role=&apos;tablist&apos;]" />
-											</Selector>
-											<Selector>
-												<Value Value="//div[2]/slot/flexipage-component2/slot/flexipage-tabset2//ul[contains(@class, &apos;slds-tabs_default__nav&apos;)]" />
-											</Selector>
-											<Selector>
-												<Value Value="//div[@id=&apos;brandBand_2&apos;]//slot/flexipage-component2[3]/slot/flexipage-tabset2//ul" />
-											</Selector>
-											<Selector>
-												<Value Value="//flexipage-component2[3]/slot/flexipage-tabset2//lightning-tabset//lightning-tab-bar/ul" />
+												<Value Value="//forcegenerated-flexipage_quote_rfc_record_page_quote__view_js___lmt___1714503592000//records-record-layout-event-broker/slot/slot/flexipage-record-home-with-subheader-template-desktop2/div" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -4040,7 +4265,7 @@
 										<TypeInfo Item0="{125957F6-DF91-4BD5-8034-030FE74ACC7F}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//li//article//article//a//img[contains(@src, &apos;quotes_60.png&apos;)]" />
+												<Value Value="xpath=//button[text()=&apos;New RFC Quote&apos;]" />
 											</Selector>
 											<Selector>
 												<Value Value="//li//article//article//a//img[contains(@class, &apos;rsImage&apos;)]" />
@@ -4053,7 +4278,7 @@
 											</Selector>
 										</Selectors>
 									</Child>
-									<Child Name="textnodeQuotes2" Key="{50643FA2-124F-49BA-A561-A8FB4C9D6029}">
+									<Child Name="RFCQuotes__Tab" Key="{50643FA2-124F-49BA-A561-A8FB4C9D6029}">
 										<Image FileName="-1413904911" Left="653" Top="462" Right="696" Bottom="480" />
 										<TypeInfo Item0="{125957F6-DF91-4BD5-8034-030FE74ACC7F}" />
 										<Selectors>
@@ -4076,7 +4301,7 @@
 										<TypeInfo Item0="{E2BFDE41-B447-499C-9316-C54CB87CBEF5}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//records-lwc-record-layout/forcegenerated-detailpanel_quote___0127f000000htv1qaa___full___view___recordlayout2/records-record-layout-block/slot/records-record-layout-section[5]//button[@role=&apos;combobox&apos;]" />
+												<Value Value="xpath=//button[@aria-label=&apos;Payment Terms&apos;]" />
 											</Selector>
 											<Selector>
 												<Value Value="//records-lwc-record-layout/forcegenerated-detailpanel_quote___0127f000000htv1qaa___full___view___recordlayout2/records-record-layout-block/slot/records-record-layout-section[5]//button[contains(@class, &apos;slds-combobox__input&apos;)]" />
@@ -4095,6 +4320,209 @@
 										<Selectors>
 											<Selector>
 												<Value Value="#combobox-button-1943" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonQuoteAddEditLineItems" Key="{87CC47A8-20FA-4B2D-9023-0BEDF0A073BD}">
+										<Image FileName="1690727284" Left="475" Top="357" Right="639" Bottom="393" />
+										<TypeInfo Item0="{E2BFDE41-B447-499C-9316-C54CB87CBEF5}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[@name=&apos;Quote.Add_Edit_Line_Items&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[.=&apos;Add/Edit Line Items&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//runtime_platform_actions-executor-lightning-component/slot/slot/lightning-button/button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//runtime_platform_actions-executor-lightning-component/slot/slot/lightning-button/button[contains(@class, &apos;slds-button&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;brandBand_2&apos;]//li//slot/slot/lightning-button/button" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//runtime_platform_actions-executor-lightning-component/slot/slot/lightning-button/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="section6" Key="{25AD7EF5-A41E-4E23-B16C-7D6F0D2A34AE}">
+										<Image FileName="-348790126" Left="119" Top="153" Right="1802" Bottom="997" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Add / Edit Products for Quote : RFC BELLAGIO LAS VEGAS-Test917&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;bodyWrapper&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel2" Key="{1E908550-930F-4464-ACDD-92006A249711}">
+										<Image FileName="-348790126" Left="124" Top="212" Right="1796" Bottom="900" />
+										<TypeInfo Item0="{125957F6-DF91-4BD5-8034-030FE74ACC7F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//section//c-add-edit-line-items//div//div[contains(@class, &apos;flex-item-one-autoscroll&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;wrapper-body&apos;]//c-add-edit-line-items/div/div/div/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//c-add-edit-line-items/div/div/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonSave" Key="{F5AD8111-0742-4C0A-B2AD-F674B391D756}">
+										<Image FileName="-1087503511" Left="1625" Top="939" Right="1693" Bottom="975" />
+										<TypeInfo Item0="{E2BFDE41-B447-499C-9316-C54CB87CBEF5}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//c-egm-configurator/div/div[3]/lightning-button/button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//c-egm-configurator/div/div[3]/lightning-button/button[contains(@class, &apos;slds-button&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;wrapper-body&apos;]//div[2]/c-egm-configurator//div[3]/lightning-button/button" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//c-egm-configurator/div/div[3]/lightning-button/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonQuoteAddEditLineItems2" Key="{53063D43-9BCE-497B-AA38-DF681AC148D3}">
+										<Image FileName="387620421" Left="475" Top="357" Right="639" Bottom="393" />
+										<TypeInfo Item0="{E2BFDE41-B447-499C-9316-C54CB87CBEF5}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[4]/div/div/one-record-home-flexipage2/forcegenerated-flexipage_quote_rfc_record_page_quote__view_js___lmt___1714503592000//button[@name=&apos;Quote.Add_Edit_Line_Items&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;brandBand_2&apos;]//div[4]//slot/slot/lightning-button/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="section7" Key="{816BA0CD-9C02-4115-8336-AD451CB8680A}">
+										<Image FileName="-440133089" Left="119" Top="153" Right="1802" Bottom="997" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Configure Product for Quote : RFC BELLAGIO LAS VEGAS-Test917&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;bodyWrapper&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelConfigure2" Key="{6B3358CC-D206-4722-971F-79D2BBBDA53C}">
+										<Image FileName="228567336" Left="127" Top="215" Right="1793" Bottom="892" />
+										<TypeInfo Item0="{125957F6-DF91-4BD5-8034-030FE74ACC7F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//section//c-add-edit-line-items//div[2]/c-egm-configurator//div[contains(@class, &apos;flex-item-one-autoscroll&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;wrapper-body&apos;]//c-egm-configurator/div/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//c-egm-configurator/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="vg2" Key="{67E6F50F-77BD-4EBA-B315-067B226A58C5}">
+										<Image FileName="2092457368" Left="1669" Top="758" Right="1685" Bottom="774" />
+										<TypeInfo Item0="{125957F6-DF91-4BD5-8034-030FE74ACC7F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//tr[13]/td/c-line-item-editor-row//div[3]//lightning-icon//lightning-primitive-icon/*[name()=&apos;svg&apos;][contains(@class, &apos;slds-icon&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr[13]/td/c-line-item-editor-row//div[3]//lightning-icon//lightning-primitive-icon/*[name()=&apos;svg&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="section8" Key="{1DC2CEC6-8AAD-4BA1-AB9D-E5D1B71F7D5A}">
+										<Image FileName="-659343095" Left="119" Top="153" Right="1802" Bottom="997" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Add / Edit Products for Quote : RFC BELLAGIO LAS VEGAS-Test150&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;bodyWrapper&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelTotalEgmCount" Key="{AD3D7715-4244-42B2-82ED-C0A430090293}">
+										<Image FileName="-659343095" Left="119" Top="906" Right="1793" Bottom="928" />
+										<TypeInfo Item0="{125957F6-DF91-4BD5-8034-030FE74ACC7F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;slds-var-m-right_x-small&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonClose" Key="{73E23EC6-CA6D-45C6-83B1-B466B64C4687}">
+										<Image FileName="23786406" Left="1710" Top="948" Right="1783" Bottom="984" />
+										<TypeInfo Item0="{E2BFDE41-B447-499C-9316-C54CB87CBEF5}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//lightning-button[4]/button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//lightning-button[4]/button[contains(@class, &apos;slds-button&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;wrapper-body&apos;]//lightning-button[4]/button" />
+											</Selector>
+											<Selector>
+												<Value Value="//lightning-button[4]/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeBellagioLasVegasTest150" Key="{2AA305D4-676E-4B31-9952-C19ED73EFBE4}">
+										<Image FileName="1065109821" Left="51" Top="801" Right="261" Bottom="822" />
+										<TypeInfo Item0="{125957F6-DF91-4BD5-8034-030FE74ACC7F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;Opportunity&apos;)]//slot/span/slot/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//records-record-layout-row[3]//span/slot/span/slot/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="section9" Key="{2EB8280C-8809-4689-A0A4-56CA9556E659}">
+										<Image FileName="-1111574034" Left="119" Top="153" Right="1802" Bottom="997" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Add / Edit Products for Opportunity : BELLAGIO LAS VEGAS-Test150&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;bodyWrapper&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel3" Key="{8E019831-FF94-4E55-94A3-217BC197B066}">
+										<Image FileName="800765293" Left="1649" Top="263" Right="1753" Bottom="287" />
+										<TypeInfo Item0="{125957F6-DF91-4BD5-8034-030FE74ACC7F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//section//c-add-edit-line-items//tr/td/c-line-item-editor-row//div[contains(@class, &apos;slds-var-m-top_x-small&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeForecastAnAccountForWhic" Key="{E52777B7-B59D-4C85-8288-4100ED6D37C6}">
+										<Image FileName="-119856305" Left="33" Top="564" Right="1856" Bottom="586" />
+										<TypeInfo Item0="{125957F6-DF91-4BD5-8034-030FE74ACC7F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@id=&apos;brandBand_2&apos;]//section/div/div/div/p" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//section/div/div/div/p" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -4229,8 +4657,6 @@
 					<Child Name="Submit__Button" Owner="{D4BE87D2-9010-4EBF-8C14-E87AEF948829}" />
 					<Child Name="Login__Button" Owner="{56E0FB98-69DE-49D1-90FF-55C052330629}" />
 				</Child>
-				<Child Name="lightningMessageContextConsumer" Owner="{F57E7DEB-535A-4CE4-BAE2-F0BD1E639948}" />
-				<Child Name="GlobalSearch_Tab" Owner="{A87BBA81-CB5D-4D82-87EE-459A318CB7EE}" />
 				<Child Name="ToastOppor_Tab" Owner="{70466783-E9CE-4B15-9BBC-955D7889990D}" />
 				<Child Name="Account__Switch" Owner="{007BFBDF-2F65-42A0-BEB3-5131010FB76B}">
 					<Child Name="button__Login" Owner="{C6DFED81-D5ED-4D7C-980C-A8ABFCF66765}" />
@@ -4239,8 +4665,8 @@
 					<Child Name="UserDanLogin__Tab" Owner="{BE256CDF-5496-4305-94BC-4AE9238B45F8}" />
 					<Child Name="UserLaraDaOsa__Tab" Owner="{CE53AF48-9D25-48C9-B189-32F76C32286D}" />
 				</Child>
-				<Child Name="panelSuccessNotification10" Owner="{82B6ADB4-7786-4DDD-87CD-721E92B192CB}" />
-				<Child Name="panelSuccessNotification11" Owner="{E3E1CAA1-18BC-48CD-B785-915691887DA3}" />
+				<Child Name="ToastSuccess__Label" Owner="{E3E1CAA1-18BC-48CD-B785-915691887DA3}" />
+				<Child Name="panelSuccessNotification12" Owner="{3A0DB018-FB95-4C01-8C6F-7AC0827CF46F}" />
 			</Child>
 			<Child Name="Page__AccountCreation" Owner="{099B432E-BA12-41FB-AF8B-CC720C11E30B}">
 				<Child Name="AccountCreationRegion_Button" Owner="{01704807-0632-4FCA-94AD-9A614F688556}">
@@ -4257,7 +4683,6 @@
 					<Child Name="VenueAddress_Field" Owner="{4D157EC5-5BCF-4A66-80EE-1B383A24FD91}">
 						<Child Name="VanueAddress__Field" Owner="{A613EB45-5B91-4DB6-B238-B8565C591222}" />
 						<Child Name="VanueAddressSearch__Field" Owner="{07771874-AD23-40DA-917D-0E2DBDCE0B0F}" />
-						<Child Name="panelSyncNow" Owner="{FE4F8F28-9A2C-4951-94F9-83413395D892}" />
 					</Child>
 					<Child Name="ParentAccount__Field" Owner="{A69082C1-A1F2-4FCC-88A9-DE2977689FBB}">
 						<Child Name="Bellagio_Field" Owner="{CBE500DF-A586-4970-AB2F-2F213E46E7CA}">
@@ -4299,23 +4724,14 @@
 							</Child>
 						</Child>
 					</Child>
-					<Child Name="Regular__Button" Owner="{32435C15-F915-43CC-AD17-5CC5A1895A6F}">
-						<Child Name="Type__Button" Owner="{02F59D41-EC45-499D-AB95-75FA5E94DAF4}" />
-						<Child Name="Regular__Tab" Owner="{E1CC0EB2-C7AE-4A8F-A6CE-3CE530F8B0BD}" />
+					<Child Name="TypeEdit__Button" Owner="{9A29D511-13FB-4A24-8A6D-F86BD1C777F0}">
+						<Child Name="Regular__Button" Owner="{32435C15-F915-43CC-AD17-5CC5A1895A6F}">
+							<Child Name="Regular__Tab" Owner="{E1CC0EB2-C7AE-4A8F-A6CE-3CE530F8B0BD}" />
+						</Child>
 					</Child>
 				</Child>
 				<Child Name="AccountDeatilsHome_Panel" Owner="{56C8101A-CC55-4828-B02E-7A085086B394}">
 					<Child Name="Detail__Tab" Owner="{ECDD005E-3B01-498D-B0AF-45116AE82D85}" />
-					<Child Name="PaymentTerms__Panel" Owner="{833D676D-476D-46F2-8B93-2A467FA5572A}">
-						<Child Name="PaymentTerms__Button" Owner="{B19F8F34-E16E-48CC-91E1-882ADB574020}" />
-						<Child Name="Monthly12Payments__Tab" Owner="{EAA617C2-93F3-4408-B86A-6974E5823D9C}" />
-						<Child Name="buttonPaymentTerms2" Owner="{48131C55-C711-4425-A43B-886930B345B9}" />
-					</Child>
-					<Child Name="LeaseTerm__Panel" Owner="{5662E76A-C43B-43E1-8F1C-A53D2EC0CB84}">
-						<Child Name="LeaseTerm__Tab" Owner="{78BFAF0A-0541-4846-978A-FA4608CFDEAE}" />
-						<Child Name="Months12__Tab" Owner="{1E723037-114B-4FED-B81F-9C9063EFAED1}" />
-						<Child Name="buttonLeaseTerm2" Owner="{F939F21B-817C-4D99-803D-CD991F2D597C}" />
-					</Child>
 				</Child>
 				<Child Name="Home__Panel" Owner="{8A05C9B5-2B80-49E1-AC96-0E6D4BA8CAD7}">
 					<Child Name="UserLogedIn__Panel" Owner="{0B673595-8B7B-4752-A02B-58121FF29C2B}">
@@ -4332,13 +4748,9 @@
 					<Child Name="headerOneheader2" Owner="{0174B66F-1E9D-4EC7-A460-DEAF83866E19}">
 						<Child Name="GlobalSearch__Field" Owner="{EC6E102C-8057-494A-808B-3515B34F3645}" />
 						<Child Name="panelDropdownElement91" Owner="{13510E04-3693-4851-828F-CEC8231AC7B3}" />
-						<Child Name="textboxSearchQuotesFilteredBy0" Owner="{0CBB8BBE-4517-403C-8E7D-6F9F9DA399C7}" />
+						<Child Name="SelectRFCQuote__Tab" Owner="{0CBB8BBE-4517-403C-8E7D-6F9F9DA399C7}" />
 					</Child>
-					<Child Name="Quote__Panel" Owner="{D80E46F9-A4F9-4231-9B49-DCADAEAA0726}">
-						<Child Name="linkRfcBellagioLasVegasTest34" Owner="{2C3104FB-AD91-474B-8B84-F2B308D37FFC}">
-							<Child Name="RFCQuote__Button" Owner="{AAE30A37-A7AD-42B2-A8D0-201C1BC43198}" />
-						</Child>
-					</Child>
+					<Child Name="QuoteAddEditLineItems__Tab" Owner="{87CC47A8-20FA-4B2D-9023-0BEDF0A073BD}" />
 				</Child>
 			</Child>
 			<Child Name="Page__PostAccountApproval" Owner="{8EBD8EEF-28E2-4BB7-A303-39680D942FE7}">
@@ -4352,11 +4764,9 @@
 				</Child>
 				<Child Name="D365CompanyCode__Field" Owner="{B95A63F5-CD4E-4C53-A86B-44516744482B}">
 					<Child Name="D365CompanyCodeEdit_Button" Owner="{41E802CD-83E4-49F4-9F96-DA4190D39F4D}" />
-					<Child Name="TypeEdit__Button" Owner="{9A29D511-13FB-4A24-8A6D-F86BD1C777F0}" />
 					<Child Name="EditSave_Tab" Owner="{89DF2861-4EDB-4EDD-8321-8B718E67E210}" />
 					<Child Name="textnodeEgmCount" Owner="{4E5CE279-369C-4D6D-8BB7-72FC97361BA6}" />
 					<Child Name="EditStatusForLegalUser_Tab" Owner="{67110E52-F0C9-4F04-96CC-9D1713697DB1}" />
-					<Child Name="TermReason__Tab" Owner="{A6E4E15A-1E68-43E0-8139-6A947A45A176}" />
 				</Child>
 				<Child Name="GamingClassification_Panel" Owner="{1224A625-1333-48A3-977D-206BC309D0D7}">
 					<Child Name="AddressGaming__Button" Owner="{CFE45580-B6BE-4250-8BC3-9380FA3B5FFD}" />
@@ -4373,18 +4783,26 @@
 				<Child Name="ListQuickLinks_Field" Owner="{A5FA3618-3A5A-4E38-A5C0-4C9FECF68034}">
 					<Child Name="QuickListAddres_Tab" Owner="{A46A7C95-9437-4DEB-A8D0-7CD5D0F27CBF}">
 						<Child Name="QuickListAddress__Tab" Owner="{B692619B-4613-4ADF-8D42-DBA5C56C50EA}" />
+						<Child Name="textnodeBellagioLasVegasTest150" Owner="{2AA305D4-676E-4B31-9952-C19ED73EFBE4}" />
 					</Child>
 				</Child>
 				<Child Name="Detail__Tab" Owner="{9B3FCCFE-C254-49DF-A44C-09E37695FA1B}">
 					<Child Name="ApprovalStatus_Panel" Owner="{E155F06F-6771-4FA9-8D41-B999FA546058}" />
 					<Child Name="panelFinanceChargePerEgm" Owner="{C83FEDDA-B6E4-4F66-8465-CF6BB791F4EE}" />
-					<Child Name="textnodeUsd125000" Owner="{2D97DC14-D375-4E02-A66A-972B1632EC42}" />
+					<Child Name="FinanceCharge__Label" Owner="{2D97DC14-D375-4E02-A66A-972B1632EC42}" />
+					<Child Name="textnodeUsd1250002" Owner="{54306C0F-ACBE-4D02-95F9-6535276D55C8}" />
+					<Child Name="textnode12EqualMonthlyPayments" Owner="{CA479BD9-4985-40DB-89C2-1C544ED92F53}" />
 				</Child>
 				<Child Name="textnodeTabs2" Owner="{D2F3F4E5-D2C7-4A6A-AF7B-D540DEBDAC40}">
 					<Child Name="Details__Tab2" Owner="{DB7319EA-19B0-47B4-A85E-08A061B64E99}" />
 				</Child>
 				<Child Name="NewOpportunity__Tab" Owner="{061BE284-1A3E-4C2F-A006-4E2E3169F98C}" />
 				<Child Name="AddEditLineItem__Button" Owner="{6139CB92-58EA-4B89-8D8D-88D9EBC31393}" />
+				<Child Name="textnodeEgmCount" Owner="{1D359CCC-F314-416A-8086-FA6EC5AA513F}" />
+				<Child Name="panelConversionLineItemCount" Owner="{1B719EDA-BEF0-4A7C-9040-EC95AB198BEB}" />
+				<Child Name="textnodeEgmCount2" Owner="{25FD3971-957A-4386-A5E5-A72F2DF872A9}" />
+				<Child Name="panelConversionLineItemCount2" Owner="{367F4DE4-C76B-431D-B730-83492883A7A9}" />
+				<Child Name="panelQuote" Owner="{513EEC36-AFDE-4453-817F-94C3C2190B5C}" />
 			</Child>
 			<Child Name="Page__Opportunity" Owner="{23E657C5-55A5-45AB-9F96-90930AEAB3B7}">
 				<Child Name="OpportunityName__Panel" Owner="{7B682A43-C28C-4610-A915-7D585A5FAB99}">
@@ -4394,7 +4812,6 @@
 					<Child Name="LeadSource__List" Owner="{7AC8115E-901E-445A-A565-9D9B4B570AFC}" />
 					<Child Name="OpportunityName__Field" Owner="{E1333D2B-6568-4ECC-9419-23E6E50A7AC3}" />
 				</Child>
-				<Child Name="RFCSave_Button" Owner="{35D2854D-B50A-426D-AD63-1F9EF601EAB5}" />
 			</Child>
 			<Child Name="Page__EditLineItem" Owner="{0EC2ED3A-3BC8-4559-A27F-9493FF58008E}">
 				<Child Name="EditLine__Bar" Owner="{DE1DEFCC-38AF-45D4-B085-B29E12973126}">
@@ -4415,7 +4832,7 @@
 					<Child Name="License__Tab" Owner="{66065A2F-83E9-4298-8145-879B2F0D5EDB}" />
 					<Child Name="Required__Panel" Owner="{D364089E-5EE0-4516-A5A8-14DADE43EFD5}" />
 					<Child Name="Promotion__Tab" Owner="{7DB6640F-844A-4996-ACB0-FAF5686C3910}" />
-					<Child Name="select" Owner="{CB6F73F1-20C2-4847-8D7E-4E0243DC0DCA}" />
+					<Child Name="Promotion__Button" Owner="{CB6F73F1-20C2-4847-8D7E-4E0243DC0DCA}" />
 					<Child Name="panelButtonPanel" Owner="{FD1A89CB-78B0-4ABB-8D79-02B7803955DE}" />
 					<Child Name="select2" Owner="{D124D3CD-FABE-4C89-B6F6-09091B359687}" />
 					<Child Name="panelOtherDiscounts" Owner="{6A2414C1-9FE0-4B65-8BAA-D737810540D1}" />
@@ -4434,18 +4851,53 @@
 				</Child>
 				<Child Name="Save__button" Owner="{B73EE1CB-FAEB-4190-8087-4CA12FABCF1E}" />
 				<Child Name="Save__Button3" Owner="{3340BDAC-E2E0-47DB-BC83-4CC084A713E9}" />
+				<Child Name="panelShowHideChildItems" Owner="{F72262E0-38A7-4146-8F68-A06AF9C3162C}" />
+				<Child Name="panelShowHideChildItems2" Owner="{14BCDD25-C257-49E5-B548-ACB2AAEF1954}" />
+				<Child Name="GOpsSale__Tab" Owner="{B6427CD3-C353-4431-BFB8-DE5D9C6F175A}" />
 			</Child>
 			<Child Name="Page__Config" Owner="{626D3511-A722-47F8-B88E-60AD6E30694E}">
 				<Child Name="ConfigTool__Tab" Owner="{FA144C5A-18BA-4C97-A4B6-E51E09D6AF28}" />
 				<Child Name="ConversionsPaidSerialKnown__Tab" Owner="{7DEE6036-AD1D-4C39-BC0F-15086F17FAD4}" />
+			</Child>
+			<Child Name="Page__RFCQuote" Owner="{D80E46F9-A4F9-4231-9B49-DCADAEAA0726}">
+				<Child Name="RFC__Panel" Owner="{2C3104FB-AD91-474B-8B84-F2B308D37FFC}">
+					<Child Name="RFCQuote__Button" Owner="{AAE30A37-A7AD-42B2-A8D0-201C1BC43198}" />
+				</Child>
+				<Child Name="Quote__Button" Owner="{42EAB34C-6F17-4AAC-80AA-EE16BB2D1634}" />
+				<Child Name="Click__Panel" Owner="{2EB8280C-8809-4689-A0A4-56CA9556E659}">
+					<Child Name="Opport__Click" Owner="{8E019831-FF94-4E55-94A3-217BC197B066}" />
+				</Child>
+				<Child Name="ConfigurationSave" Owner="{044AD479-63D6-47F7-B9E3-26824195ABCF}" />
+				<Child Name="panelSyncNow" Owner="{FE4F8F28-9A2C-4951-94F9-83413395D892}" />
 				<Child Name="Page__Configu" Owner="{6FE29993-A475-4B56-8B1B-6CC123A8FD40}">
 					<Child Name="sectionConfigure2" Owner="{B91D6CC6-BD6D-4DAC-B261-74BDF4C61E2A}">
 						<Child Name="Qnty__Tab" Owner="{F5A08BD8-E45C-4EA7-A0A2-C0282CAAA0AE}" />
+						<Child Name="panelRequired" Owner="{A70466C3-9B7C-44C2-9980-B117316D61CE}" />
+						<Child Name="panelRequired2" Owner="{1F404433-0EAB-4BB0-8918-3B081C79EA58}" />
+						<Child Name="Frieght__Tab" Owner="{F17F7934-47D0-4498-8BE2-F56A4B295097}" />
+						<Child Name="panel2" Owner="{2475570F-1D2C-4C0D-A0FC-30830E8DE63C}" />
+						<Child Name="panel3" Owner="{F47492E8-2AC8-4666-94FF-64A3DE021D96}" />
+						<Child Name="F" Owner="{E32C27AC-A7DB-4400-9435-22C4C774C2C3}" />
 					</Child>
 				</Child>
+				<Child Name="RFCSave_Button" Owner="{35D2854D-B50A-426D-AD63-1F9EF601EAB5}" />
+				<Child Name="section6" Owner="{25AD7EF5-A41E-4E23-B16C-7D6F0D2A34AE}">
+					<Child Name="buttonSave" Owner="{F5AD8111-0742-4C0A-B2AD-F674B391D756}" />
+					<Child Name="ConfigTool__Tab" Owner="{67E6F50F-77BD-4EBA-B315-067B226A58C5}" />
+				</Child>
+				<Child Name="LeaseTerm__Panel" Owner="{5662E76A-C43B-43E1-8F1C-A53D2EC0CB84}">
+					<Child Name="LeaseTerm__Tab" Owner="{78BFAF0A-0541-4846-978A-FA4608CFDEAE}" />
+					<Child Name="Months12__Tab" Owner="{1E723037-114B-4FED-B81F-9C9063EFAED1}" />
+					<Child Name="buttonLeaseTerm2" Owner="{F939F21B-817C-4D99-803D-CD991F2D597C}" />
+					<Child Name="TermReason__Tab" Owner="{A6E4E15A-1E68-43E0-8139-6A947A45A176}" />
+				</Child>
+				<Child Name="PaymentTerms__Panel" Owner="{833D676D-476D-46F2-8B93-2A467FA5572A}">
+					<Child Name="PaymentTerms__Button" Owner="{B19F8F34-E16E-48CC-91E1-882ADB574020}" />
+					<Child Name="Monthly12Payments__Tab" Owner="{EAA617C2-93F3-4408-B86A-6974E5823D9C}" />
+					<Child Name="PaymentTerms__Tab" Owner="{48131C55-C711-4425-A43B-886930B345B9}" />
+				</Child>
+				<Child Name="EGMCount__Label" Owner="{C1BCE205-D336-4D9A-8D72-3583D361DDE0}" />
 			</Child>
-			<Child Name="ConfigurationSave" Owner="{044AD479-63D6-47F7-B9E3-26824195ABCF}" />
-			<Child Name="Quote__Button" Owner="{42EAB34C-6F17-4AAC-80AA-EE16BB2D1634}" />
 		</Child>
 	</LogicalNodes>
 </Root>

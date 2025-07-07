@@ -23,9 +23,9 @@ function OpenNewCreated_Opportunity()
 
   Aliases.browser.Page__PreAccountApproval.Home__Panel.UserLogedIn__Panel.GlobalAccount__Tab.Click();
   //Delays the test execution for the specified time period.
-  Delay(2000);
+  Delay(4000);
   //Clicks the 'Opportunity_Tab' control.
-  Aliases.browser.Page__PreAccountApproval.Home__Panel.UserLogedIn__Panel.GlobalOpportunities__Tab.Click();
+ // Aliases.browser.Page__PreAccountApproval.Home__Panel.UserLogedIn__Panel.GlobalOpportunities__Tab.Click();
   //Delays the test execution for the specified time period.
   Delay(2000);
   //Clicks the 'GlobalSearch_Bar' control.

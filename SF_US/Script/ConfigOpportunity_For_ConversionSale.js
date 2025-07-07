@@ -9,7 +9,7 @@
   //Delays the test execution for the specified time period.
   Delay(2000);
   //Sets the text '2' in the 'Qnty_Tab' text editor.
-  Aliases.browser.Page__Config.Page__Configu.sectionConfigure2.Qnty__Tab.SetText("2");
+  Aliases.browser.Page__RFCQuote.Page__Configu.sectionConfigure2.Qnty__Tab.SetText("2");
   //Delays the test execution for the specified time period.
   Delay(2000);
   //Clicks the 'Save3_Button' button.

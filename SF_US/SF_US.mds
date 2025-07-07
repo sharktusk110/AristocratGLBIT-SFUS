@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}" version="15.0">
 	<children>
-		<folder name="DataSheets" />
+		<folder name="DataSheets">
+			<child name="Data_Sheet.xlsx" key="{473F9ADE-3097-4EBB-80B4-715927611F03}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="Data_Sheets\Data_Sheet.xlsx" />
+		</folder>
 		<child name="Script" key="{AD22EF73-0E9C-4279-8B5A-952138520897}" type="Script" typeId="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" pluginName="Script" path="Script\Script.tcScript" />
 		<child name="KeywordTests" key="{6DBBC27A-0763-44F6-97A3-9D6883B3B407}" type="Keyword Testing" typeId="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" pluginName="Keyword Testing" path="KeywordTests\KeywordTests.tcKDT" />
 		<child name="NameMapping" key="{91651B73-7C63-403C-A23E-6C849C754F54}" type="Name Mapping" typeId="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" pluginName="NameMapping" path="NameMapping\NameMapping.tcNM" />
@@ -137,12 +139,19 @@
 							</testItem>
 						</children>
 					</testItem>
-					<testItem name="Step 5 :Legal/Finance user is able to see the field, but is NOT able to edit" key="{B76F15A4-C7F8-4D1A-B881-71FB716B8A92}" group="False" parallel="False" enabled="True" load="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+					<testItem name="Step 5 :Legal/Finance user is able to see the field, but is NOT able to edit" key="{B76F15A4-C7F8-4D1A-B881-71FB716B8A92}" group="False" parallel="False" enabled="False" load="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 						<testParameters />
 						<environments activeCloud="SWT" />
 						<children>
 							<testItem name="LegalUserValidation_Test" key="{E6018F45-AA38-4654-8076-973709E08B5F}" group="False" parallel="False" enabled="True" load="False" testMoniker="{832FAC7B-4EFB-4BCD-BB96-CE63CA5D9992}LegalUserValidation_Test" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 								<testParameters />
+								<environments activeCloud="SWT" />
+								<children />
+							</testItem>
+							<testItem name="Close_Program" key="{49834F2D-FEEB-491C-8613-7158C4D9F2DB}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{88009DF8-8042-4464-A734-06BF1F6B4C79}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+								<testParameters>
+									<param0 name="Program" type="1" localVarName="" value="chrome.exe" />
+								</testParameters>
 								<environments activeCloud="SWT" />
 								<children />
 							</testItem>
@@ -179,27 +188,57 @@
 					<testItem name="Step 3: Update and validate EGM and conversion counts" key="{C0E00F8B-3242-46F8-BD5A-4F76B42542A2}" group="False" parallel="False" enabled="True" load="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 						<testParameters />
 						<environments activeCloud="SWT" />
-						<children />
+						<children>
+							<testItem name="RFC_Quote_Config_Test" key="{B52BBB5E-20DC-4A9D-8551-EDF9E0471E59}" group="False" parallel="False" enabled="True" load="False" testMoniker="{736F1A69-5078-46E3-9A2E-43916AB841AD}RFC_Quote_Config_Test" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+								<testParameters />
+								<environments activeCloud="SWT" />
+								<children />
+							</testItem>
+						</children>
 					</testItem>
 					<testItem name="Step 4: Verify apply preferences for outright sale" key="{700686DD-B020-458C-A9F6-F6B75E137EC4}" group="False" parallel="False" enabled="True" load="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 						<testParameters />
 						<environments activeCloud="SWT" />
-						<children />
+						<children>
+							<testItem name="RFC_ApplyPrefrences_Test" key="{D31577F8-F298-405F-B2D6-BD4AA6B9D7AD}" group="False" parallel="False" enabled="True" load="False" testMoniker="{1C912DEF-4F76-4FBF-963D-3A8D5DFD1657}RFC_ApplyPrefrences_Test" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+								<testParameters />
+								<environments activeCloud="SWT" />
+								<children />
+							</testItem>
+						</children>
 					</testItem>
 					<testItem name="Step 5: Verify discount price and EGM count for outright sale" key="{F6AA828E-42B1-4AF7-8340-ABFE3F2D6940}" group="False" parallel="False" enabled="True" load="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 						<testParameters />
 						<environments activeCloud="SWT" />
-						<children />
+						<children>
+							<testItem name="NewOpportunity_Validate" key="{BA640C21-143B-4945-B6F4-C618FD222B61}" group="False" parallel="False" enabled="True" load="False" testMoniker="{7984F146-6587-4787-A9DE-79EE28057571}NewOpportunity_Validate" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+								<testParameters />
+								<environments activeCloud="CBT" />
+								<children />
+							</testItem>
+						</children>
 					</testItem>
 					<testItem name="Step 6: Verify discount price nd EGM count for conversion sale" key="{F47EC893-129B-4292-AB87-7FC8F880E53D}" group="False" parallel="False" enabled="True" load="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 						<testParameters />
 						<environments activeCloud="SWT" />
-						<children />
+						<children>
+							<testItem name="ConfigConversion_Validation" key="{0B5F634A-47F9-4A30-BAEE-5924EE3BA493}" group="False" parallel="False" enabled="True" load="False" testMoniker="{07BBA548-EC6B-409C-A69F-528F69B4CACB}ConfigConversion_Validation" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+								<testParameters />
+								<environments activeCloud="SWT" />
+								<children />
+							</testItem>
+						</children>
 					</testItem>
 					<testItem name="Step 7: verify selling model GOps ,Jackpot funded " key="{FC2FED9F-477A-4C5C-B53F-B45C7803D02D}" group="False" parallel="False" enabled="True" load="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 						<testParameters />
 						<environments activeCloud="SWT" />
-						<children />
+						<children>
+							<testItem name="ConfigGOpsSale" key="{CE81D069-91D7-4105-8960-EC0104BEE20F}" group="False" parallel="False" enabled="True" load="False" testMoniker="{057914E7-5026-4E60-B43F-85A44D7B3F0D}ConfigGOpsSale" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+								<testParameters />
+								<environments activeCloud="CBT" />
+								<children />
+							</testItem>
+						</children>
 					</testItem>
 				</children>
 			</testItem>
@@ -231,6 +270,12 @@
 				</Variable>
 				<Variable Name="RFC_Quote_Name" Type="String" Local="True">
 					<DefValue />
+				</Variable>
+				<Variable Name="EGMCOUNT_Before" Type="Integer" Local="True">
+					<DefValue IntValue="2" />
+				</Variable>
+				<Variable Name="EGMCOUNT_After" Type="Integer" Local="True">
+					<DefValue IntValue="0" />
 				</Variable>
 			</Items>
 		</data>
@@ -763,7 +808,7 @@
 			</columns>
 			<data />
 		</setting>
-		<setting name="Playback_ErrHandling_OnError" type="6" rowIndex="2" colIndex="1">
+		<setting name="Playback_ErrHandling_OnError" type="6" rowIndex="1" colIndex="1">
 			<columns>
 				<column type="5" enabled="True" />
 				<column type="2" enabled="True" />
@@ -812,7 +857,7 @@
 			</data>
 		</setting>
 		<setting name="Playback_OverlappingWindow_IgnoreOverlappingWindow" type="1" value="False" />
-		<setting name="Playback_Runtime_AutoWaitTimeout" type="2" value="10000" />
+		<setting name="Playback_Runtime_AutoWaitTimeout" type="2" value="8000" />
 		<setting name="Playback_Runtime_DelayBetweenEvents" type="2" value="50" />
 		<setting name="Playback_Runtime_DisableMouse" type="1" value="False" />
 		<setting name="Playback_Runtime_MinimizeBeforePlayback" type="1" value="False" />
@@ -826,7 +871,7 @@
 		<setting name="Playback_UnexpectedWndHandling_PressEnter" type="1" value="True" />
 		<setting name="Playback_UnexpectedWndHandling_PressEsc" type="1" value="True" />
 		<setting name="Playback_UnexpectedWndHandling_SendCloseCommand" type="1" value="True" />
-		<setting name="Playback_UnexpectedWndHandling_StopExecution" type="1" value="False" />
+		<setting name="Playback_UnexpectedWndHandling_StopExecution" type="1" value="True" />
 		<setting name="Recording_TestedAppsOnly" type="1" value="False" />
 		<setting name="RecreateActiveXObjects" type="1" value="False" />
 		<setting name="RunStandaloneServer" type="1" value="False" />

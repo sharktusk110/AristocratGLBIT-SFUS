@@ -31,7 +31,7 @@
 					</Node>
 					<Node name="var1">
 						<Node name="value">
-							<Prp name="strvalue" type="H" value="540065007300740020004100630063006F0075006E00740020003600320032003100320032003600390032003600300035003800"/>
+							<Prp name="strvalue" type="H" value="540065007300740020004100630063006F0075006E00740020003500390034003300340030003400370031003200390033003700"/>
 						</Node>
 						<Prp name="name" type="S" value="Accountname"/>
 					</Node>
@@ -49,7 +49,7 @@
 					</Node>
 					<Node name="var5">
 						<Node name="value">
-							<Prp name="strvalue" type="H" value="420045004C004C004100470049004F0020004C00410053002000560045004700410053002D005400650073007400340039003200"/>
+							<Prp name="strvalue" type="H" value="420045004C004C004100470049004F0020004C00410053002000560045004700410053002D005400650073007400360032003300"/>
 						</Node>
 						<Prp name="name" type="S" value="OpportunityName"/>
 					</Node>
@@ -64,6 +64,18 @@
 							<Prp name="strvalue" type="H" value=" "/>
 						</Node>
 						<Prp name="name" type="S" value="RFC_Quote_Name"/>
+					</Node>
+					<Node name="var8">
+						<Node name="value">
+							<Prp name="intvalue" type="I" value="0"/>
+						</Node>
+						<Prp name="name" type="S" value="EGMCOUNT_Before"/>
+					</Node>
+					<Node name="var9">
+						<Node name="value">
+							<Prp name="intvalue" type="I" value="0"/>
+						</Node>
+						<Prp name="name" type="S" value="EGMCOUNT_After"/>
 					</Node>
 				</Node>
 				<Prp name="version" type="I" value="4"/>

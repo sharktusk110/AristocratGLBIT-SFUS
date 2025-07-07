@@ -33,6 +33,5 @@
 				<child name="OpportunityCreation_Test" key="{5CF0615A-4E31-4A51-8384-AD904B5425D8}" path="OpportunityCreation_Test.tcKDTest" />
 			</folder>
 		</folder>
-		<child name="Test3" key="{52A206F0-0E1F-4B31-88B5-F19C3B8192AF}" path="Test3.tcKDTest" />
 	</children>
 </Root>

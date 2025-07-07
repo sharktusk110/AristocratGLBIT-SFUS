@@ -1,0 +1,9 @@
+﻿//USEUNIT RFC_ApplyPrefrences
+
+function RFC_ApplyPrefrences_Test()
+
+{
+  
+   RFCApply_Pref_Validetion()
+   
+}

@@ -25,8 +25,7 @@ function Create_opportunity()
   Log.Message("GamingClassification");
   Aliases.browser.Page__Opportunity.OpportunityName__Panel.GamingClassification__List.Click();
   ListSelection (GamingClassification); //"Class III"
-  //Aliases.browser.Opportunity_Panel.OpportunityName_Panel.GamingClassification_List.keys("Class III");
-  //KeyboardOperations("ENTER",1);
+  
   
   Log.Message("Type");
   Aliases.browser.Page__Opportunity.OpportunityName__Panel.Type__List.Click();
@@ -58,7 +57,7 @@ function OpenAccount_Page()
   //Clicks the 'GlobalSearch_Tab' control.
   Aliases.browser.Page__PreAccountApproval.Home__Panel.UserLogedIn__Panel.GlobalAccount__Tab.Click();
   //Delays the test execution for the specified time period.
-  Delay(2000);
+  Delay(4000);
   //Clicks the 'Account_Tab' control.
   Aliases.browser.Page__AccountCreation.NewAccount__Panel.Account__Tab.Click();
   //Delays the test execution for the specified time period.

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="log data">
+			<Node name="row4">
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="end time" type="D" value="45839.8455515509"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="name" type="S" value="Step 3: User is able to make changes in newly created Opportunity"/>
+				<Prp name="details" type="S" value="{DB979437-F461-4F63-9177-5976C09ADCC6}"/>
+				<Prp name="index" type="I" value="4"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="testdata item" type="B" value="-1"/>
+				<Prp name="start time" type="D" value="45839.844461713"/>
+			</Node>
+			<Node name="row3">
+				<Prp name="status" type="I" value="2"/>
+				<Prp name="end time" type="D" value="45839.8444616319"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="name" type="S" value="Step 2 :Select Existing account and OpportunityCreation Page"/>
+				<Prp name="details" type="S" value="{4711668B-3A0C-4ACE-AF00-07726F4C5B93}"/>
+				<Prp name="index" type="I" value="3"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="testdata item" type="B" value="-1"/>
+				<Prp name="start time" type="D" value="45839.8443860417"/>
+			</Node>
+			<Node name="row2">
+				<Prp name="status" type="I" value="1"/>
+				<Prp name="end time" type="D" value="45839.8443860417"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="name" type="S" value="Step 1: Login to SalseForce"/>
+				<Prp name="details" type="S" value="{FC97514D-9439-432B-AF4B-172A8C6BECAA}"/>
+				<Prp name="index" type="I" value="2"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="testdata item" type="B" value="-1"/>
+				<Prp name="start time" type="D" value="45839.8438436111"/>
+			</Node>
+			<Node name="row6">
+				<Prp name="status" type="I" value="2"/>
+				<Prp name="end time" type="D" value="45839.8469168171"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="name" type="S" value="Step 5 :Legal/Finance user is able to see the field, but is NOT able to edit"/>
+				<Prp name="details" type="S" value="{211D1833-A273-4037-B7DE-AFC9577452DB}"/>
+				<Prp name="index" type="I" value="6"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="testdata item" type="B" value="-1"/>
+				<Prp name="start time" type="D" value="45839.8463074653"/>
+			</Node>
+			<Node name="row1">
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="end time" type="D" value="45839.8438436111"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="name" type="S" value="No element to be run for the '82032_B02_Opportunity_creation_BDE-COE' test item was specified."/>
+				<Prp name="details" type="S" value=""/>
+				<Prp name="index" type="I" value="1"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="start time" type="D" value="45839.8438436111"/>
+			</Node>
+			<Node name="row5">
+				<Prp name="status" type="I" value="1"/>
+				<Prp name="end time" type="D" value="45839.8463074653"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="name" type="S" value="Step 4: Verify that conversion sales can be configured."/>
+				<Prp name="details" type="S" value="{63FE63AB-CE0A-49F5-8818-FB58C2AD9FF4}"/>
+				<Prp name="index" type="I" value="5"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="testdata item" type="B" value="-1"/>
+				<Prp name="start time" type="D" value="45839.8455515856"/>
+			</Node>
+			<Node name="row0">
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="end time" type="D" value="45839.8438436111"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="name" type="S" value="Element to be run"/>
+				<Prp name="details" type="S" value=""/>
+				<Prp name="index" type="I" value="0"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="testdata item" type="B" value="-1"/>
+				<Prp name="start time" type="D" value="45839.8438436111"/>
+			</Node>
+		</Node>
+	</Node>
+</Nodes>
