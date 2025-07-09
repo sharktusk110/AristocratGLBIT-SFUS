@@ -139,7 +139,7 @@
 							</testItem>
 						</children>
 					</testItem>
-					<testItem name="Step 5 :Legal/Finance user is able to see the field, but is NOT able to edit" key="{B76F15A4-C7F8-4D1A-B881-71FB716B8A92}" group="False" parallel="False" enabled="False" load="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+					<testItem name="Step 5 :Legal/Finance user is able to see the field, but is NOT able to edit" key="{B76F15A4-C7F8-4D1A-B881-71FB716B8A92}" group="False" parallel="False" enabled="True" load="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 						<testParameters />
 						<environments activeCloud="SWT" />
 						<children>
@@ -211,31 +211,20 @@
 						<testParameters />
 						<environments activeCloud="SWT" />
 						<children>
-							<testItem name="NewOpportunity_Validate" key="{BA640C21-143B-4945-B6F4-C618FD222B61}" group="False" parallel="False" enabled="True" load="False" testMoniker="{7984F146-6587-4787-A9DE-79EE28057571}NewOpportunity_Validate" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
-								<testParameters />
-								<environments activeCloud="CBT" />
-								<children />
-							</testItem>
-						</children>
-					</testItem>
-					<testItem name="Step 6: Verify discount price nd EGM count for conversion sale" key="{F47EC893-129B-4292-AB87-7FC8F880E53D}" group="False" parallel="False" enabled="True" load="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
-						<testParameters />
-						<environments activeCloud="SWT" />
-						<children>
-							<testItem name="ConfigConversion_Validation" key="{0B5F634A-47F9-4A30-BAEE-5924EE3BA493}" group="False" parallel="False" enabled="True" load="False" testMoniker="{07BBA548-EC6B-409C-A69F-528F69B4CACB}ConfigConversion_Validation" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+							<testItem name="ConfigNewQuote_Outright_sale" key="{DB3B704A-8152-4770-8C5B-04A33057BF3F}" group="False" parallel="False" enabled="True" load="False" testMoniker="{A7892094-236B-418C-A090-0971F4F21C5C}ConfigNewQuote_Outright_sale" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 								<testParameters />
 								<environments activeCloud="SWT" />
 								<children />
 							</testItem>
 						</children>
 					</testItem>
-					<testItem name="Step 7: verify selling model GOps ,Jackpot funded " key="{FC2FED9F-477A-4C5C-B53F-B45C7803D02D}" group="False" parallel="False" enabled="True" load="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+					<testItem name="Step 6: verify selling model GOps ,Jackpot funded " key="{FC2FED9F-477A-4C5C-B53F-B45C7803D02D}" group="False" parallel="False" enabled="True" load="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 						<testParameters />
 						<environments activeCloud="SWT" />
 						<children>
-							<testItem name="ConfigGOpsSale" key="{CE81D069-91D7-4105-8960-EC0104BEE20F}" group="False" parallel="False" enabled="True" load="False" testMoniker="{057914E7-5026-4E60-B43F-85A44D7B3F0D}ConfigGOpsSale" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+							<testItem name="ConfigGOpsSale_Test" key="{B2433296-629F-46B8-AEA3-4B35E6E8771B}" group="False" parallel="False" enabled="True" load="False" testMoniker="{D46A96F7-D315-43CF-9FA1-28A3A967A014}ConfigGOpsSale" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 								<testParameters />
-								<environments activeCloud="CBT" />
+								<environments activeCloud="SWT" />
 								<children />
 							</testItem>
 						</children>
@@ -276,6 +265,12 @@
 				</Variable>
 				<Variable Name="EGMCOUNT_After" Type="Integer" Local="True">
 					<DefValue IntValue="0" />
+				</Variable>
+				<Variable Name="afterGrandTotalEGM" Type="String" Local="True">
+					<DefValue StrValue="0" />
+				</Variable>
+				<Variable Name="BeforeGrandTotalEGM" Type="String" Local="True">
+					<DefValue />
 				</Variable>
 			</Items>
 		</data>
@@ -808,7 +803,7 @@
 			</columns>
 			<data />
 		</setting>
-		<setting name="Playback_ErrHandling_OnError" type="6" rowIndex="1" colIndex="1">
+		<setting name="Playback_ErrHandling_OnError" type="6" rowIndex="2" colIndex="1">
 			<columns>
 				<column type="5" enabled="True" />
 				<column type="2" enabled="True" />

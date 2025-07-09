@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="item 24">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="ConfigGOpsSale"/>
+			<Prp name="line no" type="I" value="4"/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{D46A96F7-D315-43CF-9FA1-28A3A967A014}"/>
+		</Node>
+		<Node name="item 87">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="ConfigGOpsSale"/>
+			<Prp name="line no" type="I" value="4"/>
+		</Node>
+		<Node name="item 72">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="ConfigGOpsSale"/>
+			<Prp name="line no" type="I" value="4"/>
+		</Node>
+		<Node name="item 63">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="ConfigGOpsSale"/>
+			<Prp name="line no" type="I" value="4"/>
+		</Node>
+		<Node name="item 65">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="ConfigGOpsSale"/>
+			<Prp name="line no" type="I" value="4"/>
+		</Node>
+		<Node name="item 20">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="ConfigGOpsSale"/>
+			<Prp name="line no" type="I" value="4"/>
+		</Node>
+		<Node name="item 28">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="ConfigGOpsSale"/>
+			<Prp name="line no" type="I" value="4"/>
+		</Node>
+		<Node name="item 79">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="ConfigGOpsSale"/>
+			<Prp name="line no" type="I" value="4"/>
+		</Node>
+		<Node name="item 41">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="ConfigGOpsSale"/>
+			<Prp name="line no" type="I" value="4"/>
+		</Node>
+		<Node name="item 13">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="ConfigGOpsSale"/>
+			<Prp name="line no" type="I" value="4"/>
+		</Node>
+		<Node name="item 78">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="ConfigGOpsSale"/>
+			<Prp name="line no" type="I" value="4"/>
+		</Node>
+		<Node name="item 4">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="ConfigGOpsSale"/>
+			<Prp name="line no" type="I" value="4"/>
+		</Node>
+		<Node name="item 11">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="ConfigGOpsSale"/>
+			<Prp name="line no" type="I" value="4"/>
+		</Node>
+		<Node name="item 68">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="ConfigGOpsSale"/>
+			<Prp name="line no" type="I" value="4"/>
+		</Node>
+		<Node name="item 1">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="ConfigGOpsSale"/>
+			<Prp name="line no" type="I" value="4"/>
+		</Node>
+		<Node name="item 89">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="ConfigGOpsSale"/>
+			<Prp name="line no" type="I" value="4"/>
+		</Node>
+		<Node name="item 95">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="ConfigGOpsSale"/>
+			<Prp name="line no" type="I" value="4"/>
+		</Node>
+		<Node name="item 42">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="ConfigGOpsSale"/>
+			<Prp name="line no" type="I" value="4"/>
+		</Node>
+		<Node name="item 16">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="ConfigGOpsSale"/>
+			<Prp name="line no" type="I" value="4"/>
+		</Node>
+		<Node name="item 44">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="ConfigGOpsSale"/>
+			<Prp name="line no" type="I" value="4"/>
+		</Node>
+		<Node name="item 71">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="ConfigGOpsSale"/>
+			<Prp name="line no" type="I" value="4"/>
+		</Node>
+		<Node name="item 66">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="ConfigGOpsSale"/>
+			<Prp name="line no" type="I" value="4"/>
+		</Node>
+		<Node name="item 99">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="ConfigGOpsSale"/>
+			<Prp name="line no" type="I" value="4"/>
+		</Node>
+		<Node name="item 55">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="ConfigGOpsSale"/>
+			<Prp name="line no" type="I" value="4"/>
+		</Node>
+		<Node name="item 96">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="ConfigGOpsSale"/>
+			<Prp name="line no" type="I" value="4"/>
+		</Node>
+		<Node name="item 48">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="ConfigGOpsSale"/>
+			<Prp name="line no" type="I" value="4"/>
+		</Node>
+		<Node name="item 83">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="ConfigGOpsSale"/>
+			<Prp name="line no" type="I" value="4"/>
+		</Node>
+		<Node name="item 85">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="ConfigGOpsSale"/>
+			<Prp name="line no" type="I" value="4"/>
+		</Node>
+		<Node name="item 12">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="ConfigGOpsSale"/>
+			<Prp name="line no" type="I" value="4"/>
+		</Node>
+		<Node name="item 37">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="ConfigGOpsSale"/>
+			<Prp name="line no" type="I" value="4"/>
+		</Node>
+		<Node name="item 75">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="ConfigGOpsSale"/>
+			<Prp name="line no" type="I" value="4"/>
+		</Node>
+		<Node name="item 8">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="ConfigGOpsSale"/>
+			<Prp name="line no" type="I" value="4"/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="item 31">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="ConfigGOpsSale"/>
+			<Prp name="line no" type="I" value="4"/>
+		</Node>
+		<Node name="item 54">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="ConfigGOpsSale"/>
+			<Prp name="line no" type="I" value="4"/>
+		</Node>
+		<Node name="item 61">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="ConfigGOpsSale"/>
+			<Prp name="line no" type="I" value="4"/>
+		</Node>
+		<Node name="item 97">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="ConfigGOpsSale"/>
+			<Prp name="line no" type="I" value="4"/>
+		</Node>
+		<Node name="item 25">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="ConfigGOpsSale"/>
+			<Prp name="line no" type="I" value="4"/>
+		</Node>
+		<Node name="item 98">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="ConfigGOpsSale"/>
+			<Prp name="line no" type="I" value="4"/>
+		</Node>
+		<Node name="item 30">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="ConfigGOpsSale"/>
+			<Prp name="line no" type="I" value="4"/>
+		</Node>
+		<Node name="item 94">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="ConfigGOpsSale"/>
+			<Prp name="line no" type="I" value="4"/>
+		</Node>
+		<Node name="item 46">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="ConfigGOpsSale"/>
+			<Prp name="line no" type="I" value="4"/>
+		</Node>
+		<Node name="item 91">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="ConfigGOpsSale"/>
+			<Prp name="line no" type="I" value="4"/>
+		</Node>
+		<Node name="item 50">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="ConfigGOpsSale"/>
+			<Prp name="line no" type="I" value="4"/>
+		</Node>
+		<Node name="item 5">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="ConfigGOpsSale"/>
+			<Prp name="line no" type="I" value="4"/>
+		</Node>
+		<Node name="item 2">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="ConfigGOpsSale"/>
+			<Prp name="line no" type="I" value="4"/>
+		</Node>
+		<Node name="item 56">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="ConfigGOpsSale"/>
+			<Prp name="line no" type="I" value="4"/>
+		</Node>
+		<Node name="item 32">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="ConfigGOpsSale"/>
+			<Prp name="line no" type="I" value="4"/>
+		</Node>
+		<Node name="item 33">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="ConfigGOpsSale"/>
+			<Prp name="line no" type="I" value="4"/>
+		</Node>
+		<Node name="item 0">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="ConfigGOpsSale"/>
+			<Prp name="line no" type="I" value="2"/>
+		</Node>
+		<Node name="item 100">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value=""/>
+			<Prp name="line no" type="I" value="2"/>
+		</Node>
+		<Node name="item 59">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="ConfigGOpsSale"/>
+			<Prp name="line no" type="I" value="4"/>
+		</Node>
+		<Node name="item 90">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="ConfigGOpsSale"/>
+			<Prp name="line no" type="I" value="4"/>
+		</Node>
+		<Node name="item 26">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="ConfigGOpsSale"/>
+			<Prp name="line no" type="I" value="4"/>
+		</Node>
+		<Node name="message 0">
+			<Prp name="line no" type="I" value="2"/>
+			<Prp name="date" type="D" value="45847.6348967477"/>
+			<Prp name="stack beginning" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="message" type="S" value="RangeError: Maximum call stack size exceeded"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="JavaScript runtime error.&#xA;&#xA;RangeError: Maximum call stack size exceeded&#xA;&#xA;Error location:&#xA;Unit: &quot;AristocratGLBIT\SF_US\Script\ConfigGOpsSale_Test&quot;&#xA;Line: 3 Column: 24."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="stack end" type="I" value="99"/>
+			<Prp name="picture" type="S" value="Picture1.png"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="item 52">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="ConfigGOpsSale"/>
+			<Prp name="line no" type="I" value="4"/>
+		</Node>
+		<Node name="item 47">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="ConfigGOpsSale"/>
+			<Prp name="line no" type="I" value="4"/>
+		</Node>
+		<Node name="item 82">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="ConfigGOpsSale"/>
+			<Prp name="line no" type="I" value="4"/>
+		</Node>
+		<Node name="item 81">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="ConfigGOpsSale"/>
+			<Prp name="line no" type="I" value="4"/>
+		</Node>
+		<Node name="item 14">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="ConfigGOpsSale"/>
+			<Prp name="line no" type="I" value="4"/>
+		</Node>
+		<Node name="item 3">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="ConfigGOpsSale"/>
+			<Prp name="line no" type="I" value="4"/>
+		</Node>
+		<Node name="item 67">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="ConfigGOpsSale"/>
+			<Prp name="line no" type="I" value="4"/>
+		</Node>
+		<Node name="item 35">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="ConfigGOpsSale"/>
+			<Prp name="line no" type="I" value="4"/>
+		</Node>
+		<Node name="item 64">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="ConfigGOpsSale"/>
+			<Prp name="line no" type="I" value="4"/>
+		</Node>
+		<Node name="item 49">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="ConfigGOpsSale"/>
+			<Prp name="line no" type="I" value="4"/>
+		</Node>
+		<Node name="item 84">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="ConfigGOpsSale"/>
+			<Prp name="line no" type="I" value="4"/>
+		</Node>
+		<Node name="item 39">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="ConfigGOpsSale"/>
+			<Prp name="line no" type="I" value="4"/>
+		</Node>
+		<Node name="item 73">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="ConfigGOpsSale"/>
+			<Prp name="line no" type="I" value="4"/>
+		</Node>
+		<Node name="item 36">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="ConfigGOpsSale"/>
+			<Prp name="line no" type="I" value="4"/>
+		</Node>
+		<Node name="item 69">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="ConfigGOpsSale"/>
+			<Prp name="line no" type="I" value="4"/>
+		</Node>
+		<Node name="item 60">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="ConfigGOpsSale"/>
+			<Prp name="line no" type="I" value="4"/>
+		</Node>
+		<Node name="item 58">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="ConfigGOpsSale"/>
+			<Prp name="line no" type="I" value="4"/>
+		</Node>
+		<Node name="item 62">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="ConfigGOpsSale"/>
+			<Prp name="line no" type="I" value="4"/>
+		</Node>
+		<Node name="item 19">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="ConfigGOpsSale"/>
+			<Prp name="line no" type="I" value="4"/>
+		</Node>
+		<Node name="item 38">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="ConfigGOpsSale"/>
+			<Prp name="line no" type="I" value="4"/>
+		</Node>
+		<Node name="item 45">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="ConfigGOpsSale"/>
+			<Prp name="line no" type="I" value="4"/>
+		</Node>
+		<Node name="item 70">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="ConfigGOpsSale"/>
+			<Prp name="line no" type="I" value="4"/>
+		</Node>
+		<Node name="item 10">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="ConfigGOpsSale"/>
+			<Prp name="line no" type="I" value="4"/>
+		</Node>
+		<Node name="item 7">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="ConfigGOpsSale"/>
+			<Prp name="line no" type="I" value="4"/>
+		</Node>
+		<Node name="item 22">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="ConfigGOpsSale"/>
+			<Prp name="line no" type="I" value="4"/>
+		</Node>
+		<Node name="item 29">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="ConfigGOpsSale"/>
+			<Prp name="line no" type="I" value="4"/>
+		</Node>
+		<Node name="item 18">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="ConfigGOpsSale"/>
+			<Prp name="line no" type="I" value="4"/>
+		</Node>
+		<Node name="item 53">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="ConfigGOpsSale"/>
+			<Prp name="line no" type="I" value="4"/>
+		</Node>
+		<Node name="item 93">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="ConfigGOpsSale"/>
+			<Prp name="line no" type="I" value="4"/>
+		</Node>
+		<Node name="item 17">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="ConfigGOpsSale"/>
+			<Prp name="line no" type="I" value="4"/>
+		</Node>
+		<Node name="item 92">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="ConfigGOpsSale"/>
+			<Prp name="line no" type="I" value="4"/>
+		</Node>
+		<Node name="item 88">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="ConfigGOpsSale"/>
+			<Prp name="line no" type="I" value="4"/>
+		</Node>
+		<Node name="item 51">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="ConfigGOpsSale"/>
+			<Prp name="line no" type="I" value="4"/>
+		</Node>
+		<Node name="item 15">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="ConfigGOpsSale"/>
+			<Prp name="line no" type="I" value="4"/>
+		</Node>
+		<Node name="item 43">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="ConfigGOpsSale"/>
+			<Prp name="line no" type="I" value="4"/>
+		</Node>
+		<Node name="item 77">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="ConfigGOpsSale"/>
+			<Prp name="line no" type="I" value="4"/>
+		</Node>
+		<Node name="item 74">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="ConfigGOpsSale"/>
+			<Prp name="line no" type="I" value="4"/>
+		</Node>
+		<Node name="item 9">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="ConfigGOpsSale"/>
+			<Prp name="line no" type="I" value="4"/>
+		</Node>
+		<Node name="item 6">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="ConfigGOpsSale"/>
+			<Prp name="line no" type="I" value="4"/>
+		</Node>
+		<Node name="item 21">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="ConfigGOpsSale"/>
+			<Prp name="line no" type="I" value="4"/>
+		</Node>
+		<Node name="item 34">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="ConfigGOpsSale"/>
+			<Prp name="line no" type="I" value="4"/>
+		</Node>
+		<Node name="item 57">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="ConfigGOpsSale"/>
+			<Prp name="line no" type="I" value="4"/>
+		</Node>
+		<Node name="item 27">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="ConfigGOpsSale"/>
+			<Prp name="line no" type="I" value="4"/>
+		</Node>
+		<Node name="message 1">
+			<Prp name="line no" type="I" value="2"/>
+			<Prp name="date" type="D" value="45847.6348986458"/>
+			<Prp name="stack beginning" type="I" value="100"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="message" type="S" value="The test run has stopped because your test project is configured to stop on errors."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;body&gt;&lt;p&gt;The test run has stopped because --&lt;/p&gt;&lt;ul&gt;&lt;li&gt;An error message was posted to the log and&lt;/li&gt;&lt;li&gt;The &lt;a href=&quot;aqa-help://6090&quot;&gt;On error&lt;/a&gt; project property is set to &quot;Stop project&quot; or &quot;Stop current item&quot;.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;If you don't want the test to stop on errors, set this property (&lt;b&gt;Project Editor &amp;rArr; Properties &amp;rArr; Playback&lt;/b&gt;), to &quot;Continue running&quot; or change your test commands so that they do not post errors to the log automatically. For example, if a window or process was not found, use WaitWindow, WaitProcess or similar methods to get the needed object.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;aqa-help://2207&quot;&gt;Read More&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="stack end" type="I" value="100"/>
+			<Prp name="picture" type="S" value="Picture2.png"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="item 80">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="ConfigGOpsSale"/>
+			<Prp name="line no" type="I" value="4"/>
+		</Node>
+		<Node name="item 86">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="ConfigGOpsSale"/>
+			<Prp name="line no" type="I" value="4"/>
+		</Node>
+		<Node name="item 40">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="ConfigGOpsSale"/>
+			<Prp name="line no" type="I" value="4"/>
+		</Node>
+		<Node name="item 76">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="ConfigGOpsSale"/>
+			<Prp name="line no" type="I" value="4"/>
+		</Node>
+		<Node name="item 23">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="ConfigGOpsSale"/>
+			<Prp name="line no" type="I" value="4"/>
+		</Node>
+		<Node name="child data"/>
+		<Prp name="status" type="I" value="2"/>
+	</Node>
+</Nodes>

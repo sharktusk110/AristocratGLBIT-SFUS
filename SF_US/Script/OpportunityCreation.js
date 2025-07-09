@@ -39,7 +39,7 @@ function Create_opportunity()
   Aliases.browser.Page__Opportunity.OpportunityName__Panel.LeadSource__List.Click();
   ListSelection (LeadSource) //"Customer"
   NameMapping.Sys.browser.pageCasinoRoyaleAccountSalesforc.Save__Button.Click();
-
+  Delay(1000);
 }
 
 

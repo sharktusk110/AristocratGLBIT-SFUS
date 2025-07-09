@@ -35,6 +35,18 @@
 						</Node>
 						<Prp name="name" type="S" value="Accountname"/>
 					</Node>
+					<Node name="var10">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="2400370037002C003100390030002E0030003000"/>
+						</Node>
+						<Prp name="name" type="S" value="afterGrandTotalEGM"/>
+					</Node>
+					<Node name="var11">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value=" "/>
+						</Node>
+						<Prp name="name" type="S" value="BeforeGrandTotalEGM"/>
+					</Node>
 					<Node name="var2">
 						<Prp name="name" type="S" value="AccountStatus"/>
 					</Node>
@@ -49,7 +61,7 @@
 					</Node>
 					<Node name="var5">
 						<Node name="value">
-							<Prp name="strvalue" type="H" value="420045004C004C004100470049004F0020004C00410053002000560045004700410053002D005400650073007400360032003300"/>
+							<Prp name="strvalue" type="H" value="420045004C004C004100470049004F0020004C00410053002000560045004700410053002D005400650073007400320031003200"/>
 						</Node>
 						<Prp name="name" type="S" value="OpportunityName"/>
 					</Node>

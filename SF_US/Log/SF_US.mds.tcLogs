@@ -23,29 +23,29 @@
 		<Node name="logs">
 			<Node name="log idx=0000">
 				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="45845.4260532755"/>
+				<Prp name="datetime" type="D" value="45847.613851956"/>
 				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{FA260A40-49BB-4F73-855D-A74E42CCBA9D}"/>
-				<Prp name="nameofroot" type="S" value="Step 4: Verify apply preferences for outright sale"/>
-				<Prp name="relpath" type="S" value="7_7_2025_10_13 AM_31_3\Description.tcLog"/>
+				<Prp name="key" type="S" value="{2F9A0C76-23FA-4CA4-A8A4-BA4B802BC4DD}"/>
+				<Prp name="nameofroot" type="S" value="82032_B02_Opportunity_creation_BDE-COE"/>
+				<Prp name="relpath" type="S" value="7_9_2025_2_43 PM_56_809\Description.tcLog"/>
 				<Prp name="status" type="I" value="2"/>
 			</Node>
 			<Node name="log idx=0001">
 				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="45845.429681956"/>
+				<Prp name="datetime" type="D" value="45847.6235640856"/>
 				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{1A7C06B1-A1FA-49ED-AD09-96C3244486ED}"/>
-				<Prp name="nameofroot" type="S" value="82032_B02_Opportunity_creation_BDE-COE"/>
-				<Prp name="relpath" type="S" value="7_7_2025_10_18 AM_44_521\Description.tcLog"/>
-				<Prp name="status" type="I" value="1"/>
+				<Prp name="key" type="S" value="{3D97657B-F88F-4B9B-9382-92A3F15D7053}"/>
+				<Prp name="nameofroot" type="S" value="343151_B03_RFC_Quote_creation_(BDE/COE)"/>
+				<Prp name="relpath" type="S" value="7_9_2025_2_57 PM_55_937\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
 			</Node>
 			<Node name="log idx=0002">
 				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="45845.4349024074"/>
-				<Prp name="description" type="S" value="343151_B03_RFC_Quote_creation_(BDE/COE)"/>
-				<Prp name="key" type="S" value="{054A8FBF-D978-4A8D-B4BC-4609CADE8CA4}"/>
-				<Prp name="nameofroot" type="S" value="343151_B03_RFC_Quote_creation_(BDE/COE)"/>
-				<Prp name="relpath" type="S" value="7_7_2025_10_26 AM_15_568\Description.tcLog"/>
+				<Prp name="datetime" type="D" value="45847.6345087384"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{FD0C41DE-36DF-4804-8F48-3CB9F4CE60FC}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [ConfigGOpsSale_Test\ConfigGOpsSale]"/>
+				<Prp name="relpath" type="S" value="7_9_2025_3_13 PM_41_555\Description.tcLog"/>
 				<Prp name="status" type="I" value="2"/>
 			</Node>
 		</Node>

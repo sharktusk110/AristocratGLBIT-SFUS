@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="projects">
+			<Node name="project0">
+				<Node name="tests">
+					<Node name="test0">
+						<Node name="warnings">
+							<Node name="warning0">
+								<Prp name="msg" type="S" value="The browser is already running."/>
+							</Node>
+						</Node>
+						<Node name="errors"/>
+						<Prp name="duration" type="I" value="146243"/>
+						<Prp name="status" type="I" value="1"/>
+						<Prp name="durationwithoutchildren" type="I" value="146243"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewAzADMANgAzADMANwA4ADAALQAwADMARAA1AC0ANAAwADMANQAtADkANgA3ADcALQAzADUANwAyADcANwAzADUANwAxADUARAB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="starttime" type="D" value="45847.6138588542"/>
+						<Prp name="name" type="S" value="Login to Salesforce with service account."/>
+					</Node>
+					<Node name="test1">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="duration" type="I" value="56010"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="durationwithoutchildren" type="I" value="56010"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA2ADYAQQBDAEMAMwA2AEIALQA0ADkANQAwAC0ANAA5AEIANwAtADkANABCADcALQA0ADAAMwA0ADgAOQBCADQANwA5ADAANQB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="starttime" type="D" value="45847.6155517593"/>
+						<Prp name="name" type="S" value="OpportunityCreation_Test"/>
+					</Node>
+					<Node name="test2">
+						<Node name="warnings">
+							<Node name="warning0">
+								<Prp name="msg" type="S" value="The &quot;buttonSave&quot; object was replaced with a similar object."/>
+							</Node>
+						</Node>
+						<Node name="errors"/>
+						<Prp name="duration" type="I" value="127085"/>
+						<Prp name="status" type="I" value="1"/>
+						<Prp name="durationwithoutchildren" type="I" value="127085"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewAwAEMARgBEAEEARgA3AEUALQA2ADIAQQBBAC0ANABEADQANAAtAEIANQAxADIALQA4ADEARgBDADUAMgAzADUAMwAzADQAMAB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="starttime" type="D" value="45847.6162003241"/>
+						<Prp name="name" type="S" value="ConfigOpportunity_Test"/>
+					</Node>
+					<Node name="test5">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="duration" type="I" value="2191"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="durationwithoutchildren" type="I" value="2191"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewAwAEQANAAwADAANwBFAEEALQA5ADgAMQAyAC0ANABEAEQAQgAtADkARgA3ADQALQA2ADYARgBDADYAQQBBADcAOQBDADcARgB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="starttime" type="D" value="45847.6195937268"/>
+						<Prp name="name" type="S" value="Close_Program"/>
+					</Node>
+					<Node name="test4">
+						<Node name="warnings">
+							<Node name="warning1">
+								<Prp name="msg" type="S" value="There may be an error (or errors) caused by test self-healing."/>
+							</Node>
+							<Node name="warning0">
+								<Prp name="msg" type="S" value="The &quot;buttonLogin&quot; object was replaced with a similar object."/>
+							</Node>
+						</Node>
+						<Node name="errors">
+							<Node name="error1">
+								<Prp name="msg" type="S" value="The test run has stopped because your test project is configured to stop on errors."/>
+							</Node>
+							<Node name="error0">
+								<Prp name="msg" type="S" value="The object &quot;GlobalAccount__Tab&quot; does not exist."/>
+							</Node>
+						</Node>
+						<Prp name="duration" type="I" value="94463"/>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="durationwithoutchildren" type="I" value="94463"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA1AEYAQwA1AEQANgA4ADIALQBFAEUANQA3AC0ANAAxAEEANAAtADkAQgBDAEQALQA4ADIAQQA5ADAANgA4ADEARgAyADcANQB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="starttime" type="D" value="45847.6185002083"/>
+						<Prp name="name" type="S" value="LegalUserValidation_Test"/>
+					</Node>
+					<Node name="test3">
+						<Node name="warnings">
+							<Node name="warning0">
+								<Prp name="msg" type="S" value="The &quot;buttonOpportunityAddEditLineItem&quot; object was replaced with a similar object."/>
+							</Node>
+						</Node>
+						<Node name="errors"/>
+						<Prp name="duration" type="I" value="71565"/>
+						<Prp name="status" type="I" value="1"/>
+						<Prp name="durationwithoutchildren" type="I" value="71565"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewAyADYAQQAwAEQANgA2ADYALQAxADQARABFAC0ANAA4ADEAQQAtAEIAOAA1AEQALQA4ADkANgBGAEQAMwAzAEUAQQBDADMAOQB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="starttime" type="D" value="45847.6176716088"/>
+						<Prp name="name" type="S" value="ConfigConversion_Test"/>
+					</Node>
+				</Node>
+				<Prp name="duration" type="I" value="497557"/>
+				<Prp name="warningtests" type="I" value="3"/>
+				<Prp name="failedtests" type="I" value="1"/>
+				<Prp name="incompletedtests" type="I" value="0"/>
+				<Prp name="loadtests" type="I" value="0"/>
+				<Prp name="starttime" type="D" value="45847.6138588542"/>
+				<Prp name="name" type="S" value="SF_US"/>
+			</Node>
+		</Node>
+		<Prp name="user" type="S" value="AS112085"/>
+		<Prp name="stop" type="D" value="45847.6196217014"/>
+		<Prp name="executionstatus" type="I" value="2"/>
+		<Prp name="warningtestwithretries" type="I" value="0"/>
+		<Prp name="testname" type="S" value="SF_US: 82032_B02_Opportunity_creation_BDE-COE"/>
+		<Prp name="incompletedtests" type="I" value="0"/>
+		<Prp name="starttime" type="D" value="45847.6138526968"/>
+		<Prp name="loadtests" type="I" value="0"/>
+		<Prp name="host" type="S" value="L76130"/>
+		<Prp name="failedtests" type="I" value="1"/>
+		<Prp name="tests" type="I" value="6"/>
+		<Prp name="warningtests" type="I" value="3"/>
+		<Prp name="successtestwithretries" type="I" value="0"/>
+		<Prp name="key" type="S" value="{7E11AD35-3C30-4B45-A130-1908CA08B494}"/>
+		<Prp name="name" type="S" value="AristocratGLBIT"/>
+	</Node>
+</Nodes>

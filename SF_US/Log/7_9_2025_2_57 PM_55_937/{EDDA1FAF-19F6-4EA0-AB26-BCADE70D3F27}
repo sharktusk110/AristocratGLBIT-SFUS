@@ -1,0 +1,859 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="message 24">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="image file name" type="S" value="visImage60.png"/>
+					<Prp name="object top" type="I" value="538"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.Page__RFCQuote.Page__Configu.sectionConfigure2.Frieght__Tab"/>
+					<Prp name="object bottom" type="I" value="570"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="61"/>
+					<Prp name="click point x" type="I" value="639"/>
+					<Prp name="object left" type="I" value="356"/>
+					<Prp name="click point y" type="I" value="554"/>
+					<Prp name="object right" type="I" value="922"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="45847.3983556018"/>
+				</Node>
+			</Node>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.Page__RFCQuote.Page__Configu.sectionConfigure2.Frieght__Tab&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000c8sbCAA/view&quot;).FindElement(&quot;//tr[17]/td/c-egm-configurator-line-item-editor-row//select[contains(@class, 'slds-select')]&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="24"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The combo box item 3 was selected."/>
+			<Prp name="date" type="D" value="45847.6275360764"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="61"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+		</Node>
+		<Node name="message 22">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="&lt;h3&gt;Result&lt;/h3&gt;&lt;span&gt;The property checkpoint &lt;img style = &quot;width: 14px; height: 14px; vertical-align: text-bottom; margin: 2px;&quot; src=&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAB3RJTUUH4wIUBiMun01WOAAAAlZJREFUWMPdly1s20AUx/+ODCptij0FGERrKhsEbF2mTQqoWsk8JIXugAOTkRiabTAwJWvZErAGriTcUqKCkq1KBwJcpZ0KDKr5Kk0qsOShWf64+CNzFWnH7Du/3//ee773jnFdF+scBax5sGkXEscWT6yBObENTImBe4cE5ossh11Oxh4v40BoSRzLX6WxyySFgDi2qJuaObKGmXamCCp6Uj9RSKyA8d2p25m3IrtNO4osh6PqAI1Sk8ksQDc19/j2MJc4t8td9KQ+kzoJ84QDwPHtIXRTc1N5YHx36r77sf8oGf/lxddIOAICiGOL2+db5qoxT5MTs/oikJiFkOsfDQ4A9w6BbmomNQeIY4tZf7W4neqVD3j5pBaZG1lDEMcWIwJOrIGZF3z8yoBe+YhxzaCK8LM8ARPbyA2+/fQ1AIBjeYxrBoosF1jnZ3kCpmS5ANoukuBxw88q+BOEZnTy5humb7/jU/VzZjhxbDQu5Iht/3NsNfQbPRBaVBFJ8MvfF1TbNw8LN1bA841KxGhYxKpwANjc2GJiBfx8uEZn3oq8/yviX+DUk3DzjHdpeaAIKo6qg7Q9Qyp4keVws2MHPbDLydTFI2tI9cSq8DDLE7DHy0s/SBKR1e1+lhcC4thi5eyZmdTlhMORFQ4A1zu/vILkeYBj+StFUGM/DHtiFbgiqPBXw5XKsSKoeF/W0Jm3MsFp5XjtDUnkHGiUmky73M0d3i53qc0p9SDqSf1cRcQ1pWtvy2OLUaPUZGb1hZT0dyxL1Fl9IcXBU92M1n41++9vx38AoNJrUz8FYVwAAAAASUVORK5CYII=&quot;&gt;&lt;b&gt;passed&lt;/b&gt;: Aliases.browser.Page__Ed....ApplyPrefrence__Button.contentText&lt;b&gt; equals (case-sensitive) &lt;/b&gt;&quot;MainFloor&quot;.&lt;/span&gt;&lt;h3&gt;Details&lt;/h3&gt;&lt;div class=&quot;table-border full-width&quot;&gt;&lt;table class=&quot;table-borderless table-vertical&quot;&gt;&lt;tr&gt;&lt;th style=&quot;width: 16em;&quot;&gt;Object&lt;/th&gt;&lt;td&gt;&lt;a href='lnamemapping://{91651B73-7C63-403C-A23E-6C849C754F54}.{D19ED6D8-4A2A-4F7F-A326-647B9486EEA3}'&gt;Aliases.browser.Page__EditLineItem.sectionConfigure.ApplyPrefrence__Button&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Property&lt;/th&gt;&lt;td&gt;contentText&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Condition&lt;/th&gt;&lt;td&gt;equals (case-sensitive)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Actual value&lt;/th&gt;&lt;td&gt;&lt;span style=&quot;white-space: pre-wrap; &quot;&gt;&quot;MainFloor&quot;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Expected value&lt;/th&gt;&lt;td&gt;&lt;span style=&quot;white-space: pre-wrap; &quot;&gt;&quot;MainFloor&quot;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="id" type="I" value="22"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value="Picture23.png"/>
+			<Prp name="message" type="S" value="The property checkpoint passed: contentText equals (case-sensitive) &quot;MainFloor&quot;."/>
+			<Prp name="date" type="D" value="45847.6274161921"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="55"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="7"/>
+		</Node>
+		<Node name="message 4">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="image file name" type="S" value="visImage52.png"/>
+					<Prp name="object top" type="I" value="268"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.Page__EditLineItem.ProductSearch__Bar"/>
+					<Prp name="object bottom" type="I" value="299"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="16"/>
+					<Prp name="click point x" type="I" value="782"/>
+					<Prp name="object left" type="I" value="142"/>
+					<Prp name="click point y" type="I" value="283"/>
+					<Prp name="object right" type="I" value="1422"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="45847.3978677083"/>
+				</Node>
+			</Node>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="A click at point (569, 13) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.Page__EditLineItem.ProductSearch__Bar&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000c8sbCAA/view&quot;).FindElement(&quot;//c-product-navigator//lightning-input/lightning-primitive-input-simple//input[@type='text']&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="date" type="D" value="45847.6270361111"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="16"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+		</Node>
+		<Node name="message 17">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="&lt;h3&gt;Result&lt;/h3&gt;&lt;span&gt;The property checkpoint &lt;img style = &quot;width: 14px; height: 14px; vertical-align: text-bottom; margin: 2px;&quot; src=&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAB3RJTUUH4wIUBiMun01WOAAAAlZJREFUWMPdly1s20AUx/+ODCptij0FGERrKhsEbF2mTQqoWsk8JIXugAOTkRiabTAwJWvZErAGriTcUqKCkq1KBwJcpZ0KDKr5Kk0qsOShWf64+CNzFWnH7Du/3//ee773jnFdF+scBax5sGkXEscWT6yBObENTImBe4cE5ossh11Oxh4v40BoSRzLX6WxyySFgDi2qJuaObKGmXamCCp6Uj9RSKyA8d2p25m3IrtNO4osh6PqAI1Sk8ksQDc19/j2MJc4t8td9KQ+kzoJ84QDwPHtIXRTc1N5YHx36r77sf8oGf/lxddIOAICiGOL2+db5qoxT5MTs/oikJiFkOsfDQ4A9w6BbmomNQeIY4tZf7W4neqVD3j5pBaZG1lDEMcWIwJOrIGZF3z8yoBe+YhxzaCK8LM8ARPbyA2+/fQ1AIBjeYxrBoosF1jnZ3kCpmS5ANoukuBxw88q+BOEZnTy5humb7/jU/VzZjhxbDQu5Iht/3NsNfQbPRBaVBFJ8MvfF1TbNw8LN1bA841KxGhYxKpwANjc2GJiBfx8uEZn3oq8/yviX+DUk3DzjHdpeaAIKo6qg7Q9Qyp4keVws2MHPbDLydTFI2tI9cSq8DDLE7DHy0s/SBKR1e1+lhcC4thi5eyZmdTlhMORFQ4A1zu/vILkeYBj+StFUGM/DHtiFbgiqPBXw5XKsSKoeF/W0Jm3MsFp5XjtDUnkHGiUmky73M0d3i53qc0p9SDqSf1cRcQ1pWtvy2OLUaPUZGb1hZT0dyxL1Fl9IcXBU92M1n41++9vx38AoNJrUz8FYVwAAAAASUVORK5CYII=&quot;&gt;&lt;b&gt;passed&lt;/b&gt;: Aliases.browser.Page__Ed...tionConfigure.Trim__Tab.Enabled&lt;b&gt; equals &lt;/b&gt;true.&lt;/span&gt;&lt;h3&gt;Details&lt;/h3&gt;&lt;div class=&quot;table-border full-width&quot;&gt;&lt;table class=&quot;table-borderless table-vertical&quot;&gt;&lt;tr&gt;&lt;th style=&quot;width: 16em;&quot;&gt;Object&lt;/th&gt;&lt;td&gt;&lt;a href='lnamemapping://{91651B73-7C63-403C-A23E-6C849C754F54}.{F7905D69-F1A2-4FF4-B54D-7C9EC08E57AE}'&gt;Aliases.browser.Page__EditLineItem.sectionConfigure.Trim__Tab&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Property&lt;/th&gt;&lt;td&gt;Enabled&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Condition&lt;/th&gt;&lt;td&gt;equals&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Actual value&lt;/th&gt;&lt;td&gt;&lt;span style=&quot;white-space: pre-wrap; &quot;&gt;true&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Expected value&lt;/th&gt;&lt;td&gt;&lt;span style=&quot;white-space: pre-wrap; &quot;&gt;true&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="id" type="I" value="17"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value="Picture20.png"/>
+			<Prp name="message" type="S" value="The property checkpoint passed: Enabled equals true."/>
+			<Prp name="date" type="D" value="45847.6273823148"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="46"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="7"/>
+		</Node>
+		<Node name="message 7">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="image file name" type="S" value="visImage55.png"/>
+					<Prp name="object top" type="I" value="452"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.Page__EditLineItem.OutrightSaleNew__Tab"/>
+					<Prp name="object bottom" type="I" value="474"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="25"/>
+					<Prp name="click point x" type="I" value="1357"/>
+					<Prp name="object left" type="I" value="971"/>
+					<Prp name="click point y" type="I" value="463"/>
+					<Prp name="object right" type="I" value="1744"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="45847.3979931829"/>
+				</Node>
+			</Node>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="A click at point (343, 10) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.Page__EditLineItem.OutrightSaleNew__Tab&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000c8sbCAA/view&quot;).FindElement(&quot;//tr[6]/td/div[contains(@class, 'slds-truncate')]&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="7"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="date" type="D" value="45847.6271620949"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="25"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+		</Node>
+		<Node name="message 1">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="image file name" type="S" value="visImage49.png"/>
+					<Prp name="object top" type="I" value="166"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.Page__EditLineItem.EditLine__Bar.header.Add__Button"/>
+					<Prp name="object bottom" type="I" value="202"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="7"/>
+					<Prp name="click point x" type="I" value="1751"/>
+					<Prp name="object left" type="I" value="1719"/>
+					<Prp name="click point y" type="I" value="184"/>
+					<Prp name="object right" type="I" value="1784"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="45847.397781088"/>
+				</Node>
+			</Node>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.Page__EditLineItem.EditLine__Bar.header.Add__Button&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000c8sbCAA/view&quot;).FindElement(&quot;//button[.='Add']&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="date" type="D" value="45847.6269508218"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="7"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="stack"/>
+		<Node name="message 23">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="image file name" type="S" value="visImage59.png"/>
+					<Prp name="object top" type="I" value="934"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.Page__RFCQuote.buttonSave3"/>
+					<Prp name="object bottom" type="I" value="970"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="58"/>
+					<Prp name="click point x" type="I" value="1655"/>
+					<Prp name="object left" type="I" value="1621"/>
+					<Prp name="click point y" type="I" value="952"/>
+					<Prp name="object right" type="I" value="1689"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="45847.3982984954"/>
+				</Node>
+			</Node>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="A click at point (30, 16) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.Page__RFCQuote.buttonSave3&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000c8sbCAA/view&quot;).FindElement(&quot;//div[@role='dialog']//c-egm-configurator/div/div[3]/lightning-button[2]/button[@type='button']&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="23"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="date" type="D" value="45847.6274674306"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="58"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+		</Node>
+		<Node name="message 5">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="image file name" type="S" value="visImage53.png"/>
+					<Prp name="object top" type="I" value="268"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.Page__EditLineItem.ProductSearch__Bar"/>
+					<Prp name="object bottom" type="I" value="299"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="19"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="142"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="1422"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="45847.3978939583"/>
+				</Node>
+			</Node>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.Page__EditLineItem.ProductSearch__Bar&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000c8sbCAA/view&quot;).FindElement(&quot;//c-product-navigator//lightning-input/lightning-primitive-input-simple//input[@type='text']&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The text 'Helix Plus Upright' was entered in the text editor."/>
+			<Prp name="date" type="D" value="45847.6270623843"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="19"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+		</Node>
+		<Node name="message 26">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="&lt;h3&gt;Result&lt;/h3&gt;&lt;span&gt;The property checkpoint &lt;img style = &quot;width: 14px; height: 14px; vertical-align: text-bottom; margin: 2px;&quot; src=&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAB3RJTUUH4wIUBiMun01WOAAAAlZJREFUWMPdly1s20AUx/+ODCptij0FGERrKhsEbF2mTQqoWsk8JIXugAOTkRiabTAwJWvZErAGriTcUqKCkq1KBwJcpZ0KDKr5Kk0qsOShWf64+CNzFWnH7Du/3//ee773jnFdF+scBax5sGkXEscWT6yBObENTImBe4cE5ossh11Oxh4v40BoSRzLX6WxyySFgDi2qJuaObKGmXamCCp6Uj9RSKyA8d2p25m3IrtNO4osh6PqAI1Sk8ksQDc19/j2MJc4t8td9KQ+kzoJ84QDwPHtIXRTc1N5YHx36r77sf8oGf/lxddIOAICiGOL2+db5qoxT5MTs/oikJiFkOsfDQ4A9w6BbmomNQeIY4tZf7W4neqVD3j5pBaZG1lDEMcWIwJOrIGZF3z8yoBe+YhxzaCK8LM8ARPbyA2+/fQ1AIBjeYxrBoosF1jnZ3kCpmS5ANoukuBxw88q+BOEZnTy5humb7/jU/VzZjhxbDQu5Iht/3NsNfQbPRBaVBFJ8MvfF1TbNw8LN1bA841KxGhYxKpwANjc2GJiBfx8uEZn3oq8/yviX+DUk3DzjHdpeaAIKo6qg7Q9Qyp4keVws2MHPbDLydTFI2tI9cSq8DDLE7DHy0s/SBKR1e1+lhcC4thi5eyZmdTlhMORFQ4A1zu/vILkeYBj+StFUGM/DHtiFbgiqPBXw5XKsSKoeF/W0Jm3MsFp5XjtDUnkHGiUmky73M0d3i53qc0p9SDqSf1cRcQ1pWtvy2OLUaPUZGb1hZT0dyxL1Fl9IcXBU92M1n41++9vx38AoNJrUz8FYVwAAAAASUVORK5CYII=&quot;&gt;&lt;b&gt;passed&lt;/b&gt;: Aliases.browser.Page__Ed...nfigure.Required__Panel.contentText&lt;b&gt; equals (case-sensitive) &lt;/b&gt;&quot;Required !&quot;.&lt;/span&gt;&lt;h3&gt;Details&lt;/h3&gt;&lt;div class=&quot;table-border full-width&quot;&gt;&lt;table class=&quot;table-borderless table-vertical&quot;&gt;&lt;tr&gt;&lt;th style=&quot;width: 16em;&quot;&gt;Object&lt;/th&gt;&lt;td&gt;&lt;a href='lnamemapping://{91651B73-7C63-403C-A23E-6C849C754F54}.{D73DFBB4-4E8C-4BAF-ADB7-010C57B12661}'&gt;Aliases.browser.Page__EditLineItem.sectionConfigure.Required__Panel&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Property&lt;/th&gt;&lt;td&gt;contentText&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Condition&lt;/th&gt;&lt;td&gt;equals (case-sensitive)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Actual value&lt;/th&gt;&lt;td&gt;&lt;span style=&quot;white-space: pre-wrap; &quot;&gt;&quot;Required !&quot;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Expected value&lt;/th&gt;&lt;td&gt;&lt;span style=&quot;white-space: pre-wrap; &quot;&gt;&quot;Required !&quot;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="id" type="I" value="26"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value="Picture24.png"/>
+			<Prp name="message" type="S" value="The property checkpoint passed: contentText equals (case-sensitive) &quot;Required !&quot;."/>
+			<Prp name="date" type="D" value="45847.6275659606"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="65"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="7"/>
+		</Node>
+		<Node name="message 6">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="image file name" type="S" value="visImage54.png"/>
+					<Prp name="object top" type="I" value="351"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.Page__EditLineItem.HelixPlusUpright__Tab"/>
+					<Prp name="object bottom" type="I" value="373"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="22"/>
+					<Prp name="click point x" type="I" value="755"/>
+					<Prp name="object left" type="I" value="396"/>
+					<Prp name="click point y" type="I" value="362"/>
+					<Prp name="object right" type="I" value="1114"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="45847.3979459838"/>
+				</Node>
+			</Node>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="A click at point (319, 10) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.Page__EditLineItem.HelixPlusUpright__Tab&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000c8sbCAA/view&quot;).FindElement(&quot;//div[@id='wrapper-body']//td[2]/div&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="6"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="date" type="D" value="45847.6271144097"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="22"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+		</Node>
+		<Node name="message 12">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="12"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="verifying that Promotion tab  is enable"/>
+			<Prp name="date" type="D" value="45847.6272684838"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="37"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="0"/>
+		</Node>
+		<Node name="message 20">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="&lt;h3&gt;Result&lt;/h3&gt;&lt;span&gt;The property checkpoint &lt;img style = &quot;width: 14px; height: 14px; vertical-align: text-bottom; margin: 2px;&quot; src=&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAB3RJTUUH4wIUBiMun01WOAAAAlZJREFUWMPdly1s20AUx/+ODCptij0FGERrKhsEbF2mTQqoWsk8JIXugAOTkRiabTAwJWvZErAGriTcUqKCkq1KBwJcpZ0KDKr5Kk0qsOShWf64+CNzFWnH7Du/3//ee773jnFdF+scBax5sGkXEscWT6yBObENTImBe4cE5ossh11Oxh4v40BoSRzLX6WxyySFgDi2qJuaObKGmXamCCp6Uj9RSKyA8d2p25m3IrtNO4osh6PqAI1Sk8ksQDc19/j2MJc4t8td9KQ+kzoJ84QDwPHtIXRTc1N5YHx36r77sf8oGf/lxddIOAICiGOL2+db5qoxT5MTs/oikJiFkOsfDQ4A9w6BbmomNQeIY4tZf7W4neqVD3j5pBaZG1lDEMcWIwJOrIGZF3z8yoBe+YhxzaCK8LM8ARPbyA2+/fQ1AIBjeYxrBoosF1jnZ3kCpmS5ANoukuBxw88q+BOEZnTy5humb7/jU/VzZjhxbDQu5Iht/3NsNfQbPRBaVBFJ8MvfF1TbNw8LN1bA841KxGhYxKpwANjc2GJiBfx8uEZn3oq8/yviX+DUk3DzjHdpeaAIKo6qg7Q9Qyp4keVws2MHPbDLydTFI2tI9cSq8DDLE7DHy0s/SBKR1e1+lhcC4thi5eyZmdTlhMORFQ4A1zu/vILkeYBj+StFUGM/DHtiFbgiqPBXw5XKsSKoeF/W0Jm3MsFp5XjtDUnkHGiUmky73M0d3i53qc0p9SDqSf1cRcQ1pWtvy2OLUaPUZGb1hZT0dyxL1Fl9IcXBU92M1n41++9vx38AoNJrUz8FYVwAAAAASUVORK5CYII=&quot;&gt;&lt;b&gt;passed&lt;/b&gt;: Aliases.browser.Page__Ed...re.OtherDiscount__Panel.Enabled&lt;b&gt; equals &lt;/b&gt;true.&lt;/span&gt;&lt;h3&gt;Details&lt;/h3&gt;&lt;div class=&quot;table-border full-width&quot;&gt;&lt;table class=&quot;table-borderless table-vertical&quot;&gt;&lt;tr&gt;&lt;th style=&quot;width: 16em;&quot;&gt;Object&lt;/th&gt;&lt;td&gt;&lt;a href='lnamemapping://{91651B73-7C63-403C-A23E-6C849C754F54}.{9615871D-8975-4559-B004-2BEEA957B316}'&gt;Aliases.browser.Page__EditLineItem.sectionConfigure.OtherDiscount__Panel&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Property&lt;/th&gt;&lt;td&gt;Enabled&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Condition&lt;/th&gt;&lt;td&gt;equals&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Actual value&lt;/th&gt;&lt;td&gt;&lt;span style=&quot;white-space: pre-wrap; &quot;&gt;true&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Expected value&lt;/th&gt;&lt;td&gt;&lt;span style=&quot;white-space: pre-wrap; &quot;&gt;true&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="id" type="I" value="20"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value="Picture22.png"/>
+			<Prp name="message" type="S" value="The property checkpoint passed: Enabled equals true."/>
+			<Prp name="date" type="D" value="45847.6274099306"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="52"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="7"/>
+		</Node>
+		<Node name="message 21">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="21"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value=" RFC apply Prefrence Button is Visible"/>
+			<Prp name="date" type="D" value="45847.62741"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="54"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="0"/>
+		</Node>
+		<Node name="message 9">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="image file name" type="S" value="visImage57.png"/>
+					<Prp name="object top" type="I" value="434"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.Page__EditLineItem.sectionConfigure.ApplyPrefrence__Button"/>
+					<Prp name="object bottom" type="I" value="463"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="31"/>
+					<Prp name="click point x" type="I" value="1643"/>
+					<Prp name="object left" type="I" value="1602"/>
+					<Prp name="click point y" type="I" value="448"/>
+					<Prp name="object right" type="I" value="1685"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="45847.3980508449"/>
+				</Node>
+			</Node>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="A click at point (36, 12) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.Page__EditLineItem.sectionConfigure.ApplyPrefrence__Button&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000c8sbCAA/view&quot;).FindElement(&quot;//button[.='MainFloor']&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="9"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="date" type="D" value="45847.6272192014"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="31"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+		</Node>
+		<Node name="message 25">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="25"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value=" License panel is a required Field"/>
+			<Prp name="date" type="D" value="45847.6275599074"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="64"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="0"/>
+		</Node>
+		<Node name="message 29">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="image file name" type="S" value="visImage63.png"/>
+					<Prp name="object top" type="I" value="934"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.Page__RFCQuote.buttonSave3"/>
+					<Prp name="object bottom" type="I" value="970"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="77"/>
+					<Prp name="click point x" type="I" value="1655"/>
+					<Prp name="object left" type="I" value="1621"/>
+					<Prp name="click point y" type="I" value="952"/>
+					<Prp name="object right" type="I" value="1689"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="45847.3984963773"/>
+				</Node>
+			</Node>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="A click at point (30, 16) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.Page__RFCQuote.buttonSave3&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000c8sbCAA/view&quot;).FindElement(&quot;//div[@role='dialog']//c-egm-configurator/div/div[3]/lightning-button[2]/button[@type='button']&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="29"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="date" type="D" value="45847.627665081"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="77"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+		</Node>
+		<Node name="message 19">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="&lt;h3&gt;Result&lt;/h3&gt;&lt;span&gt;The property checkpoint &lt;img style = &quot;width: 14px; height: 14px; vertical-align: text-bottom; margin: 2px;&quot; src=&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAB3RJTUUH4wIUBiMun01WOAAAAlZJREFUWMPdly1s20AUx/+ODCptij0FGERrKhsEbF2mTQqoWsk8JIXugAOTkRiabTAwJWvZErAGriTcUqKCkq1KBwJcpZ0KDKr5Kk0qsOShWf64+CNzFWnH7Du/3//ee773jnFdF+scBax5sGkXEscWT6yBObENTImBe4cE5ossh11Oxh4v40BoSRzLX6WxyySFgDi2qJuaObKGmXamCCp6Uj9RSKyA8d2p25m3IrtNO4osh6PqAI1Sk8ksQDc19/j2MJc4t8td9KQ+kzoJ84QDwPHtIXRTc1N5YHx36r77sf8oGf/lxddIOAICiGOL2+db5qoxT5MTs/oikJiFkOsfDQ4A9w6BbmomNQeIY4tZf7W4neqVD3j5pBaZG1lDEMcWIwJOrIGZF3z8yoBe+YhxzaCK8LM8ARPbyA2+/fQ1AIBjeYxrBoosF1jnZ3kCpmS5ANoukuBxw88q+BOEZnTy5humb7/jU/VzZjhxbDQu5Iht/3NsNfQbPRBaVBFJ8MvfF1TbNw8LN1bA841KxGhYxKpwANjc2GJiBfx8uEZn3oq8/yviX+DUk3DzjHdpeaAIKo6qg7Q9Qyp4keVws2MHPbDLydTFI2tI9cSq8DDLE7DHy0s/SBKR1e1+lhcC4thi5eyZmdTlhMORFQ4A1zu/vILkeYBj+StFUGM/DHtiFbgiqPBXw5XKsSKoeF/W0Jm3MsFp5XjtDUnkHGiUmky73M0d3i53qc0p9SDqSf1cRcQ1pWtvy2OLUaPUZGb1hZT0dyxL1Fl9IcXBU92M1n41++9vx38AoNJrUz8FYVwAAAAASUVORK5CYII=&quot;&gt;&lt;b&gt;passed&lt;/b&gt;: Aliases.browser.Page__Ed...Configure.Button__Panel.Enabled&lt;b&gt; equals &lt;/b&gt;true.&lt;/span&gt;&lt;h3&gt;Details&lt;/h3&gt;&lt;div class=&quot;table-border full-width&quot;&gt;&lt;table class=&quot;table-borderless table-vertical&quot;&gt;&lt;tr&gt;&lt;th style=&quot;width: 16em;&quot;&gt;Object&lt;/th&gt;&lt;td&gt;&lt;a href='lnamemapping://{91651B73-7C63-403C-A23E-6C849C754F54}.{A2FFCC78-C76C-4814-9629-F1CBE54EA7E0}'&gt;Aliases.browser.Page__EditLineItem.sectionConfigure.Button__Panel&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Property&lt;/th&gt;&lt;td&gt;Enabled&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Condition&lt;/th&gt;&lt;td&gt;equals&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Actual value&lt;/th&gt;&lt;td&gt;&lt;span style=&quot;white-space: pre-wrap; &quot;&gt;true&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Expected value&lt;/th&gt;&lt;td&gt;&lt;span style=&quot;white-space: pre-wrap; &quot;&gt;true&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="id" type="I" value="19"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value="Picture21.png"/>
+			<Prp name="message" type="S" value="The property checkpoint passed: Enabled equals true."/>
+			<Prp name="date" type="D" value="45847.6274074306"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="50"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="7"/>
+		</Node>
+		<Node name="message 11">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="&lt;h3&gt;Result&lt;/h3&gt;&lt;span&gt;The property checkpoint &lt;img style = &quot;width: 14px; height: 14px; vertical-align: text-bottom; margin: 2px;&quot; src=&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAB3RJTUUH4wIUBiMun01WOAAAAlZJREFUWMPdly1s20AUx/+ODCptij0FGERrKhsEbF2mTQqoWsk8JIXugAOTkRiabTAwJWvZErAGriTcUqKCkq1KBwJcpZ0KDKr5Kk0qsOShWf64+CNzFWnH7Du/3//ee773jnFdF+scBax5sGkXEscWT6yBObENTImBe4cE5ossh11Oxh4v40BoSRzLX6WxyySFgDi2qJuaObKGmXamCCp6Uj9RSKyA8d2p25m3IrtNO4osh6PqAI1Sk8ksQDc19/j2MJc4t8td9KQ+kzoJ84QDwPHtIXRTc1N5YHx36r77sf8oGf/lxddIOAICiGOL2+db5qoxT5MTs/oikJiFkOsfDQ4A9w6BbmomNQeIY4tZf7W4neqVD3j5pBaZG1lDEMcWIwJOrIGZF3z8yoBe+YhxzaCK8LM8ARPbyA2+/fQ1AIBjeYxrBoosF1jnZ3kCpmS5ANoukuBxw88q+BOEZnTy5humb7/jU/VzZjhxbDQu5Iht/3NsNfQbPRBaVBFJ8MvfF1TbNw8LN1bA841KxGhYxKpwANjc2GJiBfx8uEZn3oq8/yviX+DUk3DzjHdpeaAIKo6qg7Q9Qyp4keVws2MHPbDLydTFI2tI9cSq8DDLE7DHy0s/SBKR1e1+lhcC4thi5eyZmdTlhMORFQ4A1zu/vILkeYBj+StFUGM/DHtiFbgiqPBXw5XKsSKoeF/W0Jm3MsFp5XjtDUnkHGiUmky73M0d3i53qc0p9SDqSf1cRcQ1pWtvy2OLUaPUZGb1hZT0dyxL1Fl9IcXBU92M1n41++9vx38AoNJrUz8FYVwAAAAASUVORK5CYII=&quot;&gt;&lt;b&gt;passed&lt;/b&gt;: Aliases.browser.Page__Ed...igure.Mainfloor__Button.Enabled&lt;b&gt; equals &lt;/b&gt;true.&lt;/span&gt;&lt;h3&gt;Details&lt;/h3&gt;&lt;div class=&quot;table-border full-width&quot;&gt;&lt;table class=&quot;table-borderless table-vertical&quot;&gt;&lt;tr&gt;&lt;th style=&quot;width: 16em;&quot;&gt;Object&lt;/th&gt;&lt;td&gt;&lt;a href='lnamemapping://{91651B73-7C63-403C-A23E-6C849C754F54}.{7409196D-910A-4081-BAA0-8CD48E91FADE}'&gt;Aliases.browser.Page__EditLineItem.sectionConfigure.Mainfloor__Button&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Property&lt;/th&gt;&lt;td&gt;Enabled&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Condition&lt;/th&gt;&lt;td&gt;equals&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Actual value&lt;/th&gt;&lt;td&gt;&lt;span style=&quot;white-space: pre-wrap; &quot;&gt;true&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Expected value&lt;/th&gt;&lt;td&gt;&lt;span style=&quot;white-space: pre-wrap; &quot;&gt;true&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="id" type="I" value="11"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value="Picture17.png"/>
+			<Prp name="message" type="S" value="The property checkpoint passed: Enabled equals true."/>
+			<Prp name="date" type="D" value="45847.6272684144"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="35"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="7"/>
+		</Node>
+		<Node name="message 18">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="&lt;h3&gt;Result&lt;/h3&gt;&lt;span&gt;The property checkpoint &lt;img style = &quot;width: 14px; height: 14px; vertical-align: text-bottom; margin: 2px;&quot; src=&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAB3RJTUUH4wIUBiMun01WOAAAAlZJREFUWMPdly1s20AUx/+ODCptij0FGERrKhsEbF2mTQqoWsk8JIXugAOTkRiabTAwJWvZErAGriTcUqKCkq1KBwJcpZ0KDKr5Kk0qsOShWf64+CNzFWnH7Du/3//ee773jnFdF+scBax5sGkXEscWT6yBObENTImBe4cE5ossh11Oxh4v40BoSRzLX6WxyySFgDi2qJuaObKGmXamCCp6Uj9RSKyA8d2p25m3IrtNO4osh6PqAI1Sk8ksQDc19/j2MJc4t8td9KQ+kzoJ84QDwPHtIXRTc1N5YHx36r77sf8oGf/lxddIOAICiGOL2+db5qoxT5MTs/oikJiFkOsfDQ4A9w6BbmomNQeIY4tZf7W4neqVD3j5pBaZG1lDEMcWIwJOrIGZF3z8yoBe+YhxzaCK8LM8ARPbyA2+/fQ1AIBjeYxrBoosF1jnZ3kCpmS5ANoukuBxw88q+BOEZnTy5humb7/jU/VzZjhxbDQu5Iht/3NsNfQbPRBaVBFJ8MvfF1TbNw8LN1bA841KxGhYxKpwANjc2GJiBfx8uEZn3oq8/yviX+DUk3DzjHdpeaAIKo6qg7Q9Qyp4keVws2MHPbDLydTFI2tI9cSq8DDLE7DHy0s/SBKR1e1+lhcC4thi5eyZmdTlhMORFQ4A1zu/vILkeYBj+StFUGM/DHtiFbgiqPBXw5XKsSKoeF/W0Jm3MsFp5XjtDUnkHGiUmky73M0d3i53qc0p9SDqSf1cRcQ1pWtvy2OLUaPUZGb1hZT0dyxL1Fl9IcXBU92M1n41++9vx38AoNJrUz8FYVwAAAAASUVORK5CYII=&quot;&gt;&lt;b&gt;passed&lt;/b&gt;: Aliases.browser.Page__Ed...onfigure.Licence__panel.Enabled&lt;b&gt; equals &lt;/b&gt;true.&lt;/span&gt;&lt;h3&gt;Details&lt;/h3&gt;&lt;div class=&quot;table-border full-width&quot;&gt;&lt;table class=&quot;table-borderless table-vertical&quot;&gt;&lt;tr&gt;&lt;th style=&quot;width: 16em;&quot;&gt;Object&lt;/th&gt;&lt;td&gt;&lt;a href='lnamemapping://{91651B73-7C63-403C-A23E-6C849C754F54}.{5819E3D5-6F61-4531-9C98-647135053171}'&gt;Aliases.browser.Page__EditLineItem.sectionConfigure.Licence__panel&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Property&lt;/th&gt;&lt;td&gt;Enabled&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Condition&lt;/th&gt;&lt;td&gt;equals&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Actual value&lt;/th&gt;&lt;td&gt;&lt;span style=&quot;white-space: pre-wrap; &quot;&gt;true&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Expected value&lt;/th&gt;&lt;td&gt;&lt;span style=&quot;white-space: pre-wrap; &quot;&gt;true&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="id" type="I" value="18"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The property checkpoint passed: Enabled equals true."/>
+			<Prp name="date" type="D" value="45847.6274045602"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="48"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="7"/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{68DBE55F-076F-48A6-8F06-CC7A1922D00E}"/>
+		</Node>
+		<Node name="message 3">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="image file name" type="S" value="visImage51.png"/>
+					<Prp name="object top" type="I" value="357"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.Page__EditLineItem.textnodeAllFamilies.EGM__Tab"/>
+					<Prp name="object bottom" type="I" value="375"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="13"/>
+					<Prp name="click point x" type="I" value="1518"/>
+					<Prp name="object left" type="I" value="1504"/>
+					<Prp name="click point y" type="I" value="366"/>
+					<Prp name="object right" type="I" value="1532"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="45847.3978393171"/>
+				</Node>
+			</Node>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="A click at point (12, 8) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.Page__EditLineItem.textnodeAllFamilies.EGM__Tab&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000c8sbCAA/view&quot;).FindElement(&quot;//span[@title='EGM']&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="date" type="D" value="45847.6270077662"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="13"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+		</Node>
+		<Node name="message 15">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="&lt;h3&gt;Result&lt;/h3&gt;&lt;span&gt;The property checkpoint &lt;img style = &quot;width: 14px; height: 14px; vertical-align: text-bottom; margin: 2px;&quot; src=&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAB3RJTUUH4wIUBiMun01WOAAAAlZJREFUWMPdly1s20AUx/+ODCptij0FGERrKhsEbF2mTQqoWsk8JIXugAOTkRiabTAwJWvZErAGriTcUqKCkq1KBwJcpZ0KDKr5Kk0qsOShWf64+CNzFWnH7Du/3//ee773jnFdF+scBax5sGkXEscWT6yBObENTImBe4cE5ossh11Oxh4v40BoSRzLX6WxyySFgDi2qJuaObKGmXamCCp6Uj9RSKyA8d2p25m3IrtNO4osh6PqAI1Sk8ksQDc19/j2MJc4t8td9KQ+kzoJ84QDwPHtIXRTc1N5YHx36r77sf8oGf/lxddIOAICiGOL2+db5qoxT5MTs/oikJiFkOsfDQ4A9w6BbmomNQeIY4tZf7W4neqVD3j5pBaZG1lDEMcWIwJOrIGZF3z8yoBe+YhxzaCK8LM8ARPbyA2+/fQ1AIBjeYxrBoosF1jnZ3kCpmS5ANoukuBxw88q+BOEZnTy5humb7/jU/VzZjhxbDQu5Iht/3NsNfQbPRBaVBFJ8MvfF1TbNw8LN1bA841KxGhYxKpwANjc2GJiBfx8uEZn3oq8/yviX+DUk3DzjHdpeaAIKo6qg7Q9Qyp4keVws2MHPbDLydTFI2tI9cSq8DDLE7DHy0s/SBKR1e1+lhcC4thi5eyZmdTlhMORFQ4A1zu/vILkeYBj+StFUGM/DHtiFbgiqPBXw5XKsSKoeF/W0Jm3MsFp5XjtDUnkHGiUmky73M0d3i53qc0p9SDqSf1cRcQ1pWtvy2OLUaPUZGb1hZT0dyxL1Fl9IcXBU92M1n41++9vx38AoNJrUz8FYVwAAAAASUVORK5CYII=&quot;&gt;&lt;b&gt;passed&lt;/b&gt;: Aliases.browser.Page__Ed...igure.BillAccepter__Tab.Enabled&lt;b&gt; equals &lt;/b&gt;true.&lt;/span&gt;&lt;h3&gt;Details&lt;/h3&gt;&lt;div class=&quot;table-border full-width&quot;&gt;&lt;table class=&quot;table-borderless table-vertical&quot;&gt;&lt;tr&gt;&lt;th style=&quot;width: 16em;&quot;&gt;Object&lt;/th&gt;&lt;td&gt;&lt;a href='lnamemapping://{91651B73-7C63-403C-A23E-6C849C754F54}.{A16A2758-2AF9-4156-AFEE-B1C4C41F689E}'&gt;Aliases.browser.Page__EditLineItem.sectionConfigure.BillAccepter__Tab&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Property&lt;/th&gt;&lt;td&gt;Enabled&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Condition&lt;/th&gt;&lt;td&gt;equals&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Actual value&lt;/th&gt;&lt;td&gt;&lt;span style=&quot;white-space: pre-wrap; &quot;&gt;true&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Expected value&lt;/th&gt;&lt;td&gt;&lt;span style=&quot;white-space: pre-wrap; &quot;&gt;true&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="id" type="I" value="15"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value="Picture18.png"/>
+			<Prp name="message" type="S" value="The property checkpoint passed: Enabled equals true."/>
+			<Prp name="date" type="D" value="45847.6273777894"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="42"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="7"/>
+		</Node>
+		<Node name="message 10">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="10"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="verifying that mainfloor button/ApplyingPrefrence is enable"/>
+			<Prp name="date" type="D" value="45847.6272662963"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="34"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="0"/>
+		</Node>
+		<Node name="message 14">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="image file name" type="S" value="visImage58.png"/>
+					<Prp name="object top" type="I" value="434"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.Page__EditLineItem.sectionConfigure.Mainfloor__Button"/>
+					<Prp name="object bottom" type="I" value="463"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="40"/>
+					<Prp name="click point x" type="I" value="1643"/>
+					<Prp name="object left" type="I" value="1602"/>
+					<Prp name="click point y" type="I" value="448"/>
+					<Prp name="object right" type="I" value="1685"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="45847.3982007523"/>
+				</Node>
+			</Node>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.Page__EditLineItem.sectionConfigure.Mainfloor__Button&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000c8sbCAA/view&quot;).FindElement(&quot;//button[.='MainFloor']&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="14"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="date" type="D" value="45847.6273696759"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="40"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+		</Node>
+		<Node name="message 27">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="image file name" type="S" value="visImage61.png"/>
+					<Prp name="object top" type="I" value="597"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.Page__EditLineItem.sectionConfigure.License__Tab"/>
+					<Prp name="object bottom" type="I" value="629"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="68"/>
+					<Prp name="click point x" type="I" value="639"/>
+					<Prp name="object left" type="I" value="356"/>
+					<Prp name="click point y" type="I" value="613"/>
+					<Prp name="object right" type="I" value="922"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="45847.3984301505"/>
+				</Node>
+			</Node>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.Page__EditLineItem.sectionConfigure.License__Tab&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000c8sbCAA/view&quot;).FindElement(&quot;//tr[2]/td/c-egm-configurator-line-item-editor-row//select[contains(@class, 'slds-select')]&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="27"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The combo box item 3 was selected."/>
+			<Prp name="date" type="D" value="45847.6276111574"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="68"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+		</Node>
+		<Node name="message 13">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="&lt;h3&gt;Result&lt;/h3&gt;&lt;span&gt;The property checkpoint &lt;img style = &quot;width: 14px; height: 14px; vertical-align: text-bottom; margin: 2px;&quot; src=&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAB3RJTUUH4wIUBiMun01WOAAAAlZJREFUWMPdly1s20AUx/+ODCptij0FGERrKhsEbF2mTQqoWsk8JIXugAOTkRiabTAwJWvZErAGriTcUqKCkq1KBwJcpZ0KDKr5Kk0qsOShWf64+CNzFWnH7Du/3//ee773jnFdF+scBax5sGkXEscWT6yBObENTImBe4cE5ossh11Oxh4v40BoSRzLX6WxyySFgDi2qJuaObKGmXamCCp6Uj9RSKyA8d2p25m3IrtNO4osh6PqAI1Sk8ksQDc19/j2MJc4t8td9KQ+kzoJ84QDwPHtIXRTc1N5YHx36r77sf8oGf/lxddIOAICiGOL2+db5qoxT5MTs/oikJiFkOsfDQ4A9w6BbmomNQeIY4tZf7W4neqVD3j5pBaZG1lDEMcWIwJOrIGZF3z8yoBe+YhxzaCK8LM8ARPbyA2+/fQ1AIBjeYxrBoosF1jnZ3kCpmS5ANoukuBxw88q+BOEZnTy5humb7/jU/VzZjhxbDQu5Iht/3NsNfQbPRBaVBFJ8MvfF1TbNw8LN1bA841KxGhYxKpwANjc2GJiBfx8uEZn3oq8/yviX+DUk3DzjHdpeaAIKo6qg7Q9Qyp4keVws2MHPbDLydTFI2tI9cSq8DDLE7DHy0s/SBKR1e1+lhcC4thi5eyZmdTlhMORFQ4A1zu/vILkeYBj+StFUGM/DHtiFbgiqPBXw5XKsSKoeF/W0Jm3MsFp5XjtDUnkHGiUmky73M0d3i53qc0p9SDqSf1cRcQ1pWtvy2OLUaPUZGb1hZT0dyxL1Fl9IcXBU92M1n41++9vx38AoNJrUz8FYVwAAAAASUVORK5CYII=&quot;&gt;&lt;b&gt;passed&lt;/b&gt;: Aliases.browser.Page__Ed...onfigure.Promotion__Tab.Enabled&lt;b&gt; equals &lt;/b&gt;true.&lt;/span&gt;&lt;h3&gt;Details&lt;/h3&gt;&lt;div class=&quot;table-border full-width&quot;&gt;&lt;table class=&quot;table-borderless table-vertical&quot;&gt;&lt;tr&gt;&lt;th style=&quot;width: 16em;&quot;&gt;Object&lt;/th&gt;&lt;td&gt;&lt;a href='lnamemapping://{91651B73-7C63-403C-A23E-6C849C754F54}.{F4F75A70-0FE0-4581-A544-ABD91CB87EC4}'&gt;Aliases.browser.Page__EditLineItem.sectionConfigure.Promotion__Tab&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Property&lt;/th&gt;&lt;td&gt;Enabled&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Condition&lt;/th&gt;&lt;td&gt;equals&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Actual value&lt;/th&gt;&lt;td&gt;&lt;span style=&quot;white-space: pre-wrap; &quot;&gt;true&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Expected value&lt;/th&gt;&lt;td&gt;&lt;span style=&quot;white-space: pre-wrap; &quot;&gt;true&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="id" type="I" value="13"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The property checkpoint passed: Enabled equals true."/>
+			<Prp name="date" type="D" value="45847.627364456"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="38"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="7"/>
+		</Node>
+		<Node name="message 8">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="image file name" type="S" value="visImage56.png"/>
+					<Prp name="object top" type="I" value="934"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.Page__EditLineItem.Continue__Button"/>
+					<Prp name="object bottom" type="I" value="970"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="28"/>
+					<Prp name="click point x" type="I" value="1640"/>
+					<Prp name="object left" type="I" value="1592"/>
+					<Prp name="click point y" type="I" value="952"/>
+					<Prp name="object right" type="I" value="1689"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="45847.3980220139"/>
+				</Node>
+			</Node>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.Page__EditLineItem.Continue__Button&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000c8sbCAA/view&quot;).FindElement(&quot;//button[.='Continue']&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="8"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="date" type="D" value="45847.6271908102"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="28"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+		</Node>
+		<Node name="message 16">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="&lt;h3&gt;Result&lt;/h3&gt;&lt;span&gt;The property checkpoint &lt;img style = &quot;width: 14px; height: 14px; vertical-align: text-bottom; margin: 2px;&quot; src=&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAB3RJTUUH4wIUBiMun01WOAAAAlZJREFUWMPdly1s20AUx/+ODCptij0FGERrKhsEbF2mTQqoWsk8JIXugAOTkRiabTAwJWvZErAGriTcUqKCkq1KBwJcpZ0KDKr5Kk0qsOShWf64+CNzFWnH7Du/3//ee773jnFdF+scBax5sGkXEscWT6yBObENTImBe4cE5ossh11Oxh4v40BoSRzLX6WxyySFgDi2qJuaObKGmXamCCp6Uj9RSKyA8d2p25m3IrtNO4osh6PqAI1Sk8ksQDc19/j2MJc4t8td9KQ+kzoJ84QDwPHtIXRTc1N5YHx36r77sf8oGf/lxddIOAICiGOL2+db5qoxT5MTs/oikJiFkOsfDQ4A9w6BbmomNQeIY4tZf7W4neqVD3j5pBaZG1lDEMcWIwJOrIGZF3z8yoBe+YhxzaCK8LM8ARPbyA2+/fQ1AIBjeYxrBoosF1jnZ3kCpmS5ANoukuBxw88q+BOEZnTy5humb7/jU/VzZjhxbDQu5Iht/3NsNfQbPRBaVBFJ8MvfF1TbNw8LN1bA841KxGhYxKpwANjc2GJiBfx8uEZn3oq8/yviX+DUk3DzjHdpeaAIKo6qg7Q9Qyp4keVws2MHPbDLydTFI2tI9cSq8DDLE7DHy0s/SBKR1e1+lhcC4thi5eyZmdTlhMORFQ4A1zu/vILkeYBj+StFUGM/DHtiFbgiqPBXw5XKsSKoeF/W0Jm3MsFp5XjtDUnkHGiUmky73M0d3i53qc0p9SDqSf1cRcQ1pWtvy2OLUaPUZGb1hZT0dyxL1Fl9IcXBU92M1n41++9vx38AoNJrUz8FYVwAAAAASUVORK5CYII=&quot;&gt;&lt;b&gt;passed&lt;/b&gt;: Aliases.browser.Page__Ed...nConfigure.Printer__Tab.Enabled&lt;b&gt; equals &lt;/b&gt;true.&lt;/span&gt;&lt;h3&gt;Details&lt;/h3&gt;&lt;div class=&quot;table-border full-width&quot;&gt;&lt;table class=&quot;table-borderless table-vertical&quot;&gt;&lt;tr&gt;&lt;th style=&quot;width: 16em;&quot;&gt;Object&lt;/th&gt;&lt;td&gt;&lt;a href='lnamemapping://{91651B73-7C63-403C-A23E-6C849C754F54}.{AC2186BE-4E9B-4627-802D-476C03435D98}'&gt;Aliases.browser.Page__EditLineItem.sectionConfigure.Printer__Tab&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Property&lt;/th&gt;&lt;td&gt;Enabled&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Condition&lt;/th&gt;&lt;td&gt;equals&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Actual value&lt;/th&gt;&lt;td&gt;&lt;span style=&quot;white-space: pre-wrap; &quot;&gt;true&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Expected value&lt;/th&gt;&lt;td&gt;&lt;span style=&quot;white-space: pre-wrap; &quot;&gt;true&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="id" type="I" value="16"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value="Picture19.png"/>
+			<Prp name="message" type="S" value="The property checkpoint passed: Enabled equals true."/>
+			<Prp name="date" type="D" value="45847.6273803241"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="44"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="7"/>
+		</Node>
+		<Node name="message 0">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="image file name" type="S" value="visImage48.png"/>
+					<Prp name="object top" type="I" value="357"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.Page__PreAccountApproval.Home__Panel.QuoteAddEditLineItems__Tab"/>
+					<Prp name="object bottom" type="I" value="393"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="4"/>
+					<Prp name="click point x" type="I" value="557"/>
+					<Prp name="object left" type="I" value="475"/>
+					<Prp name="click point y" type="I" value="375"/>
+					<Prp name="object right" type="I" value="639"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="45847.3977509028"/>
+				</Node>
+			</Node>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.Page__PreAccountApproval.Home__Panel.QuoteAddEditLineItems__Tab&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000c8sbCAA/view&quot;).FindElement(&quot;//button[@name='Quote.Add_Edit_Line_Items']&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="date" type="D" value="45847.6269207523"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="4"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+		</Node>
+		<Node name="message 28">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="image file name" type="S" value="visImage62.png"/>
+					<Prp name="object top" type="I" value="509"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.Page__EditLineItem.sectionConfigure.Promotion__Button"/>
+					<Prp name="object bottom" type="I" value="541"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="74"/>
+					<Prp name="click point x" type="I" value="639"/>
+					<Prp name="object left" type="I" value="356"/>
+					<Prp name="click point y" type="I" value="525"/>
+					<Prp name="object right" type="I" value="922"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="45847.3984780671"/>
+				</Node>
+			</Node>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.Page__EditLineItem.sectionConfigure.Promotion__Button&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000c8sbCAA/view&quot;).FindElement(&quot;//tr/td/c-egm-configurator-line-item-editor-row//select[contains(@class, 'slds-select')]&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="28"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The combo box item 3 was selected."/>
+			<Prp name="date" type="D" value="45847.6276587153"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="74"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+		</Node>
+		<Node name="message 2">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="image file name" type="S" value="visImage50.png"/>
+					<Prp name="object top" type="I" value="265"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.Page__EditLineItem.textnodeAllFamilies.Families__Tab"/>
+					<Prp name="object bottom" type="I" value="301"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="10"/>
+					<Prp name="click point x" type="I" value="1618"/>
+					<Prp name="object left" type="I" value="1458"/>
+					<Prp name="click point y" type="I" value="283"/>
+					<Prp name="object right" type="I" value="1778"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="45847.3978108218"/>
+				</Node>
+			</Node>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.Page__EditLineItem.textnodeAllFamilies.Families__Tab&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000c8sbCAA/view&quot;).FindElement(&quot;//button[.='All Families']&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="date" type="D" value="45847.6269798148"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="10"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+		</Node>
+		<Prp name="status" type="I" value="0"/>
+	</Node>
+</Nodes>

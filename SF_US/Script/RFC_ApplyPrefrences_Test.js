@@ -4,6 +4,6 @@ function RFC_ApplyPrefrences_Test()
 
 {
   
-   RFCApply_Pref_Validetion()
-   RFC_EditLineItem_Validation()
+   RFCApply_Pref_Validation()
+
 }

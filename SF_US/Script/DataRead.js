@@ -98,3 +98,33 @@ function dataReader(sheetName){
     }
   return dataReaderMap;
 }
+
+
+function SF_GlobalSearch(SearchFor,SearchText) //  let SearchFor="Accounts", let SearchText="AM0111800"
+{
+  let HomeSalesforce = Aliases.browser.page_HomeSalesforce;
+  let objSearch=Aliases.browser.Page__PreAccountApproval.Home__Panel.UserLogedIn__Panel.GlobalAccount__Tab;
+  let GlobalSearch=Aliases.browser.Page__RFCQuote.Quote__Button;
+  
+  
+ 
+  //waitingObject_Load_Visible(objSearch,30000);
+  if (objSearch.Exists){    
+    objSearch.Click();
+    objSearch.Keys(SearchFor);
+    Log.Message("Global Search All for : "+SearchFor)
+    Delay(1000);
+    KeyboardOperations("Down",1);
+    KeyboardOperations("Tab",1);
+    GlobalSearch.Click();
+    GlobalSearch.SetText(SearchText);
+    Log.Message("Search Text is "+SearchText);
+    Delay(1000);
+    KeyboardOperations("Down",1);
+    Delay(1000);
+    KeyboardOperations("Enter",1); //}
+    }else{
+      Log.Error("unable to perform the search Operation");
+    }
+}
+

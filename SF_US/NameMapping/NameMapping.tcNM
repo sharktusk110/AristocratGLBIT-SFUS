@@ -1070,17 +1070,23 @@
 										</Selectors>
 									</Child>
 									<Child Name="textnodeFilterAccountAccounts" Key="{9A19457A-FED7-4C55-BCB0-1B001881880E}">
-										<Image FileName="-921855958" Left="11" Top="141" Right="11" Bottom="141" />
+										<Image FileName="40725571" Left="11" Top="141" Right="11" Bottom="141" />
 										<TypeInfo Item0="{4A69AE82-D5F3-414A-91F4-8BD9F181897E}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//ul/li/lightning-base-combobox-item//span[@title=&apos;Accounts&apos;]" />
+												<Value Value="#combobox-input-91-1-91" />
 											</Selector>
 											<Selector>
-												<Value Value="//lightning-base-combobox-item[@id=&apos;combobox-input-90-1-90&apos;]//span/span" />
+												<Value Value="//li[3]/lightning-base-combobox-item[@role=&apos;option&apos;]" />
 											</Selector>
 											<Selector>
-												<Value Value="//div[@role=&apos;listbox&apos;]/ul/li[3]/lightning-base-combobox-item/span/span" />
+												<Value Value="//li[3]/lightning-base-combobox-item[contains(@class, &apos;slds-media&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;dropdown-element-91&apos;]//li[3]/lightning-base-combobox-item" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[3]/lightning-base-combobox-item" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -1494,18 +1500,6 @@
 											</Selector>
 										</Selectors>
 									</Child>
-									<Child Name="panelConversionLineItemCount2" Key="{367F4DE4-C76B-431D-B730-83492883A7A9}">
-										<Image FileName="-521254680" Left="1252" Top="442" Right="1417" Bottom="483" />
-										<TypeInfo Item0="{4A69AE82-D5F3-414A-91F4-8BD9F181897E}" />
-										<Selectors>
-											<Selector>
-												<Value Value="//div[@id=&apos;brandBand_2&apos;]//records-highlights-details-item[6]/div" />
-											</Selector>
-											<Selector>
-												<Value Value="//records-highlights-details-item[6]/div" />
-											</Selector>
-										</Selectors>
-									</Child>
 									<Child Name="textnode12EqualMonthlyPayments" Key="{CA479BD9-4985-40DB-89C2-1C544ED92F53}">
 										<Image FileName="1866727996" Left="62" Top="513" Right="255" Bottom="534" />
 										<TypeInfo Item0="{4A69AE82-D5F3-414A-91F4-8BD9F181897E}" />
@@ -1549,20 +1543,110 @@
 										</Selectors>
 									</Child>
 									<Child Name="panel5" Key="{B6427CD3-C353-4431-BFB8-DE5D9C6F175A}">
-										<Image FileName="-876690909" Left="982" Top="623" Right="1755" Bottom="645" />
+										<Image FileName="-1307855450" Left="982" Top="623" Right="1755" Bottom="645" />
 										<TypeInfo Item0="{4A69AE82-D5F3-414A-91F4-8BD9F181897E}" />
 										<Selectors>
-											<Selector>
-												<Value Value="//div[.=&apos;GOps MSP Coin In Jackpot Funded&apos;]" />
-											</Selector>
 											<Selector>
 												<Value Value="//tr[11]/td/div[contains(@class, &apos;slds-truncate&apos;)]" />
 											</Selector>
 											<Selector>
-												<Value Value="//div[@id=&apos;wrapper-body&apos;]//c-selling-model-selector//tr[11]/td/div" />
+												<Value Value="//div[@id=&apos;wrapper-body&apos;]//tr[11]/td/div" />
 											</Selector>
 											<Selector>
-												<Value Value="//c-selling-model-selector//tr[11]/td/div" />
+												<Value Value="//tr[11]/td/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode10247500" Key="{844FB12D-5A83-4E1F-A3A7-779BCF0947EF}">
+										<Image FileName="-1085686590" Left="1669" Top="525" Right="1752" Bottom="546" />
+										<TypeInfo Item0="{4A69AE82-D5F3-414A-91F4-8BD9F181897E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//lightning-formatted-number[.=&apos;$102,475.00&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;wrapper-body&apos;]//slot//div[8]//lightning-formatted-number" />
+											</Selector>
+											<Selector>
+												<Value Value="//slot//div[8]//lightning-formatted-number" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeConversionLineItemCount" Key="{4C254ECF-879A-46B1-BED5-62A85CD5320C}">
+										<Image FileName="1600968199" Left="1216" Top="442" Right="1417" Bottom="485" />
+										<TypeInfo Item0="{4A69AE82-D5F3-414A-91F4-8BD9F181897E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//records-highlights-details-item[contains(., &apos;Conversion Line Item Count&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode20759000" Key="{04C2D82C-1979-4263-B1D5-A9D15A1A90FE}">
+										<Image FileName="-1987625402" Left="1726" Top="917" Right="1803" Bottom="937" />
+										<TypeInfo Item0="{4A69AE82-D5F3-414A-91F4-8BD9F181897E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@id=&apos;wrapper-body&apos;]//div[2]/lightning-formatted-number" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//section//c-add-edit-line-items//div[2]/div[2]/lightning-formatted-number" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode52" Key="{18225F53-6BE8-4A38-BE2F-21ADEBE39889}">
+										<Image FileName="-1392137713" Left="1139" Top="461" Right="1148" Bottom="482" />
+										<TypeInfo Item0="{4A69AE82-D5F3-414A-91F4-8BD9F181897E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@id=&apos;brandBand_2&apos;]//slot/records-highlights-details-item[5]//p/slot/lightning-formatted-number" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//records-highlights-details-item[5]/div/p/slot/lightning-formatted-number" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode16" Key="{F4BA2329-7F0D-40E9-AEAA-530FC74183DC}">
+										<Image FileName="1239037222" Left="999" Top="461" Right="1016" Bottom="482" />
+										<TypeInfo Item0="{4A69AE82-D5F3-414A-91F4-8BD9F181897E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@id=&apos;brandBand_2&apos;]//forcegenerated-highlightspanel_quote___0127f000000htv1qaa___compact___view___recordlayout2//slot/records-formula-output/slot/lightning-formatted-number" />
+											</Selector>
+											<Selector>
+												<Value Value="//forcegenerated-highlightspanel_quote___0127f000000htv1qaa___compact___view___recordlayout2//p/slot/records-formula-output/slot/lightning-formatted-number" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//lightning-formatted-number[.=&apos;17&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode9222750" Key="{C62AD6E6-A212-414C-8C6C-F261FE22C885}">
+										<Image FileName="218997028" Left="1677" Top="525" Right="1752" Bottom="546" />
+										<TypeInfo Item0="{4A69AE82-D5F3-414A-91F4-8BD9F181897E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@id=&apos;wrapper-body&apos;]//slot//div[8]//lightning-formatted-number" />
+											</Selector>
+											<Selector>
+												<Value Value="//slot//div[8]//lightning-formatted-number" />
+											</Selector>
+											<Selector>
+												<Value Value="//lightning-formatted-number[.=&apos;$92,227.50&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeNotRequiredGopsMsp" Key="{B30FE087-2606-4DBD-8605-2860F18ABDE6}">
+										<Image FileName="-1147561698" Left="669" Top="613" Right="851" Bottom="634" />
+										<TypeInfo Item0="{4A69AE82-D5F3-414A-91F4-8BD9F181897E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//lightning-formatted-text[.=&apos;Not Required - GOps MSP&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;sectionContent-425&apos;]//records-record-layout-item[2]//slot/lightning-formatted-text" />
+											</Selector>
+											<Selector>
+												<Value Value="//records-record-layout-section[5]//slot/records-record-layout-row/slot/records-record-layout-item[2]//slot/lightning-formatted-text" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -3042,11 +3126,11 @@
 										</Selectors>
 									</Child>
 									<Child Name="Save__Button" Key="{F6EB85B3-5287-41AA-8FDF-16FCD155490A}">
-										<Image FileName="-941200781" Left="1373" Top="860" Right="1445" Bottom="898" />
+										<Image FileName="102383228" Left="1358" Top="880" Right="1426" Bottom="916" />
 										<TypeInfo Item0="{E2BFDE41-B447-499C-9316-C54CB87CBEF5}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//footer/button[contains(@class, &apos;slds-button_brand&apos;)]" />
+												<Value Value="//footer/button[2]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -3677,7 +3761,7 @@
 											</Selector>
 										</Selectors>
 									</Child>
-									<Child Name="textnode7" Key="{73C3A667-FE0D-40C5-A118-E2B2E6242E98}">
+									<Child Name="Qnty__Box" Key="{73C3A667-FE0D-40C5-A118-E2B2E6242E98}">
 										<Image FileName="-544485229" Left="1656" Top="282" Right="1665" Bottom="304" />
 										<TypeInfo Item0="{125957F6-DF91-4BD5-8034-030FE74ACC7F}" />
 										<Selectors>
@@ -4373,24 +4457,6 @@
 											</Selector>
 										</Selectors>
 									</Child>
-									<Child Name="buttonSave" Key="{F5AD8111-0742-4C0A-B2AD-F674B391D756}">
-										<Image FileName="-1087503511" Left="1625" Top="939" Right="1693" Bottom="975" />
-										<TypeInfo Item0="{E2BFDE41-B447-499C-9316-C54CB87CBEF5}" />
-										<Selectors>
-											<Selector>
-												<Value Value="//div[@role=&apos;dialog&apos;]//c-egm-configurator/div/div[3]/lightning-button/button[@type=&apos;button&apos;]" />
-											</Selector>
-											<Selector>
-												<Value Value="//div[@role=&apos;dialog&apos;]//c-egm-configurator/div/div[3]/lightning-button/button[contains(@class, &apos;slds-button&apos;)]" />
-											</Selector>
-											<Selector>
-												<Value Value="//div[@id=&apos;wrapper-body&apos;]//div[2]/c-egm-configurator//div[3]/lightning-button/button" />
-											</Selector>
-											<Selector>
-												<Value Value="//div[@role=&apos;dialog&apos;]//c-egm-configurator/div/div[3]/lightning-button/button" />
-											</Selector>
-										</Selectors>
-									</Child>
 									<Child Name="buttonQuoteAddEditLineItems2" Key="{53063D43-9BCE-497B-AA38-DF681AC148D3}">
 										<Image FileName="387620421" Left="475" Top="357" Right="639" Bottom="393" />
 										<TypeInfo Item0="{E2BFDE41-B447-499C-9316-C54CB87CBEF5}" />
@@ -4433,14 +4499,14 @@
 										</Selectors>
 									</Child>
 									<Child Name="vg2" Key="{67E6F50F-77BD-4EBA-B315-067B226A58C5}">
-										<Image FileName="2092457368" Left="1669" Top="758" Right="1685" Bottom="774" />
+										<Image FileName="1192822600" Left="1680" Top="846" Right="1696" Bottom="862" />
 										<TypeInfo Item0="{125957F6-DF91-4BD5-8034-030FE74ACC7F}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//tr[13]/td/c-line-item-editor-row//div[3]//lightning-icon//lightning-primitive-icon/*[name()=&apos;svg&apos;][contains(@class, &apos;slds-icon&apos;)]" />
+												<Value Value="xpath=//tbody/tr[13]/td[1]/c-line-item-editor-row[1]/div[1]/div[1]/div[3]/div[1]/div[1]/lightning-icon[1]/span[1]/lightning-primitive-icon[1]//*[name()=&apos;svg&apos;]" />
 											</Selector>
 											<Selector>
-												<Value Value="//tr[13]/td/c-line-item-editor-row//div[3]//lightning-icon//lightning-primitive-icon/*[name()=&apos;svg&apos;]" />
+												<Value Value="//tr[15]/td/c-line-item-editor-row//div[3]//lightning-icon//lightning-primitive-icon/*[name()=&apos;svg&apos;]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -4523,6 +4589,83 @@
 											</Selector>
 											<Selector>
 												<Value Value="//div[@role=&apos;main&apos;]//section/div/div/div/p" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonSave" Key="{F5AD8111-0742-4C0A-B2AD-F674B391D756}">
+										<Image FileName="-1087503511" Left="1625" Top="939" Right="1693" Bottom="975" />
+										<TypeInfo Item0="{E2BFDE41-B447-499C-9316-C54CB87CBEF5}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//c-egm-configurator/div/div[3]/lightning-button/button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//c-egm-configurator/div/div[3]/lightning-button/button[contains(@class, &apos;slds-button&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;wrapper-body&apos;]//div[2]/c-egm-configurator//div[3]/lightning-button/button" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//c-egm-configurator/div/div[3]/lightning-button/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxUnitDisc" Key="{2667D88B-174F-456A-BB94-5A53209ED118}">
+										<Image FileName="1452388547" Left="1201" Top="510" Right="1281" Bottom="541" />
+										<TypeInfo Item0="{5CC6A58C-C0C8-4182-A97A-42F6A93F6F20}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[5]//lightning-input/lightning-primitive-input-simple//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[5]//lightning-input/lightning-primitive-input-simple//input[contains(@class, &apos;slds-input&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;wrapper-body&apos;]//div//div[5]//lightning-input/lightning-primitive-input-simple//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[5]//lightning-input/lightning-primitive-input-simple//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode2049500" Key="{9BEF5ABC-B4E0-4881-B656-35F64D2295F4}">
+										<Image FileName="-452748790" Left="1661" Top="519" Right="1736" Bottom="540" />
+										<TypeInfo Item0="{125957F6-DF91-4BD5-8034-030FE74ACC7F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@id=&apos;wrapper-body&apos;]//slot//div[8]//lightning-formatted-number" />
+											</Selector>
+											<Selector>
+												<Value Value="//slot//div[8]//lightning-formatted-number" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="section10" Key="{DD25ABFF-F90B-40EE-BB4F-FFB9A7E35CA8}">
+										<Image FileName="-1586957301" Left="119" Top="153" Right="1802" Bottom="997" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Add EGM for Quote : RFC BELLAGIO LAS VEGAS-Test623&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;bodyWrapper&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonSave3" Key="{9EC7D173-F6E7-4413-9E1F-4AD2E3355090}">
+										<Image FileName="-1586957301" Left="1621" Top="934" Right="1689" Bottom="970" />
+										<TypeInfo Item0="{E2BFDE41-B447-499C-9316-C54CB87CBEF5}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//c-egm-configurator/div/div[3]/lightning-button[2]/button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//c-egm-configurator/div/div[3]/lightning-button[2]/button[contains(@class, &apos;slds-button&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;wrapper-body&apos;]//div[2]/c-egm-configurator//div[3]/lightning-button[2]/button" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//c-egm-configurator/div/div[3]/lightning-button[2]/button" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -4792,6 +4935,7 @@
 					<Child Name="FinanceCharge__Label" Owner="{2D97DC14-D375-4E02-A66A-972B1632EC42}" />
 					<Child Name="textnodeUsd1250002" Owner="{54306C0F-ACBE-4D02-95F9-6535276D55C8}" />
 					<Child Name="textnode12EqualMonthlyPayments" Owner="{CA479BD9-4985-40DB-89C2-1C544ED92F53}" />
+					<Child Name="GopsMspNotRequired__Label" Owner="{B30FE087-2606-4DBD-8605-2860F18ABDE6}" />
 				</Child>
 				<Child Name="textnodeTabs2" Owner="{D2F3F4E5-D2C7-4A6A-AF7B-D540DEBDAC40}">
 					<Child Name="Details__Tab2" Owner="{DB7319EA-19B0-47B4-A85E-08A061B64E99}" />
@@ -4799,10 +4943,11 @@
 				<Child Name="NewOpportunity__Tab" Owner="{061BE284-1A3E-4C2F-A006-4E2E3169F98C}" />
 				<Child Name="AddEditLineItem__Button" Owner="{6139CB92-58EA-4B89-8D8D-88D9EBC31393}" />
 				<Child Name="textnodeEgmCount" Owner="{1D359CCC-F314-416A-8086-FA6EC5AA513F}" />
-				<Child Name="panelConversionLineItemCount" Owner="{1B719EDA-BEF0-4A7C-9040-EC95AB198BEB}" />
 				<Child Name="textnodeEgmCount2" Owner="{25FD3971-957A-4386-A5E5-A72F2DF872A9}" />
-				<Child Name="panelConversionLineItemCount2" Owner="{367F4DE4-C76B-431D-B730-83492883A7A9}" />
 				<Child Name="panelQuote" Owner="{513EEC36-AFDE-4453-817F-94C3C2190B5C}" />
+				<Child Name="textnodeConversionLineItemCount" Owner="{4C254ECF-879A-46B1-BED5-62A85CD5320C}" />
+				<Child Name="ConverLineItemCount__Label" Owner="{18225F53-6BE8-4A38-BE2F-21ADEBE39889}" />
+				<Child Name="EGMQuantity__Label" Owner="{F4BA2329-7F0D-40E9-AEAA-530FC74183DC}" />
 			</Child>
 			<Child Name="Page__Opportunity" Owner="{23E657C5-55A5-45AB-9F96-90930AEAB3B7}">
 				<Child Name="OpportunityName__Panel" Owner="{7B682A43-C28C-4610-A915-7D585A5FAB99}">
@@ -4848,12 +4993,15 @@
 					<Child Name="Licence__panel" Owner="{5179E5FC-6749-46B0-9F46-E8629F4751AB}" />
 					<Child Name="Button__Panel" Owner="{EFE396E1-5CCF-4410-93D9-CC45DE17B970}" />
 					<Child Name="OtherDiscount__Panel" Owner="{A8E8C030-A7E5-4B4E-81C5-19F44A87F24E}" />
+					<Child Name="UnitDiscount__Box" Owner="{2667D88B-174F-456A-BB94-5A53209ED118}" />
+					<Child Name="TotalPrice__Label" Owner="{9BEF5ABC-B4E0-4881-B656-35F64D2295F4}" />
 				</Child>
 				<Child Name="Save__button" Owner="{B73EE1CB-FAEB-4190-8087-4CA12FABCF1E}" />
 				<Child Name="Save__Button3" Owner="{3340BDAC-E2E0-47DB-BC83-4CC084A713E9}" />
 				<Child Name="panelShowHideChildItems" Owner="{F72262E0-38A7-4146-8F68-A06AF9C3162C}" />
 				<Child Name="panelShowHideChildItems2" Owner="{14BCDD25-C257-49E5-B548-ACB2AAEF1954}" />
 				<Child Name="GOpsSale__Tab" Owner="{B6427CD3-C353-4431-BFB8-DE5D9C6F175A}" />
+				<Child Name="GrantTotalAmount__Label" Owner="{04C2D82C-1979-4263-B1D5-A9D15A1A90FE}" />
 			</Child>
 			<Child Name="Page__Config" Owner="{626D3511-A722-47F8-B88E-60AD6E30694E}">
 				<Child Name="ConfigTool__Tab" Owner="{FA144C5A-18BA-4C97-A4B6-E51E09D6AF28}" />
@@ -4878,6 +5026,8 @@
 						<Child Name="panel2" Owner="{2475570F-1D2C-4C0D-A0FC-30830E8DE63C}" />
 						<Child Name="panel3" Owner="{F47492E8-2AC8-4666-94FF-64A3DE021D96}" />
 						<Child Name="F" Owner="{E32C27AC-A7DB-4400-9435-22C4C774C2C3}" />
+						<Child Name="textnode10247500" Owner="{844FB12D-5A83-4E1F-A3A7-779BCF0947EF}" />
+						<Child Name="UpdatedTotalPrice__Label" Owner="{C62AD6E6-A212-414C-8C6C-F261FE22C885}" />
 					</Child>
 				</Child>
 				<Child Name="RFCSave_Button" Owner="{35D2854D-B50A-426D-AD63-1F9EF601EAB5}" />
@@ -4897,6 +5047,7 @@
 					<Child Name="PaymentTerms__Tab" Owner="{48131C55-C711-4425-A43B-886930B345B9}" />
 				</Child>
 				<Child Name="EGMCount__Label" Owner="{C1BCE205-D336-4D9A-8D72-3583D361DDE0}" />
+				<Child Name="buttonSave3" Owner="{9EC7D173-F6E7-4413-9E1F-4AD2E3355090}" />
 			</Child>
 		</Child>
 	</LogicalNodes>

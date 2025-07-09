@@ -54,6 +54,7 @@ function Opportunity_Success_Validation()
 
 function OpenAccount_Page()
 {
+  Delay(2000);
   //Clicks the 'GlobalSearch_Tab' control.
   Aliases.browser.Page__PreAccountApproval.Home__Panel.UserLogedIn__Panel.GlobalAccount__Tab.Click();
   //Delays the test execution for the specified time period.

@@ -1,99 +1,67 @@
-﻿function ConfigGOpsSale()
+﻿function ConfigGOpsSale_Config()
 {
-  //Clicks the 'EditLineItem_Tab' button.
+  
   Aliases.browser.Page__PostAccountApproval.AddEditLineItem__Button.ClickButton();
- 
- //Delays the test execution for the specified time period.
   Delay(2000);
   
-  //Clicks the 'Add_button' button.
- Aliases.browser.Page__EditLineItem.EditLine__Bar.header.Add__Button.ClickButton();
- 
-  //Delays the test execution for the specified time period.
+
+  Aliases.browser.Page__EditLineItem.EditLine__Bar.header.Add__Button.ClickButton();
   Delay(2000);
   
-  //Clicks the 'Families_Tab' button.
+ 
   Aliases.browser.Page__EditLineItem.textnodeAllFamilies.Families__Tab.ClickButton();
- 
-  //Delays the test execution for the specified time period.
   Delay(2000);
-  
-  //Clicks the 'textnodeNorthAmerica2' control.
+
   Aliases.browser.Page__EditLineItem.textnodeAllFamilies.EGM__Tab.Click();
- 
-  //Delays the test execution for the specified time period.
   Delay(2000);
-  
-  //Sets the text 'HELIX PLUS UPRIGHT' in the 'ProductSearch_Bar' text editor.
+
   Aliases.browser.Page__EditLineItem.ProductSearch__Bar.SetText("HELIX PLUS UPRIGHT");
- 
-  //Delays the test execution for the specified time period.
   Delay(2000);
   
-  //Simulates a left-button single click in a window or control as specified (relative position, shift keys).
+  
   Aliases.browser.Page__EditLineItem.HelixPlusUpright__Tab.Click();
-  
-  //Delays the test execution for the specified time period.
   Delay(2000);
   
-  //Clicks the 'ConversionsPaidSerialKnown_Tab' control.
   Aliases.browser.Page__EditLineItem.GOpsSale__Tab.Click();
- 
-  //Delays the test execution for the specified time period.
   Delay(2000);
   
-  //Clicks the 'Continue_Button' button.
   Aliases.browser.Page__EditLineItem.Continue__Button.ClickButton();
-  
-  //Delays the test execution for the specified time period.
   Delay(2000);
   
-  Delay(2000);
-  //Sets the text '2' in the 'Qnty_Tab' text editor.
- 
   Aliases.browser.Page__RFCQuote.Page__Configu.sectionConfigure2.Qnty__Tab.SetText("7");
-  //Delays the test execution for the specified time period.
+  Delay(2000);
   
-  //Selects the 2 item of the 'License_Tab' combo box.
- Aliases.browser.Page__EditLineItem.sectionConfigure.License__Tab.ClickItem(4);
-  
-  //Delays the test execution for the specified time period.
+  Aliases.browser.Page__EditLineItem.sectionConfigure.License__Tab.ClickItem(4);
   Delay(4000);
-  
-  //Clicks the 'buttonMainfloor' button.
+
   Aliases.browser.Page__EditLineItem.sectionConfigure.Mainfloor__Button.ClickButton();
-  
-  //Delays the test execution for the specified time period.
-  Delay(6000);
-  
-   //Delays the test execution for the specified time period.
-  Delay(2000);
- 
-  //Selects the 3 item of the 'Frieght__Tab' combo box.
+  Delay(6000);  
+
   Aliases.browser.Page__RFCQuote.Page__Configu.sectionConfigure2.Frieght__Tab.ClickItem(3);
-  
-  //Delays the test execution for the specified time period.
   Delay(2000);
   
-  //Selects the 3 item of the 'Promotion__Button' combo box.
   Aliases.browser.Page__EditLineItem.sectionConfigure.Promotion__Button.ClickItem(3);
-  
-  //Delays the test execution for the specified time period.
   Delay(2000);
   
-  //Simulates a left-button single click in a window or control as specified (relative position, shift keys).
-  Aliases.browser.Page__EditLineItem.sectionConfigure.License__Tab.Click(2);
+  Aliases.browser.Page__EditLineItem.sectionConfigure.UnitDiscount__Box.SetText(100);
+ 
   
-  //Delays the test execution for the specified time period.
-  Delay(2000);
-  
-  //Performs a single click on the specified button.
  Aliases.browser.Page__EditLineItem.Save__Button3.ClickButton();
-  
-  //Delays the test execution for the specified time period.
-  Delay(6000);
-  //Clicks the 'buttonClose' button.
+
+ Delay(6000);
+
+ Log.Message("Account has been created seccessfull massege")
+  aqObject.CheckProperty(Aliases.browser.Page__AccountCreation.AccountCreation__Toast, "Enabled", cmpEqual, true);
  
  NameMapping.Sys.browser.pageCasinoRoyaleAccountSalesforc.Close__Button.ClickButton();
+ 
+ 
+}
+
+function validateGOps_LeaseTerm()
+{
+  Log.Message("validation for Lease Term field is auto-populated with Not Required - GOps MSP ")
+  aqObject.CheckProperty(Aliases.browser.Page__PostAccountApproval.Detail__Tab.GopsMspNotRequired__Label, "contentText", cmpEqual, "Not Required - GOps MSP");
+
 }
 
