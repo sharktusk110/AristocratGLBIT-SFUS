@@ -58,7 +58,8 @@ Aliases.browser.Page__EditLineItem.sectionConfigure.UnitDiscount__Box.SetText("1
 aqObject.CheckProperty(Aliases.browser.Page__RFCQuote.Page__Configu.sectionConfigure2.UpdatedTotalPrice__Label, "contentText", cmpNotEqual, "$102,475.00", false);
 Delay(3000);
 Aliases.browser.Page__RFCQuote.section6.buttonSave.ClickButton();
-NameMapping.Sys.browser.pageCasinoRoyaleAccountSalesforc.Close__Button
+Delay(4000);
+NameMapping.Sys.browser.pageCasinoRoyaleAccountSalesforc.Close__Button.ClickButton();
 
 }
 

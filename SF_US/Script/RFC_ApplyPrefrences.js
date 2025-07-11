@@ -37,20 +37,28 @@ aqObject.CheckProperty(Aliases.browser.Page__EditLineItem.sectionConfigure.Mainf
  
 Log.Message("verifying that Promotion tab  is enable")
 aqObject.CheckProperty(Aliases.browser.Page__EditLineItem.sectionConfigure.Promotion__Tab, "Enabled", cmpEqual, true);
-  
+ 
+ 
 Aliases.browser.Page__EditLineItem.sectionConfigure.Mainfloor__Button.ClickButton();
  
+Log.Message("verifying that BillAccepter__Tab  is enable after applying Prefrences")
 aqObject.CheckProperty(Aliases.browser.Page__EditLineItem.sectionConfigure.BillAccepter__Tab, "Enabled", cmpEqual, true);
 
+Log.Message("verifying that Printer__Tab  is enable after applying Prefrences")
 aqObject.CheckProperty(Aliases.browser.Page__EditLineItem.sectionConfigure.Printer__Tab, "Enabled", cmpEqual, true);
 
+Log.Message("verifying that Trim__Tab  is enable after applying Prefrences")
 aqObject.CheckProperty(Aliases.browser.Page__EditLineItem.sectionConfigure.Trim__Tab, "Enabled", cmpEqual, true);
 
+Log.Message("verifying that Licence__panel  is enable after applying Prefrences")
 aqObject.CheckProperty(Aliases.browser.Page__EditLineItem.sectionConfigure.Licence__panel, "Enabled", cmpEqual, true);
 
+Log.Message("verifying that Button__Panel  is enable after applying Prefrences")
 aqObject.CheckProperty(Aliases.browser.Page__EditLineItem.sectionConfigure.Button__Panel, "Enabled", cmpEqual, true);
 
+Log.Message("verifying that OtherDiscount__Panel  is enable after applying Prefrences")
 aqObject.CheckProperty(Aliases.browser.Page__EditLineItem.sectionConfigure.OtherDiscount__Panel, "Enabled", cmpEqual, true);
+
 
 Log.Message(" RFC apply Prefrence Button is Visible")
 aqObject.CheckProperty(Aliases.browser.Page__EditLineItem.sectionConfigure.ApplyPrefrence__Button, "contentText", cmpEqual, "MainFloor");

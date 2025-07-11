@@ -3,8 +3,28 @@
 function ConfigGOpsSale()
 {
   ConfigGOpsSale_Config()
-  //validateGOps_LeaseTerm()
+  validateGOps_LeaseTerm()
 
 
 
+}
+
+function Test1()
+{
+  //Clicks the 'LeaseTerm__Tab' button.
+  Aliases.browser.Page__RFCQuote.LeaseTerm__Panel.LeaseTerm__Tab.ClickButton();
+  //Delays the test execution for the specified time period.
+  Delay(2000);
+  //Clicks the 'LeaseTerm__Tab' button.
+  Aliases.browser.Page__RFCQuote.LeaseTerm__Panel.LeaseTerm__Tab.ClickButton();
+  //Delays the test execution for the specified time period.
+  Delay(2000);
+  //Clicks the 'LeaseTermNone__Tab' control.
+  Aliases.browser.Page__RFCQuote.LeaseTerm__Panel.LeaseTermNone__Tab.Click();
+  //Delays the test execution for the specified time period.
+  Delay(2000);
+  //Clicks the 'Save__button' button.
+  Aliases.browser.Page__AccountCreation.Save__button.ClickButton();
+  //Delays the test execution for the specified time period.
+  Delay(2000);
 }

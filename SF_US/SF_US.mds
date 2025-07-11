@@ -231,6 +231,34 @@
 					</testItem>
 				</children>
 			</testItem>
+			<testItem name="343162_B04_RFC_Quote: Default Venue, Invoice and Delivery Addresses on RFC Creation" key="{1AFBF862-1C74-4C30-A817-AD4099F0C973}" group="False" parallel="False" enabled="True" load="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+				<testParameters />
+				<environments activeCloud="SWT" />
+				<children>
+					<testItem name="Step 1: Login to SalseForce" key="{3F3B8D7E-78E2-487A-9B31-017E04F8C393}" group="False" parallel="False" enabled="True" load="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+						<testParameters />
+						<environments activeCloud="SWT" />
+						<children>
+							<testItem name="Login_Test" key="{BB60C69B-CC81-465F-AA83-EE0738FC0B91}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{21823095-49D7-4B3D-973C-DEC7CADA04DD}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+								<testParameters />
+								<environments activeCloud="CBT" />
+								<children />
+							</testItem>
+						</children>
+					</testItem>
+					<testItem name="Step 2: Create RFC quote to verify address" key="{807F3CDD-C2B9-4C88-B8C2-A1B2FA2414B0}" group="False" parallel="False" enabled="True" load="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+						<testParameters />
+						<environments activeCloud="SWT" />
+						<children>
+							<testItem name="RFCForAddress_Test" key="{054B91AE-92A0-4FD9-985E-56E090A9FD8E}" group="False" parallel="False" enabled="True" load="False" testMoniker="{6738B5A5-9AFE-429B-BC08-5E778ED26A3F}RFCForAddress_Test" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+								<testParameters />
+								<environments activeCloud="SWT" />
+								<children />
+							</testItem>
+						</children>
+					</testItem>
+				</children>
+			</testItem>
 		</children>
 	</testItems>
 	<variables key="{350913AB-D488-49BA-853C-4A0450655799}">
@@ -276,7 +304,7 @@
 		</data>
 	</variables>
 	<settings key="{BE4F0ECD-D8EE-4BF5-B81E-1C4D77CE23C5}">
-		<settingsVersion value="15.75" />
+		<settingsVersion value="15.76" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>

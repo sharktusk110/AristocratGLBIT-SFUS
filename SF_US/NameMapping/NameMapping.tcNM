@@ -1650,6 +1650,72 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textnodeResourcePreferences0" Key="{F56E0B48-703E-408F-8D99-31AAEC7BAE97}">
+										<Image FileName="-279105143" Left="57" Top="592" Right="1862" Bottom="694" />
+										<TypeInfo Item0="{4A69AE82-D5F3-414A-91F4-8BD9F181897E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Resource Preferences&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;slds-grid&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//flexipage-tab2[@id=&apos;tab-4&apos;]//article/laf-progressive-container/slot/lst-related-list-quick-links-grid//ul" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//slot/lst-related-list-quick-links-grid/div/div/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeAddresses4" Key="{DC3AC87B-AF2D-469D-8C72-7E119D3EE3E5}">
+										<Image FileName="-279105143" Left="805" Top="592" Right="980" Bottom="624" />
+										<TypeInfo Item0="{4A69AE82-D5F3-414A-91F4-8BD9F181897E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;Open Addresses&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkWindow" Key="{4FDCC8AF-0D3E-4035-AB52-97B1445034AE}">
+										<Image FileName="1491330684" Left="116" Top="552" Right="180" Bottom="572" />
+										<TypeInfo Item0="{174E825F-F10F-4BD8-BAA0-3D6DBCAA05B7}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;A00000480&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeA00000480" Key="{A2A7BCC3-F551-47C3-9AA7-FDBFD2CF0E9D}">
+										<Image FileName="1491330684" Left="116" Top="553" Right="180" Bottom="570" />
+										<TypeInfo Item0="{4A69AE82-D5F3-414A-91F4-8BD9F181897E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[text()=&apos;A00000480&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="cell" Key="{F30421F0-6BAF-4F5B-A718-897396178BFA}">
+										<Image FileName="-179619056" Left="108" Top="527" Right="244" Bottom="595" />
+										<TypeInfo Item0="{C92A0477-E420-4F41-8EE5-5553CD50DC59}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//lst-related-list-desktop//div/table/tbody/tr[2]/th[@role=&apos;rowheader&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//lst-related-list-desktop//div/table/tbody/tr[2]/th[contains(@class, &apos;private-ssr-placeholder-class&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;brandBand_2&apos;]//lst-related-list-desktop//table/tbody/tr[2]/th" />
+											</Selector>
+											<Selector>
+												<Value Value="//lst-related-list-desktop//div/table/tbody/tr[2]/th" />
+											</Selector>
+											<Selector>
+												<Value Value="//th[contains(., &apos;A00000480&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageAccounts" Key="{EFF4F021-D956-40F4-9E87-A24D11739C05}">
@@ -4669,6 +4735,258 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="panelLeaseTerm" Key="{04EA5CB4-DE79-45C7-B0FB-F70334C3841B}">
+										<Image FileName="-764107815" Left="657" Top="366" Right="1219" Bottom="681" />
+										<TypeInfo Item0="{125957F6-DF91-4BD5-8034-030FE74ACC7F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#dropdown-element-2473" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeNone2" Key="{13A744C4-B928-4938-A06F-F5BA3D8E9F89}">
+										<Image FileName="-313857617" Left="658" Top="371" Right="1195" Bottom="409" />
+										<TypeInfo Item0="{125957F6-DF91-4BD5-8034-030FE74ACC7F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//lightning-base-combobox-item[.=&apos;--None--&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="articleAccounts2" Key="{88333E1F-D4FF-4D04-9DAE-3C9EAC3F25F7}">
+										<Image FileName="742639833" Left="12" Top="318" Right="1908" Bottom="957" />
+										<Selectors>
+											<Selector>
+												<Value Value="//article[contains(., &apos;Show Transport compliance approval status column actions&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div[2]//lst-related-list-desktop/article[contains(@class, &apos;slds-card&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;brandBand_2&apos;]//lst-related-list-desktop/article" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div[2]//lst-related-list-desktop/article" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonShowQuickFilters" Key="{0D08518B-8F37-43E1-8DC9-98855394CF8C}">
+										<Image FileName="742639833" Left="1859" Top="370" Right="1891" Bottom="402" />
+										<TypeInfo Item0="{E2BFDE41-B447-499C-9316-C54CB87CBEF5}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Show quick filters&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[@title=&apos;Show quick filters&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//lst-list-view-manager-button-bar//lightning-button-group[@role=&apos;group&apos;]//slot/lightning-button-icon-stateful//button[contains(@class, &apos;slds-button&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;brandBand_2&apos;]//lightning-button-group[@role=&apos;group&apos;]//slot/lightning-button-icon-stateful//button" />
+											</Selector>
+											<Selector>
+												<Value Value="//lst-list-view-manager-button-bar//lightning-button-group[@role=&apos;group&apos;]//slot/lightning-button-icon-stateful//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelDeliveryAddress" Key="{96B4E049-26AC-4140-AAB3-B54C24622F28}">
+										<Image FileName="-1412778716" Left="1599" Top="671" Right="1734" Bottom="688" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[.=&apos;Delivery Address&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//lst-quick-filter-multi-picklist/lightning-checkbox-group/fieldset//label[contains(@class, &apos;slds-checkbox__label&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;brandBand_2&apos;]//div[4]/lst-quick-filter-multi-picklist/lightning-checkbox-group/fieldset//label" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[4]/lst-quick-filter-multi-picklist/lightning-checkbox-group/fieldset//label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeDeliveryAddress" Key="{21DE601E-937C-41FD-A1E8-65313262645A}">
+										<Image FileName="-1412778716" Left="1623" Top="669" Right="1734" Bottom="690" />
+										<TypeInfo Item0="{125957F6-DF91-4BD5-8034-030FE74ACC7F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[text()=&apos;Delivery Address&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//lst-quick-filter-multi-picklist/lightning-checkbox-group/fieldset//label/span[contains(@class, &apos;slds-form-element__label&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelVenueAddress" Key="{A3BE9180-033C-4602-A729-76AE878A02E4}">
+										<Image FileName="1728806063" Left="1599" Top="693" Right="1721" Bottom="710" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[.=&apos;Venue Address&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[2]/label[contains(@class, &apos;slds-checkbox__label&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;brandBand_2&apos;]//span[2]/label" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[2]/label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeVenueAddress" Key="{666E6F75-AC21-4A37-9479-76A085D5CEB8}">
+										<Image FileName="1728806063" Left="1623" Top="691" Right="1721" Bottom="712" />
+										<TypeInfo Item0="{125957F6-DF91-4BD5-8034-030FE74ACC7F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[2]/label/span[contains(@class, &apos;slds-form-element__label&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelInvoiceAddress" Key="{7B0D014A-5D44-4DEC-8BE4-B6CD0978B053}">
+										<Image FileName="1814207803" Left="1599" Top="714" Right="1727" Bottom="731" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[.=&apos;Invoice Address&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[3]/label[contains(@class, &apos;slds-checkbox__label&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;brandBand_2&apos;]//span[3]/label" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[3]/label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeInvoiceAddress" Key="{9DCA414A-0920-4842-A5DD-DBCA593112ED}">
+										<Image FileName="1814207803" Left="1623" Top="712" Right="1727" Bottom="733" />
+										<TypeInfo Item0="{125957F6-DF91-4BD5-8034-030FE74ACC7F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[text()=&apos;Invoice Address&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[3]/label/span[contains(@class, &apos;slds-form-element__label&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="formFilters" Key="{0EE84401-7138-4F98-9B85-9D35496310FD}">
+										<Image FileName="1600661092" Left="1587" Top="415" Right="1907" Bottom="955" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Filters&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@class, &apos;slds-panel&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;brandBand_2&apos;]//form" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonClearAllFilters" Key="{9B5C208F-53E7-4A26-9934-064DAA4F1BB7}">
+										<Image FileName="1600661092" Left="1683" Top="915" Right="1770" Bottom="947" />
+										<TypeInfo Item0="{E2BFDE41-B447-499C-9316-C54CB87CBEF5}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Clear All Filters&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[@title=&apos;Clear All Filters&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//lightning-button[2]/button[contains(@class, &apos;slds-button&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;brandBand_2&apos;]//lightning-button[2]/button" />
+											</Selector>
+											<Selector>
+												<Value Value="//lightning-button[2]/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelQuickFilters" Key="{C4323FD6-5053-4ABE-B359-DC016C83F9E1}">
+										<Image FileName="-1384757648" Left="1587" Top="464" Right="1907" Bottom="955" />
+										<TypeInfo Item0="{125957F6-DF91-4BD5-8034-030FE74ACC7F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//lst-secondary-display/lst-wired-quick-filter-panel/lst-quick-filter-panel/form/div[contains(@class, &apos;slds-col&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelClassIii" Key="{A7D9E455-2694-4385-ABD5-F2D911D928DF}">
+										<Image FileName="-1448602288" Left="1599" Top="880" Right="1677" Bottom="897" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[8]/lst-quick-filter-multi-picklist/lightning-checkbox-group/fieldset//span[2]/label[contains(@class, &apos;slds-checkbox__label&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;brandBand_2&apos;]//div[8]/lst-quick-filter-multi-picklist/lightning-checkbox-group/fieldset//span[2]/label" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[8]/lst-quick-filter-multi-picklist/lightning-checkbox-group/fieldset//span[2]/label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode4" Key="{E62C1761-0E56-4EA9-B957-F9BADC7E4291}">
+										<Image FileName="-1448602288" Left="1599" Top="882" Right="1615" Bottom="898" />
+										<TypeInfo Item0="{125957F6-DF91-4BD5-8034-030FE74ACC7F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[8]/lst-quick-filter-multi-picklist/lightning-checkbox-group/fieldset//span[2]/label/span[contains(@class, &apos;slds-checkbox_faux&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonApply" Key="{3715C83A-568F-4EAC-BC65-706ED23928BE}">
+										<Image FileName="395672691" Left="1824" Top="915" Right="1891" Bottom="947" />
+										<TypeInfo Item0="{E2BFDE41-B447-499C-9316-C54CB87CBEF5}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Apply&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[@title=&apos;Apply&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//form/div[3]/span/lightning-button/button[contains(@class, &apos;slds-button&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;brandBand_2&apos;]//span/lightning-button/button" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//form/div[3]/span/lightning-button/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonCloseFilters" Key="{F7058C97-48B9-4F63-8738-0DA28211EB79}">
+										<Image FileName="-1890320511" Left="1871" Top="427" Right="1895" Bottom="451" />
+										<TypeInfo Item0="{E2BFDE41-B447-499C-9316-C54CB87CBEF5}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Close Filters&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[@title=&apos;Close Filters&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;id-quickFilterClose&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;brandBand_2&apos;]//form/div/button" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//lst-wired-quick-filter-panel/lst-quick-filter-panel/form/div/button" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageWwwAristocratComAlly" Key="{5A857657-09F5-46D5-99EB-2D530BEE6CDE}">
@@ -4894,6 +5212,18 @@
 						<Child Name="SelectRFCQuote__Tab" Owner="{0CBB8BBE-4517-403C-8E7D-6F9F9DA399C7}" />
 					</Child>
 					<Child Name="QuoteAddEditLineItems__Tab" Owner="{87CC47A8-20FA-4B2D-9023-0BEDF0A073BD}" />
+					<Child Name="AccountsTable__panel" Owner="{88333E1F-D4FF-4D04-9DAE-3C9EAC3F25F7}">
+						<Child Name="ShowQuickFilters__button" Owner="{0D08518B-8F37-43E1-8DC9-98855394CF8C}" />
+						<Child Name="DeliveryAddress__label" Owner="{96B4E049-26AC-4140-AAB3-B54C24622F28}" />
+						<Child Name="VenueAddress__label" Owner="{A3BE9180-033C-4602-A729-76AE878A02E4}" />
+						<Child Name="InvoiceAddress__label" Owner="{7B0D014A-5D44-4DEC-8BE4-B6CD0978B053}" />
+						<Child Name="Apply__button" Owner="{3715C83A-568F-4EAC-BC65-706ED23928BE}" />
+						<Child Name="ClearAllFilters__button" Owner="{9B5C208F-53E7-4A26-9934-064DAA4F1BB7}" />
+						<Child Name="CloseFilters__button" Owner="{F7058C97-48B9-4F63-8738-0DA28211EB79}" />
+					</Child>
+				</Child>
+				<Child Name="RelatedQuickLink__Tab" Owner="{F56E0B48-703E-408F-8D99-31AAEC7BAE97}">
+					<Child Name="Address__Link" Owner="{DC3AC87B-AF2D-469D-8C72-7E119D3EE3E5}" />
 				</Child>
 			</Child>
 			<Child Name="Page__PostAccountApproval" Owner="{8EBD8EEF-28E2-4BB7-A303-39680D942FE7}">
@@ -4922,6 +5252,10 @@
 						<Child Name="AddressGamingClass__Tab" Owner="{DB066E7C-B4E8-4A4A-9D36-8C012B4EC3BC}" />
 						<Child Name="ClassIII__Button" Owner="{30DFD3CB-56CC-4341-A3ED-7C7E347174A9}" />
 					</Child>
+					<Child Name="linkWindow" Owner="{4FDCC8AF-0D3E-4035-AB52-97B1445034AE}">
+						<Child Name="textnodeA00000480" Owner="{A2A7BCC3-F551-47C3-9AA7-FDBFD2CF0E9D}" />
+					</Child>
+					<Child Name="Account_R2C1_label" Owner="{F30421F0-6BAF-4F5B-A718-897396178BFA}" />
 				</Child>
 				<Child Name="ListQuickLinks_Field" Owner="{A5FA3618-3A5A-4E38-A5C0-4C9FECF68034}">
 					<Child Name="QuickListAddres_Tab" Owner="{A46A7C95-9437-4DEB-A8D0-7CD5D0F27CBF}">
@@ -5040,6 +5374,8 @@
 					<Child Name="Months12__Tab" Owner="{1E723037-114B-4FED-B81F-9C9063EFAED1}" />
 					<Child Name="buttonLeaseTerm2" Owner="{F939F21B-817C-4D99-803D-CD991F2D597C}" />
 					<Child Name="TermReason__Tab" Owner="{A6E4E15A-1E68-43E0-8139-6A947A45A176}" />
+					<Child Name="panelLeaseTerm" Owner="{04EA5CB4-DE79-45C7-B0FB-F70334C3841B}" />
+					<Child Name="LeaseTermNone__Tab" Owner="{13A744C4-B928-4938-A06F-F5BA3D8E9F89}" />
 				</Child>
 				<Child Name="PaymentTerms__Panel" Owner="{833D676D-476D-46F2-8B93-2A467FA5572A}">
 					<Child Name="PaymentTerms__Button" Owner="{B19F8F34-E16E-48CC-91E1-882ADB574020}" />

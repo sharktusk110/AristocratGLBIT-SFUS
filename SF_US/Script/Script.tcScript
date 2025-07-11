@@ -22,6 +22,9 @@
 				<child name="RFC_Quote_Config" key="{5675830D-361A-4782-823C-E1C79AC3D893}" path="RFC_Quote_Config.js" />
 				<child name="ConfigQuote_For_OutrightSale" key="{0F29051D-0CCD-4B29-8A60-6DD528F69B7D}" path="ConfigQuote_For_OutrightSale.js" />
 			</folder>
+			<folder name="B04">
+				<child name="CreateRFCForAddress" key="{46F1530B-18A2-4914-ACA6-E05EB5CD0D58}" path="CreateRFCForAddress.js" />
+			</folder>
 		</folder>
 		<folder name="Tests">
 			<folder name="B02_Test">
@@ -36,6 +39,9 @@
 				<child name="RFC_ApplyPrefrences_Test" key="{1C912DEF-4F76-4FBF-963D-3A8D5DFD1657}" path="RFC_ApplyPrefrences_Test.js" />
 				<child name="ConfigGOpsSale_Test" key="{D46A96F7-D315-43CF-9FA1-28A3A967A014}" path="ConfigGOpsSale_Test.js" />
 				<child name="ConfigQuote_For_OutrightSale_Test" key="{A7892094-236B-418C-A090-0971F4F21C5C}" path="ConfigQuote_For_OutrightSale_Test.js" />
+			</folder>
+			<folder name="B04">
+				<child name="CreateRFCForAddress_Test" key="{6738B5A5-9AFE-429B-BC08-5E778ED26A3F}" path="CreateRFCForAddress_Test.js" />
 			</folder>
 		</folder>
 	</children>

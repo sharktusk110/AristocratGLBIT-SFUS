@@ -52,6 +52,7 @@ Aliases.browser.Page__PreAccountApproval.Home__Panel.QuoteAddEditLineItems__Tab.
   
   
 var TotalPrice= Aliases.browser.Page__EditLineItem.sectionConfigure.TotalPrice__Label.contentText
+Log.Message(" Veryfing Total price is correct after adding quantity ")
 aqObject.CheckProperty(Aliases.browser.Page__EditLineItem.sectionConfigure.TotalPrice__Label, "contentText", cmpEqual, "$102,475.00");
 
 Aliases.browser.Page__EditLineItem.sectionConfigure.UnitDiscount__Box.SetText("10");
@@ -59,7 +60,7 @@ aqObject.CheckProperty(Aliases.browser.Page__RFCQuote.Page__Configu.sectionConfi
 Delay(3000);
 Aliases.browser.Page__RFCQuote.section6.buttonSave.ClickButton();
 Delay(4000);
-NameMapping.Sys.browser.pageCasinoRoyaleAccountSalesforc.Close__Button
+NameMapping.Sys.browser.pageCasinoRoyaleAccountSalesforc.Close__Button.ClickButton();
 
 }
 
