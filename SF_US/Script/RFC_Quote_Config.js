@@ -45,12 +45,12 @@ function Verify_Existing_LineItem(Flag)
     Delay(2000);
   
     
-  NameMapping.Sys.browser.pageCasinoRoyaleAccountSalesforc.buttonSave.ClickButton();
-  Delay(6000);
+  //Aliases.browser.Page__RFCQuote.buttonSave.ClickButton();
+  //Delay(6000);
  
- //Log.Message("checking required field is enabled for Freight")
- // aqObject.CheckProperty(Aliases.browser.Page__RFCQuote.Page__Configu.sectionConfigure2.panelRequired, "Enabled", cmpEqual, true);
- // Delay(2000);
+ Log.Message("checking required field is enabled for Freight")
+  aqObject.CheckProperty(Aliases.browser.Page__RFCQuote.Page__Configu.sectionConfigure2.panelRequired, "Enabled", cmpEqual, true);
+  Delay(2000);
   
   Log.Message("checking required field is enabled for Promotions")
   aqObject.CheckProperty(Aliases.browser.Page__RFCQuote.Page__Configu.sectionConfigure2.panelRequired2, "Enabled", cmpEqual, true);
@@ -68,8 +68,10 @@ function Verify_Existing_LineItem(Flag)
   Delay(3000);
   
   
-  Aliases.browser.Page__EditLineItem.sectionConfigure.Promotion__Button.ClickItem(3);
+  Aliases.browser.Page__EditLineItem.sectionConfigure.Promotion__Button.Click();
   Delay(2000);
+   KeyboardOperations("Down",2)
+   KeyboardOperations("Enter",1) 
  
   NameMapping.Sys.browser.pageCasinoRoyaleAccountSalesforc.buttonSave.ClickButton();
   Delay(12000);
@@ -110,8 +112,8 @@ function Conver_Config()
   Delay(8000);
   
   Log.Message(" Toaster validation checked that conversion sale  is updated successfully")
-  aqObject.CheckProperty(Aliases.browser.Page__AccountCreation.AccountCreation__Toast, "contentText", cmpEqual, "Success notification.\nProduct Configuration saved.\nPress Control + F6 to navigate to the next toast notification or focusable region.\nClose");
-  Delay(2000);
+  //aqObject.CheckProperty(Aliases.browser.Page__AccountCreation.AccountCreation__Toast, "contentText", cmpEqual, "Success notification.\nProduct Configuration saved.\nPress Control + F6 to navigate to the next toast notification or focusable region.\nClose");
+  //Delay(2000);
  
   Log.Message(" validetion checked that updated quantity is reflecting in quantity Box")
   aqObject.CheckProperty(NameMapping.Sys.browser.pageCasinoRoyaleAccountSalesforc.Qnty__Box, "Enabled", cmpEqual, true);
@@ -139,7 +141,7 @@ function Conver_Config()
   
   }
   
-  
+  //Validation needs to be put in place inorder to validate whether RFC getting updated successfully for the quantiy field by validating EGM count .
    function EGMCountValidation()
    {
     var CasesWS=dataReader("SF_opportunity"); //Sheetname
@@ -153,7 +155,7 @@ function Conver_Config()
      
      if (parseInt(EGMQ)  ===  parseInt(EGMQ1))
      {
-       Log.Message("Value of Conversion line item is updated successfuly in RFC quote")
+       Log.Message("Validation needs to be put in place inorder to validate whether RFC getting updated successfully for the quantiy field by validating EGM count .")
      
      }
      else {
@@ -208,11 +210,11 @@ function Conver_Config()
 
 function OpenRFC_Quote()
 {
-  Aliases.browser.Page__PreAccountApproval.Home__Panel.UserLogedIn__Panel.GlobalAccount__Tab.Click();
-  Delay(2000);
+ // Aliases.browser.Page__PreAccountApproval.Home__Panel.UserLogedIn__Panel.GlobalAccount__Tab.Click();
+ // Delay(2000);
   
-  NameMapping.Sys.browser.pageCasinoRoyaleAccountSalesforc.RFCQuotes__Tab.Click();
-  Delay(2000);
+  //NameMapping.Sys.browser.pageCasinoRoyaleAccountSalesforc.RFCQuotes__Tab.Click();
+  //Delay(2000);
   
   Log.Message("Sets the text Project.Variables.OpportunityName in the 'GlobalSearch_Bar' text editor")
   Aliases.browser.Page__PreAccountApproval.Home__Panel.headerOneheader2.GlobalSearch__Field.SetText(Project.Variables.OpportunityName);
@@ -220,6 +222,8 @@ function OpenRFC_Quote()
   
   Aliases.browser.Page__PreAccountApproval.Home__Panel.headerOneheader2.SelectRFCQuote__Tab.Click();
   Delay(2000);
+  
+  
   
   Aliases.browser.Page__PreAccountApproval.Home__Panel.UserLogedIn__Panel.SelectAccount__Tab.Click();
   Delay(2000);

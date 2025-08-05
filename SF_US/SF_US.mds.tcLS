@@ -31,7 +31,7 @@
 					</Node>
 					<Node name="var1">
 						<Node name="value">
-							<Prp name="strvalue" type="H" value="540065007300740020004100630063006F0075006E00740020003600320039003500340034003600380030003300390034003800"/>
+							<Prp name="strvalue" type="H" value="540065007300740020004100630063006F0075006E00740020003100300038003400360031003500390037003400360031003900"/>
 						</Node>
 						<Prp name="name" type="S" value="Accountname"/>
 					</Node>
@@ -47,6 +47,30 @@
 						</Node>
 						<Prp name="name" type="S" value="BeforeGrandTotalEGM"/>
 					</Node>
+					<Node name="var12">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="420045004C004C004100470049004F004C0041005300560045004700410053005F00540065006D0070005F00480065006100640065007200"/>
+						</Node>
+						<Prp name="name" type="S" value="HeaderName"/>
+					</Node>
+					<Node name="var13">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="420045004C004C004100470049004F004C0041005300560045004700410053005F00540065006D0070005F0046006F006F00740065007200"/>
+						</Node>
+						<Prp name="name" type="S" value="FooterName"/>
+					</Node>
+					<Node name="var14">
+						<Prp name="name" type="S" value="userName2"/>
+					</Node>
+					<Node name="var15">
+						<Prp name="name" type="S" value="Password2"/>
+					</Node>
+					<Node name="var16">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value=" "/>
+						</Node>
+						<Prp name="name" type="S" value="currentPageUrl"/>
+					</Node>
 					<Node name="var2">
 						<Prp name="name" type="S" value="AccountStatus"/>
 					</Node>
@@ -61,7 +85,7 @@
 					</Node>
 					<Node name="var5">
 						<Node name="value">
-							<Prp name="strvalue" type="H" value="420045004C004C004100470049004F0020004C00410053002000560045004700410053002D005400650073007400380036003900"/>
+							<Prp name="strvalue" type="H" value="420045004C004C004100470049004F0020004C00410053002000560045004700410053002D005400650073007400350030003800"/>
 						</Node>
 						<Prp name="name" type="S" value="OpportunityName"/>
 					</Node>

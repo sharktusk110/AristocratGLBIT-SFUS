@@ -1,11 +1,12 @@
-﻿//USEDATA CreateRFCForAddress
+﻿//USEUNIT CreateRFCForAddress
 
 
 function RFCForAddress_Test()
 
 {
      OpenExistingAccount()
-     Account_Filters(Flag1,Flag2)  
+     //navigate to RFC Quote Function call
+     
 
 
 

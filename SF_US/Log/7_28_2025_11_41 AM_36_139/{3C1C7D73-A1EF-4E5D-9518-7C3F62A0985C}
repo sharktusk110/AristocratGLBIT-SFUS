@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="log data">
+			<Node name="row2">
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="details" type="S" value="{AD6BADD0-3801-4987-AD2C-D4400FDCA0E8}"/>
+				<Prp name="index" type="I" value="2"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="start time" type="D" value="45866.4966521528"/>
+				<Prp name="end time" type="D" value="45866.4989692361"/>
+				<Prp name="name" type="S" value="343151_B03_RFC_Quote_creation_(BDE/COE)"/>
+				<Prp name="status" type="I" value="2"/>
+				<Prp name="testdata item" type="B" value="-1"/>
+			</Node>
+			<Node name="row0">
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="details" type="S" value="{8EFC7023-9248-457C-93AF-A21D8B4F9D9A}"/>
+				<Prp name="index" type="I" value="0"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="start time" type="D" value="45866.4872275"/>
+				<Prp name="end time" type="D" value="45866.4919458449"/>
+				<Prp name="name" type="S" value="82030_B01_Accounts_Creation_Approve"/>
+				<Prp name="status" type="I" value="2"/>
+				<Prp name="testdata item" type="B" value="-1"/>
+			</Node>
+			<Node name="row1">
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="details" type="S" value="{8CB028C5-3115-4875-9F56-38172AB733F8}"/>
+				<Prp name="index" type="I" value="1"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="start time" type="D" value="45866.4919458912"/>
+				<Prp name="end time" type="D" value="45866.4966521296"/>
+				<Prp name="name" type="S" value="82032_B02_Opportunity_creation_BDE-COE"/>
+				<Prp name="status" type="I" value="1"/>
+				<Prp name="testdata item" type="B" value="-1"/>
+			</Node>
+		</Node>
+	</Node>
+</Nodes>

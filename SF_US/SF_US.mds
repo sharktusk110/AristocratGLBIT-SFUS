@@ -80,13 +80,6 @@
 								<environments activeCloud="SWT" />
 								<children />
 							</testItem>
-							<testItem name="Close_Program" key="{61B7D0FE-CC83-4053-BE9B-193FCEF7CFD7}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{88009DF8-8042-4464-A734-06BF1F6B4C79}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
-								<testParameters>
-									<param0 name="Program" type="1" localVarName="" value="chrome.exe" />
-								</testParameters>
-								<environments activeCloud="SWT" />
-								<children />
-							</testItem>
 						</children>
 					</testItem>
 				</children>
@@ -145,13 +138,6 @@
 						<children>
 							<testItem name="LegalUserValidation_Test" key="{E6018F45-AA38-4654-8076-973709E08B5F}" group="False" parallel="False" enabled="True" load="False" testMoniker="{832FAC7B-4EFB-4BCD-BB96-CE63CA5D9992}LegalUserValidation_Test" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 								<testParameters />
-								<environments activeCloud="SWT" />
-								<children />
-							</testItem>
-							<testItem name="Close_Program" key="{49834F2D-FEEB-491C-8613-7158C4D9F2DB}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{88009DF8-8042-4464-A734-06BF1F6B4C79}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
-								<testParameters>
-									<param0 name="Program" type="1" localVarName="" value="chrome.exe" />
-								</testParameters>
 								<environments activeCloud="SWT" />
 								<children />
 							</testItem>
@@ -231,6 +217,28 @@
 					</testItem>
 				</children>
 			</testItem>
+			<testItem name="343147_B05_RFC_Quote - Update Quote fields while Submitted for Approval&#32;&#32;(BDE)" key="{64EBFD30-AFE2-4826-A448-DFE0C5E9510D}" group="False" parallel="False" enabled="True" load="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+				<testParameters />
+				<environments activeCloud="SWT" />
+				<children>
+					<testItem name="B05Submitforapproval" key="{A072C1D7-B2F9-4D08-AD76-DC49BB21A03E}" group="False" parallel="False" enabled="True" load="False" testMoniker="{16DF2457-BCD2-4CAF-8ED4-873366BC7DB3}B05Submitforapproval" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+						<testParameters />
+						<environments activeCloud="SWT" />
+						<children />
+					</testItem>
+				</children>
+			</testItem>
+			<testItem name="363389_B06_Approvals - Automation_on -COE to have access to certain fields during the approval process" key="{874FD2EF-A439-41B0-8DAA-5D7967085203}" group="False" parallel="False" enabled="True" load="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+				<testParameters />
+				<environments activeCloud="SWT" />
+				<children>
+					<testItem name="B06COEuserValidation" key="{D00CD72F-C53E-4919-AEE5-16CC3BC86961}" group="False" parallel="False" enabled="True" load="False" testMoniker="{F427FF8D-FED5-43CF-9D49-835209189C9C}COEuserValidation" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+						<testParameters />
+						<environments activeCloud="SWT" />
+						<children />
+					</testItem>
+				</children>
+			</testItem>
 			<testItem name="343162_B04_RFC_Quote: Default Venue, Invoice and Delivery Addresses on RFC Creation" key="{1AFBF862-1C74-4C30-A817-AD4099F0C973}" group="False" parallel="False" enabled="True" load="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 				<testParameters />
 				<environments activeCloud="SWT" />
@@ -241,7 +249,7 @@
 						<children>
 							<testItem name="Login_Test" key="{BB60C69B-CC81-465F-AA83-EE0738FC0B91}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{21823095-49D7-4B3D-973C-DEC7CADA04DD}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 								<testParameters />
-								<environments activeCloud="CBT" />
+								<environments activeCloud="SWT" />
 								<children />
 							</testItem>
 						</children>
@@ -253,6 +261,11 @@
 							<testItem name="RFCForAddress_Test" key="{054B91AE-92A0-4FD9-985E-56E090A9FD8E}" group="False" parallel="False" enabled="True" load="False" testMoniker="{6738B5A5-9AFE-429B-BC08-5E778ED26A3F}RFCForAddress_Test" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 								<testParameters />
 								<environments activeCloud="SWT" />
+								<children />
+							</testItem>
+							<testItem name="GenerateQuote" key="{BD4318E2-00F5-4AEB-8C3F-DF0CD5DFFE82}" group="False" parallel="False" enabled="True" load="False" testMoniker="{EF16B9B4-708B-4D52-A58D-532CCF001BC0}GenerateQuote" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+								<testParameters />
+								<environments activeCloud="CBT" />
 								<children />
 							</testItem>
 						</children>
@@ -298,6 +311,21 @@
 					<DefValue StrValue="0" />
 				</Variable>
 				<Variable Name="BeforeGrandTotalEGM" Type="String" Local="True">
+					<DefValue />
+				</Variable>
+				<Variable Name="HeaderName" Type="String" Local="True">
+					<DefValue />
+				</Variable>
+				<Variable Name="FooterName" Type="String" Local="True">
+					<DefValue />
+				</Variable>
+				<Variable Name="userName2" Type="String" Local="False">
+					<DefValue StrValue="crmtest.4@aristocrat.com.usprod.qa1" />
+				</Variable>
+				<Variable Name="Password2" Type="String" Local="False">
+					<DefValue StrValue="LifeisGood5" />
+				</Variable>
+				<Variable Name="currentPageUrl" Type="String" Local="True">
 					<DefValue />
 				</Variable>
 			</Items>
@@ -831,7 +859,7 @@
 			</columns>
 			<data />
 		</setting>
-		<setting name="Playback_ErrHandling_OnError" type="6" rowIndex="2" colIndex="1">
+		<setting name="Playback_ErrHandling_OnError" type="6" rowIndex="1" colIndex="1">
 			<columns>
 				<column type="5" enabled="True" />
 				<column type="2" enabled="True" />

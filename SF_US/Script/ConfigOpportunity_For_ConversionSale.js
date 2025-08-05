@@ -7,11 +7,9 @@
   Aliases.browser.Page__Config.ConfigTool__Tab.Click();
   Delay(2000);
   
- 
   Aliases.browser.Page__RFCQuote.Page__Configu.sectionConfigure2.Qnty__Tab.SetText("2");
   Delay(2000);
   
-
   Aliases.browser.Page__EditLineItem.Save__button.ClickButton();
   Delay(2000);
   

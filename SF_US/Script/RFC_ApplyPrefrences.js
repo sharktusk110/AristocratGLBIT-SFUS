@@ -1,4 +1,7 @@
-﻿
+﻿//USEUNIT DataRead
+
+
+
 function RFCApply_Pref_Validation()
 {
 
@@ -64,6 +67,8 @@ Log.Message(" RFC apply Prefrence Button is Visible")
 aqObject.CheckProperty(Aliases.browser.Page__EditLineItem.sectionConfigure.ApplyPrefrence__Button, "contentText", cmpEqual, "MainFloor");
 Delay(4000);
 
+
+
 Aliases.browser.Page__RFCQuote.buttonSave3.Click();
 Delay(4000);
  
@@ -74,20 +79,24 @@ Log.Message(" License panel is a required Field")
 aqObject.CheckProperty(Aliases.browser.Page__EditLineItem.sectionConfigure.Required__Panel, "contentText", cmpEqual, "Required !");
 Delay(2000);
 
-Aliases.browser.Page__EditLineItem.sectionConfigure.License__Tab.ClickItem(3);
-Delay(2000);
+Aliases.browser.Page__EditLineItem.sectionConfigure.License__Tab.Click();
+Delay(3000);
+    KeyboardOperations("Down",2) 
+    KeyboardOperations("Enter",1) 
 
-
-  
-
-Aliases.browser.Page__EditLineItem.sectionConfigure.Promotion__Button.ClickItem(3);
-
-
+ Aliases.browser.Page__EditLineItem.sectionConfigure.Promotion__Button.Click();
+       Delay(3000);
+    KeyboardOperations("Down",4) 
+    KeyboardOperations("Enter",3) 
 Aliases.browser.Page__RFCQuote.buttonSave3.Click();
   
  
 
 }
+
+
+
+
 
 
 

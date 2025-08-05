@@ -14,6 +14,7 @@
 				<child name="CompanyCode_Addition" key="{BCD0E0AF-0777-4E95-B1FD-0713EA7975AC}" path="CompanyCode_Addition.tcKDTest" />
 				<child name="Adress_Addition" key="{14CCA54F-3FEA-45A0-AC44-78E51631FE1B}" path="Adress_Addition.tcKDTest" />
 				<child name="PostApproval_AccountStatus" key="{B3660BE9-14C7-4CDF-9FF7-E408D8440BA1}" path="PostApproval_AccountStatus.tcKDTest" />
+				<child name="Address" key="{C20350D4-5FB7-47D3-A838-4C7D4C4DD40E}" path="Address.tcKDTest" />
 			</folder>
 		</folder>
 		<folder name="BrowserUtilities">
@@ -33,5 +34,6 @@
 				<child name="OpportunityCreation_Test" key="{5CF0615A-4E31-4A51-8384-AD904B5425D8}" path="OpportunityCreation_Test.tcKDTest" />
 			</folder>
 		</folder>
+		<child name="Test2" key="{2A8231D1-60AD-4EF9-8FE9-1A035A1A12E9}" path="Test2.tcKDTest" />
 	</children>
 </Root>

@@ -52,6 +52,7 @@ Aliases.browser.Page__PreAccountApproval.Home__Panel.QuoteAddEditLineItems__Tab.
   
   
 var TotalPrice= Aliases.browser.Page__EditLineItem.sectionConfigure.TotalPrice__Label.contentText
+Log.Message(" Veryfing Total price is correct after adding quantity ")
 aqObject.CheckProperty(Aliases.browser.Page__EditLineItem.sectionConfigure.TotalPrice__Label, "contentText", cmpEqual, "$102,475.00");
 
 Aliases.browser.Page__EditLineItem.sectionConfigure.UnitDiscount__Box.SetText("10");

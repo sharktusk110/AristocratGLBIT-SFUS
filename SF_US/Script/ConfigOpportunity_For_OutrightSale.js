@@ -14,14 +14,22 @@
   Aliases.browser.Page__PostAccountApproval.NewOpportunity__Tab.Click();
   Delay(2000);
  
- let browserWindow = NameMapping.Sys.browser;
+  let browserWindow = NameMapping.Sys.browser;
   
   
   browserWindow.pageCasinoRoyaleAccountSalesforc.panelAccount.Keys("[Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down]");
- Delay(2000);
- 
-    Aliases.browser.Page__PreAccountApproval.Detail__Panel.TypeEdit__Button.Regular__Button.Click();
   Delay(2000);
+ 
+  
+  
+    Aliases.browser.Page__PreAccountApproval.Detail__Panel.TypeEdit__Button.Click();
+    Delay(2000);
+  
+    Aliases.browser.Page__PreAccountApproval.Detail__Panel.TypeEdit__Button.Regular__Button.Click();
+    Delay(2000);
+    
+    Aliases.browser.Page__PreAccountApproval.Detail__Panel.TypeEdit__Button.Regular__Button.Regular__Tab.Click();
+    Delay(2000);
  
   Aliases.browser.Page__AccountCreation.Save__button.ClickButton();
   Delay(2000);
@@ -58,6 +66,7 @@
   Aliases.browser.Page__EditLineItem.sectionConfigure.ApplyPrefrence__Button.Click();
   Delay(4000);
   
+  Log.Message("Validate whether apply preferences functionality working correctly and filling concerned details in concerned fields .")
   aqObject.CheckProperty(Aliases.browser.Page__EditLineItem.sectionConfigure.ApplyPrefrence__Button, "contentText", cmpEqual, "MainFloor");
   Delay(4000);
   
@@ -66,8 +75,8 @@
   Delay(4000);
   
   aqObject.CheckProperty(Aliases.browser.Page__EditLineItem.sectionConfigure.Required__Panel, "contentText", cmpEqual, "Required !");
-
-  Aliases.browser.Page__RFCQuote.section6.buttonSave.ClickButton();
+ 
+  Aliases.browser.Page__EditLineItem.Save__Button3.Click();
   Delay(4000);
 
  Aliases.browser.Page__EditLineItem.sectionConfigure.License__Tab.ClickItem(3);
@@ -79,6 +88,9 @@
 
 function EditLineItem_Validation()
 {
+ 
+ 
+ Log.Message(" Validate whether outright sale line item getting added successfully as per applied configuration .")
   aqObject.CheckProperty(Aliases.browser.Page__EditLineItem.sectionConfigure.Mainfloor__Button, "Enabled", cmpEqual, true);
  
   aqObject.CheckProperty(Aliases.browser.Page__EditLineItem.sectionConfigure.Promotion__Tab, "Enabled", cmpEqual, true);

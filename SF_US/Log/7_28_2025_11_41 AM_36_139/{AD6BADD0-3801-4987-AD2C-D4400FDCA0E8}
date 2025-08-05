@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="log data">
+			<Node name="row0">
+				<Prp name="details" type="S" value=""/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="index" type="I" value="0"/>
+				<Prp name="name" type="S" value="Element to be run"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="start time" type="D" value="45866.4966521528"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="end time" type="D" value="45866.4966521528"/>
+			</Node>
+			<Node name="row2">
+				<Prp name="details" type="S" value="{DFE55568-F222-4F97-AF66-686DFF46600B}"/>
+				<Prp name="status" type="I" value="1"/>
+				<Prp name="index" type="I" value="2"/>
+				<Prp name="name" type="S" value="Step 1: Login to SalseForce"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="start time" type="D" value="45866.4966521644"/>
+				<Prp name="testdata item" type="B" value="-1"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="end time" type="D" value="45866.4970844213"/>
+			</Node>
+			<Node name="row1">
+				<Prp name="details" type="S" value=""/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="index" type="I" value="1"/>
+				<Prp name="name" type="S" value="No element to be run for the '343151_B03_RFC_Quote_creation_(BDE/COE)' test item was specified."/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="start time" type="D" value="45866.4966521528"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="end time" type="D" value="45866.4966521528"/>
+			</Node>
+			<Node name="row4">
+				<Prp name="details" type="S" value="{F16B3B95-40C9-4DFE-96FC-81284AC014AE}"/>
+				<Prp name="status" type="I" value="2"/>
+				<Prp name="index" type="I" value="4"/>
+				<Prp name="name" type="S" value="Step 3: Update and validate EGM and conversion counts"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="start time" type="D" value="45866.498154375"/>
+				<Prp name="testdata item" type="B" value="-1"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="end time" type="D" value="45866.4989692014"/>
+			</Node>
+			<Node name="row3">
+				<Prp name="details" type="S" value="{53BBB13B-B9E1-48D6-AAD9-817059AC39E9}"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="index" type="I" value="3"/>
+				<Prp name="name" type="S" value="Step 2: RFC quote creation with sync"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="start time" type="D" value="45866.4970844444"/>
+				<Prp name="testdata item" type="B" value="-1"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="end time" type="D" value="45866.4981543519"/>
+			</Node>
+		</Node>
+	</Node>
+</Nodes>

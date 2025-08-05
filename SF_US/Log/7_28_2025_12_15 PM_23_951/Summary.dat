@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="projects">
+			<Node name="project0">
+				<Node name="tests">
+					<Node name="test5">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="45866.5113922801"/>
+						<Prp name="name" type="S" value="ConfigConversion_Test"/>
+						<Prp name="durationwithoutchildren" type="I" value="0"/>
+						<Prp name="status" type="I" value="3"/>
+						<Prp name="duration" type="I" value="0"/>
+					</Node>
+					<Node name="test1">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error1">
+								<Prp name="msg" type="S" value="The execution process was interrupted."/>
+							</Node>
+							<Node name="error0">
+								<Prp name="msg" type="S" value="The script execution was interrupted."/>
+							</Node>
+						</Node>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBFAEQANQAzADAAMQAzADAALQAwAEQAQgA0AC0ANAA4AEEAQgAtAEIAQwA3ADgALQA1AEUARAAyADEAOQBCAEYAMgA2AEQAQQB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="starttime" type="D" value="45866.5107811227"/>
+						<Prp name="name" type="S" value="OpportunityCreation_Test"/>
+						<Prp name="durationwithoutchildren" type="I" value="52791"/>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="duration" type="I" value="52791"/>
+					</Node>
+					<Node name="test2">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="45866.5113922801"/>
+						<Prp name="name" type="S" value="Step 3: User is able to make changes in newly created Opportunity"/>
+						<Prp name="durationwithoutchildren" type="I" value="0"/>
+						<Prp name="status" type="I" value="3"/>
+						<Prp name="duration" type="I" value="0"/>
+					</Node>
+					<Node name="test0">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error1">
+								<Prp name="msg" type="S" value="The test run has stopped because your test project is configured to stop on errors."/>
+							</Node>
+							<Node name="error0">
+								<Prp name="msg" type="S" value="Unable to navigate to the https://aristocrat-global--qa1.sandbox.lightning.force.com/ page."/>
+							</Node>
+						</Node>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewAyADgANgA4AEEAQwA4ADMALQA2ADAANAAxAC0ANAAyADcAOAAtADgAQQAyAEMALQA3AEQANwBDAEIANQAxAEEAQwAwAEMAQQB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="starttime" type="D" value="45866.5107002431"/>
+						<Prp name="name" type="S" value="Login to Salesforce with service account."/>
+						<Prp name="durationwithoutchildren" type="I" value="6964"/>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="duration" type="I" value="6964"/>
+					</Node>
+					<Node name="test3">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="45866.5113922801"/>
+						<Prp name="name" type="S" value="ConfigOpportunity_Test"/>
+						<Prp name="durationwithoutchildren" type="I" value="0"/>
+						<Prp name="status" type="I" value="3"/>
+						<Prp name="duration" type="I" value="0"/>
+					</Node>
+					<Node name="test6">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="45866.5113922801"/>
+						<Prp name="name" type="S" value="Step 5 :Legal/Finance user is able to see the field, but is NOT able to edit"/>
+						<Prp name="durationwithoutchildren" type="I" value="0"/>
+						<Prp name="status" type="I" value="3"/>
+						<Prp name="duration" type="I" value="0"/>
+					</Node>
+					<Node name="test4">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="45866.5113922801"/>
+						<Prp name="name" type="S" value="Step 4: Verify that conversion sales can be configured."/>
+						<Prp name="durationwithoutchildren" type="I" value="0"/>
+						<Prp name="status" type="I" value="3"/>
+						<Prp name="duration" type="I" value="0"/>
+					</Node>
+					<Node name="test7">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="45866.5113922801"/>
+						<Prp name="name" type="S" value="LegalUserValidation_Test"/>
+						<Prp name="durationwithoutchildren" type="I" value="0"/>
+						<Prp name="status" type="I" value="3"/>
+						<Prp name="duration" type="I" value="0"/>
+					</Node>
+				</Node>
+				<Prp name="loadtests" type="I" value="0"/>
+				<Prp name="incompletedtests" type="I" value="6"/>
+				<Prp name="starttime" type="D" value="45866.5107002431"/>
+				<Prp name="name" type="S" value="SF_US"/>
+				<Prp name="warningtests" type="I" value="0"/>
+				<Prp name="failedtests" type="I" value="2"/>
+				<Prp name="duration" type="I" value="59755"/>
+			</Node>
+		</Node>
+		<Prp name="warningtests" type="I" value="0"/>
+		<Prp name="starttime" type="D" value="45866.5106940509"/>
+		<Prp name="successtestwithretries" type="I" value="0"/>
+		<Prp name="failedtests" type="I" value="2"/>
+		<Prp name="stop" type="D" value="45866.5113930324"/>
+		<Prp name="key" type="S" value="{00D76CB9-615E-4EE7-B451-CD181F5DDAA6}"/>
+		<Prp name="user" type="S" value="AS112085"/>
+		<Prp name="name" type="S" value="AristocratGLBIT"/>
+		<Prp name="loadtests" type="I" value="0"/>
+		<Prp name="tests" type="I" value="8"/>
+		<Prp name="warningtestwithretries" type="I" value="0"/>
+		<Prp name="executionstatus" type="I" value="2"/>
+		<Prp name="host" type="S" value="L76130"/>
+		<Prp name="incompletedtests" type="I" value="6"/>
+		<Prp name="testname" type="S" value="SF_US: 82032_B02_Opportunity_creation_BDE-COE"/>
+	</Node>
+</Nodes>

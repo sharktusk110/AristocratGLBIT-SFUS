@@ -25,15 +25,21 @@
 			<folder name="B04">
 				<child name="CreateRFCForAddress" key="{46F1530B-18A2-4914-ACA6-E05EB5CD0D58}" path="CreateRFCForAddress.js" />
 			</folder>
+			<folder name="B05">
+				<child name="B05_Submit_for_approval" key="{1011DB65-BA74-4E8D-B637-D6DC44153444}" path="B05_Submit_for_approval.js" />
+			</folder>
+			<folder name="B06">
+				<child name="COEuserValidation" key="{CE785392-59DE-4348-91A6-7F119891ADFD}" path="COEuserValidation.js" />
+			</folder>
 		</folder>
 		<folder name="Tests">
-			<folder name="B02_Test">
+			<folder name="B02">
 				<child name="ConfigOpportunityConversion_Test" key="{07BBA548-EC6B-409C-A69F-528F69B4CACB}" path="ConfigOpportunityConversion_Test.js" />
 				<child name="ConfigOpportunityOutright_Test" key="{7984F146-6587-4787-A9DE-79EE28057571}" path="ConfigOpportunityOutright_Test.js" />
 				<child name="LegalUserValidation_Test" key="{832FAC7B-4EFB-4BCD-BB96-CE63CA5D9992}" path="LegalUserValidation_Test.js" />
 				<child name="OpportunityCreation_Test" key="{1E22A1D5-31E5-4E4A-8D98-20086EB43B3E}" path="OpportunityCreation_Test.js" />
 			</folder>
-			<folder name="B03_Test">
+			<folder name="B03">
 				<child name="RFC_Quote_Creation_Test" key="{6C11C8D3-5ADE-4B83-8F62-4CAFEFFE5065}" path="RFC_Quote_Creation_Test.js" />
 				<child name="RFC_Quote_Config_Test" key="{736F1A69-5078-46E3-9A2E-43916AB841AD}" path="RFC_Quote_Config_Test.js" />
 				<child name="RFC_ApplyPrefrences_Test" key="{1C912DEF-4F76-4FBF-963D-3A8D5DFD1657}" path="RFC_ApplyPrefrences_Test.js" />
@@ -42,6 +48,13 @@
 			</folder>
 			<folder name="B04">
 				<child name="CreateRFCForAddress_Test" key="{6738B5A5-9AFE-429B-BC08-5E778ED26A3F}" path="CreateRFCForAddress_Test.js" />
+				<child name="RFCdoc_Validation_Test" key="{EF16B9B4-708B-4D52-A58D-532CCF001BC0}" path="RFCdoc_Validation_Test.js" />
+			</folder>
+			<folder name="B05">
+				<child name="B05_Submit_for_approval_Test" key="{16DF2457-BCD2-4CAF-8ED4-873366BC7DB3}" path="B05_Submit_for_approval_Test.js" />
+			</folder>
+			<folder name="B06">
+				<child name="BO6_COEuserValidation_Test" key="{F427FF8D-FED5-43CF-9D49-835209189C9C}" path="BO6_COEuserValidation_Test.js" />
 			</folder>
 		</folder>
 	</children>

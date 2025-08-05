@@ -1,49 +1,101 @@
 ﻿//USEUNIT DataRead
+//USEUNIT RFC_Quote_Config
+//USEUNIT OpportunityCreation
+//USEUNIT RFC_Quote_Creation
 
 function  OpenExistingAccount()
 {
   
-
   var LoginDataMap=dataReader("SF_opportunity"); //Sheetname
   var AccountName=LoginDataMap["B04"]["AccountName"];
   
-
-
- Aliases.browser.Page__PreAccountApproval.Home__Panel.UserLogedIn__Panel.GlobalAccount__Tab.Click();
- Delay(2000);
+  GlobalSearch_Account(AccountName)
  
- Aliases.browser.Page__AccountCreation.NewAccount__Panel.Account__Tab.Click();
- Delay(2000);
- 
- Aliases.browser.Page__PreAccountApproval.Home__Panel.headerOneheader2.GlobalSearch__Field.Click();
- Delay(1000);
- 
- Aliases.browser.Page__PreAccountApproval.Home__Panel.headerOneheader2.GlobalSearch__Field.SetText(AccountName);
- Delay(2000);
-
- Aliases.browser.Page__PreAccountApproval.Home__Panel.headerOneheader2.GlobalSearch__Field.Keys("[Enter]");
-  Delay(3000);
-
- Aliases.browser.Page__PreAccountApproval.SearchAccount_Page.SelectAccount_Panel.Select__Account2.Click();
- Delay(2000);
- 
- Aliases.browser.Page__PreAccountApproval.Detail__Panel.Related__Tab.Click();
+ Log.Message("Clik on Related Tab");
+ Aliases.browser.Page__PreAccountApproval.Related2__Tab.Click();
  Delay(3000);
  
+ Log.Message("Clik on Address link under related");
  Aliases.browser.Page__PreAccountApproval.RelatedQuickLink__Tab.Address__Link.Click();
  Delay(2000);
  
+ //******************************************
  Log.Message("Capture Delivery Address")
  Account_Filters(false,"Delivery")
  
- Log.Message("Capture Invoice Address")
+ var DelAddress1Quickview=Aliases.browser.Page__PostAccountApproval.D365AdressBox_Panel.Account_Address_QuickView_label.contentText;
+ Log.Message("[Delvery Address1 ]: "+ DelAddress1Quickview);
+ 
+ var DelAddress2Quickview=Aliases.browser.Page__PostAccountApproval.D365AdressBox_Panel.Account_Address2_QuickView_label.contentText;
+ Log.Message("[Delvery Address2 ]: "+ DelAddress2Quickview);
+ 
+  //******************************************
+ Log.Message("Filtering Capture Invoice Address")
  Account_Filters(true,"Invoice")
+ Delay(3000)
+  var InvoiceAddress1Quickview=Aliases.browser.Page__PostAccountApproval.D365AdressBox_Panel.Account_Address_QuickView_label.contentText;
+  Log.Message("[Invoice Address ]: "+ InvoiceAddress1Quickview);
+  
+   //******************************************
+ Log.Message("Filter and Capture Venu Address")
+ Account_Filters(true,"Venu");
+ Delay(3000)
+ var VenuAddress1Quickview=Aliases.browser.Page__PostAccountApproval.D365AdressBox_Panel.Account_Address_QuickView_label.contentText;
+ Log.Message("[Venu Address ]: "+ VenuAddress1Quickview);
  
- Log.Message("Capture Venu Address")
- Account_Filters(true,"Venu")
- 
-}
+ ///***************************************
+        GlobalSearch_Account(AccountName)
+        
+        Create_opportunity("B04")
+        
+        Aliases.browser.Page__AccountCreation.AccountCreation__Toast.Click();
+        var Opp_EstimatedRevMonth=Aliases.browser.Page__PostAccountApproval.Detail__Tab.Opp_EstimatedRevMonth_label.contentText
+        
+        //Opening the created opportunity
+        Openconfigopportunity()
+        
+        Create_RFC_Quote()
+        
+        //Validation needs to be inplace inorder to validated whether requested Installation Date appearing on RFC Creation form shold be equals to EstRevMonth field value appearing in Opportunity .
+        Log.Message("Validation needs to be inplace inorder to validated whether requested Installation Date appearing on RFC Creation form shold be equals to EstRevMonth field value appearing in Opportunity .")
+        
+        var rfcMonth=Aliases.browser.Page__PostAccountApproval.Detail__Tab.OpportunityRevMonth_label.contentText;
+        if (rfcMonth.includes(Opp_EstimatedRevMonth))
+       {
+        Log.Message("opportunity :: RFC Month are "+Opp_EstimatedRevMonth+"::"+rfcMonth)}
+        else{ Log.Error ("opportunity :: RFC Month are "+Opp_EstimatedRevMonth+"::"+rfcMonth)}
+       
+// //*************************************************
+   var VenuAddress= (Aliases.browser.Page__PostAccountApproval.Detail__Tab.VenuAddress__label.contentText).trim()
+   Log.Message("[Venu Address]: "+ VenuAddress)
+   var invoiceAddress= (Aliases.browser.Page__PostAccountApproval.Detail__Tab.InvoiceAddress_label.contentText).trim()
+   Log.Message("[invoice Address]: "+ invoiceAddress)
+   var DelveryAddress= (Aliases.browser.Page__PostAccountApproval.Detail__Tab.DelveryAddress__Label.contentText).trim()
+   Log.Message("[Delvery Address]: "+ DelveryAddress)
 
+   if(VenuAddress.includes(VenuAddress1Quickview)){Log.Message("Venu Address is Displaying As Expected")}else{Log.Error("Venu Address is not Displaying As Expected")}
+  
+   if(invoiceAddress.includes(InvoiceAddress1Quickview)){Log.Message("Invoice Address is Displaying As Expected")} else {Log.Message("Invoice Address is not Displaying As Expected")}
+  
+   if(DelveryAddress.includes(DelAddress1Quickview)  ||  DelveryAddress.includes(DelAddress2Quickview)  )  {Log.Message("Delvery Address is Displaying As Expected")} else {Log.Message("Delvery Address is Displaying As Expected")}
+  
+  Aliases.browser.Page__PostAccountApproval.GenerateQuoteDoc__button.Click();
+  Delay(6000);
+  
+  arr=  invoiceAddress.split("\n");
+  for (j=0; j<(arr.length-1); j++){
+  OCR.Recognize(Aliases.browser.Page__EditLineItem.Pdf__frame).CheckText("*"+arr[j]+"*");}
+
+  arr1=  VenuAddress.split("\n");
+  for (j=0; j<(arr1.length-1); j++){
+  OCR.Recognize(Aliases.browser.Page__EditLineItem.Pdf__frame).CheckText("*"+arr1[j]+"*");}
+  
+  arr2=  DelveryAddress.split("\n");
+  for (j=0; j<(arr2.length-1); j++){
+  OCR.Recognize(Aliases.browser.Page__EditLineItem.Pdf__frame).CheckText("*"+arr2[j]+"*");}
+
+
+}
 
 
 function Account_Filters(Flag1,Flag2)
@@ -67,3 +119,47 @@ function Account_Filters(Flag1,Flag2)
   Aliases.browser.Page__PreAccountApproval.Home__Panel.AccountsTable__panel.CloseFilters__button.Click();
 
 }
+
+
+function Accounts_AddressValidation(){
+  
+    var VenuAddress=Aliases.browser.Page__PostAccountApproval.Detail__Tab.VenuAddress__label.contentText
+    var invoiceAddress=Aliases.browser.Page__PostAccountApproval.Detail__Tab.InvoiceAddress_label.contentText
+    var DelveryAddress=Aliases.browser.Page__PostAccountApproval.Detail__Tab.DelveryAddress__Label.contentText
+
+}
+
+
+function GlobalSearch_Account(AccountName){
+  
+ Log.Message("Clik on Global search");
+ Aliases.browser.Page__PreAccountApproval.Home__Panel.UserLogedIn__Panel.GlobalAccount__Tab.Click();
+ Delay(2000);
+ 
+ Log.Message("Clik on Account search");
+ Aliases.browser.Page__AccountCreation.NewAccount__Panel.Account__Tab.Click();
+ Delay(2000);
+ 
+ Log.Message("Enter search");
+ Aliases.browser.Page__PreAccountApproval.Home__Panel.headerOneheader2.GlobalSearch__Field.Click();
+ Delay(1000);
+ 
+ Log.Message("Enter Account ID");
+ Aliases.browser.Page__PreAccountApproval.Home__Panel.headerOneheader2.GlobalSearch__Field.SetText(AccountName);
+ Delay(2000);
+
+// Aliases.browser.Page__PreAccountApproval.Home__Panel.headerOneheader2.GlobalSearch__Field.Keys("[Down]");
+// Delay(2000);
+  Aliases.browser.Page__PreAccountApproval.Home__Panel.headerOneheader2.GlobalSearch__Field.Keys("[Enter]");
+  Delay(3000);
+
+  Log.Message("Clik on Account link");
+  Aliases.browser.Page__PreAccountApproval.SearchAccount_Page.SelectAccount_Panel.Select__Account2.Click();
+  Delay(2000);  
+ 
+}
+
+
+
+
+

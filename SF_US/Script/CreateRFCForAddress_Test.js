@@ -5,7 +5,8 @@ function RFCForAddress_Test()
 
 {
      OpenExistingAccount()
-     Account_Filters(Flag1,Flag2)  
+     //Navigate to RFC Quote Function call
+     
 
 
 

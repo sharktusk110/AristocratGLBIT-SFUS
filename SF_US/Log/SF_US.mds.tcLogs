@@ -23,29 +23,56 @@
 		<Node name="logs">
 			<Node name="log idx=0000">
 				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="45848.7085508102"/>
+				<Prp name="datetime" type="D" value="45874.678876169"/>
 				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{1BB0F187-78D1-4A3D-8764-810CFDF7598B}"/>
-				<Prp name="nameofroot" type="S" value="Script Test Log [CreateRFCForAddress\test]"/>
-				<Prp name="relpath" type="S" value="7_10_2025_5_00 PM_18_790\Description.tcLog"/>
-				<Prp name="status" type="I" value="0"/>
+				<Prp name="key" type="S" value="{05BC973B-ADA4-4D34-A991-35048B36243A}"/>
+				<Prp name="nameofroot" type="S" value="82032_B02_Opportunity_creation_BDE-COE"/>
+				<Prp name="relpath" type="S" value="8_5_2025_4_17 PM_34_901\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
 			</Node>
 			<Node name="log idx=0001">
 				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="45848.7090595139"/>
+				<Prp name="datetime" type="D" value="45874.6805673495"/>
 				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{5761B31E-913C-4A91-B2D2-E9EC24F905C1}"/>
-				<Prp name="nameofroot" type="S" value="Script Test Log [CreateRFCForAddress\test]"/>
-				<Prp name="relpath" type="S" value="7_10_2025_5_01 PM_02_742\Description.tcLog"/>
-				<Prp name="status" type="I" value="0"/>
+				<Prp name="key" type="S" value="{D2A0767C-F126-472D-8754-BB0D8C3D6923}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [OpportunityCreation\OpenAccount_Page]"/>
+				<Prp name="relpath" type="S" value="8_5_2025_4_20 PM_01_19\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
 			</Node>
 			<Node name="log idx=0002">
 				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="45849.4631781019"/>
+				<Prp name="datetime" type="D" value="45874.7923200347"/>
 				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{00A11C63-9E22-4EF2-A9F3-9E9C63DCB7CE}"/>
-				<Prp name="nameofroot" type="S" value="343162_B04_RFC_Quote: Default Venue, Invoice and Delivery Addresses on RFC Creation"/>
-				<Prp name="relpath" type="S" value="7_11_2025_11_06 AM_58_588\Description.tcLog"/>
+				<Prp name="key" type="S" value="{7B1D374B-66DE-4420-8E16-588D765B86D2}"/>
+				<Prp name="nameofroot" type="S" value="Step 1: Login to SalseForce"/>
+				<Prp name="relpath" type="S" value="8_5_2025_7_00 PM_56_456\Description.tcLog"/>
+				<Prp name="status" type="I" value="1"/>
+			</Node>
+			<Node name="log idx=0003">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45874.7952374074"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{60F2FED6-0AC9-439D-8163-626380029354}"/>
+				<Prp name="nameofroot" type="S" value="Step 1: Login to SalseForce"/>
+				<Prp name="relpath" type="S" value="8_5_2025_7_05 PM_08_512\Description.tcLog"/>
+				<Prp name="status" type="I" value="1"/>
+			</Node>
+			<Node name="log idx=0004">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45874.7962516667"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{162EE704-BB0D-4966-860F-463766A50886}"/>
+				<Prp name="nameofroot" type="S" value="Step 2 :Select Existing account and OpportunityCreation Page"/>
+				<Prp name="relpath" type="S" value="8_5_2025_7_06 PM_36_144\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0005">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45874.7971927199"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{34202DAE-20CB-4406-B630-301A7D10752C}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [OpportunityCreation\OpenAccount_Page]"/>
+				<Prp name="relpath" type="S" value="8_5_2025_7_07 PM_57_451\Description.tcLog"/>
 				<Prp name="status" type="I" value="2"/>
 			</Node>
 		</Node>

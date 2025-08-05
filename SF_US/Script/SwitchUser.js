@@ -5,7 +5,7 @@
   Aliases.browser.Page__Login.Account__Switch.LogOutDan__Tab.Click();
   //Delays the test execution for the specified time period.
   Delay(3000);
-  //This url is used to open Dem Beaston profile for login.
+  //This url is used to open Den Beaston profile for login.
   Browsers.Item(btChrome).Navigate("https://aristocrat-global--qa1.sandbox.my.salesforce-setup.com/lightning/setup/ManageUsers/page?address=%2F0057F000005np8MQAQ%3Fnoredirect%3D1%26isUserEntityOverride%3D1%26retURL%3D%252Fsetup%252Fhome");
   //Delays the test execution for the specified time period.
   Delay(2000);
@@ -19,15 +19,7 @@
 function OpenNewCreated_Opportunity()
 {
 
-//Clicks the 'GlobalSearch_Tab' control.
 
-  Aliases.browser.Page__PreAccountApproval.Home__Panel.UserLogedIn__Panel.GlobalAccount__Tab.Click();
-  //Delays the test execution for the specified time period.
-  Delay(4000);
-  //Clicks the 'Opportunity_Tab' control.
- // Aliases.browser.Page__PreAccountApproval.Home__Panel.UserLogedIn__Panel.GlobalOpportunities__Tab.Click();
-  //Delays the test execution for the specified time period.
-  Delay(2000);
   //Clicks the 'GlobalSearch_Bar' control.
   Aliases.browser.Page__PreAccountApproval.Home__Panel.headerOneheader2.GlobalSearch__Field.Click();
   //Delays the test execution for the specified time period.
@@ -51,5 +43,6 @@ function OpenNewCreated_Opportunity()
 
 function Type_Validation()
 {
+  Log.Message("Validation needs to be put in place inorder to validate whether RFC getting created successfully .")
   aqObject.CheckProperty(Aliases.browser.Page__PostAccountApproval.D365CompanyCode__Field.EditStatusForLegalUser_Tab, "Enabled", cmpEqual, true);
 }

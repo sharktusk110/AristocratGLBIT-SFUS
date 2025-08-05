@@ -10,13 +10,44 @@
 			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
 				<Data Description="Runs a keyword test." TestName="CompanyCode_Addition" />
 			</Operation>
+			<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
+				<Data Description="Posts an information message to the test log." MessageType="0">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Validate that added account gets updated succesfully for the provided D-65 code ." />
+						<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
+						<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+							<Values IsEnum="True">
+								<Value Type="1" Value="100" Text="pmLowest" />
+								<Value Type="1" Value="200" Text="pmLower" />
+								<Value Type="1" Value="300" Text="pmNormal" />
+								<Value Type="1" Value="400" Text="pmHigher" />
+								<Value Type="1" Value="500" Text="pmHighest" />
+							</Values>
+						</Parameter>
+						<Parameter Name="Attrib" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+						<Parameter Name="Picture" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+						<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
+				<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.browser.Page__PostAccountApproval.D365CompanyCode__Field.panelD365CompanyCode" />
+						<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="contentText" />
+						<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="0" />
+						<Parameter Name="Value" DefVarType="12" VarType="8" ValueType="9" ValueValue="4400330036003500200043006F006D00700061006E007900200043006F00640065000A00480065006C00700020004400330036003500200043006F006D00700061006E007900200043006F00640065000A004100630074006900760065002000760061006C00750065007300200041004D00300031002000410072006900730074006F006300720061007400200054006500630068006E006F006C006F0067006900650073002000550053004100200041004D00300032002000410072006900730074006F006300720061007400200054006500630068006E006F006C006F0067006900650073002000430061006E00610064006100200041004D00300034002000410072006900730074006F0063007200610074002000500075006500720074006F0020005200690063006F00200041004D00300035002000410072006900730074006F00630072006100740020004C006100740069006E002000280061006E006400200053006F007500740068002900200041006D0065007200690063006100200041004D003800300020005600470054002000500073006500750064006F0020004C006500670061006C00200045006E00740069007400790020004E006F00740020004100630074006900760065002F0044006F0020004E006F007400200055007300650020002800620065006C006F0077002900200041004D00300033002000410072006900730074006F006300720061007400200054006500630068006E006F006C006F00670069006500730020004D0065007800690063006F00200041004D00300036002000410072006900730074006F006300720061007400200041007200670065006E00740069006E006100200041004D00310030002000410072006900730074006F0063007200610074002000530065007200760069006300650020004D0065007800690063006F00200041004D00310034002000410072006900730074006F006300720061007400200044004E005500200028007700610073002000500065007200750029000A0041004D00300031000A00450064006900740020004400330036003500200043006F006D00700061006E007900200043006F0064006500" />
+						<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="True" />
+					</Parameters>
+				</Data>
+			</Operation>
 			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
 				<Data Description="Runs a keyword test." TestName="PreApproval_Action" />
 			</Operation>
 			<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
 				<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.browser.Page__Login.FindElement(&quot;//div[contains(@class, &apos;modal-body&apos;)]&quot;)" />
+						<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.browser.Page__PreAccountApproval.GameClassification__Alert" />
 						<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="contentText" />
 						<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="0" />
 						<Parameter Name="Value" DefVarType="12" VarType="8" ValueType="6" ValueValue="This account has 1 Delivery Address(es) with &apos;Address Gaming Classification&apos; field as empty. Please populate it before approving." />
@@ -27,7 +58,7 @@
 			<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
 				<Data Description="Posts an information message to the test log." MessageType="0">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Address validetion should be here." />
+						<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Validated that Gaming Classficiation alert do appears while submitting account for approval ." />
 						<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
 						<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
 							<Values IsEnum="True">

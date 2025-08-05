@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="log data">
+			<Node name="row0">
+				<Prp name="name" type="S" value="Element to be run"/>
+				<Prp name="end time" type="D" value="45874.7952405093"/>
+				<Prp name="details" type="S" value=""/>
+				<Prp name="start time" type="D" value="45874.7952405093"/>
+				<Prp name="testdata item" type="B" value="-1"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="index" type="I" value="0"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="row2">
+				<Prp name="name" type="S" value="Login to Salesforce with service account. [KeywordTests - Login_Test]"/>
+				<Prp name="end time" type="D" value="45874.7959553472"/>
+				<Prp name="details" type="S" value="{91030B97-C7AB-4A52-B477-7E638B664D3A}"/>
+				<Prp name="start time" type="D" value="45874.7952405093"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="index" type="I" value="2"/>
+				<Prp name="status" type="I" value="1"/>
+			</Node>
+			<Node name="row1">
+				<Prp name="name" type="S" value="No element to be run for the 'Step 1: Login to SalseForce' test item was specified."/>
+				<Prp name="end time" type="D" value="45874.7952405093"/>
+				<Prp name="details" type="S" value=""/>
+				<Prp name="start time" type="D" value="45874.7952405093"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="index" type="I" value="1"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+		</Node>
+	</Node>
+</Nodes>

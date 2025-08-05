@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="projects">
+			<Node name="project0">
+				<Node name="tests">
+					<Node name="test0">
+						<Node name="warnings">
+							<Node name="warning0">
+								<Prp name="msg" type="S" value="The browser is already running."/>
+							</Node>
+						</Node>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="45866.7351974884"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBCADEARAAzADkAMAAyADIALQBDADcAQgA1AC0ANABCADAARAAtADkANwA1ADYALQBGADkARAA5AEYAMQA3ADUAQQBEADYAMgB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="durationwithoutchildren" type="I" value="82891"/>
+						<Prp name="name" type="S" value="Login to Salesforce with service account."/>
+						<Prp name="status" type="I" value="1"/>
+						<Prp name="duration" type="I" value="82891"/>
+					</Node>
+				</Node>
+				<Prp name="failedtests" type="I" value="0"/>
+				<Prp name="loadtests" type="I" value="0"/>
+				<Prp name="starttime" type="D" value="45866.7351974884"/>
+				<Prp name="incompletedtests" type="I" value="0"/>
+				<Prp name="warningtests" type="I" value="1"/>
+				<Prp name="name" type="S" value="SF_US"/>
+				<Prp name="duration" type="I" value="82891"/>
+			</Node>
+		</Node>
+		<Prp name="warningtests" type="I" value="1"/>
+		<Prp name="executionstatus" type="I" value="1"/>
+		<Prp name="incompletedtests" type="I" value="0"/>
+		<Prp name="loadtests" type="I" value="0"/>
+		<Prp name="host" type="S" value="L76130"/>
+		<Prp name="successtestwithretries" type="I" value="0"/>
+		<Prp name="testname" type="S" value="SF_US: 82030_B01_Accounts_Creation_Approve\Step 1: Login to SalseForce"/>
+		<Prp name="warningtestwithretries" type="I" value="0"/>
+		<Prp name="key" type="S" value="{381BE468-8DE5-42AF-92A8-2BFB2FAD92BB}"/>
+		<Prp name="stop" type="D" value="45866.7361589468"/>
+		<Prp name="name" type="S" value="AristocratGLBIT"/>
+		<Prp name="failedtests" type="I" value="0"/>
+		<Prp name="tests" type="I" value="1"/>
+		<Prp name="user" type="S" value="AS112085"/>
+		<Prp name="starttime" type="D" value="45866.7351972801"/>
+	</Node>
+</Nodes>

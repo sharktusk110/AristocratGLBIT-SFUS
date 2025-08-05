@@ -58,11 +58,7 @@
 
 function Conversion_Validation()
 {
-  //Checks whether the 'Enabled' property of the Aliases.browser.section5.panelShowHideChildItems object equals True.
-  //aqObject.CheckProperty(Aliases.browser.section5.panelShowHideChildItems, "Enabled", cmpEqual, true);
-  //Checks whether the 'Enabled' property of the Aliases.browser.PreAccountApproval_Tabs.Home_Panel.panelEgmCount object equals True.
-  //aqObject.CheckProperty(Aliases.browser.PreAccountApproval__Tabs.Home__Panel.panelEgmCount, "Enabled", cmpEqual, true);
-//let browser = Aliases.browser;
+  
 aqObject.CheckProperty(Aliases.browser.Page__Login.FindElement("//div[contains(@class, 'slds-theme--success')]"), "Enabled", cmpEqual, true);
 }
 
