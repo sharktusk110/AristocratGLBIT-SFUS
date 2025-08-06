@@ -1,0 +1,15 @@
+﻿// Requirement : To be done later.
+// Creator : Pooja Shivhare
+// Date: 6th of Aug'25
+//*************************************************************************************************************************************
+//module.exports.getObject
+//USEUNIT ReadExcel
+//USEUNIT Login
+//USEUNIT DynamicWait
+
+
+function SellingModel_GamingOpsMSPCoinInJackpotFunded(){
+record Price
+Validate Coin In,Min and Max are editable, User can edit No Charge Days and Est Fee Per Day
+
+}

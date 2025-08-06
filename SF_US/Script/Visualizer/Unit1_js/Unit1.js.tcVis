@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{72A1055F-7EFA-435C-BF14-FD1B4294A018}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="22" kind="0" dateTime="45874.3566203704" objectName="Aliases.browser.pageLoginSalesforce.formLoginForm.submitbuttonLogInToSandbox" objectLeft="223" objectTop="689" objectRight="731" objectBottom="752" clickPointX="507" clickPointY="715" imageFileName="tcvi93502109224160.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="23" kind="0" dateTime="45874.3566203704" objectName="Aliases.browser.pageLoginSalesforce.formLoginForm.submitbuttonLogInToSandbox" objectLeft="223" objectTop="689" objectRight="731" objectBottom="752" clickPointX="507" clickPointY="715" imageFileName="tcvi93502250262080.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="36" kind="0" dateTime="45874.3568981482" objectName="Aliases.browser.Page_QuoteNavigation.SearchThisList_SearchField" objectLeft="1343" objectTop="419" objectRight="1613" objectBottom="455" clickPointX="1414" clickPointY="444" imageFileName="tcvi93526750224165.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

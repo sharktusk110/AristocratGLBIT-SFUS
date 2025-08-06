@@ -1,0 +1,20 @@
+﻿//USEUNIT OutrightSale_D_01
+//module.exports.getObject
+
+function ExcelUtility() {
+  
+Sheet="SF_TestData";
+
+var excelFile = Excel.Open(Project.Path+"\\Data_Sheets\\Data_Sheet.xlsx"); //Path of the Datasheet
+var excelSheet = excelFile.SheetByTitle(Sheet);
+var rows = excelSheet.RowCount;
+var cols = excelSheet.ColumnCount;
+
+var Config = new Array(rows).fill(0).map(() => new Array(cols).fill(0));
+Config=ReadExcel["D_SeriesTestDataFromExcel"]();
+
+for(let i=2;i<=rows;i++){
+ConfigFilter6 = [Config[i][67],Config[i][68],Config[i][69]];
+OutrightSale_D_01["AddLineItemController"](ConfigFilter5);
+
+}}

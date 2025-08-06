@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{DA6D7EF7-5B05-4735-AAF0-A85E47D47989}" version="15.0">
+	<children>
+		<child name="pageBellagioLasVegasAccountSales" key="{88C1E1DB-1413-48F4-817F-6E31BADAD37D}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="pageBellagioLasVegasAccountSales" ID="{88C1E1DB-1413-48F4-817F-6E31BADAD37D}" FileName="Regions\pageBellagioLasVegasAccountSales.png" Update="False" />
+		</child>
+		<child name="MSTaskSwWClass" key="{3D6C1780-8EB8-43F9-929F-4E45DAF860A0}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="MSTaskSwWClass" ID="{3D6C1780-8EB8-43F9-929F-4E45DAF860A0}" FileName="Regions\MSTaskSwWClass.png" Update="False" />
+		</child>
+		<child name="pageBellagioLasVegasAccountSales1" key="{BAB62397-28AC-4754-9B24-2AC3AE435C43}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="pageBellagioLasVegasAccountSales1" ID="{BAB62397-28AC-4754-9B24-2AC3AE435C43}" FileName="Regions\pageBellagioLasVegasAccountSales1.png" Update="False" />
+		</child>
+		<child name="MSTaskSwWClass1" key="{AA81A8DE-D07C-417E-8ECE-C0ECEBBA49B4}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="MSTaskSwWClass1" ID="{AA81A8DE-D07C-417E-8ECE-C0ECEBBA49B4}" FileName="Regions\MSTaskSwWClass1.png" Update="False" />
+		</child>
+		<child name="DesktopWindowXamlSource" key="{745E783E-ADB6-40E9-8CE5-995E995B63AB}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="DesktopWindowXamlSource" ID="{745E783E-ADB6-40E9-8CE5-995E995B63AB}" FileName="Regions\DesktopWindowXamlSource.png" Update="False" />
+		</child>
+		<child name="panelHealthCheckResults" key="{B26F7AC9-FCEC-41E1-A2DA-A65276008895}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="panelHealthCheckResults" ID="{B26F7AC9-FCEC-41E1-A2DA-A65276008895}" FileName="Regions\panelHealthCheckResults.png" Update="False" />
+		</child>
+	</children>
+</Root>

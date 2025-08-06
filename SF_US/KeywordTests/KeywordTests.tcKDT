@@ -5,5 +5,6 @@
 		<folder name="Pages" />
 		<folder name="BrowserUtilities" />
 		<folder name="Tests" />
+		<child name="Test1" key="{1AB4A9C4-9913-4938-9412-C086D717B964}" path="Test1.tcKDTest" />
 	</children>
 </Root>

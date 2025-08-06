@@ -1,0 +1,5 @@
+﻿//USEUNIT OutrightSale_D_01
+//module.exports.getObject
+
+
+OutrightSale_D_01["econ_configuration_navigation"]();

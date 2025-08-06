@@ -1,0 +1,53 @@
+﻿//module.exports.getObject
+
+function SF_login(username,password){
+  
+  Aliases.browser.pageLoginSalesforce.formLoginForm.emailinputUsername.SetText(username);
+  Delay(2000); 
+  Aliases.browser.pageLoginSalesforce.formLoginForm.passwordboxPassword.SetText(password);
+  Delay(2000);
+  Aliases.browser.pageLoginSalesforce.formLoginForm.submitbuttonLogInToSandbox.Click();
+                                 
+}
+
+function D65_login(username,password){
+  
+  if(Aliases.browser.Page_OutlookLogin.formF1.imageImages.Exists){
+  
+  Aliases.browser.Page_OutlookLogin.formF1.imageImages.Click();
+  }
+  
+  //Enters 'crmtest.4@aristocrat.com' in the 'Email_Field' object.
+  Aliases.browser.Page_OutlookLogin.Email_Field.Keys(username);
+  //Clicks the 'Signin_Text' control.
+  Aliases.browser.Page_OutlookLogin.Signin_Text.Click();
+  //Simulates a left-button single click in a window or control as specified (relative position, shift keys).
+  Aliases.browser.Page_OutlookLogin.Next_Button.Click();
+  //Clicks the 'Next_Button' button.
+  Aliases.browser.Page_AristocratLogin_Passive.Next_Button.ClickButton();
+  //Clicks the 'panelSigninContainer' control.
+  //Aliases.browser.pagePassive.panelSigninContainer.Click();
+  //Enters text in the text box.
+  Aliases.browser.Page_AristocratLogin_Active.Password_Field.SetText(password);
+  //Clicks the 'Verify_Button' button.
+  Aliases.browser.Page_AristocratLogin_Active.Verify_Button.ClickButton();
+                                 
+}
+
+function User_login(){
+  
+Browsers.Item(btEdge).Navigate("https://aristocrat-global--qa1.sandbox.my.salesforce-setup.com/lightning/setup/ManageUsers/page*");
+  Delay(3000);
+  Aliases.browser.page_Users.Search_Field.Click();
+  Delay(1000);
+  Aliases.browser.page_Users.Search_Field.Keys("Chelsea Sutton");
+  Delay(10000);
+  Aliases.browser.page_Users.Search_Field.Keys("[Down]");
+  Delay(2000);
+  Aliases.browser.page_Users.Search_Field.Keys("[Enter]");
+  Delay(2000);
+  //Aliases.browser.page_User.UserDetail_Button.Click();
+  Delay(2000);
+  Aliases.browser.page_Users.Login_Button.Click();
+  
+}
