@@ -1,33 +1,33 @@
 ﻿function AddWVFEE()
 {
-  Aliases.browser.Page__PostAccountApproval.AddEditLineItem__Button.Click();
+  Aliases.browser.page__Home.QuoteAddEditLineItems__tab.ClickButton();
+ Delay(2000);
+  
+  Aliases.browser.page__EditLineItem.Add__button.ClickButton();
+ Delay(2000);
+  
+  Aliases.browser.page__EditLineItem.AllFamilies__panel.Families__tab.ClickButton();
   Delay(2000);
   
-  Aliases.browser.Page__EditLineItem.EditLine__Bar.header.Add__Button.Click();
-  Delay(2000);
+  Aliases.browser.page__EditLineItem.AllFamilies__panel.Families__tab.Keys("[Down][Down][Down][Enter]");
+ Delay(2000);
   
-  Aliases.browser.Page__EditLineItem.textnodeAllFamilies.Families__Tab.Click();
-  Delay(2000);
-  
-  Aliases.browser.Page__EditLineItem.textnodeAllFamilies.Fees__Tab.Click();
-  Delay(2000);
-  
-  Aliases.browser.Page__EditLineItem.ProductSearch__Bar.SetText("WVFEE");
+  Aliases.browser.Page__EditLineItem.ProductSearch__bar.SetText("WVFEE");
   Delay(2000);
   
   Aliases.browser.Page__EditLineItem.HelixPlusUpright__Tab.Click();
   Delay(2000);
   
-  Aliases.browser.Page__EditLineItem.OutrightSaleNew__Tab.Click();
+  Aliases.browser.page__RFCQuote.OutrightSale__tab.Click();
   Delay(2000);
   
   Aliases.browser.Page__EditLineItem.Continue__Button.ClickButton();
   Delay(2000);
   
   NameMapping.Sys.browser.pageHomeSearch.buttonSave.Click();
-  delay(4000);
+  delay(6000);
   
-  NameMapping.Sys.browser.pageCasinoRoyaleAccountSalesforc.Close__Button.Click();
+  Aliases.browser.page__EditLineItem.Close__button.Click();
   Delay(2000);
 }
 
@@ -35,20 +35,20 @@
 
 function Submitforapproval()
 {
-    Aliases.browser.Page__PostAccountApproval.TaxCalculator__Button.Click();
+    Aliases.browser.page__RFCQuote.TaxCalculator__button.Click();
     Delay(2000);
     
-    Aliases.browser.Page__AccountCreation.Save__button.Click();
+    Aliases.browser.page__Home.Save__button.Click();
     Delay(5000);
  
-    Aliases.browser.Page__SubmitForApproval.click();
+    Aliases.browser.page__Account.SubmitForApproval__tab.click();
     Delay(2000);
   
-    Aliases.browser.Page__SubmitForApproval.CommentApproval_Panel.CommentsApproval__Field.Click();
+    Aliases.browser.page__Home.CommentsApproval__field.Click();
   
-    Aliases.browser.Page__SubmitForApproval.CommentApproval_Panel.CommentsApproval__Field.Keys("Approve");
+    Aliases.browser.page__Home.CommentsApproval__field.Keys("Approve");
   
-    Aliases.browser.Page__SubmitForApproval.Submit__Button.click();  
+    Aliases.browser.page__Home.Submit__button.click();  
 }
 
 
@@ -61,15 +61,16 @@ function EditRFCquote()
   Aliases.browser.Page__RFCQuote.PaymentTerms__Panel.PaymentTerms__Tab.Click();
   Delay(1000);
   
-  Aliases.browser.Page__RFCQuote.PaymentTerms__Panel.PaymentTerm6M__Tab.Click();
+  Aliases.browser.Page__RFCQuote.PaymentTerms__Panel.PaymentTerms__Tab.Keys("[Down][Enter]")
+  //Aliases.browser.Page__RFCQuote.PaymentTerms__Panel.PaymentTerm6M__Tab.Click();
   
-  Aliases.browser.Page__AccountCreation.Save__button.Click();
+  Aliases.browser.page__Home.Save__button.Click();
   Delay(2000);
   
   
   
   Log.Message("Verify that BDE (quote owner) is not able to modify any field values on Outright Sale RFC Quote once it is submitted for approval")     
-  aqObject.CheckProperty(Aliases.browser.Page__Login.RFCErrorAlert__Text, "contentText", cmpEqual, "Review the errors on this page.\nSorry, you cannot change field 'Payment Terms' as this Quote is in Submitted For Approval status.\nReview the following fields\nApproval Status");
+  aqObject.CheckProperty(Aliases.browser.Page__Login.RFCErrorAlert__text, "contentText", cmpEqual, "Review the errors on this page.\nSorry, you cannot change field 'Payment Terms' as this Quote is in Submitted For Approval status.\nReview the following fields\nApproval Status");
 
 
 }
@@ -79,7 +80,7 @@ function ELI_Disabeld()
 
 {
   
-    Aliases.browser.Page__PostAccountApproval.AddEditLineItem__Button.Click();
+    Aliases.browser.page__Home.QuoteAddEditLineItems__tab.Click();
     Delay(2000);
   
     Aliases.browser.Page__RFCQuote.Click__Panel.Opport__Click.Click();
@@ -90,10 +91,10 @@ function ELI_Disabeld()
     aqObject.CheckProperty(Aliases.browser.Page__Login.FindElement("//div[@role='dialog']//section//c-add-edit-line-items//div//div[contains(@class, 'flex-item-one-autoscroll')]"), "Enabled", cmpEqual, true);
 
     
-    NameMapping.Sys.browser.pageCasinoRoyaleAccountSalesforc.Close__Button.Click();
+    Aliases.browser.page__EditLineItem.Close__button.Click();
     Delay(2000);
     
-    Aliases.browser.Page__PostAccountApproval.Detail__Tab.Cancel__Button.Click();
+   Aliases.browser.page__Account.Cancel__Button.Click();
 
 }
 

@@ -1,17 +1,16 @@
 ﻿function EditOpportunity_Page()
 {
   
-  Aliases.browser.Page__PreAccountApproval.Home__Panel.UserLogedIn__Panel.GlobalAccount__Tab.Click();
+ 
+  
+  Aliases.browser.page__Home.GlobalSearch__field.SetText(Project.Variables.OpportunityName);
   Delay(2000);
   
-  Aliases.browser.Page__PreAccountApproval.Home__Panel.headerOneheader2.GlobalSearch__Field.SetText(Project.Variables.OpportunityName);
+  
+  Aliases.browser.page__Home.GlobalSearch__field.Keys("[Enter]");
   Delay(2000);
   
-  
-  Aliases.browser.Page__PreAccountApproval.Home__Panel.headerOneheader2.GlobalSearch__Field.Keys("[Enter]");
-  Delay(2000);
-  
-  Aliases.browser.Page__PostAccountApproval.NewOpportunity__Tab.Click();
+  Aliases.browser.page__Home.NewOpportunity__tab.Click();
   Delay(2000);
  
   let browserWindow = NameMapping.Sys.browser;
@@ -22,64 +21,62 @@
  
   
   
-    Aliases.browser.Page__PreAccountApproval.Detail__Panel.TypeEdit__Button.Click();
-    Delay(2000);
-  
-    Aliases.browser.Page__PreAccountApproval.Detail__Panel.TypeEdit__Button.Regular__Button.Click();
+    Aliases.browser.page__Opportunity.TypeEdit__button.Click();
     Delay(2000);
     
-    Aliases.browser.Page__PreAccountApproval.Detail__Panel.TypeEdit__Button.Regular__Button.Regular__Tab.Click();
+    Aliases.browser.page__Opportunity.TypeEdit__button.Regular__button.Keys("[Down][Down][Enter]");
     Delay(2000);
  
-  Aliases.browser.Page__AccountCreation.Save__button.ClickButton();
-  Delay(2000);
+    Aliases.browser.page__Home.Save__button.ClickButton();
+    Delay(4000);
  
   
-  Aliases.browser.Page__PreAccountApproval.Home__Panel.EditLineItem__Tab.ClickButton();
+  Aliases.browser.page__Home.EditLineItem__tab.ClickButton();
   Delay(2000);
   
-  NameMapping.Sys.browser.pageCasinoRoyaleAccountSalesforc.Add__Button.ClickButton(); 
+  Aliases.browser.page__EditLineItem.Add__button.ClickButton(); 
   Delay(2000);
   
- Aliases.browser.Page__EditLineItem.textnodeAllFamilies.Families__Tab.ClickButton();
+ Aliases.browser.page__EditLineItem.AllFamilies__panel.Families__tab.ClickButton();
   Delay(2000);
   
- Aliases.browser.Page__EditLineItem.textnodeAllFamilies.EGM__Tab.Click();
+ Aliases.browser.page__EditLineItem.AllFamilies__panel.Families__tab.Keys("[Down][Enter]");
  Delay(2000);
   
-  Aliases.browser.Page__EditLineItem.ProductSearch__Bar.Click();
+  Aliases.browser.Page__EditLineItem.ProductSearch__bar.Click();
   Delay(2000);
  
-  Aliases.browser.Page__EditLineItem.ProductSearch__Bar.SetText("Helix Plus Upright");
+  Aliases.browser.Page__EditLineItem.ProductSearch__bar.SetText("Helix Plus Upright");
   Delay(4000);
   
-  Aliases.browser.Page__EditLineItem.HelixPlusUpright__Tab.Click();
+  Aliases.browser.Page__EditLineItem.HelixPlusUpright__tab.Click();
   Delay(2000);
   
-  Aliases.browser.Page__EditLineItem.OutrightSaleNew__Tab.Click();
+  Aliases.browser.Page__EditLineItem.OutrightSaleNew__tab.Click();
   Delay(2000);
   
   
- Aliases.browser.Page__EditLineItem.Continue__Button.ClickButton();
+ Aliases.browser.Page__EditLineItem.Continue__button.ClickButton();
  Delay(2000);
   
-  Aliases.browser.Page__EditLineItem.sectionConfigure.ApplyPrefrence__Button.Click();
+  Aliases.browser.page__EditLineItem.Configure__Panel.ApplyPrefrence__button.Click();
   Delay(4000);
   
-  Log.Message("Validate whether apply preferences functionality working correctly and filling concerned details in concerned fields .")
-  aqObject.CheckProperty(Aliases.browser.Page__EditLineItem.sectionConfigure.ApplyPrefrence__Button, "contentText", cmpEqual, "MainFloor");
+  aqObject.CheckProperty(Aliases.browser.page__EditLineItem.Configure__Panel.ApplyPrefrence__button, "contentText", cmpEqual, "MainFloor");
   Delay(4000);
   
 
   Aliases.browser.Page__EditLineItem.Save__Button3.Click();
   Delay(4000);
   
-  aqObject.CheckProperty(Aliases.browser.Page__EditLineItem.sectionConfigure.Required__Panel, "contentText", cmpEqual, "Required !");
+  aqObject.CheckProperty(Aliases.browser.Page__EditLineItem.Configure__Panel.Required__panel, "contentText", cmpEqual, "Required !");
  
   Aliases.browser.Page__EditLineItem.Save__Button3.Click();
   Delay(4000);
 
- Aliases.browser.Page__EditLineItem.sectionConfigure.License__Tab.ClickItem(3);
+ Aliases.browser.page__EditLineItem.Configure__Panel.License__tab.Click();
+ Aliases.browser.page__EditLineItem.Configure__Panel.License__tab.Keys("[Down][Down][Enter]");
+ 
  
 }
 
@@ -88,16 +85,15 @@
 
 function EditLineItem_Validation()
 {
-  aqObject.CheckProperty(Aliases.browser.Page__EditLineItem.sectionConfigure.Mainfloor__Button, "Enabled", cmpEqual, true);
+  aqObject.CheckProperty(Aliases.browser.Page__EditLineItem.Configure__Panel.Mainfloor__button, "Enabled", cmpEqual, true);
  
-  aqObject.CheckProperty(Aliases.browser.Page__EditLineItem.sectionConfigure.Promotion__Tab, "Enabled", cmpEqual, true);
-  Aliases.browser.Page__EditLineItem.sectionConfigure.Mainfloor__Button.ClickButton();
-  aqObject.CheckProperty(Aliases.browser.Page__EditLineItem.sectionConfigure.BillAccepter__Tab, "Enabled", cmpEqual, true);
-  aqObject.CheckProperty(Aliases.browser.Page__EditLineItem.sectionConfigure.Printer__Tab, "Enabled", cmpEqual, true);
-  aqObject.CheckProperty(Aliases.browser.Page__EditLineItem.sectionConfigure.Trim__Tab, "Enabled", cmpEqual, true);
-  aqObject.CheckProperty(Aliases.browser.Page__EditLineItem.sectionConfigure.Licence__panel, "Enabled", cmpEqual, true);
-  aqObject.CheckProperty(Aliases.browser.Page__EditLineItem.sectionConfigure.Button__Panel, "Enabled", cmpEqual, true);
-  aqObject.CheckProperty(Aliases.browser.Page__EditLineItem.sectionConfigure.OtherDiscount__Panel, "Enabled", cmpEqual, true);
+  aqObject.CheckProperty(Aliases.browser.Page__EditLineItem.Configure__Panel.Promotion__tab, "Enabled", cmpEqual, true);
+  Aliases.browser.Page__EditLineItem.Configure__Panel.Mainfloor__button.ClickButton();
+  aqObject.CheckProperty(Aliases.browser.Page__EditLineItem.Configure__Panel.BillAccepter__tab, "Enabled", cmpEqual, true);
+  aqObject.CheckProperty(Aliases.browser.Page__EditLineItem.Configure__Panel.Printer__tab, "Enabled", cmpEqual, true);
+  aqObject.CheckProperty(Aliases.browser.Page__EditLineItem.Configure__Panel.Trim__tab, "Enabled", cmpEqual, true);
+  aqObject.CheckProperty(Aliases.browser.Page__EditLineItem.Configure__Panel.Button__Panel, "Enabled", cmpEqual, true);
+  aqObject.CheckProperty(Aliases.browser.Page__EditLineItem.Configure__Panel.OtherDiscount__panel, "Enabled", cmpEqual, true);
 }
 
  function Close_EditLine_Item()
@@ -107,10 +103,10 @@ function EditLineItem_Validation()
  
   let browser = Aliases.browser;
   Delay(4000);
-  Aliases.browser.Page__EditLineItem.Save__Button3.ClickButton();
+  Aliases.browser.Page__EditLineItem.Save__button3.ClickButton();
   
   Delay(4000);
-  browserWindow.pageCasinoRoyaleAccountSalesforc.Close__Button.ClickButton();
+  Aliases.browser.page__EditLineItem.Close__button.ClickButton();
  
  
 }

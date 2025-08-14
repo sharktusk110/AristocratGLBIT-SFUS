@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="projects">
+			<Node name="project0">
+				<Node name="tests">
+					<Node name="test0">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error2">
+								<Prp name="msg" type="S" value="The execution process was interrupted."/>
+							</Node>
+							<Node name="error0">
+								<Prp name="msg" type="S" value="The object &quot;Approve__tab&quot; does not exist."/>
+							</Node>
+							<Node name="error1">
+								<Prp name="msg" type="S" value="The test run has stopped because your test project is configured to stop on errors."/>
+							</Node>
+						</Node>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="name" type="S" value="B06COEuserValidation"/>
+						<Prp name="durationwithoutchildren" type="I" value="271641"/>
+						<Prp name="starttime" type="D" value="45883.5902300231"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBGAEEARABFADMANABCAEQALQA5AEUAMAAwAC0ANABBAEIANAAtAEIAOAA4AEQALQBBAEMAMAA4ADIANQAyADcAMgBFADYARgB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="duration" type="I" value="271641"/>
+					</Node>
+				</Node>
+				<Prp name="loadtests" type="I" value="0"/>
+				<Prp name="failedtests" type="I" value="1"/>
+				<Prp name="warningtests" type="I" value="0"/>
+				<Prp name="name" type="S" value="SF_US"/>
+				<Prp name="starttime" type="D" value="45883.5902300231"/>
+				<Prp name="incompletedtests" type="I" value="0"/>
+				<Prp name="duration" type="I" value="271641"/>
+			</Node>
+		</Node>
+		<Prp name="name" type="S" value="AristocratGLBIT"/>
+		<Prp name="starttime" type="D" value="45883.5902275347"/>
+		<Prp name="tests" type="I" value="1"/>
+		<Prp name="warningtestwithretries" type="I" value="0"/>
+		<Prp name="testname" type="S" value="SF_US: 363389_B06_Approvals - Automation_on -COE to have access to certain fields during the approval process"/>
+		<Prp name="key" type="S" value="{8A441815-9035-4D92-AAD3-2EC4B5FCE7FA}"/>
+		<Prp name="loadtests" type="I" value="0"/>
+		<Prp name="successtestwithretries" type="I" value="0"/>
+		<Prp name="incompletedtests" type="I" value="0"/>
+		<Prp name="user" type="S" value="AS112085"/>
+		<Prp name="stop" type="D" value="45883.5933775116"/>
+		<Prp name="failedtests" type="I" value="1"/>
+		<Prp name="warningtests" type="I" value="0"/>
+		<Prp name="host" type="S" value="L76130"/>
+		<Prp name="executionstatus" type="I" value="2"/>
+	</Node>
+</Nodes>

@@ -1,69 +1,67 @@
 ﻿function ConfigGOpsSale_Config()
 {
     //Clicks the 'LeaseTerm__Tab' button.
-  Aliases.browser.Page__RFCQuote.LeaseTerm__Panel.LeaseTerm__Tab.ClickButton();
+  Aliases.browser.Page__RFCQuote.LeaseTerm__Panel.LeaseTerm__tab.ClickButton();
   //Delays the test execution for the specified time period.
   Delay(2000);
   
-  //Clicks the 'LeaseTerm__Tab' button.
-  Aliases.browser.Page__RFCQuote.LeaseTerm__Panel.LeaseTerm__Tab.ClickButton();
-  //Delays the test execution for the specified time period.
-  Delay(2000);
-  
-  //Clicks the 'LeaseTermNone__Tab' control.
-  Aliases.browser.Page__RFCQuote.LeaseTerm__Panel.LeaseTermNone__Tab.Click();
+   
+  Aliases.browser.Page__RFCQuote.LeaseTerm__Panel.LeaseTerm__tab.Keys("[Down][Enter]");
   //Delays the test execution for the specified time period.
   Delay(2000);
   
   //Clicks the 'Save__button' button.
-  Aliases.browser.Page__AccountCreation.Save__button.ClickButton();
+  Aliases.browser.page__Home.Save__button.ClickButton();
   //Delays the test execution for the specified time period.
   Delay(2000);
   
   
-  Aliases.browser.Page__PostAccountApproval.AddEditLineItem__Button.ClickButton();
+  Aliases.browser.page__Home.QuoteAddEditLineItems__tab.ClickButton();
   Delay(2000);
   
 
-  Aliases.browser.Page__EditLineItem.EditLine__Bar.header.Add__Button.ClickButton();
-  Delay(2000);
   
+  Aliases.browser.page__EditLineItem.Add__button.ClickButton();
+  Delay(2000);
  
-  Aliases.browser.Page__EditLineItem.textnodeAllFamilies.Families__Tab.ClickButton();
-  Delay(2000);
-
-  Aliases.browser.Page__EditLineItem.textnodeAllFamilies.EGM__Tab.Click();
-  Delay(2000);
-
-  Aliases.browser.Page__EditLineItem.ProductSearch__Bar.SetText("HELIX PLUS UPRIGHT");
+  Aliases.browser.page__EditLineItem.AllFamilies__panel.Families__tab.ClickButton();
   Delay(2000);
   
-  
-  Aliases.browser.Page__EditLineItem.HelixPlusUpright__Tab.Click();
+  Aliases.browser.page__EditLineItem.AllFamilies__panel.Keys("[Down][Enter]");
   Delay(2000);
   
-  Aliases.browser.Page__EditLineItem.GOpsSale__Tab.Click();
+  Aliases.browser.Page__EditLineItem.ProductSearch__bar.SetText("HELIX PLUS UPRIGHT");
   Delay(2000);
   
-  Aliases.browser.Page__EditLineItem.Continue__Button.ClickButton();
+  Aliases.browser.Page__EditLineItem.HelixPlusUpright__tab.Click();
+  Delay(2000);
+ 
+  Aliases.browser.Page__EditLineItem.GOpsSale__tab.Click();
   Delay(2000);
   
-  Aliases.browser.Page__RFCQuote.Page__Configu.sectionConfigure2.Qnty__Tab.SetText("7");
+  Aliases.browser.Page__EditLineItem.Continue__button.ClickButton();
   Delay(2000);
   
-  Aliases.browser.Page__EditLineItem.sectionConfigure.License__Tab.ClickItem(4);
+  Aliases.browser.page__EditLineItem.Qnty__tab.SetText("7");
+  Delay(2000);
+  
+  Aliases.browser.Page__EditLineItem.Configure__Panel.License__tab.Click();
+  Aliases.browser.Page__EditLineItem.Configure__Panel.License__tab.Keys(["[Down][Down][Down][Down][Enter]"]);
   Delay(4000);
 
-  Aliases.browser.Page__EditLineItem.sectionConfigure.Mainfloor__Button.ClickButton();
+  Aliases.browser.Page__EditLineItem.Configure__Panel.Mainfloor__button.ClickButton();
   Delay(6000);  
 
-  Aliases.browser.Page__RFCQuote.Page__Configu.sectionConfigure2.Frieght__Tab.ClickItem(3);
+ Aliases.browser.page__RFCQuote.Page__Configu.ConfigureEditLineItem__panel.Frieght__tab.Click();
+ Aliases.browser.page__RFCQuote.Page__Configu.ConfigureEditLineItem__panel.Frieght__tab.Keys("[Down][Down][Enter]");
+ 
   Delay(2000);
   
-  Aliases.browser.Page__EditLineItem.sectionConfigure.Promotion__Button.ClickItem(3);
+  Aliases.browser.Page__EditLineItem.Configure__Panel.Promotion__button.Click();
+  Aliases.browser.Page__EditLineItem.Configure__Panel.Promotion__button.Keys("[Down][Down][Enter]");
   Delay(2000);
   
-  Aliases.browser.Page__EditLineItem.sectionConfigure.UnitDiscount__Box.SetText(100);
+  Aliases.browser.Page__EditLineItem.Configure__Panel.UnitDiscount__Box.SetText(100);
  
   
  Aliases.browser.Page__EditLineItem.Save__Button3.ClickButton();
@@ -71,9 +69,9 @@
  Delay(6000);
 
  Log.Message("Account has been created seccessfull massege")
-  aqObject.CheckProperty(Aliases.browser.Page__AccountCreation.AccountCreation__Toast, "Enabled", cmpEqual, true);
+  aqObject.CheckProperty(Aliases.browser.page__login.AccountCreation__toast, "Enabled", cmpEqual, true);
  
- NameMapping.Sys.browser.pageCasinoRoyaleAccountSalesforc.Close__Button.ClickButton();
+ Aliases.browser.page__RFCQuote.CloseQ__button.ClickButton();
  
  
 }
@@ -81,7 +79,7 @@
 function validateGOps_LeaseTerm()
 {
   Log.Message("validation for Lease Term field is auto-populated with Not Required - GOps MSP ")
-  aqObject.CheckProperty(Aliases.browser.Page__PostAccountApproval.Detail__Tab.GopsMspNotRequired__Label, "contentText", cmpEqual, "Not Required - GOps MSP");
+  aqObject.CheckProperty(Aliases.browser.page__Account.Detail__tab.GopsMspNotRequired__Label, "contentText", cmpEqual, "Not Required - GOps MSP");
 
 }
 

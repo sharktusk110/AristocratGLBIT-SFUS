@@ -20,7 +20,7 @@
 						<testParameters />
 						<environments activeCloud="SWT" />
 						<children>
-							<testItem name="Login to Salesforce with service account." key="{A999EBA2-9FD2-4BF0-902F-A464A74B1E16}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{21823095-49D7-4B3D-973C-DEC7CADA04DD}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+							<testItem name="Login_Test" key="{19DFF289-C17C-405D-A24C-02855EE3A22A}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{283D3F36-154B-47C7-BCFE-BD248017E4F7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 								<testParameters />
 								<environments activeCloud="SWT" />
 								<children />
@@ -92,7 +92,7 @@
 						<testParameters />
 						<environments activeCloud="SWT" />
 						<children>
-							<testItem name="Login to Salesforce with service account." key="{1A75BF0B-1AD8-47BB-96C0-7026BCE5196F}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{21823095-49D7-4B3D-973C-DEC7CADA04DD}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+							<testItem name="Login_Test" key="{58DCC97F-A7DD-42A4-A32C-866DECCE7B46}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{283D3F36-154B-47C7-BCFE-BD248017E4F7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 								<testParameters />
 								<environments activeCloud="SWT" />
 								<children />
@@ -153,7 +153,7 @@
 						<testParameters />
 						<environments activeCloud="SWT" />
 						<children>
-							<testItem name="Login to Salesforce with service account." key="{35428441-62F6-467F-BF0D-BFBB131626B3}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{21823095-49D7-4B3D-973C-DEC7CADA04DD}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+							<testItem name="Login_Test" key="{4B561F7B-8DA0-4BF7-867D-4E96E81B97BA}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{283D3F36-154B-47C7-BCFE-BD248017E4F7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 								<testParameters />
 								<environments activeCloud="SWT" />
 								<children />
@@ -247,7 +247,7 @@
 						<testParameters />
 						<environments activeCloud="SWT" />
 						<children>
-							<testItem name="Login_Test" key="{BB60C69B-CC81-465F-AA83-EE0738FC0B91}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{21823095-49D7-4B3D-973C-DEC7CADA04DD}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+							<testItem name="Login_Test" key="{2B77DC35-EDBD-4B79-A055-3FB15899858C}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{283D3F36-154B-47C7-BCFE-BD248017E4F7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 								<testParameters />
 								<environments activeCloud="SWT" />
 								<children />
@@ -263,9 +263,11 @@
 								<environments activeCloud="SWT" />
 								<children />
 							</testItem>
-							<testItem name="GenerateQuote" key="{BD4318E2-00F5-4AEB-8C3F-DF0CD5DFFE82}" group="False" parallel="False" enabled="True" load="False" testMoniker="{EF16B9B4-708B-4D52-A58D-532CCF001BC0}GenerateQuote" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
-								<testParameters />
-								<environments activeCloud="CBT" />
+							<testItem name="Close_Program" key="{CFC195A7-3F01-427B-BD2E-94E3059FB59B}" group="False" parallel="False" enabled="False" load="False" testMoniker="KDT\{88009DF8-8042-4464-A734-06BF1F6B4C79}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+								<testParameters>
+									<param0 name="Program" type="1" localVarName="" value="chrome.exe" />
+								</testParameters>
+								<environments activeCloud="SWT" />
 								<children />
 							</testItem>
 						</children>
@@ -429,7 +431,7 @@
 			</data>
 		</setting>
 		<setting name="DbgServices_UseExtendedDebugger" type="1" value="True" />
-		<setting name="DraggingDelay" type="2" value="5" />
+		<setting name="DraggingDelay" type="2" value="50" />
 		<setting name="General_CurrentImageFormat" type="5" value="126_0_0_0_97_113_115_111_1_0_0_0_4_0_0_0_114_0_111_0_111_0_116_0_1_0_0_0_9_0_0_0_102_0_111_0_114_0_109_0_97_0_116_0_107_0_101_0_121_0_1_0_0_0_38_0_0_0_123_0_66_0_65_0_55_0_52_0_53_0_49_0_54_0_57_0_45_0_70_0_51_0_52_0_68_0_45_0_52_0_55_0_49_0_48_0_45_0_66_0_51_0_55_0_70_0_45_0_68_0_53_0_69_0_70_0_69_0_56_0_65_0_53_0_49_0_51_0_51_0_57_0_125_0_1_0_0_0_16_0_0_0_112_0_110_0_103_0_99_0_111_0_110_0_102_0_105_0_103_0_117_0_114_0_97_0_116_0_105_0_111_0_110_0_2_0_0_0_16_0_0_0_99_0_111_0_109_0_112_0_114_0_101_0_115_0_115_0_105_0_111_0_110_0_108_0_101_0_118_0_101_0_108_0_0_0_0_0_4_0_0_0_10_0_0_0_105_0_110_0_116_0_101_0_114_0_108_0_97_0_99_0_101_0_100_0_5_0_0_0_0_0_0_0_0_165_" />
 		<setting name="General_DisableDWMBeforeCapturingImage" type="1" value="False" />
 		<setting name="General_ImageFormat" type="5" value="Format: PNG; Compression level: 4" />
@@ -871,7 +873,7 @@
 				<row val0="Stop and rerun current item" val1="4" />
 			</data>
 		</setting>
-		<setting name="Playback_ErrHandling_OnObjectRecognitionError" type="6" rowIndex="0" colIndex="1">
+		<setting name="Playback_ErrHandling_OnObjectRecognitionError" type="6" rowIndex="1" colIndex="1">
 			<columns>
 				<column type="5" enabled="True" />
 				<column type="2" enabled="True" />
@@ -893,7 +895,7 @@
 				<row val0="Stop current item" val1="2" />
 			</data>
 		</setting>
-		<setting name="Playback_ErrHandling_ShowErrorDialog" type="1" value="True" />
+		<setting name="Playback_ErrHandling_ShowErrorDialog" type="1" value="False" />
 		<setting name="Playback_Log_AutosaveInterval" type="2" value="0" />
 		<setting name="Playback_Log_EventCount" type="2" value="0" />
 		<setting name="Playback_Log_PostImageOnError" type="1" value="True" />
@@ -908,13 +910,13 @@
 			</data>
 		</setting>
 		<setting name="Playback_OverlappingWindow_IgnoreOverlappingWindow" type="1" value="False" />
-		<setting name="Playback_Runtime_AutoWaitTimeout" type="2" value="8000" />
-		<setting name="Playback_Runtime_DelayBetweenEvents" type="2" value="50" />
+		<setting name="Playback_Runtime_AutoWaitTimeout" type="2" value="5000" />
+		<setting name="Playback_Runtime_DelayBetweenEvents" type="2" value="100" />
 		<setting name="Playback_Runtime_DisableMouse" type="1" value="False" />
-		<setting name="Playback_Runtime_MinimizeBeforePlayback" type="1" value="False" />
+		<setting name="Playback_Runtime_MinimizeBeforePlayback" type="1" value="True" />
 		<setting name="Playback_Runtime_UseCaseSensitiveParameters" type="1" value="False" />
 		<setting name="Playback_StopOnError" type="1" value="True" />
-		<setting name="Playback_StopOnObjectRecognitionError" type="1" value="False" />
+		<setting name="Playback_StopOnObjectRecognitionError" type="1" value="True" />
 		<setting name="Playback_StopOnWarning" type="1" value="False" />
 		<setting name="Playback_TestItemMaxReRunCount" type="2" value="1" />
 		<setting name="Playback_UnexpectedWndHandling_ClickOnFocusedControl" type="1" value="True" />

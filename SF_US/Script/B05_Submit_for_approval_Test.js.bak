@@ -5,6 +5,7 @@ function B05Submitforapproval()
           AddWVFEE()
           Submitforapproval()
           EditRFCquote()
+          ELI_Disabeld()
 
 
 }

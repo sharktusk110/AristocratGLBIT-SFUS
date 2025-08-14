@@ -4,10 +4,10 @@
 		<folder name="CommonUtility" />
 		<folder name="Pages">
 			<folder name="Login">
-				<child name="Login" key="{7803AE75-5B58-4CD6-A7B5-386452B26E07}" path="Login.tcKDTest" />
+				<child name="Login" key="{67E64692-803E-47A8-8100-F65C141071F4}" path="Login.tcKDTest" />
 			</folder>
 			<folder name="AccountCreation">
-				<child name="Account_Switch" key="{B257C12A-7B1C-43B4-A990-B9F11A9C58CB}" path="Account_Switch.tcKDTest" />
+				<child name="Account__Switch" key="{B257C12A-7B1C-43B4-A990-B9F11A9C58CB}" path="Account__Switch.tcKDTest" />
 				<child name="Submit_For_Approval" key="{7663B850-A105-4FD1-B76A-960CFEFAE394}" path="Submit_For_Approval.tcKDTest" />
 				<child name="Account_Creation" key="{A67D4FC0-F06D-4BB8-A32B-3632AEF300BC}" path="Account_Creation.tcKDTest" />
 				<child name="PreApproval_Action" key="{FE8760BA-2125-4CB4-B06F-21A105052A12}" path="PreApproval_Action.tcKDTest" />
@@ -23,7 +23,7 @@
 		</folder>
 		<folder name="Tests">
 			<folder name="Login_Test">
-				<child name="Login_Test" key="{21823095-49D7-4B3D-973C-DEC7CADA04DD}" path="Login_Test.tcKDTest" />
+				<child name="Login_Test" key="{283D3F36-154B-47C7-BCFE-BD248017E4F7}" path="Login_Test.tcKDTest" />
 			</folder>
 			<folder name="Account_Creation_Test">
 				<child name="AccountCreation_Test" key="{EF2414B8-D42C-4051-9522-C9F32E4842C8}" path="AccountCreation_Test.tcKDTest" />

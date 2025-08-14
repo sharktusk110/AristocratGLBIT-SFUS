@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="projects">
+			<Node name="project0">
+				<Node name="tests">
+					<Node name="test0">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="45876.5101160532"/>
+						<Prp name="name" type="S" value="Login_Test"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewAzADcAQgAzADkANwAwAEIALQAyAEMAMgBDAC0ANAA4ADcARgAtAEEAQwA2AEQALQBFADYAOQA0ADQAMwA2ADAANgBFADQARQB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="durationwithoutchildren" type="I" value="49813"/>
+						<Prp name="duration" type="I" value="49813"/>
+					</Node>
+				</Node>
+				<Prp name="name" type="S" value="SF_US"/>
+				<Prp name="starttime" type="D" value="45876.5101160532"/>
+				<Prp name="incompletedtests" type="I" value="0"/>
+				<Prp name="failedtests" type="I" value="0"/>
+				<Prp name="duration" type="I" value="49813"/>
+				<Prp name="warningtests" type="I" value="0"/>
+				<Prp name="loadtests" type="I" value="0"/>
+			</Node>
+		</Node>
+		<Prp name="testname" type="S" value="SF_US: 82030_B01_Accounts_Creation_Approve\Step 1: Login to SalseForce"/>
+		<Prp name="warningtestwithretries" type="I" value="0"/>
+		<Prp name="stop" type="D" value="45876.5106935648"/>
+		<Prp name="warningtests" type="I" value="0"/>
+		<Prp name="failedtests" type="I" value="0"/>
+		<Prp name="tests" type="I" value="1"/>
+		<Prp name="user" type="S" value="AS112085"/>
+		<Prp name="key" type="S" value="{7A871D48-7346-48AF-A53A-F3B4B53325C7}"/>
+		<Prp name="host" type="S" value="L76130"/>
+		<Prp name="loadtests" type="I" value="0"/>
+		<Prp name="successtestwithretries" type="I" value="0"/>
+		<Prp name="incompletedtests" type="I" value="0"/>
+		<Prp name="name" type="S" value="AristocratGLBIT"/>
+		<Prp name="starttime" type="D" value="45876.510115706"/>
+		<Prp name="executionstatus" type="I" value="0"/>
+	</Node>
+</Nodes>

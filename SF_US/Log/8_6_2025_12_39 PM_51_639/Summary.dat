@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="projects">
+			<Node name="project0">
+				<Node name="tests">
+					<Node name="test0">
+						<Node name="warnings">
+							<Node name="warning0">
+								<Prp name="msg" type="S" value="Ambiguous browser recognition."/>
+							</Node>
+						</Node>
+						<Node name="errors">
+							<Node name="error1">
+								<Prp name="msg" type="S" value="The execution process was interrupted."/>
+							</Node>
+							<Node name="error0">
+								<Prp name="msg" type="S" value="The test execution was interrupted."/>
+							</Node>
+						</Node>
+						<Prp name="duration" type="I" value="31333"/>
+						<Prp name="durationwithoutchildren" type="I" value="31333"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBFADgANAA1ADAAOQA4AEMALQAxADIAOAA1AC0ANABEADUAOQAtAEIAQQA1AEMALQAyADUAMAAxADIARgBDADkAOAAyADQAMQB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="name" type="S" value="Address_Test"/>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="starttime" type="D" value="45875.5276839583"/>
+					</Node>
+				</Node>
+				<Prp name="duration" type="I" value="31333"/>
+				<Prp name="warningtests" type="I" value="0"/>
+				<Prp name="incompletedtests" type="I" value="0"/>
+				<Prp name="name" type="S" value="SF_US"/>
+				<Prp name="loadtests" type="I" value="0"/>
+				<Prp name="starttime" type="D" value="45875.5276839583"/>
+				<Prp name="failedtests" type="I" value="1"/>
+			</Node>
+		</Node>
+		<Prp name="successtestwithretries" type="I" value="0"/>
+		<Prp name="loadtests" type="I" value="0"/>
+		<Prp name="name" type="S" value="AristocratGLBIT"/>
+		<Prp name="testname" type="S" value="SF_US: 82030_B01_Accounts_Creation_Approve\Step 5: Switch to Account that needs approval"/>
+		<Prp name="user" type="S" value="AS112085"/>
+		<Prp name="incompletedtests" type="I" value="0"/>
+		<Prp name="warningtestwithretries" type="I" value="0"/>
+		<Prp name="tests" type="I" value="1"/>
+		<Prp name="executionstatus" type="I" value="2"/>
+		<Prp name="warningtests" type="I" value="0"/>
+		<Prp name="failedtests" type="I" value="1"/>
+		<Prp name="host" type="S" value="L76130"/>
+		<Prp name="stop" type="D" value="45875.5280479167"/>
+		<Prp name="key" type="S" value="{91C0050F-6E5D-4365-B13E-9C67DB5867CD}"/>
+		<Prp name="starttime" type="D" value="45875.5276838194"/>
+	</Node>
+</Nodes>

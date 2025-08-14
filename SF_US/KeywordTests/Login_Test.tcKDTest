@@ -11,7 +11,7 @@
 				<Data Description="This test is related with the login activity in SalseForce." DescriptionEdited="True" TestName="Login" />
 			</Operation>
 			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
-				<Data Description="This test will click on login page of user account and then will check logn tab .After login it will click on account ." DescriptionEdited="True" TestName="Account_Switch">
+				<Data Description="This test will click on login page of user account and then will check logn tab .After login it will click on account ." DescriptionEdited="True" TestName="Account__Switch">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 						<Parameter Name="testUser" DefVarType="8" DefValueType="6" DefValueValue="Scott Mellin" VarType="8" ValueType="6" ValueValue="Scott Mellin" />
 					</Parameters>
@@ -33,10 +33,21 @@
 					</Parameters>
 				</Data>
 			</Operation>
+			<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
+				<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.browser.page__Home.AristocratApp__logo" />
+						<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="VisibleOnScreen" />
+						<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="0" />
+						<Parameter Name="Value" DefVarType="12" VarType="11" ValueType="7" ValueValue="True" />
+						<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="True" />
+					</Parameters>
+				</Data>
+			</Operation>
 			<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
 				<Data Description="Posts an information message to the test log." MessageType="0">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="9" ValueValue="560061006C0069006400610074006500200074006800610074002000200075007300650072002000690073002000610062006C006500200074006F0020006C006F00670069006E00200069006E0074006F0020007400680065002000730079007300740065006D0020007300750063006300650073007300660075006C006C00790020002E000D000A000D000A00" />
+						<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="9" ValueValue="22002000560061006C00690064006100740065006400200074006800610074002000200075007300650072002000690073002000610062006C006500200074006F0020006C006F00670069006E00200069006E0074006F0020007400680065002000730079007300740065006D0020007300750063006300650073007300660075006C006C00790020002E000A000A0022000D000A000D000A000D000A00" />
 						<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
 						<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
 							<Values IsEnum="True">
@@ -56,7 +67,7 @@
 			<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
 				<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.browser.Page__Login.Account__Switch.UserDanLogin__Tab" />
+						<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.browser.page__Home.UserLogin__tab" />
 						<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="contentText" />
 						<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="0" />
 						<Parameter Name="Value" DefVarType="12" VarType="8" ValueType="6" ValueValue="Logged in as Dan Beaston (dan.beaston@aristocrat.com.usprod.qa1)" />

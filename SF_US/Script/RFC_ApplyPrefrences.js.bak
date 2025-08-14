@@ -5,23 +5,24 @@
 function RFCApply_Pref_Validation()
 {
 
- Aliases.browser.Page__PreAccountApproval.Home__Panel.QuoteAddEditLineItems__Tab.ClickButton();
+ Aliases.browser.page__Home.QuoteAddEditLineItems__tab.ClickButton();
  Delay(2000);
   
- NameMapping.Sys.browser.pageCasinoRoyaleAccountSalesforc.Add__Button.ClickButton();
+ Aliases.browser.page__EditLineItem.Add__button.ClickButton();
  Delay(2000);
   
- Aliases.browser.Page__EditLineItem.textnodeAllFamilies.Families__Tab.ClickButton();
- Delay(2000);
-
- Aliases.browser.Page__EditLineItem.textnodeAllFamilies.EGM__Tab.Click();
+  Aliases.browser.page__EditLineItem.AllFamilies__panel.Families__tab.ClickButton();
+  Delay(2000);
+  
+ Aliases.browser.page__EditLineItem.AllFamilies__panel.Families__tab.Keys("[Down][Down][Down][Enter]");
  Delay(2000);
   
- Aliases.browser.Page__EditLineItem.ProductSearch__Bar.Click();  
- Delay(2000);
+  Aliases.browser.Page__EditLineItem.ProductSearch__bar.Click();
+  Delay(2000);
  
- Aliases.browser.Page__EditLineItem.ProductSearch__Bar.SetText("Helix Plus Upright");
- Delay(4000);
+  Aliases.browser.Page__EditLineItem.ProductSearch__bar.SetText("Helix Plus Upright");
+  Delay(4000);
+ 
   
 Aliases.browser.Page__EditLineItem.HelixPlusUpright__Tab.Click();
 Delay(2000);
@@ -32,63 +33,66 @@ Delay(2000);
 Aliases.browser.Page__EditLineItem.Continue__Button.ClickButton();
 Delay(2000);
   
-Aliases.browser.Page__EditLineItem.sectionConfigure.ApplyPrefrence__Button.Click();
+Aliases.browser.page__EditLineItem.Configure__Panel.ApplyPrefrence__button.Click();
 Delay(4000);
 
 Log.Message("verifying that mainfloor button/ApplyingPrefrence is enable")
-aqObject.CheckProperty(Aliases.browser.Page__EditLineItem.sectionConfigure.Mainfloor__Button, "Enabled", cmpEqual, true);
+aqObject.CheckProperty(Aliases.browser.Page__EditLineItem.Configure__Panel.Mainfloor__Button, "Enabled", cmpEqual, true);
  
 Log.Message("verifying that Promotion tab  is enable")
-aqObject.CheckProperty(Aliases.browser.Page__EditLineItem.sectionConfigure.Promotion__Tab, "Enabled", cmpEqual, true);
+aqObject.CheckProperty(Aliases.browser.Page__EditLineItem.Configure__Panel.Promotion__Tab, "Enabled", cmpEqual, true);
  
  
-Aliases.browser.Page__EditLineItem.sectionConfigure.Mainfloor__Button.ClickButton();
+Aliases.browser.Page__EditLineItem.Configure__Panel.Mainfloor__Button.ClickButton();
  
 Log.Message("verifying that BillAccepter__Tab  is enable after applying Prefrences")
-aqObject.CheckProperty(Aliases.browser.Page__EditLineItem.sectionConfigure.BillAccepter__Tab, "Enabled", cmpEqual, true);
+aqObject.CheckProperty(Aliases.browser.Page__EditLineItem.Configure__Panel.BillAccepter__Tab, "Enabled", cmpEqual, true);
 
 Log.Message("verifying that Printer__Tab  is enable after applying Prefrences")
-aqObject.CheckProperty(Aliases.browser.Page__EditLineItem.sectionConfigure.Printer__Tab, "Enabled", cmpEqual, true);
+aqObject.CheckProperty(Aliases.browser.Page__EditLineItem.Configure__Panel.Printer__Tab, "Enabled", cmpEqual, true);
 
 Log.Message("verifying that Trim__Tab  is enable after applying Prefrences")
-aqObject.CheckProperty(Aliases.browser.Page__EditLineItem.sectionConfigure.Trim__Tab, "Enabled", cmpEqual, true);
+aqObject.CheckProperty(Aliases.browser.Page__EditLineItem.Configure__Panel.Trim__Tab, "Enabled", cmpEqual, true);
 
 Log.Message("verifying that Licence__panel  is enable after applying Prefrences")
-aqObject.CheckProperty(Aliases.browser.Page__EditLineItem.sectionConfigure.Licence__panel, "Enabled", cmpEqual, true);
+aqObject.CheckProperty(Aliases.browser.Page__EditLineItem.Configure__Panel.Licence__panel, "Enabled", cmpEqual, true);
 
 Log.Message("verifying that Button__Panel  is enable after applying Prefrences")
-aqObject.CheckProperty(Aliases.browser.Page__EditLineItem.sectionConfigure.Button__Panel, "Enabled", cmpEqual, true);
+aqObject.CheckProperty(Aliases.browser.Page__EditLineItem.Configure__Panel.Button__Panel, "Enabled", cmpEqual, true);
 
 Log.Message("verifying that OtherDiscount__Panel  is enable after applying Prefrences")
-aqObject.CheckProperty(Aliases.browser.Page__EditLineItem.sectionConfigure.OtherDiscount__Panel, "Enabled", cmpEqual, true);
+aqObject.CheckProperty(Aliases.browser.Page__EditLineItem.Configure__Panel.OtherDiscount__Panel, "Enabled", cmpEqual, true);
 
 
 Log.Message(" RFC apply Prefrence Button is Visible")
-aqObject.CheckProperty(Aliases.browser.Page__EditLineItem.sectionConfigure.ApplyPrefrence__Button, "contentText", cmpEqual, "MainFloor");
+aqObject.CheckProperty(Aliases.browser.Page__EditLineItem.Configure__Panel.ApplyPrefrence__Button, "contentText", cmpEqual, "MainFloor");
 Delay(4000);
 
 
 
-Aliases.browser.Page__RFCQuote.buttonSave3.Click();
+Aliases.browser.page__RFCQuote.Save3__button.Click();
 Delay(4000);
  
-Aliases.browser.Page__RFCQuote.Page__Configu.sectionConfigure2.Frieght__Tab.ClickItem(3);
+Aliases.browser.page__RFCQuote.Page__Configu.ConfigureEditLineItem__panel.Frieght__tab.Click();
+
+Aliases.browser.page__RFCQuote.Page__Configu.ConfigureEditLineItem__panel.Frieght__tab.Keys("[Down][Down][Enter]");
 Delay(2000);
 
 Log.Message(" License panel is a required Field") 
-aqObject.CheckProperty(Aliases.browser.Page__EditLineItem.sectionConfigure.Required__Panel, "contentText", cmpEqual, "Required !");
+aqObject.CheckProperty(Aliases.browser.page__EditLineItem.Configure__Panel.Required__panel, "contentText", cmpEqual, "Required !");
 Delay(2000);
 
-Aliases.browser.Page__EditLineItem.sectionConfigure.License__Tab.Click();
+Aliases.browser.page__EditLineItem.Configure__Panel.License__tab.Click();
+Aliases.browser.page__EditLineItem.Configure__Panel.License__tab.Keys("[Down][Down][Enter]");
 Delay(3000);
-    KeyboardOperations("Down",2) 
-    KeyboardOperations("Enter",1) 
+   
 
-//Aliases.browser.Page__EditLineItem.sectionConfigure.Promotion__Button.Click();
-       //Delay(3000);
-    // KeyboardOperations("Down",4) 
-    // KeyboardOperations("Enter",3) 
-Aliases.browser.Page__RFCQuote.buttonSave3.Click();
+ Aliases.browser.Page__EditLineItem.Configure__Panel.Promotion__Button.Click();
+ Aliases.browser.Page__EditLineItem.Configure__Panel.Promotion__Button.Keys("[Down][Down][Enter]");
+       Delay(3000);
+     
+    
+Aliases.browser.page__RFCQuote.Save3__button.Click();
   
  
 

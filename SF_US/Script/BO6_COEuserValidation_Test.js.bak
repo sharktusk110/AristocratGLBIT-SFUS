@@ -10,17 +10,17 @@ function COEuserValidation()
       Account_Switch()
       OpenRFC_Quote1()
       EditRFCquote1()
-      //ELI_Disabeld()
+      ELI_Disabeld()
       
      
-     // LoginPowerUser()
-     // OpenRFC_Quote1()
-     // ApprovalQuote()
+     LoginPowerUser()
+     OpenRFC_Quote1()
+     ApprovalQuote()
       
       //Step 8
-     // ELI_Disabeld()
+     ELI_Disabeld()
       //Step 9
-      //LegalDocValidation()
+      LegalDocValidation()
       
 
 }

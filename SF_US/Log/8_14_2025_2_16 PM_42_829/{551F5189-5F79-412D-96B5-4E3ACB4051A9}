@@ -1,0 +1,2976 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="message 107">
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="date" type="D" value="45883.5983893866"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="107"/>
+			<Prp name="line no" type="I" value="88"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The checkpoint '*3600 LAS VEGAS BLVD S*' passed."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 66">
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="45883.597075544"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="66"/>
+			<Prp name="line no" type="I" value="7"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="[Test]: opening created opportunity from B02 "/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 108">
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="date" type="D" value="45883.5984323843"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="108"/>
+			<Prp name="line no" type="I" value="88"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The checkpoint '*LAS VEGAS, Nevada 89109-4303*' passed."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 56">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="line #" type="I" value="37"/>
+					<Prp name="object bottom" type="I" value="791"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object name" type="S" value="Aliases.browser.page__Opportunity.OpportunityName__panel.Type__list"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="731"/>
+					<Prp name="object right" type="I" value="1374"/>
+					<Prp name="datetime" type="D" value="45883.3676054398"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="524"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="image file name" type="S" value="visImage37.png"/>
+				</Node>
+			</Node>
+			<Prp name="remarks" type="S" value="'Regular' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.page__Opportunity.OpportunityName__panel.Type__list&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/action/quick/Account.NewOppQA?objectApiName=Opportunity&amp;context=RECORD_DETAIL&amp;recordId=0017F00001Mzc75QAB&amp;backgroundContext=%2Flightning%2Fr%2FAccount%2F0017F00001Mzc75QAB%2Fview&quot;).FindElement(&quot;//div[@role='dialog']//section//section//fieldset//div[7]//div[contains(@class, 'uiMenu')]&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45883.5967790972"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="56"/>
+			<Prp name="line no" type="I" value="37"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 78">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="line #" type="I" value="37"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="image file name" type="S" value="visImage49_Dif.png"/>
+				</Node>
+				<Node name="original">
+					<Prp name="line #" type="I" value="37"/>
+					<Prp name="object bottom" type="I" value="393"/>
+					<Prp name="click point x" type="I" value="1220"/>
+					<Prp name="object name" type="S" value="Aliases.browser.Page__PreAccountApproval.Home__Panel.buttonOpportunityCreateQuote"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="357"/>
+					<Prp name="object right" type="I" value="1286"/>
+					<Prp name="datetime" type="D" value="45834.4781828704"/>
+					<Prp name="click point y" type="I" value="380"/>
+					<Prp name="object left" type="I" value="1145"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="image file name" type="S" value="tcvi2643750236840.png"/>
+				</Node>
+				<Node name="current">
+					<Prp name="line #" type="I" value="37"/>
+					<Prp name="object bottom" type="I" value="393"/>
+					<Prp name="click point x" type="I" value="1215"/>
+					<Prp name="object name" type="S" value="Aliases.browser.page__RFCQuote.RFCQuote__button"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="357"/>
+					<Prp name="object right" type="I" value="1286"/>
+					<Prp name="datetime" type="D" value="45883.3682339005"/>
+					<Prp name="click point y" type="I" value="375"/>
+					<Prp name="object left" type="I" value="1145"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="image file name" type="S" value="visImage49.png"/>
+				</Node>
+			</Node>
+			<Prp name="remarks" type="S" value="A click at point (62, 16) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.page__RFCQuote.RFCQuote__button&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Opportunity/006Bn00000HWDQCIA5/view&quot;).FindElement(&quot;xpath=//button[.=\&quot;New RFC Quote\&quot;]&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45883.5974036111"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="78"/>
+			<Prp name="line no" type="I" value="37"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 1">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="line #" type="I" value="135"/>
+					<Prp name="object bottom" type="I" value="272"/>
+					<Prp name="click point x" type="I" value="661"/>
+					<Prp name="object name" type="S" value="Aliases.browser.page__Home.GlobalAll__tab"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="236"/>
+					<Prp name="object right" type="I" value="716"/>
+					<Prp name="datetime" type="D" value="45883.3665200579"/>
+					<Prp name="click point y" type="I" value="254"/>
+					<Prp name="object left" type="I" value="607"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="image file name" type="S" value="visImage4.png"/>
+				</Node>
+			</Node>
+			<Prp name="remarks" type="S" value="A click at point (48, 16) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.page__Home.GlobalAll__tab&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/page/home&quot;).FindElement(&quot;//input[@id=(//label[.='Search by object type']/@for)]&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45883.5956900694"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="135"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 80">
+			<Prp name="remarks" type="S" value="&lt;h3&gt;Result&lt;/h3&gt;&lt;span&gt;The property checkpoint &lt;img style = &quot;width: 14px; height: 14px; vertical-align: text-bottom; margin: 2px;&quot; src=&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAB3RJTUUH4wIUBiMun01WOAAAAlZJREFUWMPdly1s20AUx/+ODCptij0FGERrKhsEbF2mTQqoWsk8JIXugAOTkRiabTAwJWvZErAGriTcUqKCkq1KBwJcpZ0KDKr5Kk0qsOShWf64+CNzFWnH7Du/3//ee773jnFdF+scBax5sGkXEscWT6yBObENTImBe4cE5ossh11Oxh4v40BoSRzLX6WxyySFgDi2qJuaObKGmXamCCp6Uj9RSKyA8d2p25m3IrtNO4osh6PqAI1Sk8ksQDc19/j2MJc4t8td9KQ+kzoJ84QDwPHtIXRTc1N5YHx36r77sf8oGf/lxddIOAICiGOL2+db5qoxT5MTs/oikJiFkOsfDQ4A9w6BbmomNQeIY4tZf7W4neqVD3j5pBaZG1lDEMcWIwJOrIGZF3z8yoBe+YhxzaCK8LM8ARPbyA2+/fQ1AIBjeYxrBoosF1jnZ3kCpmS5ANoukuBxw88q+BOEZnTy5humb7/jU/VzZjhxbDQu5Iht/3NsNfQbPRBaVBFJ8MvfF1TbNw8LN1bA841KxGhYxKpwANjc2GJiBfx8uEZn3oq8/yviX+DUk3DzjHdpeaAIKo6qg7Q9Qyp4keVws2MHPbDLydTFI2tI9cSq8DDLE7DHy0s/SBKR1e1+lhcC4thi5eyZmdTlhMORFQ4A1zu/vILkeYBj+StFUGM/DHtiFbgiqPBXw5XKsSKoeF/W0Jm3MsFp5XjtDUnkHGiUmky73M0d3i53qc0p9SDqSf1cRcQ1pWtvy2OLUaPUZGb1hZT0dyxL1Fl9IcXBU92M1n41++9vx38AoNJrUz8FYVwAAAAASUVORK5CYII=&quot;&gt;&lt;b&gt;passed&lt;/b&gt;: NameMapping.Sys.browser....eSearch.checkboxSyncNow.Enabled&lt;b&gt; equals &lt;/b&gt;true.&lt;/span&gt;&lt;h3&gt;Details&lt;/h3&gt;&lt;div class=&quot;table-border full-width&quot;&gt;&lt;table class=&quot;table-borderless table-vertical&quot;&gt;&lt;tr&gt;&lt;th style=&quot;width: 16em;&quot;&gt;Object&lt;/th&gt;&lt;td&gt;&lt;a href='namemapping://{91651B73-7C63-403C-A23E-6C849C754F54}.{644D75FC-6F6A-4489-86EE-47FE6B27323F}'&gt;NameMapping.Sys.browser.pageHomeSearch.checkboxSyncNow&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Property&lt;/th&gt;&lt;td&gt;Enabled&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Condition&lt;/th&gt;&lt;td&gt;equals&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Actual value&lt;/th&gt;&lt;td&gt;&lt;span style=&quot;white-space: pre-wrap; &quot;&gt;true&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Expected value&lt;/th&gt;&lt;td&gt;&lt;span style=&quot;white-space: pre-wrap; &quot;&gt;true&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value="Picture3.png"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="date" type="D" value="45883.5974314352"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="80"/>
+			<Prp name="line no" type="I" value="42"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The property checkpoint passed: Enabled equals true."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 7">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="line #" type="I" value="147"/>
+					<Prp name="object bottom" type="I" value="272"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object name" type="S" value="Aliases.browser.page__Home.GlobalSearch__field"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="236"/>
+					<Prp name="object right" type="I" value="1210"/>
+					<Prp name="datetime" type="D" value="45883.3666021644"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="814"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="image file name" type="S" value="visImage7.png"/>
+				</Node>
+			</Node>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.page__Home.GlobalSearch__field&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/page/home&quot;).FindElement(&quot;//input[@id=(//label[.='Search Accounts: Filtered by 0 filters']/@for)]&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45883.5957707755"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="7"/>
+			<Prp name="line no" type="I" value="147"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The text 'BELLAGIO LAS VEGAS' was entered in the text editor."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 87">
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="45883.5976591898"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="87"/>
+			<Prp name="line no" type="I" value="59"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Sets the text Project.Variables.OpportunityName in the 'GlobalSearch_Bar' text editor"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 35">
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="45883.5963036227"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="35"/>
+			<Prp name="line no" type="I" value="43"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="[Venu Address ]: 3600 LAS VEGAS BOULEVARD&#xA;LAS VEGAS, Nevada 89109&#xA;USA"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 50">
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="45883.5965777546"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="50"/>
+			<Prp name="line no" type="I" value="25"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="GamingClassification"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 71">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="line #" type="I" value="16"/>
+					<Prp name="object bottom" type="I" value="272"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object name" type="S" value="Aliases.browser.page__Home.GlobalSearch__field"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="236"/>
+					<Prp name="object right" type="I" value="1210"/>
+					<Prp name="datetime" type="D" value="45883.3679804977"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="842"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="image file name" type="S" value="visImage46.png"/>
+				</Node>
+			</Node>
+			<Prp name="remarks" type="S" value="'BELLAGIO LAS VEGAS-Test172' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.page__Home.GlobalSearch__field&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/page/home&quot;).FindElement(&quot;//input[@id=(//label[.='Search Accounts: Filtered by 0 filters']/@for)]&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45883.5971768171"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="71"/>
+			<Prp name="line no" type="I" value="16"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 62">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="line #" type="I" value="52"/>
+					<Prp name="object bottom" type="I" value="655"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object name" type="S" value="Aliases.browser.page__Opportunity.OpportunityName__panel.LeadSource__list"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="595"/>
+					<Prp name="object right" type="I" value="1374"/>
+					<Prp name="datetime" type="D" value="45883.3677110417"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="524"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="image file name" type="S" value="visImage41.png"/>
+				</Node>
+			</Node>
+			<Prp name="remarks" type="S" value="'Customer' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.page__Opportunity.OpportunityName__panel.LeadSource__list&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/action/quick/Account.NewOppQA?objectApiName=Opportunity&amp;context=RECORD_DETAIL&amp;recordId=0017F00001Mzc75QAB&amp;backgroundContext=%2Flightning%2Fr%2FAccount%2F0017F00001Mzc75QAB%2Fview&quot;).FindElement(&quot;//div[@role='dialog']//section//section//fieldset//div[13]//div[contains(@class, 'uiMenu')]&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45883.5968854167"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="62"/>
+			<Prp name="line no" type="I" value="52"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 102">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="line #" type="I" value="75"/>
+					<Prp name="object bottom" type="I" value="393"/>
+					<Prp name="click point x" type="I" value="1198"/>
+					<Prp name="object name" type="S" value="Aliases.browser.page__RFCQuote.GenerateQuoteDoc__button"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="357"/>
+					<Prp name="object right" type="I" value="1284"/>
+					<Prp name="datetime" type="D" value="45883.3689207639"/>
+					<Prp name="click point y" type="I" value="375"/>
+					<Prp name="object left" type="I" value="1113"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="image file name" type="S" value="visImage54.png"/>
+				</Node>
+			</Node>
+			<Prp name="remarks" type="S" value="A click at point (76, 16) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.page__RFCQuote.GenerateQuoteDoc__button&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q0Bn000000mxYsKAI/view&quot;).FindElement(&quot;//button[@name='Quote.Generate_Quote_Doc']&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45883.5980900926"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="102"/>
+			<Prp name="line no" type="I" value="75"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 55">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="line #" type="I" value="35"/>
+					<Prp name="object bottom" type="I" value="791"/>
+					<Prp name="click point x" type="I" value="949"/>
+					<Prp name="object name" type="S" value="Aliases.browser.page__Opportunity.OpportunityName__panel.Type__list"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="731"/>
+					<Prp name="object right" type="I" value="1374"/>
+					<Prp name="datetime" type="D" value="45883.3675768287"/>
+					<Prp name="click point y" type="I" value="761"/>
+					<Prp name="object left" type="I" value="524"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="image file name" type="S" value="visImage36.png"/>
+				</Node>
+			</Node>
+			<Prp name="remarks" type="S" value="A click at point (378, 27) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.page__Opportunity.OpportunityName__panel.Type__list&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/action/quick/Account.NewOppQA?objectApiName=Opportunity&amp;context=RECORD_DETAIL&amp;recordId=0017F00001Mzc75QAB&amp;backgroundContext=%2Flightning%2Fr%2FAccount%2F0017F00001Mzc75QAB%2Fview&quot;).FindElement(&quot;//div[@role='dialog']//section//section//fieldset//div[7]//div[contains(@class, 'uiMenu')]&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45883.5967458796"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="55"/>
+			<Prp name="line no" type="I" value="35"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 60">
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="45883.5968673264"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="60"/>
+			<Prp name="line no" type="I" value="50"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="LeadSource"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 37">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="line #" type="I" value="135"/>
+					<Prp name="object bottom" type="I" value="272"/>
+					<Prp name="click point x" type="I" value="673"/>
+					<Prp name="object name" type="S" value="Aliases.browser.page__Home.GlobalAll__tab"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="236"/>
+					<Prp name="object right" type="I" value="728"/>
+					<Prp name="datetime" type="D" value="45883.3671422801"/>
+					<Prp name="click point y" type="I" value="254"/>
+					<Prp name="object left" type="I" value="619"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="image file name" type="S" value="visImage26.png"/>
+				</Node>
+			</Node>
+			<Prp name="remarks" type="S" value="A click at point (48, 16) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.page__Home.GlobalAll__tab&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/page/home&quot;).FindElement(&quot;//input[@id=(//label[.='Search by object type']/@for)]&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45883.5963112153"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="37"/>
+			<Prp name="line no" type="I" value="135"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 12">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="line #" type="I" value="14"/>
+					<Prp name="object bottom" type="I" value="571"/>
+					<Prp name="click point x" type="I" value="187"/>
+					<Prp name="object name" type="S" value="Aliases.browser.page__Account.Related2__tab"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="526"/>
+					<Prp name="object right" type="I" value="217"/>
+					<Prp name="datetime" type="D" value="45883.3667316319"/>
+					<Prp name="click point y" type="I" value="548"/>
+					<Prp name="object left" type="I" value="158"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="image file name" type="S" value="visImage10.png"/>
+				</Node>
+			</Node>
+			<Prp name="remarks" type="S" value="A click at point (26, 20) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.page__Account.Related2__tab&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Account/0017F00001Mzc75QAB/view&quot;).FindElement(&quot;//flexipage-record-home-single-col-template-desktop2//div/lightning-tab-bar/ul/li[2]/a[@role='tab']&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45883.5959010995"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="12"/>
+			<Prp name="line no" type="I" value="14"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 89">
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="45883.5976925579"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="89"/>
+			<Prp name="line no" type="I" value="63"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value=" Delays the test execution for the specified time period."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 72">
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="45883.5971779514"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="72"/>
+			<Prp name="line no" type="I" value="18"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value=" Delays the test execution for the specified time period."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 28">
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="45883.5961771643"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="28"/>
+			<Prp name="line no" type="I" value="36"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="[Invoice Address ]: PO BOX 77123&#xA;LAS VEGAS, Nevada 89177-7123&#xA;USA"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 88">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="line #" type="I" value="61"/>
+					<Prp name="object bottom" type="I" value="272"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object name" type="S" value="Aliases.browser.page__Home.GlobalSearch__field"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="236"/>
+					<Prp name="object right" type="I" value="1211"/>
+					<Prp name="datetime" type="D" value="45883.3684945718"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="803"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="image file name" type="S" value="visImage53.png"/>
+				</Node>
+			</Node>
+			<Prp name="remarks" type="S" value="'BELLAGIO LAS VEGAS-Test172' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.page__Home.GlobalSearch__field&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/page/home&quot;).FindElement(&quot;//input[@id=(//label[.='Search Accounts: Filtered by 0 filters']/@for)]&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45883.5976912732"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="88"/>
+			<Prp name="line no" type="I" value="61"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 82">
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="45883.5974884375"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="82"/>
+			<Prp name="line no" type="I" value="48"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="validation: RFC quote created successfully Toaster Massege"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 83">
+			<Prp name="remarks" type="S" value="&lt;h3&gt;Result&lt;/h3&gt;&lt;span&gt;The property checkpoint &lt;img style = &quot;width: 14px; height: 14px; vertical-align: text-bottom; margin: 2px;&quot; src=&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAB3RJTUUH4wIUBiMun01WOAAAAlZJREFUWMPdly1s20AUx/+ODCptij0FGERrKhsEbF2mTQqoWsk8JIXugAOTkRiabTAwJWvZErAGriTcUqKCkq1KBwJcpZ0KDKr5Kk0qsOShWf64+CNzFWnH7Du/3//ee773jnFdF+scBax5sGkXEscWT6yBObENTImBe4cE5ossh11Oxh4v40BoSRzLX6WxyySFgDi2qJuaObKGmXamCCp6Uj9RSKyA8d2p25m3IrtNO4osh6PqAI1Sk8ksQDc19/j2MJc4t8td9KQ+kzoJ84QDwPHtIXRTc1N5YHx36r77sf8oGf/lxddIOAICiGOL2+db5qoxT5MTs/oikJiFkOsfDQ4A9w6BbmomNQeIY4tZf7W4neqVD3j5pBaZG1lDEMcWIwJOrIGZF3z8yoBe+YhxzaCK8LM8ARPbyA2+/fQ1AIBjeYxrBoosF1jnZ3kCpmS5ANoukuBxw88q+BOEZnTy5humb7/jU/VzZjhxbDQu5Iht/3NsNfQbPRBaVBFJ8MvfF1TbNw8LN1bA841KxGhYxKpwANjc2GJiBfx8uEZn3oq8/yviX+DUk3DzjHdpeaAIKo6qg7Q9Qyp4keVws2MHPbDLydTFI2tI9cSq8DDLE7DHy0s/SBKR1e1+lhcC4thi5eyZmdTlhMORFQ4A1zu/vILkeYBj+StFUGM/DHtiFbgiqPBXw5XKsSKoeF/W0Jm3MsFp5XjtDUnkHGiUmky73M0d3i53qc0p9SDqSf1cRcQ1pWtvy2OLUaPUZGb1hZT0dyxL1Fl9IcXBU92M1n41++9vx38AoNJrUz8FYVwAAAAASUVORK5CYII=&quot;&gt;&lt;b&gt;passed&lt;/b&gt;: Aliases.browser.page__login.ToastSuccess__label.Enabled&lt;b&gt; equals &lt;/b&gt;true.&lt;/span&gt;&lt;h3&gt;Details&lt;/h3&gt;&lt;div class=&quot;table-border full-width&quot;&gt;&lt;table class=&quot;table-borderless table-vertical&quot;&gt;&lt;tr&gt;&lt;th style=&quot;width: 16em;&quot;&gt;Object&lt;/th&gt;&lt;td&gt;&lt;a href='lnamemapping://{91651B73-7C63-403C-A23E-6C849C754F54}.{AB267CE6-195E-4D29-8847-3D3967D5A3BE}'&gt;Aliases.browser.page__login.ToastSuccess__label&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Property&lt;/th&gt;&lt;td&gt;Enabled&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Condition&lt;/th&gt;&lt;td&gt;equals&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Actual value&lt;/th&gt;&lt;td&gt;&lt;span style=&quot;white-space: pre-wrap; &quot;&gt;true&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Expected value&lt;/th&gt;&lt;td&gt;&lt;span style=&quot;white-space: pre-wrap; &quot;&gt;true&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value="Picture4.png"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="date" type="D" value="45883.5975129167"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="83"/>
+			<Prp name="line no" type="I" value="49"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The property checkpoint passed: Enabled equals true."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 43">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="line #" type="I" value="147"/>
+					<Prp name="object bottom" type="I" value="272"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object name" type="S" value="Aliases.browser.page__Home.GlobalSearch__field"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="236"/>
+					<Prp name="object right" type="I" value="1222"/>
+					<Prp name="datetime" type="D" value="45883.3672193866"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="826"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="image file name" type="S" value="visImage29.png"/>
+				</Node>
+			</Node>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.page__Home.GlobalSearch__field&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/page/home&quot;).FindElement(&quot;//input[@id=(//label[.='Search Accounts: Filtered by 0 filters']/@for)]&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45883.5963879167"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="43"/>
+			<Prp name="line no" type="I" value="147"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The text 'BELLAGIO LAS VEGAS' was entered in the text editor."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 10">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="line #" type="I" value="157"/>
+					<Prp name="object bottom" type="I" value="491"/>
+					<Prp name="click point x" type="I" value="386"/>
+					<Prp name="object name" type="S" value="Aliases.browser.page__Home.NewOpportunity__tab"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="469"/>
+					<Prp name="object right" type="I" value="456"/>
+					<Prp name="datetime" type="D" value="45883.3666764236"/>
+					<Prp name="click point y" type="I" value="480"/>
+					<Prp name="object left" type="I" value="316"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="image file name" type="S" value="visImage9.png"/>
+				</Node>
+			</Node>
+			<Prp name="remarks" type="S" value="A click at point (62, 10) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.page__Home.NewOpportunity__tab&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/one/one.app#eyJjb21wb25lbnREZWYiOiJmb3JjZVNlYXJjaDpzZWFyY2hQYWdlRGVza3RvcCIsImF0dHJpYnV0ZXMiOnsidGVybSI6IkJFTExBR0lPIExBUyBWRUdBUyIsInNjb3BlTWFwIjp7ImNvbG9yIjoiNTg2N0U4IiwiaWNvbiI6Imh0dHBzOi8vYXJpc3RvY3JhdC1nbG9iYWwtLXFhMS5zYW5kYm94Lm15LnNhbGVzZm9yY2UuY29tL2ltZy9pY29uL3Q0djM1L3N0YW5kYXJkL2FjY291bnRfMTIwLnBuZyIsIm5hbWVGaWVsZCI6Ik5hbWUiLCJsYWJlbCI6IkFjY291bnQiLCJkaXNhbWJpZ3VhdGlvbkZpZWxkVHlwZSI6Ik5FU1RFRCIsImtleVByZWZpeCI6IjAwMSIsIm5hbWUiOiJBY2NvdW50IiwiY2FjaGVhYmxlIjoiWSIsImRpc2FtYmlndWF0aW9uRmllbGQiOiJQYXJlbnQuTmFtZSIsImlkIjoiQWNjb3VudCIsImZpZWxkcyI6Ik5hbWVcblBhcmVudC5OYW1lXG5EMzY1QWNjb3VudE51bWJlcl9fY1xuTTJLX0VSUF9OdW1iZXJfX2NcbkJpbGxpbmdTdGF0ZVxuU2FsZXNfUmVnaW9uX19jXG50b0xhYmVsKFNhbGVzX1JlZ2lvbl9fYykgU2FsZXNfUmVnaW9uX19jX19sXG5DdXN0b21lcl9TZWdtZW50YXRpb25fX2NcbnRvTGFiZWwoQ3VzdG9tZXJfU2VnbWVudGF0aW9uX19jKSBDdXN0b21lcl9TZWdtZW50YXRpb25fX2NfX2xcbk93bmVyLkFsaWFzXG5QYXJlbnRJZFxuT3duZXJJZFxuTGFzdE1vZGlmaWVkRGF0ZVxuUmVjb3JkVHlwZUlkXG5DcmVhdGVkRGF0ZVxuSWRcbkN1cnJlbmN5SXNvQ29kZVxuTGFzdE1vZGlmaWVkQnlJZFxuU3lzdGVtTW9kc3RhbXAiLCJsYWJlbFBsdXJhbCI6IkFjY291bnRzIiwiZW50aXR5IjoiQWNjb3VudCJ9LCJjb250ZXh0Ijp7ImRpc2FibGVTcGVsbENvcnJlY3Rpb24iOmZhbHNlLCJkaXNhYmxlSW50ZW50UXVlcnkiOmZhbHNlLCJzZWFyY2hEaWFsb2dTZXNzaW9uSWQiOiI4ODUyZjNlMS00Mjk5LTdlNzAtY2ZhMy1hNzc1OWM0Y2JlNzciLCJzZWFyY2hTb3VyY2UiOiJJTlBVVF9ERVNLVE9QIn0sImdyb3VwSWQiOiJERUZBVUxUIn0sInN0YXRlIjp7fX0%3D&quot;).FindElement(&quot;xpath=//*[@id=\&quot;brandBand_2\&quot;]//table//tr/th/span/a&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45883.5958452894"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="10"/>
+			<Prp name="line no" type="I" value="157"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 48">
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="45883.5965726273"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="48"/>
+			<Prp name="line no" type="I" value="22"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="AccountName"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 33">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="line #" type="I" value="116"/>
+					<Prp name="object bottom" type="I" value="940"/>
+					<Prp name="click point x" type="I" value="1849"/>
+					<Prp name="object name" type="S" value="Aliases.browser.page__Home.AccountsTable__panel.Apply__button"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="904"/>
+					<Prp name="object right" type="I" value="1887"/>
+					<Prp name="datetime" type="D" value="45883.3670896065"/>
+					<Prp name="click point y" type="I" value="922"/>
+					<Prp name="object left" type="I" value="1812"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="image file name" type="S" value="visImage24.png"/>
+				</Node>
+			</Node>
+			<Prp name="remarks" type="S" value="A click at point (33, 16) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.page__Home.AccountsTable__panel.Apply__button&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Account/0017F00001Mzc75QAB/related/Addresses__r/view&quot;).FindElement(&quot;//button[.='Apply']&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45883.5962580671"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="33"/>
+			<Prp name="line no" type="I" value="116"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 39">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="line #" type="I" value="139"/>
+					<Prp name="object bottom" type="I" value="272"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object name" type="S" value="Aliases.browser.page__Home.GlobalAll__tab"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="236"/>
+					<Prp name="object right" type="I" value="810"/>
+					<Prp name="datetime" type="D" value="45883.3671709607"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="619"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="image file name" type="S" value="visImage27.png"/>
+				</Node>
+			</Node>
+			<Prp name="remarks" type="S" value="'[Down][Enter]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.page__Home.GlobalAll__tab&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/page/home&quot;).FindElement(&quot;//input[@id=(//label[.='Search by object type']/@for)]&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45883.5963405671"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="39"/>
+			<Prp name="line no" type="I" value="139"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 32">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="line #" type="I" value="114"/>
+					<Prp name="object bottom" type="I" value="789"/>
+					<Prp name="click point x" type="I" value="1625"/>
+					<Prp name="object name" type="S" value="Aliases.browser.page__Home.AccountsTable__panel.VenueAddress__label"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="769"/>
+					<Prp name="object right" type="I" value="1691"/>
+					<Prp name="datetime" type="D" value="45883.3670809259"/>
+					<Prp name="click point y" type="I" value="779"/>
+					<Prp name="object left" type="I" value="1559"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="image file name" type="S" value="visImage23.png"/>
+				</Node>
+			</Node>
+			<Prp name="remarks" type="S" value="A click at point (59, 9) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.page__Home.AccountsTable__panel.VenueAddress__label&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Account/0017F00001Mzc75QAB/related/Addresses__r/view&quot;).FindElement(&quot;//label[.='Venue Address']&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45883.5962494792"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="32"/>
+			<Prp name="line no" type="I" value="114"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 90">
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="45883.5977775694"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="90"/>
+			<Prp name="line no" type="I" value="71"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value=" Delays the test execution for the specified time period."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 22">
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="45883.5960487847"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="22"/>
+			<Prp name="line no" type="I" value="32"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Filtering Capture Invoice Address"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 29">
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="45883.5961771643"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="29"/>
+			<Prp name="line no" type="I" value="39"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Filter and Capture Venu Address"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 57">
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="45883.5968110995"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="57"/>
+			<Prp name="line no" type="I" value="42"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="MarketSegment"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 85">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="line #" type="I" value="53"/>
+					<Prp name="object bottom" type="I" value="272"/>
+					<Prp name="click point x" type="I" value="661"/>
+					<Prp name="object name" type="S" value="Aliases.browser.page__Home.GlobalAll__tab"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="236"/>
+					<Prp name="object right" type="I" value="716"/>
+					<Prp name="datetime" type="D" value="45883.3684233102"/>
+					<Prp name="click point y" type="I" value="254"/>
+					<Prp name="object left" type="I" value="607"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="image file name" type="S" value="visImage51.png"/>
+				</Node>
+			</Node>
+			<Prp name="remarks" type="S" value="A click at point (48, 16) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.page__Home.GlobalAll__tab&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/page/home&quot;).FindElement(&quot;//input[@id=(//label[.='Search by object type']/@for)]&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45883.5975924074"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="85"/>
+			<Prp name="line no" type="I" value="53"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 61">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="line #" type="I" value="51"/>
+					<Prp name="object bottom" type="I" value="655"/>
+					<Prp name="click point x" type="I" value="949"/>
+					<Prp name="object name" type="S" value="Aliases.browser.page__Opportunity.OpportunityName__panel.LeadSource__list"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="595"/>
+					<Prp name="object right" type="I" value="1374"/>
+					<Prp name="datetime" type="D" value="45883.3677062037"/>
+					<Prp name="click point y" type="I" value="625"/>
+					<Prp name="object left" type="I" value="524"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="image file name" type="S" value="visImage40.png"/>
+				</Node>
+			</Node>
+			<Prp name="remarks" type="S" value="A click at point (378, 27) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.page__Opportunity.OpportunityName__panel.LeadSource__list&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/action/quick/Account.NewOppQA?objectApiName=Opportunity&amp;context=RECORD_DETAIL&amp;recordId=0017F00001Mzc75QAB&amp;backgroundContext=%2Flightning%2Fr%2FAccount%2F0017F00001Mzc75QAB%2Fview&quot;).FindElement(&quot;//div[@role='dialog']//section//section//fieldset//div[13]//div[contains(@class, 'uiMenu')]&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45883.5968749074"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="61"/>
+			<Prp name="line no" type="I" value="51"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 26">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="line #" type="I" value="116"/>
+					<Prp name="object bottom" type="I" value="940"/>
+					<Prp name="click point x" type="I" value="1849"/>
+					<Prp name="object name" type="S" value="Aliases.browser.page__Home.AccountsTable__panel.Apply__button"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="904"/>
+					<Prp name="object right" type="I" value="1887"/>
+					<Prp name="datetime" type="D" value="45883.3669632523"/>
+					<Prp name="click point y" type="I" value="922"/>
+					<Prp name="object left" type="I" value="1812"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="image file name" type="S" value="visImage19.png"/>
+				</Node>
+			</Node>
+			<Prp name="remarks" type="S" value="A click at point (33, 16) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.page__Home.AccountsTable__panel.Apply__button&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Account/0017F00001Mzc75QAB/related/Addresses__r/view&quot;).FindElement(&quot;//button[.='Apply']&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45883.5961317824"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="26"/>
+			<Prp name="line no" type="I" value="116"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 2">
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="45883.5957145718"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="line no" type="I" value="138"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Clik on Account search"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 42">
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="45883.5963856713"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="42"/>
+			<Prp name="line no" type="I" value="146"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Enter Account ID"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 74">
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="45883.5972076505"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="74"/>
+			<Prp name="line no" type="I" value="23"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value=" Delays the test execution for the specified time period."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 41">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="line #" type="I" value="143"/>
+					<Prp name="object bottom" type="I" value="272"/>
+					<Prp name="click point x" type="I" value="1045"/>
+					<Prp name="object name" type="S" value="Aliases.browser.page__Home.GlobalSearch__field"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="236"/>
+					<Prp name="object right" type="I" value="1222"/>
+					<Prp name="datetime" type="D" value="45883.3672040625"/>
+					<Prp name="click point y" type="I" value="254"/>
+					<Prp name="object left" type="I" value="868"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="image file name" type="S" value="visImage28.png"/>
+				</Node>
+			</Node>
+			<Prp name="remarks" type="S" value="A click at point (157, 16) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.page__Home.GlobalSearch__field&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/page/home&quot;).FindElement(&quot;//input[@id=(//label[.='Search Accounts: Filtered by 0 filters']/@for)]&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45883.5963726852"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="41"/>
+			<Prp name="line no" type="I" value="143"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 21">
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="45883.5960487847"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="21"/>
+			<Prp name="line no" type="I" value="29"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="[Delvery Address2 ]: ATTN: SLOT DEPARTMENT 3600 LAS VEGAS BLVD S&#xA;LAS VEGAS, Nevada 89109-4303&#xA;USA"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 65">
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;You can improve the performance of the object search in the test.&lt;/p&gt;&lt;p&gt;The &lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;browser.&amp;#8203;pageHomeSearch.&amp;#8203;&lt;a href=&quot;namemapping://{91651B73-7C63-403C-A23E-6C849C754F54}.{FDB45CCB-3724-4C4C-86E3-EA373590B9F1}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;textnode992025&lt;/span&gt;&lt;/a&gt;&lt;/code&gt; object&lt;/p&gt;&lt;p&gt;can be found faster if you make &lt;code&gt;//records-lwc-record-layout/forcegenerated-detailpanel_opportunity___0127f000000hsqbqaa___full___view___recordlayout2/records-record-layout-block/slot/records-record-layout-section//lightning-formatted-text&lt;/code&gt; the first selector in its selector list.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;reorderselectors://{8918EC9C-6741-4252-8D92-36B74F99014C}.if&quot;&gt;Improve Performance&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;!--p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul--&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="45883.5970753472"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="65"/>
+			<Prp name="line no" type="I" value="50"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Improve your test performance."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 25">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="line #" type="I" value="111"/>
+					<Prp name="object bottom" type="I" value="813"/>
+					<Prp name="click point x" type="I" value="1627"/>
+					<Prp name="object name" type="S" value="Aliases.browser.page__Home.AccountsTable__panel.InvoiceAddress__label"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="793"/>
+					<Prp name="object right" type="I" value="1696"/>
+					<Prp name="datetime" type="D" value="45883.3669529398"/>
+					<Prp name="click point y" type="I" value="803"/>
+					<Prp name="object left" type="I" value="1559"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="image file name" type="S" value="visImage18.png"/>
+				</Node>
+			</Node>
+			<Prp name="remarks" type="S" value="A click at point (60, 9) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.page__Home.AccountsTable__panel.InvoiceAddress__label&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Account/0017F00001Mzc75QAB/related/Addresses__r/view&quot;).FindElement(&quot;//label[.='Invoice Address']&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45883.5961234375"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="25"/>
+			<Prp name="line no" type="I" value="111"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 58">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="line #" type="I" value="43"/>
+					<Prp name="object bottom" type="I" value="581"/>
+					<Prp name="click point x" type="I" value="949"/>
+					<Prp name="object name" type="S" value="Aliases.browser.page__Opportunity.OpportunityName__panel.MarketSegment__list"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="521"/>
+					<Prp name="object right" type="I" value="1374"/>
+					<Prp name="datetime" type="D" value="45883.3676513657"/>
+					<Prp name="click point y" type="I" value="551"/>
+					<Prp name="object left" type="I" value="524"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="image file name" type="S" value="visImage38.png"/>
+				</Node>
+			</Node>
+			<Prp name="remarks" type="S" value="A click at point (378, 27) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.page__Opportunity.OpportunityName__panel.MarketSegment__list&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/action/quick/Account.NewOppQA?objectApiName=Opportunity&amp;context=RECORD_DETAIL&amp;recordId=0017F00001Mzc75QAB&amp;backgroundContext=%2Flightning%2Fr%2FAccount%2F0017F00001Mzc75QAB%2Fview&quot;).FindElement(&quot;//div[@role='dialog']//section//section//fieldset//div[12]//div[contains(@class, 'uiMenu')]&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45883.5968201505"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="58"/>
+			<Prp name="line no" type="I" value="43"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 30">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="line #" type="I" value="101"/>
+					<Prp name="object bottom" type="I" value="436"/>
+					<Prp name="click point x" type="I" value="1870"/>
+					<Prp name="object name" type="S" value="Aliases.browser.page__Home.AccountsTable__panel.ShowQuickFilters__button"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="400"/>
+					<Prp name="object right" type="I" value="1888"/>
+					<Prp name="datetime" type="D" value="45883.3670151273"/>
+					<Prp name="click point y" type="I" value="418"/>
+					<Prp name="object left" type="I" value="1852"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="image file name" type="S" value="visImage21.png"/>
+				</Node>
+			</Node>
+			<Prp name="remarks" type="S" value="A click at point (16, 16) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.page__Home.AccountsTable__panel.ShowQuickFilters__button&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Account/0017F00001Mzc75QAB/related/Addresses__r/view&quot;).FindElement(&quot;//button[.='Show quick filters']&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45883.5961838657"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="30"/>
+			<Prp name="line no" type="I" value="101"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 8">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="line #" type="I" value="153"/>
+					<Prp name="object bottom" type="I" value="272"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object name" type="S" value="Aliases.browser.page__Home.GlobalSearch__field"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="236"/>
+					<Prp name="object right" type="I" value="1210"/>
+					<Prp name="datetime" type="D" value="45883.3666300463"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="814"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="image file name" type="S" value="visImage8.png"/>
+				</Node>
+			</Node>
+			<Prp name="remarks" type="S" value="'[Enter]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.page__Home.GlobalSearch__field&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/page/home&quot;).FindElement(&quot;//input[@id=(//label[.='Search Accounts: Filtered by 0 filters']/@for)]&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45883.5957994792"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="8"/>
+			<Prp name="line no" type="I" value="153"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 59">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="line #" type="I" value="45"/>
+					<Prp name="object bottom" type="I" value="581"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object name" type="S" value="Aliases.browser.page__Opportunity.OpportunityName__panel.MarketSegment__list"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="521"/>
+					<Prp name="object right" type="I" value="1374"/>
+					<Prp name="datetime" type="D" value="45883.3676580208"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="524"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="image file name" type="S" value="visImage39.png"/>
+				</Node>
+			</Node>
+			<Prp name="remarks" type="S" value="'Class III' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.page__Opportunity.OpportunityName__panel.MarketSegment__list&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/action/quick/Account.NewOppQA?objectApiName=Opportunity&amp;context=RECORD_DETAIL&amp;recordId=0017F00001Mzc75QAB&amp;backgroundContext=%2Flightning%2Fr%2FAccount%2F0017F00001Mzc75QAB%2Fview&quot;).FindElement(&quot;//div[@role='dialog']//section//section//fieldset//div[12]//div[contains(@class, 'uiMenu')]&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45883.596835081"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="59"/>
+			<Prp name="line no" type="I" value="45"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 5">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="line #" type="I" value="143"/>
+					<Prp name="object bottom" type="I" value="272"/>
+					<Prp name="click point x" type="I" value="1034"/>
+					<Prp name="object name" type="S" value="Aliases.browser.page__Home.GlobalSearch__field"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="236"/>
+					<Prp name="object right" type="I" value="1211"/>
+					<Prp name="datetime" type="D" value="45883.3665858796"/>
+					<Prp name="click point y" type="I" value="254"/>
+					<Prp name="object left" type="I" value="857"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="image file name" type="S" value="visImage6.png"/>
+				</Node>
+			</Node>
+			<Prp name="remarks" type="S" value="A click at point (157, 16) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.page__Home.GlobalSearch__field&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/page/home&quot;).FindElement(&quot;//input[@id=(//label[.='Search Accounts: Filtered by 0 filters']/@for)]&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45883.5957551968"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="line no" type="I" value="143"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 67">
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="45883.597075544"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="67"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Clicks the 'GlobalSearch_Tab' control"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 49">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="line #" type="I" value="23"/>
+					<Prp name="object bottom" type="I" value="336"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object name" type="S" value="Aliases.browser.page__Opportunity.OpportunityName__panel.OpportunityName__field"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="295"/>
+					<Prp name="object right" type="I" value="1374"/>
+					<Prp name="datetime" type="D" value="45883.3674071991"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="524"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="image file name" type="S" value="visImage33.png"/>
+				</Node>
+			</Node>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.page__Opportunity.OpportunityName__panel.OpportunityName__field&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/action/quick/Account.NewOppQA?objectApiName=Opportunity&amp;context=RECORD_DETAIL&amp;recordId=0017F00001Mzc75QAB&amp;backgroundContext=%2Flightning%2Fr%2FAccount%2F0017F00001Mzc75QAB%2Fview&quot;).FindElement(&quot;//input[@id=(//label[.='Opportunity Name*']/@for)]&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45883.5965764699"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="49"/>
+			<Prp name="line no" type="I" value="23"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The text 'BELLAGIO LAS VEGAS-Test172' was entered in the text editor."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 53">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="line #" type="I" value="28"/>
+					<Prp name="object bottom" type="I" value="717"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object name" type="S" value="Aliases.browser.page__Opportunity.OpportunityName__panel.GamingClassification__list"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="657"/>
+					<Prp name="object right" type="I" value="1374"/>
+					<Prp name="datetime" type="D" value="45883.3675155093"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="524"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="image file name" type="S" value="visImage35.png"/>
+				</Node>
+			</Node>
+			<Prp name="remarks" type="S" value="'Class III' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.page__Opportunity.OpportunityName__panel.GamingClassification__list&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/action/quick/Account.NewOppQA?objectApiName=Opportunity&amp;context=RECORD_DETAIL&amp;recordId=0017F00001Mzc75QAB&amp;backgroundContext=%2Flightning%2Fr%2FAccount%2F0017F00001Mzc75QAB%2Fview&quot;).FindElement(&quot;//div[@role='dialog']//section//section//fieldset//div[6]//div[contains(@class, 'uiMenu')]&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45883.5966928588"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="53"/>
+			<Prp name="line no" type="I" value="28"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 45">
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="45883.5964540741"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="45"/>
+			<Prp name="line no" type="I" value="156"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Clik on Account link"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 63">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="line #" type="I" value="55"/>
+					<Prp name="object bottom" type="I" value="905"/>
+					<Prp name="click point x" type="I" value="1381"/>
+					<Prp name="object name" type="S" value="Aliases.browser.page__Home.RFCSave_button"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="869"/>
+					<Prp name="object right" type="I" value="1415"/>
+					<Prp name="datetime" type="D" value="45883.3677448148"/>
+					<Prp name="click point y" type="I" value="887"/>
+					<Prp name="object left" type="I" value="1347"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="image file name" type="S" value="visImage42.png"/>
+				</Node>
+			</Node>
+			<Prp name="remarks" type="S" value="A click at point (30, 16) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.page__Home.RFCSave_button&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/action/quick/Account.NewOppQA?objectApiName=Opportunity&amp;context=RECORD_DETAIL&amp;recordId=0017F00001Mzc75QAB&amp;backgroundContext=%2Flightning%2Fr%2FAccount%2F0017F00001Mzc75QAB%2Fview&quot;).FindElement(&quot;//div/div/footer/button[contains(@class, 'slds-button_brand')]&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45883.5969135648"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="63"/>
+			<Prp name="line no" type="I" value="55"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 44">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="line #" type="I" value="153"/>
+					<Prp name="object bottom" type="I" value="272"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object name" type="S" value="Aliases.browser.page__Home.GlobalSearch__field"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="236"/>
+					<Prp name="object right" type="I" value="1222"/>
+					<Prp name="datetime" type="D" value="45883.3672473264"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="826"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="image file name" type="S" value="visImage30.png"/>
+				</Node>
+			</Node>
+			<Prp name="remarks" type="S" value="'[Enter]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.page__Home.GlobalSearch__field&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/page/home&quot;).FindElement(&quot;//input[@id=(//label[.='Search Accounts: Filtered by 0 filters']/@for)]&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45883.5964181597"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="44"/>
+			<Prp name="line no" type="I" value="153"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 3">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="line #" type="I" value="139"/>
+					<Prp name="object bottom" type="I" value="272"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object name" type="S" value="Aliases.browser.page__Home.GlobalAll__tab"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="236"/>
+					<Prp name="object right" type="I" value="798"/>
+					<Prp name="datetime" type="D" value="45883.3665493866"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="607"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="image file name" type="S" value="visImage5.png"/>
+				</Node>
+			</Node>
+			<Prp name="remarks" type="S" value="'[Down][Enter]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.page__Home.GlobalAll__tab&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/page/home&quot;).FindElement(&quot;//input[@id=(//label[.='Search by object type']/@for)]&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45883.5957188889"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="line no" type="I" value="139"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 98">
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="45883.5980821412"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="98"/>
+			<Prp name="line no" type="I" value="67"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="[Delvery Address]: 3600 LAS VEGAS BLVD S&#xA;LAS VEGAS, Nevada 89109-4303&#xA;USA"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 17">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="line #" type="I" value="108"/>
+					<Prp name="object bottom" type="I" value="766"/>
+					<Prp name="click point x" type="I" value="1631"/>
+					<Prp name="object name" type="S" value="Aliases.browser.page__Home.AccountsTable__panel.DeliveryAddress__label"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="746"/>
+					<Prp name="object right" type="I" value="1703"/>
+					<Prp name="datetime" type="D" value="45883.3668556944"/>
+					<Prp name="click point y" type="I" value="756"/>
+					<Prp name="object left" type="I" value="1559"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="image file name" type="S" value="visImage13.png"/>
+				</Node>
+			</Node>
+			<Prp name="remarks" type="S" value="A click at point (64, 9) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.page__Home.AccountsTable__panel.DeliveryAddress__label&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Account/0017F00001Mzc75QAB/related/Addresses__r/view&quot;).FindElement(&quot;//label[.='Delivery Address']&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45883.5960246181"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="17"/>
+			<Prp name="line no" type="I" value="108"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 15">
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="45883.5959697106"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="15"/>
+			<Prp name="line no" type="I" value="22"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Capture Delivery Address"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 68">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="line #" type="I" value="9"/>
+					<Prp name="object bottom" type="I" value="272"/>
+					<Prp name="click point x" type="I" value="661"/>
+					<Prp name="object name" type="S" value="Aliases.browser.page__Home.GlobalAll__tab"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="236"/>
+					<Prp name="object right" type="I" value="716"/>
+					<Prp name="datetime" type="D" value="45883.3679140509"/>
+					<Prp name="click point y" type="I" value="254"/>
+					<Prp name="object left" type="I" value="607"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="image file name" type="S" value="visImage44.png"/>
+				</Node>
+			</Node>
+			<Prp name="remarks" type="S" value="A click at point (48, 16) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.page__Home.GlobalAll__tab&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/page/home&quot;).FindElement(&quot;//input[@id=(//label[.='Search by object type']/@for)]&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45883.5970830671"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="68"/>
+			<Prp name="line no" type="I" value="9"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 96">
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="45883.5980234838"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="96"/>
+			<Prp name="line no" type="I" value="65"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="[invoice Address]: PO BOX 77123&#xA;LAS VEGAS, Nevada 89177-7123&#xA;USA"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 13">
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="45883.5959370833"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="13"/>
+			<Prp name="line no" type="I" value="17"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Clik on Address link under related"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 52">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="line #" type="I" value="26"/>
+					<Prp name="object bottom" type="I" value="717"/>
+					<Prp name="click point x" type="I" value="949"/>
+					<Prp name="object name" type="S" value="Aliases.browser.page__Opportunity.OpportunityName__panel.GamingClassification__list"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="657"/>
+					<Prp name="object right" type="I" value="1374"/>
+					<Prp name="datetime" type="D" value="45883.3674754398"/>
+					<Prp name="click point y" type="I" value="687"/>
+					<Prp name="object left" type="I" value="524"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="image file name" type="S" value="visImage34.png"/>
+				</Node>
+			</Node>
+			<Prp name="remarks" type="S" value="A click at point (378, 27) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.page__Opportunity.OpportunityName__panel.GamingClassification__list&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/action/quick/Account.NewOppQA?objectApiName=Opportunity&amp;context=RECORD_DETAIL&amp;recordId=0017F00001Mzc75QAB&amp;backgroundContext=%2Flightning%2Fr%2FAccount%2F0017F00001Mzc75QAB%2Fview&quot;).FindElement(&quot;//div[@role='dialog']//section//section//fieldset//div[6]//div[contains(@class, 'uiMenu')]&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45883.5966444329"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="52"/>
+			<Prp name="line no" type="I" value="26"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 70">
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="45883.5971451389"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="70"/>
+			<Prp name="line no" type="I" value="15"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Sets the text Project.Variables.OpportunityName in the 'GlobalSearch_Bar' text editor"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 76">
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="45883.5973363773"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="76"/>
+			<Prp name="line no" type="I" value="36"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="[Test]: Creating RFC Quote"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 18">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="line #" type="I" value="116"/>
+					<Prp name="object bottom" type="I" value="940"/>
+					<Prp name="click point x" type="I" value="1849"/>
+					<Prp name="object name" type="S" value="Aliases.browser.page__Home.AccountsTable__panel.Apply__button"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="904"/>
+					<Prp name="object right" type="I" value="1887"/>
+					<Prp name="datetime" type="D" value="45883.3668672106"/>
+					<Prp name="click point y" type="I" value="922"/>
+					<Prp name="object left" type="I" value="1812"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="image file name" type="S" value="visImage14.png"/>
+				</Node>
+			</Node>
+			<Prp name="remarks" type="S" value="A click at point (33, 16) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.page__Home.AccountsTable__panel.Apply__button&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Account/0017F00001Mzc75QAB/related/Addresses__r/view&quot;).FindElement(&quot;//button[.='Apply']&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45883.5960359722"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="18"/>
+			<Prp name="line no" type="I" value="116"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 77">
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;You can improve the performance of the object search in the test.&lt;/p&gt;&lt;p&gt;The &lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;browser.&amp;#8203;pageCasinoRoyaleAccountSalesforc.&amp;#8203;&lt;a href=&quot;namemapping://{91651B73-7C63-403C-A23E-6C849C754F54}.{AAE30A37-A7AD-42B2-A8D0-201C1BC43198}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;imageQuote&lt;/span&gt;&lt;/a&gt;&lt;/code&gt; object&lt;/p&gt;&lt;p&gt;can be found faster if you make &lt;code&gt;xpath=//button[.=&quot;New RFC Quote&quot;]&lt;/code&gt; the first selector in its selector list.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;reorderselectors://{6A392961-D7F7-4081-B0BD-A083A70E79C1}.if&quot;&gt;Improve Performance&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;!--p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul--&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="45883.5973949537"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="77"/>
+			<Prp name="line no" type="I" value="37"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Improve your test performance."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 86">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="line #" type="I" value="56"/>
+					<Prp name="object bottom" type="I" value="272"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object name" type="S" value="Aliases.browser.page__Home.GlobalAll__tab"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="236"/>
+					<Prp name="object right" type="I" value="798"/>
+					<Prp name="datetime" type="D" value="45883.3684534491"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="607"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="image file name" type="S" value="visImage52.png"/>
+				</Node>
+			</Node>
+			<Prp name="remarks" type="S" value="'[Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Enter]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.page__Home.GlobalAll__tab&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/page/home&quot;).FindElement(&quot;//input[@id=(//label[.='Search by object type']/@for)]&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45883.5976344097"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="86"/>
+			<Prp name="line no" type="I" value="56"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 103">
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="date" type="D" value="45883.5982348843"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="103"/>
+			<Prp name="line no" type="I" value="80"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The checkpoint '*PO BOX 77123*' passed."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 95">
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;You can improve the performance of the object search in the test.&lt;/p&gt;&lt;p&gt;The &lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;browser.&amp;#8203;pageHomeSearch.&amp;#8203;&lt;a href=&quot;namemapping://{91651B73-7C63-403C-A23E-6C849C754F54}.{3ABB019C-F9A7-46F7-880C-4E3A9D52CA5B}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;textnode1SStoneSt&lt;/span&gt;&lt;/a&gt;&lt;/code&gt; object&lt;/p&gt;&lt;p&gt;can be found faster if you make &lt;code&gt;//records-record-layout-item[2]//records-formula-output/slot/formula-output-formula-html/lightning-formatted-rich-text/span&lt;/code&gt; the first selector in its selector list.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;reorderselectors://{09FBB303-1B17-41D7-982E-DC6EF353C246}.if&quot;&gt;Improve Performance&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;!--p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul--&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="45883.5980232523"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="95"/>
+			<Prp name="line no" type="I" value="64"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Improve your test performance."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 34">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="line #" type="I" value="117"/>
+					<Prp name="object bottom" type="I" value="491"/>
+					<Prp name="click point x" type="I" value="1878"/>
+					<Prp name="object name" type="S" value="Aliases.browser.page__Home.AccountsTable__panel.CloseFilters__button"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="464"/>
+					<Prp name="object right" type="I" value="1892"/>
+					<Prp name="datetime" type="D" value="45883.3670979861"/>
+					<Prp name="click point y" type="I" value="477"/>
+					<Prp name="object left" type="I" value="1865"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="image file name" type="S" value="visImage25.png"/>
+				</Node>
+			</Node>
+			<Prp name="remarks" type="S" value="A click at point (12, 12) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.page__Home.AccountsTable__panel.CloseFilters__button&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Account/0017F00001Mzc75QAB/related/Addresses__r/view&quot;).FindElement(&quot;//button[.='Close Filters']&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45883.5962666782"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="34"/>
+			<Prp name="line no" type="I" value="117"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 23">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="line #" type="I" value="101"/>
+					<Prp name="object bottom" type="I" value="436"/>
+					<Prp name="click point x" type="I" value="1870"/>
+					<Prp name="object name" type="S" value="Aliases.browser.page__Home.AccountsTable__panel.ShowQuickFilters__button"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="400"/>
+					<Prp name="object right" type="I" value="1888"/>
+					<Prp name="datetime" type="D" value="45883.3668870023"/>
+					<Prp name="click point y" type="I" value="418"/>
+					<Prp name="object left" type="I" value="1852"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="image file name" type="S" value="visImage16.png"/>
+				</Node>
+			</Node>
+			<Prp name="remarks" type="S" value="A click at point (16, 16) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.page__Home.AccountsTable__panel.ShowQuickFilters__button&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Account/0017F00001Mzc75QAB/related/Addresses__r/view&quot;).FindElement(&quot;//button[.='Show quick filters']&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45883.5960558565"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="23"/>
+			<Prp name="line no" type="I" value="101"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 106">
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="date" type="D" value="45883.5983495486"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="106"/>
+			<Prp name="line no" type="I" value="84"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The checkpoint '*LAS VEGAS, Nevada 89109*' passed."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 24">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="line #" type="I" value="104"/>
+					<Prp name="object bottom" type="I" value="940"/>
+					<Prp name="click point x" type="I" value="1612"/>
+					<Prp name="object name" type="S" value="Aliases.browser.page__Home.ClearAllFilters__button"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="904"/>
+					<Prp name="object right" type="I" value="1661"/>
+					<Prp name="datetime" type="D" value="45883.3669315741"/>
+					<Prp name="click point y" type="I" value="922"/>
+					<Prp name="object left" type="I" value="1564"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="image file name" type="S" value="visImage17.png"/>
+				</Node>
+			</Node>
+			<Prp name="remarks" type="S" value="A click at point (43, 16) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.page__Home.ClearAllFilters__button&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Account/0017F00001Mzc75QAB/related/Addresses__r/view&quot;).FindElement(&quot;//button[.='Clear All Filters']&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45883.5961004861"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="24"/>
+			<Prp name="line no" type="I" value="104"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 105">
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="date" type="D" value="45883.5983076505"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="105"/>
+			<Prp name="line no" type="I" value="84"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The checkpoint '*3600 LAS VEGAS BOULEVARD*' passed."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 73">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="line #" type="I" value="21"/>
+					<Prp name="object bottom" type="I" value="272"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object name" type="S" value="Aliases.browser.page__Home.GlobalSearch__field"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="236"/>
+					<Prp name="object right" type="I" value="1210"/>
+					<Prp name="datetime" type="D" value="45883.3680359491"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="842"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="image file name" type="S" value="visImage47.png"/>
+				</Node>
+			</Node>
+			<Prp name="remarks" type="S" value="'[Enter]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.page__Home.GlobalSearch__field&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/page/home&quot;).FindElement(&quot;//input[@id=(//label[.='Search Accounts: Filtered by 0 filters']/@for)]&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45883.5972063426"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="73"/>
+			<Prp name="line no" type="I" value="21"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 36">
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="45883.5963037037"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="36"/>
+			<Prp name="line no" type="I" value="134"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Clik on Global search"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 54">
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="45883.5967375926"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="54"/>
+			<Prp name="line no" type="I" value="34"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Type"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 27">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="line #" type="I" value="117"/>
+					<Prp name="object bottom" type="I" value="491"/>
+					<Prp name="click point x" type="I" value="1878"/>
+					<Prp name="object name" type="S" value="Aliases.browser.page__Home.AccountsTable__panel.CloseFilters__button"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="464"/>
+					<Prp name="object right" type="I" value="1892"/>
+					<Prp name="datetime" type="D" value="45883.3669718403"/>
+					<Prp name="click point y" type="I" value="477"/>
+					<Prp name="object left" type="I" value="1865"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="image file name" type="S" value="visImage20.png"/>
+				</Node>
+			</Node>
+			<Prp name="remarks" type="S" value="A click at point (12, 12) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.page__Home.AccountsTable__panel.CloseFilters__button&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Account/0017F00001Mzc75QAB/related/Addresses__r/view&quot;).FindElement(&quot;//button[.='Close Filters']&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45883.5961405671"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="27"/>
+			<Prp name="line no" type="I" value="117"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 84">
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="45883.5975153472"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="84"/>
+			<Prp name="line no" type="I" value="50"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="[RFC Quote]:  Success notification.&#xA;Quote &quot;RFC BELLAGIO LAS VEGAS-Test172&quot; was created.&#xA;Press Control + F6 to navigate to the next toast notification or focusable region.&#xA;Close"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 19">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="line #" type="I" value="117"/>
+					<Prp name="object bottom" type="I" value="491"/>
+					<Prp name="click point x" type="I" value="1878"/>
+					<Prp name="object name" type="S" value="Aliases.browser.page__Home.AccountsTable__panel.CloseFilters__button"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="464"/>
+					<Prp name="object right" type="I" value="1892"/>
+					<Prp name="datetime" type="D" value="45883.3668772338"/>
+					<Prp name="click point y" type="I" value="477"/>
+					<Prp name="object left" type="I" value="1865"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="image file name" type="S" value="visImage15.png"/>
+				</Node>
+			</Node>
+			<Prp name="remarks" type="S" value="A click at point (12, 12) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.page__Home.AccountsTable__panel.CloseFilters__button&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Account/0017F00001Mzc75QAB/related/Addresses__r/view&quot;).FindElement(&quot;//button[.='Close Filters']&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45883.5960464468"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="19"/>
+			<Prp name="line no" type="I" value="117"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 99">
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="45883.5980821412"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="99"/>
+			<Prp name="line no" type="I" value="69"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Venu Address is Displaying As Expected"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="message 91">
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;You can improve the performance of the object search in the test.&lt;/p&gt;&lt;p&gt;The &lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;browser.&amp;#8203;pageHomeSearch.&amp;#8203;&lt;a href=&quot;namemapping://{91651B73-7C63-403C-A23E-6C849C754F54}.{2D92C6A3-CDBB-4BB1-88A0-59CF347A5FC7}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;textnode9920252&lt;/span&gt;&lt;/a&gt;&lt;/code&gt; object&lt;/p&gt;&lt;p&gt;can be found faster if you make &lt;code&gt;//records-record-layout-section[2]//span/slot/records-formula-output/slot/lightning-formatted-text&lt;/code&gt; the first selector in its selector list.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;reorderselectors://{E8832B4D-6CA2-4149-8C35-687D8AFA57CC}.if&quot;&gt;Improve Performance&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;!--p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul--&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="45883.597905544"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="91"/>
+			<Prp name="line no" type="I" value="55"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Improve your test performance."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 38">
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="45883.5963359028"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="38"/>
+			<Prp name="line no" type="I" value="138"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Clik on Account search"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 6">
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="45883.5957680671"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="6"/>
+			<Prp name="line no" type="I" value="146"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Enter Account ID"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 104">
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="date" type="D" value="45883.5982713194"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="104"/>
+			<Prp name="line no" type="I" value="80"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The checkpoint '*LAS VEGAS, Nevada 89177-7123*' passed."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 97">
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;You can improve the performance of the object search in the test.&lt;/p&gt;&lt;p&gt;The &lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;browser.&amp;#8203;pageHomeSearch.&amp;#8203;&lt;a href=&quot;namemapping://{91651B73-7C63-403C-A23E-6C849C754F54}.{5CAE8D72-4479-4B4A-9307-B4F71737C0A1}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;textnode1SStoneSt3&lt;/span&gt;&lt;/a&gt;&lt;/code&gt; object&lt;/p&gt;&lt;p&gt;can be found faster if you make &lt;code&gt;//div[@role='main']//records-formula-output/slot/formula-output-formula-html/lightning-formatted-rich-text/span&lt;/code&gt; the first selector in its selector list.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;reorderselectors://{2A32235B-B7BD-4E20-8083-4EEC9E330FC2}.if&quot;&gt;Improve Performance&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;!--p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul--&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="45883.5980818866"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="97"/>
+			<Prp name="line no" type="I" value="66"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Improve your test performance."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 69">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="line #" type="I" value="12"/>
+					<Prp name="object bottom" type="I" value="272"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object name" type="S" value="Aliases.browser.page__Home.GlobalAll__tab"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="236"/>
+					<Prp name="object right" type="I" value="798"/>
+					<Prp name="datetime" type="D" value="45883.3679428125"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="607"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="image file name" type="S" value="visImage45.png"/>
+				</Node>
+			</Node>
+			<Prp name="remarks" type="S" value="'[Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Enter]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.page__Home.GlobalAll__tab&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/page/home&quot;).FindElement(&quot;//input[@id=(//label[.='Search by object type']/@for)]&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45883.5971204977"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="69"/>
+			<Prp name="line no" type="I" value="12"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 4">
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="45883.5957435301"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="line no" type="I" value="142"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Enter search"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 100">
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="45883.5980821412"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="100"/>
+			<Prp name="line no" type="I" value="71"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Invoice Address is Displaying As Expected"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 40">
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="45883.5963651273"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="40"/>
+			<Prp name="line no" type="I" value="142"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Enter search"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 92">
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="45883.5979058218"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="92"/>
+			<Prp name="line no" type="I" value="58"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="opportunity :: RFC Month are 9/13/2025::9/13/2025"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 31">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="line #" type="I" value="104"/>
+					<Prp name="object bottom" type="I" value="940"/>
+					<Prp name="click point x" type="I" value="1612"/>
+					<Prp name="object name" type="S" value="Aliases.browser.page__Home.ClearAllFilters__button"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="904"/>
+					<Prp name="object right" type="I" value="1661"/>
+					<Prp name="datetime" type="D" value="45883.3670600694"/>
+					<Prp name="click point y" type="I" value="922"/>
+					<Prp name="object left" type="I" value="1564"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="image file name" type="S" value="visImage22.png"/>
+				</Node>
+			</Node>
+			<Prp name="remarks" type="S" value="A click at point (43, 16) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.page__Home.ClearAllFilters__button&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Account/0017F00001Mzc75QAB/related/Addresses__r/view&quot;).FindElement(&quot;//button[.='Clear All Filters']&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45883.5962286574"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="31"/>
+			<Prp name="line no" type="I" value="104"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 0">
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="45883.5956788426"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="134"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Clik on Global search"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 9">
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="45883.5958357523"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="9"/>
+			<Prp name="line no" type="I" value="156"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Clik on Account link"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 64">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="line #" type="I" value="49"/>
+					<Prp name="object bottom" type="I" value="294"/>
+					<Prp name="click point x" type="I" value="948"/>
+					<Prp name="object name" type="S" value="Aliases.browser.page__login.AccountCreation__toast"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="240"/>
+					<Prp name="object right" type="I" value="1239"/>
+					<Prp name="datetime" type="D" value="45883.3678465857"/>
+					<Prp name="click point y" type="I" value="267"/>
+					<Prp name="object left" type="I" value="657"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="image file name" type="S" value="visImage43.png"/>
+				</Node>
+			</Node>
+			<Prp name="remarks" type="S" value="A click at point (259, 24) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.page__login.AccountCreation__toast&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Account/0017F00001Mzc75QAB/view&quot;).FindElement(&quot;//div[contains(@class, 'slds-theme--success')]&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45883.5970157986"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="64"/>
+			<Prp name="line no" type="I" value="49"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 2" type="S" value="{9FA3C611-A318-41DE-9946-6279D04A124A}"/>
+			<Prp name="unit 0" type="S" value="{46F1530B-18A2-4914-ACA6-E05EB5CD0D58}"/>
+			<Prp name="unit 1" type="S" value="{63A3FB4C-4CAA-4B53-8646-CFC0FF1D6328}"/>
+		</Node>
+		<Node name="message 51">
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;You can improve the performance of the object search in the test.&lt;/p&gt;&lt;p&gt;The &lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;browser.&amp;#8203;pageCasinoRoyaleAccountSalesforc.&amp;#8203;&lt;a href=&quot;namemapping://{91651B73-7C63-403C-A23E-6C849C754F54}.{8A8DA62B-9C7A-4C97-BAE6-FB9BF6233D99}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;panelNone&lt;/span&gt;&lt;/a&gt;&lt;/code&gt; object&lt;/p&gt;&lt;p&gt;can be found faster if you make &lt;code&gt;//div[@role='dialog']//section//section//fieldset//div[6]//div[contains(@class, 'uiMenu')]&lt;/code&gt; the first selector in its selector list.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;reorderselectors://{5492C01D-F54F-434B-99A3-B1142758A9C9}.if&quot;&gt;Improve Performance&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;!--p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul--&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="45883.5966367593"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="51"/>
+			<Prp name="line no" type="I" value="26"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Improve your test performance."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 20">
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="45883.5960483796"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="20"/>
+			<Prp name="line no" type="I" value="26"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="[Delvery Address1 ]: 3600 LAS VEGAS BLVD S&#xA;LAS VEGAS, Nevada 89109-4303&#xA;USA"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 46">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="line #" type="I" value="157"/>
+					<Prp name="object bottom" type="I" value="491"/>
+					<Prp name="click point x" type="I" value="386"/>
+					<Prp name="object name" type="S" value="Aliases.browser.page__Home.NewOpportunity__tab"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="469"/>
+					<Prp name="object right" type="I" value="456"/>
+					<Prp name="datetime" type="D" value="45883.3672941435"/>
+					<Prp name="click point y" type="I" value="480"/>
+					<Prp name="object left" type="I" value="316"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="image file name" type="S" value="visImage31.png"/>
+				</Node>
+			</Node>
+			<Prp name="remarks" type="S" value="A click at point (62, 10) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.page__Home.NewOpportunity__tab&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/one/one.app#eyJjb21wb25lbnREZWYiOiJmb3JjZVNlYXJjaDpzZWFyY2hQYWdlRGVza3RvcCIsImF0dHJpYnV0ZXMiOnsidGVybSI6IkJFTExBR0lPIExBUyBWRUdBUyIsInNjb3BlTWFwIjp7ImNvbG9yIjoiNTg2N0U4IiwiaWNvbiI6Imh0dHBzOi8vYXJpc3RvY3JhdC1nbG9iYWwtLXFhMS5zYW5kYm94Lm15LnNhbGVzZm9yY2UuY29tL2ltZy9pY29uL3Q0djM1L3N0YW5kYXJkL2FjY291bnRfMTIwLnBuZyIsIm5hbWVGaWVsZCI6Ik5hbWUiLCJsYWJlbCI6IkFjY291bnQiLCJkaXNhbWJpZ3VhdGlvbkZpZWxkVHlwZSI6Ik5FU1RFRCIsImtleVByZWZpeCI6IjAwMSIsIm5hbWUiOiJBY2NvdW50IiwiY2FjaGVhYmxlIjoiWSIsImRpc2FtYmlndWF0aW9uRmllbGQiOiJQYXJlbnQuTmFtZSIsImlkIjoiQWNjb3VudCIsImZpZWxkcyI6Ik5hbWVcblBhcmVudC5OYW1lXG5EMzY1QWNjb3VudE51bWJlcl9fY1xuTTJLX0VSUF9OdW1iZXJfX2NcbkJpbGxpbmdTdGF0ZVxuU2FsZXNfUmVnaW9uX19jXG50b0xhYmVsKFNhbGVzX1JlZ2lvbl9fYykgU2FsZXNfUmVnaW9uX19jX19sXG5DdXN0b21lcl9TZWdtZW50YXRpb25fX2NcbnRvTGFiZWwoQ3VzdG9tZXJfU2VnbWVudGF0aW9uX19jKSBDdXN0b21lcl9TZWdtZW50YXRpb25fX2NfX2xcbk93bmVyLkFsaWFzXG5QYXJlbnRJZFxuT3duZXJJZFxuTGFzdE1vZGlmaWVkRGF0ZVxuUmVjb3JkVHlwZUlkXG5DcmVhdGVkRGF0ZVxuSWRcbkN1cnJlbmN5SXNvQ29kZVxuTGFzdE1vZGlmaWVkQnlJZFxuU3lzdGVtTW9kc3RhbXAiLCJsYWJlbFBsdXJhbCI6IkFjY291bnRzIiwiZW50aXR5IjoiQWNjb3VudCJ9LCJjb250ZXh0Ijp7ImRpc2FibGVTcGVsbENvcnJlY3Rpb24iOmZhbHNlLCJkaXNhYmxlSW50ZW50UXVlcnkiOmZhbHNlLCJzZWFyY2hEaWFsb2dTZXNzaW9uSWQiOiJmMWNiZDg5MC1mYjcxLWE2OGUtNjU5MS1iMzA3Yzg4Yzc4NDIiLCJzZWFyY2hTb3VyY2UiOiJJTlBVVF9ERVNLVE9QIn0sImdyb3VwSWQiOiJERUZBVUxUIn0sInN0YXRlIjp7fX0%3D&quot;).FindElement(&quot;xpath=//*[@id=\&quot;brandBand_2\&quot;]//table//tr/th/span/a&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45883.5964636343"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="46"/>
+			<Prp name="line no" type="I" value="157"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="message 101">
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="45883.5980821412"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="101"/>
+			<Prp name="line no" type="I" value="73"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Delvery Address is Displaying As Expected"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 75">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="line #" type="I" value="26"/>
+					<Prp name="object bottom" type="I" value="491"/>
+					<Prp name="click point x" type="I" value="413"/>
+					<Prp name="object name" type="S" value="Aliases.browser.page__Home.NewOpportunity__tab"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="469"/>
+					<Prp name="object right" type="I" value="511"/>
+					<Prp name="datetime" type="D" value="45883.3680930324"/>
+					<Prp name="click point y" type="I" value="480"/>
+					<Prp name="object left" type="I" value="316"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="image file name" type="S" value="visImage48.png"/>
+				</Node>
+			</Node>
+			<Prp name="remarks" type="S" value="A click at point (86, 10) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.page__Home.NewOpportunity__tab&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/one/one.app#eyJjb21wb25lbnREZWYiOiJmb3JjZVNlYXJjaDpzZWFyY2hQYWdlRGVza3RvcCIsImF0dHJpYnV0ZXMiOnsidGVybSI6IkJFTExBR0lPIExBUyBWRUdBUy1UZXN0MTcyIiwic2NvcGVNYXAiOnsiY29sb3IiOiJGRjVEMkQiLCJpY29uIjoiaHR0cHM6Ly9hcmlzdG9jcmF0LWdsb2JhbC0tcWExLnNhbmRib3gubXkuc2FsZXNmb3JjZS5jb20vaW1nL2ljb24vdDR2MzUvc3RhbmRhcmQvb3Bwb3J0dW5pdHlfMTIwLnBuZyIsIm5hbWVGaWVsZCI6Ik5hbWUiLCJsYWJlbCI6Ik9wcG9ydHVuaXR5IiwiZGlzYW1iaWd1YXRpb25GaWVsZFR5cGUiOiJORVNURUQiLCJrZXlQcmVmaXgiOiIwMDYiLCJuYW1lIjoiT3Bwb3J0dW5pdHkiLCJjYWNoZWFibGUiOiJZIiwiZGlzYW1iaWd1YXRpb25GaWVsZCI6IkFjY291bnQuTmFtZSIsImlkIjoiT3Bwb3J0dW5pdHkiLCJmaWVsZHMiOiJOYW1lXG5BY2NvdW50Lk5hbWVcbkQzNjVfQWNjb3VudF9OdW1iZXJfX2NcbkFncmVlbWVudF9OdW1iZXJfX2NcblN0YWdlTmFtZVxudG9MYWJlbChTdGFnZU5hbWUpIFN0YWdlTmFtZV9fbFxuUmVjb3JkVHlwZS5OYW1lXG50b0xhYmVsKFJlY29yZFR5cGUuTmFtZSkgTmFtZV9fbFxuRXN0aW1hdGVkX1Jldl9Nb250aF9fY1xuZm9ybWF0KEVzdGltYXRlZF9SZXZfTW9udGhfX2MpIEVzdGltYXRlZF9SZXZfTW9udGhfX2NfX2Zcbk9fUl9fY1xudG9MYWJlbChPX1JfX2MpIE9fUl9fY19fbFxuT01UX0ZTSURfX2Ncbk93bmVyLkFsaWFzXG5BY2NvdW50SWRcbk93bmVySWRcblJlY29yZFR5cGVJZFxuTGFzdE1vZGlmaWVkRGF0ZVxuQ3JlYXRlZERhdGVcbklkXG5DdXJyZW5jeUlzb0NvZGVcbkxhc3RNb2RpZmllZEJ5SWRcblN5c3RlbU1vZHN0YW1wIiwibGFiZWxQbHVyYWwiOiJPcHBvcnR1bml0aWVzIiwiZW50aXR5IjoiT3Bwb3J0dW5pdHkifSwiY29udGV4dCI6eyJkaXNhYmxlU3BlbGxDb3JyZWN0aW9uIjpmYWxzZSwiZGlzYWJsZUludGVudFF1ZXJ5IjpmYWxzZSwic2VhcmNoRGlhbG9nU2Vzc2lvbklkIjoiMmM0NDE0ZjgtYWJkNC02N2YxLTk3YTQtOGM1YmMyOTNmM2ViIiwic2VhcmNoU291cmNlIjoiSU5QVVRfREVTS1RPUCJ9LCJncm91cElkIjoiREVGQVVMVCJ9LCJzdGF0ZSI6e319&quot;).FindElement(&quot;xpath=//*[@id=\&quot;brandBand_2\&quot;]//table//tr/th/span/a&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45883.5972658449"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="75"/>
+			<Prp name="line no" type="I" value="26"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 93">
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;You can improve the performance of the object search in the test.&lt;/p&gt;&lt;p&gt;The &lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;browser.&amp;#8203;pageHomeSearch.&amp;#8203;&lt;a href=&quot;namemapping://{91651B73-7C63-403C-A23E-6C849C754F54}.{90396979-285D-45E2-B454-C2A66E7F560C}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;textnodeOneSStoneSt&lt;/span&gt;&lt;/a&gt;&lt;/code&gt; object&lt;/p&gt;&lt;p&gt;can be found faster if you make &lt;code&gt;//records-record-layout-row[4]//records-formula-output/slot/formula-output-formula-html/lightning-formatted-rich-text/span&lt;/code&gt; the first selector in its selector list.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;reorderselectors://{F603CAD5-63C5-4597-8687-EBB7AC2A64EE}.if&quot;&gt;Improve Performance&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;!--p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul--&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="45883.597964213"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="93"/>
+			<Prp name="line no" type="I" value="62"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Improve your test performance."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 94">
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="45883.5979645486"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="94"/>
+			<Prp name="line no" type="I" value="63"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="[Venu Address]: 3600 LAS VEGAS BOULEVARD&#xA;LAS VEGAS, Nevada 89109&#xA;USA"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 79">
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="45883.5974281366"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="79"/>
+			<Prp name="line no" type="I" value="40"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="[validation]: verifying syncNow checkbox is displaying"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 47">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="line #" type="I" value="15"/>
+					<Prp name="object bottom" type="I" value="393"/>
+					<Prp name="click point x" type="I" value="1245"/>
+					<Prp name="object name" type="S" value="Aliases.browser.page__Home.NewOpportunity__button"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="357"/>
+					<Prp name="object right" type="I" value="1320"/>
+					<Prp name="datetime" type="D" value="45883.3673780093"/>
+					<Prp name="click point y" type="I" value="375"/>
+					<Prp name="object left" type="I" value="1170"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="image file name" type="S" value="visImage32.png"/>
+				</Node>
+			</Node>
+			<Prp name="remarks" type="S" value="A click at point (67, 16) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.page__Home.NewOpportunity__button&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Account/0017F00001Mzc75QAB/view&quot;).FindElement(&quot;xpath=//forcegenerated-highlightspanel_account___0127f000000hsqpqaq___compact___view___recordlayout2[@class='forcegenerated-record-layout2']//div//div//button[@name='Account.NewOppQA'][normalize-space()='New Opportunity']&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45883.5965478356"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="47"/>
+			<Prp name="line no" type="I" value="15"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 16">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="line #" type="I" value="101"/>
+					<Prp name="object bottom" type="I" value="436"/>
+					<Prp name="click point x" type="I" value="1870"/>
+					<Prp name="object name" type="S" value="Aliases.browser.page__Home.AccountsTable__panel.ShowQuickFilters__button"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="400"/>
+					<Prp name="object right" type="I" value="1888"/>
+					<Prp name="datetime" type="D" value="45883.3668095486"/>
+					<Prp name="click point y" type="I" value="418"/>
+					<Prp name="object left" type="I" value="1852"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="image file name" type="S" value="visImage12.png"/>
+				</Node>
+			</Node>
+			<Prp name="remarks" type="S" value="A click at point (16, 16) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.page__Home.AccountsTable__panel.ShowQuickFilters__button&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Account/0017F00001Mzc75QAB/related/Addresses__r/view&quot;).FindElement(&quot;//button[.='Show quick filters']&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45883.5959784143"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="16"/>
+			<Prp name="line no" type="I" value="101"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 81">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="line #" type="I" value="45"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="image file name" type="S" value="visImage50_Dif.png"/>
+				</Node>
+				<Node name="original">
+					<Prp name="line #" type="I" value="45"/>
+					<Prp name="object bottom" type="I" value="738"/>
+					<Prp name="click point x" type="I" value="1380"/>
+					<Prp name="object name" type="S" value="NameMapping.Sys.browser.pageCasinoRoyaleAccountSalesforc.Save__Button"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="702"/>
+					<Prp name="object right" type="I" value="1415"/>
+					<Prp name="datetime" type="D" value="45834.4792939815"/>
+					<Prp name="click point y" type="I" value="717"/>
+					<Prp name="object left" type="I" value="1347"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="image file name" type="S" value="tcvi2739656236842.png"/>
+				</Node>
+				<Node name="current">
+					<Prp name="line #" type="I" value="45"/>
+					<Prp name="object bottom" type="I" value="738"/>
+					<Prp name="click point x" type="I" value="1381"/>
+					<Prp name="object name" type="S" value="Aliases.browser.page__Home.RFCSave_button"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="702"/>
+					<Prp name="object right" type="I" value="1415"/>
+					<Prp name="datetime" type="D" value="45883.3682940393"/>
+					<Prp name="click point y" type="I" value="720"/>
+					<Prp name="object left" type="I" value="1347"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="image file name" type="S" value="visImage50.png"/>
+				</Node>
+			</Node>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.page__Home.RFCSave_button&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/action/quick/Opportunity.Create_Quote?objectApiName=Quote&amp;context=RECORD_DETAIL&amp;recordId=006Bn00000HWDQCIA5&amp;backgroundContext=%2Flightning%2Fr%2FOpportunity%2F006Bn00000HWDQCIA5%2Fview&quot;).FindElement(&quot;//div/div/footer/button[contains(@class, 'slds-button_brand')]&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45883.597463831"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="81"/>
+			<Prp name="line no" type="I" value="45"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 14">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="line #" type="I" value="18"/>
+					<Prp name="object bottom" type="I" value="671"/>
+					<Prp name="click point x" type="I" value="1201"/>
+					<Prp name="object name" type="S" value="Aliases.browser.page__Account.RelatedQuickLink__tab.Address__link"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="636"/>
+					<Prp name="object right" type="I" value="1300"/>
+					<Prp name="datetime" type="D" value="45883.3667760069"/>
+					<Prp name="click point y" type="I" value="653"/>
+					<Prp name="object left" type="I" value="1103"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="image file name" type="S" value="visImage11.png"/>
+				</Node>
+			</Node>
+			<Prp name="remarks" type="S" value="A click at point (87, 15) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.page__Account.RelatedQuickLink__tab.Address__link&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Account/0017F00001Mzc75QAB/view&quot;).FindElement(&quot;//li[contains(., 'Open Addresses')]&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45883.595945463"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="14"/>
+			<Prp name="line no" type="I" value="18"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 11">
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="45883.5958928819"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="11"/>
+			<Prp name="line no" type="I" value="13"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Clik on Related Tab"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Prp name="status" type="I" value="0"/>
+	</Node>
+</Nodes>

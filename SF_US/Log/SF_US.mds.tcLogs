@@ -23,57 +23,57 @@
 		<Node name="logs">
 			<Node name="log idx=0000">
 				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="45874.678876169"/>
+				<Prp name="datetime" type="D" value="45883.5893391088"/>
 				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{05BC973B-ADA4-4D34-A991-35048B36243A}"/>
-				<Prp name="nameofroot" type="S" value="82032_B02_Opportunity_creation_BDE-COE"/>
-				<Prp name="relpath" type="S" value="8_5_2025_4_17 PM_34_901\Description.tcLog"/>
+				<Prp name="key" type="S" value="{70BFB057-3C73-43A6-8A44-736CC0AE6190}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [COEuserValidation\OpenRFC_Quote1]"/>
+				<Prp name="relpath" type="S" value="8_14_2025_2_08 PM_38_899\Description.tcLog"/>
 				<Prp name="status" type="I" value="2"/>
 			</Node>
 			<Node name="log idx=0001">
 				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="45874.6805673495"/>
+				<Prp name="datetime" type="D" value="45883.5898936111"/>
 				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{D2A0767C-F126-472D-8754-BB0D8C3D6923}"/>
-				<Prp name="nameofroot" type="S" value="Script Test Log [OpportunityCreation\OpenAccount_Page]"/>
-				<Prp name="relpath" type="S" value="8_5_2025_4_20 PM_01_19\Description.tcLog"/>
+				<Prp name="key" type="S" value="{1E565A55-4B9F-497C-936E-31EE989D334E}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [COEuserValidation\OpenRFC_Quote1]"/>
+				<Prp name="relpath" type="S" value="8_14_2025_2_09 PM_26_808\Description.tcLog"/>
 				<Prp name="status" type="I" value="2"/>
 			</Node>
 			<Node name="log idx=0002">
 				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="45874.7923200347"/>
-				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{7B1D374B-66DE-4420-8E16-588D765B86D2}"/>
-				<Prp name="nameofroot" type="S" value="Step 1: Login to SalseForce"/>
-				<Prp name="relpath" type="S" value="8_5_2025_7_00 PM_56_456\Description.tcLog"/>
-				<Prp name="status" type="I" value="1"/>
+				<Prp name="datetime" type="D" value="45883.5902273727"/>
+				<Prp name="description" type="S" value="363389_B06_Approvals - Automation_on -COE to have access to certain fields during the approval process"/>
+				<Prp name="key" type="S" value="{326D4E0E-E5DE-4843-B3B5-67E0B251EFA7}"/>
+				<Prp name="nameofroot" type="S" value="363389_B06_Approvals - Automation_on -COE to have access to certain fields during the approval process"/>
+				<Prp name="relpath" type="S" value="8_14_2025_2_09 PM_55_645\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
 			</Node>
 			<Node name="log idx=0003">
 				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="45874.7952374074"/>
+				<Prp name="datetime" type="D" value="45883.5935718866"/>
 				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{60F2FED6-0AC9-439D-8163-626380029354}"/>
-				<Prp name="nameofroot" type="S" value="Step 1: Login to SalseForce"/>
-				<Prp name="relpath" type="S" value="8_5_2025_7_05 PM_08_512\Description.tcLog"/>
-				<Prp name="status" type="I" value="1"/>
+				<Prp name="key" type="S" value="{2158ECC2-C8DA-4C4F-87B7-5E3CB755C910}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [COEuserValidation\LegalDocValidation]"/>
+				<Prp name="relpath" type="S" value="8_14_2025_2_14 PM_44_611\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
 			</Node>
 			<Node name="log idx=0004">
 				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="45874.7962516667"/>
+				<Prp name="datetime" type="D" value="45883.5944750347"/>
 				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{162EE704-BB0D-4966-860F-463766A50886}"/>
-				<Prp name="nameofroot" type="S" value="Step 2 :Select Existing account and OpportunityCreation Page"/>
-				<Prp name="relpath" type="S" value="8_5_2025_7_06 PM_36_144\Description.tcLog"/>
-				<Prp name="status" type="I" value="2"/>
+				<Prp name="key" type="S" value="{166B187A-BD05-45FB-AEDA-916A37A636BF}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [COEuserValidation\ELI_Disabeld1]"/>
+				<Prp name="relpath" type="S" value="8_14_2025_2_16 PM_02_643\Description.tcLog"/>
+				<Prp name="status" type="I" value="1"/>
 			</Node>
 			<Node name="log idx=0005">
 				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="45874.7971927199"/>
+				<Prp name="datetime" type="D" value="45883.5949401505"/>
 				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{34202DAE-20CB-4406-B630-301A7D10752C}"/>
-				<Prp name="nameofroot" type="S" value="Script Test Log [OpportunityCreation\OpenAccount_Page]"/>
-				<Prp name="relpath" type="S" value="8_5_2025_7_07 PM_57_451\Description.tcLog"/>
-				<Prp name="status" type="I" value="2"/>
+				<Prp name="key" type="S" value="{E4736178-3DCA-419C-9623-97B005A5D85F}"/>
+				<Prp name="nameofroot" type="S" value="343162_B04_RFC_Quote: Default Venue, Invoice and Delivery Addresses on RFC Creation"/>
+				<Prp name="relpath" type="S" value="8_14_2025_2_16 PM_42_829\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
 			</Node>
 		</Node>
 		<Prp name="signature" type="S" value="{681DCC69-A39F-4C4D-8E7D-B2D9362FAF4F}"/>

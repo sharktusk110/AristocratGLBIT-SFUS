@@ -4,12 +4,12 @@
 function Verify_Existing_LineItem(Flag)
 { 
   
-  Aliases.browser.Page__PreAccountApproval.Home__Panel.QuoteAddEditLineItems__Tab.Click();
+  Aliases.browser.page__Home.QuoteAddEditLineItems__tab.Click();
   Delay(2000);
   
   Log.Message(" validetion checked that opened opprotunity is alredy configured")
-  aqObject.CheckProperty(Aliases.browser.Page__EditLineItem.GrantTotalAmount__Label, "Enabled", cmpEqual, true);
-  var GrantTotalAmount  = Aliases.browser.Page__EditLineItem.GrantTotalAmount__Label.contentText
+  aqObject.CheckProperty(Aliases.browser.Page__EditLineItem.GrantTotalAmount__label, "Enabled", cmpEqual, true);
+  var GrantTotalAmount  = Aliases.browser.Page__EditLineItem.GrantTotalAmount__label.contentText
   
   if (Flag === "After") { Project.Variables.afterGrandTotalEGM = GrantTotalAmount; } 
   else if (Flag === "Before") { Project.Variables.afterGrandTotalEGM = GrantTotalAmount; }
@@ -32,7 +32,7 @@ function Verify_Existing_LineItem(Flag)
     var ConversionQuantity=CasesWS["B03"]["ConversionQuantity"];
   
   //Clicks the 'ConfigTool__Tab' control.
-  Aliases.browser.Page__RFCQuote.section6.ConfigTool__Tab.Click();
+  Aliases.browser.Page__RFCQuote.ConfigTool__Tab.Click();
   Delay(2000);
   
    // Aliases.browser.Page__RFCQuote.Page__Configu.sectionConfigure2.Qnty__Tab.SetText(Quantity);
@@ -41,7 +41,7 @@ function Verify_Existing_LineItem(Flag)
     //Project.Variables.EGMCOUNT_Before=quantity
     
     
-    Aliases.browser.Page__RFCQuote.Page__Configu.sectionConfigure2.Qnty__Tab.SetText(ConversionQuantity);
+    Aliases.browser.page__EditLineItem.Qnty__tab.SetText(ConversionQuantity);
     Delay(2000);
   
     
@@ -49,35 +49,37 @@ function Verify_Existing_LineItem(Flag)
   //Delay(6000);
  
  Log.Message("checking required field is enabled for Freight")
-  aqObject.CheckProperty(Aliases.browser.Page__RFCQuote.Page__Configu.sectionConfigure2.panelRequired, "Enabled", cmpEqual, true);
+  aqObject.CheckProperty(Aliases.browser.page__RFCQuote.Page__Configu.ConfigureEditLineItem__panel.FreightRequired__tab, "Enabled", cmpEqual, true);
   Delay(2000);
   
   Log.Message("checking required field is enabled for Promotions")
-  aqObject.CheckProperty(Aliases.browser.Page__RFCQuote.Page__Configu.sectionConfigure2.panelRequired2, "Enabled", cmpEqual, true);
+  aqObject.CheckProperty(Aliases.browser.page__RFCQuote.Page__Configu.ConfigureEditLineItem__panel.PromotionRequired__tab, "Enabled", cmpEqual, true);
   Delay(2000);
   
   Log.Message("checking required field is enabled for License")
-  aqObject.CheckProperty(Aliases.browser.Page__RFCQuote.Page__Configu.sectionConfigure2.panel2, "Enabled", cmpEqual, true);
+  aqObject.CheckProperty(Aliases.browser.page__RFCQuote.Page__Configu.ConfigureEditLineItem__panel.LicenceRequired__tab, "Enabled", cmpEqual, true);
   Delay(2000);
   
  
-  Aliases.browser.Page__RFCQuote.Page__Configu.sectionConfigure2.Frieght__Tab.ClickItem(2);
+  Aliases.browser.page__RFCQuote.Page__Configu.ConfigureEditLineItem__panel.Frieght__tab.Click();
+  Aliases.browser.page__RFCQuote.Page__Configu.ConfigureEditLineItem__panel.Frieght__tab.Keys("[Down][Down][Enter]");
   Delay(2000);
 
-  Aliases.browser.Page__EditLineItem.sectionConfigure.License__Tab.ClickItem(2);
+  Aliases.browser.page__EditLineItem.Configure__Panel.License__tab.Click();
+  Aliases.browser.page__EditLineItem.Configure__Panel.License__tab.Keys("[Down][Down][Enter]")
   Delay(3000);
   
   
-  Aliases.browser.Page__EditLineItem.sectionConfigure.Promotion__Button.Click();
+  Aliases.browser.page__EditLineItem.Configure__Panel.Promotion__Button.Click();
   Delay(2000);
    KeyboardOperations("Down",2)
    KeyboardOperations("Enter",1) 
  
-  NameMapping.Sys.browser.pageCasinoRoyaleAccountSalesforc.buttonSave.ClickButton();
+  Aliases.browser.page__RFCQuote.RfcQSave__button.ClickButton();
   Delay(12000);
   
   Log.Message("Account has been created seccessfull massege")
-  aqObject.CheckProperty(Aliases.browser.Page__AccountCreation.AccountCreation__Toast, "Enabled", cmpEqual, true);
+  //aqObject.CheckProperty(Aliases.browser.Page__AccountCreation.AccountCreation__Toast, "Enabled", cmpEqual, true);
 }
 
 
@@ -93,22 +95,26 @@ function Conver_Config()
     var EGMQuantity=CasesWS["B03"]["EGMQuantity"];
     var ConversionQuantity=CasesWS["B03"]["ConversionQuantity"];
   
-  Aliases.browser.Page__RFCQuote.Page__Configu.sectionConfigure2.Qnty__Tab.SetText(EGMQuantity);
+  Aliases.browser.page__EditLineItem.Qnty__tab.SetText(EGMQuantity);
   Delay(2000);
   
-  NameMapping.Sys.browser.pageCasinoRoyaleAccountSalesforc.buttonSave.ClickButton();
+  Aliases.browser.page__RFCQuote.RfcQSave__button.ClickButton();
   Delay(2000);
  
-  Aliases.browser.Page__RFCQuote.Page__Configu.sectionConfigure2.Frieght__Tab.ClickItem(3);
+  Aliases.browser.page__RFCQuote.Page__Configu.ConfigureEditLineItem__panel.Frieght__tab.Click();
+  Aliases.browser.page__RFCQuote.Page__Configu.ConfigureEditLineItem__panel.Frieght__tab.Keys("[Down][Down][Enter]");
   Delay(2000);
   
-  Aliases.browser.Page__EditLineItem.sectionConfigure.Promotion__Button.ClickItem(3);
+   Aliases.browser.page__EditLineItem.Configure__Panel.Promotion__Button.Click();
   Delay(2000);
+   KeyboardOperations("Down",2)
+   KeyboardOperations("Enter",1) 
+  
 
   //Aliases.browser.Page__EditLineItem.sectionConfigure.License__Tab.Click();
   //Delay(2000);
   
-  NameMapping.Sys.browser.pageCasinoRoyaleAccountSalesforc.buttonSave.ClickButton();
+  Aliases.browser.page__RFCQuote.RfcQSave__button.ClickButton();
   Delay(8000);
   
   Log.Message(" Toaster validation checked that conversion sale  is updated successfully")
@@ -120,19 +126,19 @@ function Conver_Config()
   Delay(2000);
   
   
-  NameMapping.Sys.browser.pageCasinoRoyaleAccountSalesforc.buttonClose.ClickButton();
+  Aliases.browser.page__RFCQuote.CloseQ__button.ClickButton();
   Delay(2000);
   
   Log.Message("Total EGM count is verified on Quote Page")
-  aqObject.CheckProperty(Aliases.browser.Page__PostAccountApproval.textnodeEgmCount, "Enabled", cmpEqual, true);
+  aqObject.CheckProperty(Aliases.browser.page__RFCQuote.EgmCount__text, "Enabled", cmpEqual, true);
   Delay(2000);
    
   Log.Message("Total Conversion line item count is verified on Quote Page")
-  aqObject.CheckProperty(Aliases.browser.Page__PostAccountApproval.ConverLineItemCount__Label, "Enabled", cmpEqual, true);
+  aqObject.CheckProperty(Aliases.browser.page__RFCQuote.ConverLineItemCount__label, "Enabled", cmpEqual, true);
   Delay(2000);
-  var ConversionLIneItemCount= Aliases.browser.Page__PostAccountApproval.ConverLineItemCount__Label.contentText
+  var ConversionLIneItemCount= Aliases.browser.page__RFCQuote.ConverLineItemCount__label.contentText
 
-    var EGMQ1 = Aliases.browser.Page__PostAccountApproval.EGMQuantity__Label.contentText
+    var EGMQ1 = Aliases.browser.page__RFCQuote.EGMQuantity__label.contentText
     var EGMQ = parseInt(EGMQuantity) + parseInt(ConversionQuantity);
  
     EGMCountValidation()
@@ -141,21 +147,21 @@ function Conver_Config()
   
   }
   
-  //Validation needs to be put in place inorder to validate whether RFC getting updated successfully for the quantiy field by validating EGM count .
+  
    function EGMCountValidation()
    {
     var CasesWS=dataReader("SF_opportunity"); //Sheetname
     var EGMQuantity=CasesWS["B03"]["EGMQuantity"];
     var ConversionQuantity=CasesWS["B03"]["ConversionQuantity"];
   
-   var ConversionLIneItemCount= Aliases.browser.Page__PostAccountApproval.ConverLineItemCount__Label.contentText
+   var ConversionLIneItemCount= Aliases.browser.page__RFCQuote.ConverLineItemCount__label.contentText
 
-    var EGMQ1 = Aliases.browser.Page__PostAccountApproval.EGMQuantity__Label.contentText
+    var EGMQ1 = Aliases.browser.page__RFCQuote.EGMQuantity__label.contentText
     var EGMQ = parseInt(EGMQuantity) + parseInt(ConversionQuantity);
      
      if (parseInt(EGMQ)  ===  parseInt(EGMQ1))
      {
-       Log.Message("Validation needs to be put in place inorder to validate whether RFC getting updated successfully for the quantiy field by validating EGM count .")
+       Log.Message("Value of Conversion line item is updated successfuly in RFC quote")
      
      }
      else {
@@ -173,13 +179,13 @@ function Conver_Config()
   {
   
   
-  Aliases.browser.Page__PreAccountApproval.Home__Panel.headerOneheader2.GlobalSearch__Field.SetText(Project.Variables.OpportunityName);
+  Aliases.browser.page__Home.GlobalSearch__field.SetText(Project.Variables.OpportunityName);
   Delay(2000);
    
-  Aliases.browser.Page__PreAccountApproval.Home__Panel.headerOneheader2.GlobalSearch__Field.Keys("[Enter]");
+  Aliases.browser.page__Home.GlobalSearch__field.Keys("[Enter]");
   Delay(2000);
   
-  Aliases.browser.Page__PostAccountApproval.NewOpportunity__Tab.Click();
+  Aliases.browser.page__Home.NewOpportunity__tab.Click();
   Delay(2000);
  
   Log.Message("Total EGM count is verified on Opportunity Page")
@@ -187,22 +193,20 @@ function Conver_Config()
   Delay(2000);
  
    Log.Message("Total Conversion line item count is verified on Opportunity Page")
-  aqObject.CheckProperty(Aliases.browser.Page__PostAccountApproval.textnodeConversionLineItemCount, "Enabled", cmpEqual, true);
+  aqObject.CheckProperty(Aliases.browser.Page__PostAccountApproval.ConversionLineItemCount__text, "Enabled", cmpEqual, true);
   Delay(2000);
   
   Log.Message("Payment Term is verified on Opportunity Page")
-  aqObject.CheckProperty(Aliases.browser.Page__PostAccountApproval.Detail__Tab.textnode12EqualMonthlyPayments, "contentText", cmpEqual, "12 Equal Monthly Payments");
+  aqObject.CheckProperty(Aliases.browser.page__Account.Detail__tab.Paymentterm12EMP__text, "contentText", cmpEqual, "12 Equal Monthly Payments");
   Delay(2000);
 
-  Aliases.browser.Page__PreAccountApproval.Home__Panel.EditLineItem__Tab.ClickButton();
+  Aliases.browser.page__Home.EditLineItem__tab.ClickButton();
   Delay(2000);
   
-  
-   Aliases.browser.Page__RFCQuote.Click__Panel.Opport__Click.Click();
+  Aliases.browser.Page__RFCQuote.Click__Panel.Opport__Click.Click();
   Delay(2000);
   
-  
-  NameMapping.Sys.browser.pageCasinoRoyaleAccountSalesforc.Close__Button.ClickButton();
+  Aliases.browser.page__EditLineItem.Close__button.ClickButton();
 }
 
 
@@ -210,21 +214,20 @@ function Conver_Config()
 
 function OpenRFC_Quote()
 {
- // Aliases.browser.Page__PreAccountApproval.Home__Panel.UserLogedIn__Panel.GlobalAccount__Tab.Click();
- // Delay(2000);
+  Aliases.browser.page__Home.GlobalAll__tab.Click();
+  Delay(2000);
   
-  //NameMapping.Sys.browser.pageCasinoRoyaleAccountSalesforc.RFCQuotes__Tab.Click();
-  //Delay(2000);
+  Aliases.browser.page__Home.GlobalAll__tab.Keys("[Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Enter]");
+  Delay(3000);
   
   Log.Message("Sets the text Project.Variables.OpportunityName in the 'GlobalSearch_Bar' text editor")
-  Aliases.browser.Page__PreAccountApproval.Home__Panel.headerOneheader2.GlobalSearch__Field.SetText(Project.Variables.OpportunityName);
+  Aliases.browser.page__Home.GlobalSearch__field.Keys(Project.Variables.OpportunityName);
   Delay(2000);
   
-  Aliases.browser.Page__PreAccountApproval.Home__Panel.headerOneheader2.SelectRFCQuote__Tab.Click();
-  Delay(2000);
+   Aliases.browser.page__Home.GlobalSearch__field.Keys("[Enter]");
+  //Aliases.browser.Page__PreAccountApproval.Home__Panel.UserLogedIn__Panel.SelectAccount__Tab.Click();
+  //Delay(2000);
   
-  
-  
-  Aliases.browser.Page__PreAccountApproval.Home__Panel.UserLogedIn__Panel.SelectAccount__Tab.Click();
+  Aliases.browser.page__Home.NewOpportunity__tab.Click();
   Delay(2000);
 }

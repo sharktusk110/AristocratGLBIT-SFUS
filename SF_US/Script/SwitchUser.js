@@ -2,7 +2,7 @@
 {
   Delay(3000);
   //Clicks the 'LaraLogOut_Tab' link.
-  Aliases.browser.Page__Login.Account__Switch.LogOutDan__Tab.Click();
+  Aliases.browser.page__Home.LogOutDan__tab.Click();
   //Delays the test execution for the specified time period.
   Delay(3000);
   //This url is used to open Den Beaston profile for login.
@@ -10,7 +10,7 @@
   //Delays the test execution for the specified time period.
   Delay(2000);
   //Performs a single click on the specified button.
-  Aliases.browser.Page__Login.Account__Switch.button__Login.ClickButton();
+  Aliases.browser.page__Home.Login__button.ClickButton();
 }
 
 
@@ -21,19 +21,19 @@ function OpenNewCreated_Opportunity()
 
 
   //Clicks the 'GlobalSearch_Bar' control.
-  Aliases.browser.Page__PreAccountApproval.Home__Panel.headerOneheader2.GlobalSearch__Field.Click();
+  Aliases.browser.page__Home.GlobalSearch__field.Click();
   //Delays the test execution for the specified time period.
   Delay(2000);
   //Sets the text Project.Variables.OpportunityName in the 'GlobalSearch_Bar' text editor.
-  Aliases.browser.Page__PreAccountApproval.Home__Panel.headerOneheader2.GlobalSearch__Field.SetText(Project.Variables.OpportunityName);
+  Aliases.browser.page__Home.GlobalSearch__field.SetText(Project.Variables.OpportunityName);
   //Delays the test execution for the specified time period.
   Delay(2000);
   //Enters '[Enter]' in the 'GlobalSearch_Bar' object.
-  Aliases.browser.Page__PreAccountApproval.Home__Panel.headerOneheader2.GlobalSearch__Field.Keys("[Enter]");
+  Aliases.browser.page__Home.GlobalSearch__field.Keys("[Enter]");
   //Delays the test execution for the specified time period.
   Delay(2000);
   //Clicks the 'NewOpportunity_Tab' link.
-  Aliases.browser.Page__PostAccountApproval.NewOpportunity__Tab.Click();
+  Aliases.browser.Page__Home.NewOpportunity__Tab.Click();
   //Delays the test execution for the specified time period.
   Delay(2000);
   
@@ -43,6 +43,5 @@ function OpenNewCreated_Opportunity()
 
 function Type_Validation()
 {
-  Log.Message("Validation needs to be put in place inorder to validate whether RFC getting created successfully .")
-  aqObject.CheckProperty(Aliases.browser.Page__PostAccountApproval.D365CompanyCode__Field.EditStatusForLegalUser_Tab, "Enabled", cmpEqual, true);
+  aqObject.CheckProperty(Aliases.browser.page__Opportunity.EditStatusForLegalUser__tab, "Enabled", cmpEqual, true);
 }
