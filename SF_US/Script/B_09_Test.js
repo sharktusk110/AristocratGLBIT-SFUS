@@ -22,13 +22,13 @@ ConfigFilter2 = [Config[i][5],Config[i][6],Config[i][7],Config[i][8],Config[i][9
 ConfigFilter3 = [Config[i][64],Config[i][65],Config[i][66]];
 ConfigFilter4 = [Config[i][67],Config[i][68],Config[i][69]];
 
-//B_09["Opportunity_Creation"](ConfigFilter1);
-//B_09["RFC_Creation"]();
-//B_09["Quote_navigation"]();
-//B_09["AddLineItem_Cabinet"](ConfigFilter2);
-//B_09["Payment_Update"]();
-//B_09["Tax_Calculation"]();
-//B_09["RFC_Approval"]();
+B_09["Opportunity_Creation"](ConfigFilter1);
+B_09["RFC_Creation"]();
+B_09["Quote_navigation"]();
+B_09["AddLineItem_Cabinet"](ConfigFilter2);
+B_09["Payment_Update"]();
+B_09["Tax_Calculation"]();
+B_09["RFC_Approval"]();
 B_09["SOC_Creation"](ConfigFilter2);
 
 }

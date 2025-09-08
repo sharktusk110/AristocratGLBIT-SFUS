@@ -17,9 +17,9 @@
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
-			<testItem name="Bank_Configuration" key="{0D36D13B-8D96-4F19-813C-0432F0548648}" group="False" parallel="False" enabled="True" load="False" testMoniker="{FA5D1C3A-7D84-49BB-9E7A-B729B16AB010}Bank_Configuration" count="1" timeout="0" stopOnError="4" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+			<testItem name="ExcelUtility" key="{FB28F500-ED9E-4E53-97BC-8A5034A65CBC}" group="False" parallel="False" enabled="True" load="False" testMoniker="{D66597A1-4D04-4D9E-A734-2C3DDF116D9D}ExcelUtility" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 				<testParameters />
-				<environments activeCloud="SWT" />
+				<environments activeCloud="CBT" />
 				<children />
 			</testItem>
 		</children>
