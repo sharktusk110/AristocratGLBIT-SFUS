@@ -1,0 +1,21 @@
+﻿//USEUNIT OutrightSale_D_01
+//module.exports.getObject
+
+
+function OpportunityCreation() {
+  
+Sheet="SF_TestData";
+
+var excelFile = Excel.Open(Project.Path+"\\Data_Sheets\\Data_Sheet.xlsx"); //Path of the Datasheet
+var excelSheet = excelFile.SheetByTitle(Sheet);
+var rows = excelSheet.RowCount;
+var cols = excelSheet.ColumnCount;
+
+var Config = new Array(rows).fill(0).map(() => new Array(cols).fill(0));
+Config=ReadExcel["D_SeriesTestDataFromExcel"]();
+for(let i=2;i<=rows;i++){
+  
+ConfigFilter1 = [Config[i][0],Config[i][1],Config[i][2],Config[i][3],Config[i][4]];
+OutrightSale_D_01["Opportunity_Creation"](ConfigFilter1);
+
+}}

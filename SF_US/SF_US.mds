@@ -10,170 +10,64 @@
 	<config language="{90F89436-9452-4F95-9882-6B5210079F13}" />
 	<testItems key="{3BE3F0B1-C250-46CA-B68C-FA21E0D5CD91}" version="14">
 		<children>
-			<testItem name="82030_B01_Accounts_Creation_Approve" key="{0F6F1084-F852-4CBC-943D-BB0C07D248C9}" group="False" parallel="False" enabled="True" load="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
-				<testParameters />
+			<testItem name="ProjectTestItem1" key="{3503E505-BD91-47C0-8663-4A82E7843A86}" group="False" parallel="False" enabled="False" load="False" testMoniker="*|*" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+				<testParameters>
+					<param0 name="Expression" type="1" localVarName="" value="" />
+				</testParameters>
 				<environments activeCloud="SWT" />
-				<children>
-					<testItem name="Step 1: Login to SalseForce" key="{D47F4F2F-24D0-4BFD-8BDB-644EE32E0E16}" group="False" parallel="False" enabled="True" load="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
-						<testParameters />
-						<environments activeCloud="SWT" />
-						<children>
-							<testItem name="Login to Salesforce with service account." key="{A999EBA2-9FD2-4BF0-902F-A464A74B1E16}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{21823095-49D7-4B3D-973C-DEC7CADA04DD}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
-								<testParameters />
-								<environments activeCloud="SWT" />
-								<children />
-							</testItem>
-						</children>
-					</testItem>
-					<testItem name="Step 2: Access Accounts page and create a new Account" key="{601572FC-12DE-4A58-A911-D12D0A383358}" group="False" parallel="False" enabled="True" load="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
-						<testParameters />
-						<environments activeCloud="SWT" />
-						<children>
-							<testItem name="AccountCreation_Test" key="{1DC287EE-CF92-4D65-91C5-8337F1FC7A40}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{EF2414B8-D42C-4051-9522-C9F32E4842C8}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
-								<testParameters />
-								<environments activeCloud="SWT" />
-								<children />
-							</testItem>
-						</children>
-					</testItem>
-					<testItem name="Step 3: Submit for approval" key="{D8B0165D-54EB-4B59-BE39-55A3E1157D50}" group="False" parallel="False" enabled="True" load="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
-						<testParameters />
-						<environments activeCloud="SWT" />
-						<children>
-							<testItem name="Submit_Approval" key="{11EB70D1-8835-4454-86C1-387E8A849565}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{C49659BD-5FBD-470A-A140-9D32BB4D5322}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
-								<testParameters />
-								<environments activeCloud="SWT" />
-								<children />
-							</testItem>
-						</children>
-					</testItem>
-					<testItem name="Step 4: Add CompanyCode" key="{087F76CD-E934-4A50-B7E2-5991CDFF12C0}" group="False" parallel="False" enabled="True" load="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
-						<testParameters />
-						<environments activeCloud="SWT" />
-						<children>
-							<testItem name="CompanyCode_Test" key="{F2C587C1-66BC-4C5E-B726-7B2F0B7F32B2}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{798966B0-0666-413D-8C55-E7FF2F18F174}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
-								<testParameters />
-								<environments activeCloud="SWT" />
-								<children />
-							</testItem>
-						</children>
-					</testItem>
-					<testItem name="Step 5: Switch to Account that needs approval" key="{6C91051D-951A-4ABC-9DBC-C7678BA21D67}" group="False" parallel="False" enabled="True" load="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
-						<testParameters />
-						<environments activeCloud="SWT" />
-						<children>
-							<testItem name="Address_Test" key="{2DF53FE8-8DE3-440E-ABF5-B2D71CFD08E2}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{6C3EF604-1A80-4E7B-8A25-3A69397391C9}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
-								<testParameters />
-								<environments activeCloud="SWT" />
-								<children />
-							</testItem>
-						</children>
-					</testItem>
-					<testItem name="Step 6: Account has been approved after changing gaming classification." key="{C3682D3A-5744-4C01-AFF8-9EC2D0DF6B6C}" group="False" parallel="False" enabled="True" load="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
-						<testParameters />
-						<environments activeCloud="SWT" />
-						<children>
-							<testItem name="AccountApproval_Test" key="{7094C1F4-128F-450E-9ED7-37555ECC7BEC}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{FEEF4551-3755-48AF-AA84-F25EC912AF90}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
-								<testParameters />
-								<environments activeCloud="SWT" />
-								<children />
-							</testItem>
-						</children>
-					</testItem>
-				</children>
+				<children />
 			</testItem>
-			<testItem name="82032_B02_Opportunity_creation_BDE-COE" key="{5E17A338-205A-45B0-9F89-CF35712BD9B2}" group="False" parallel="False" enabled="True" load="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+			<testItem name="Bank_Configuration" key="{0D36D13B-8D96-4F19-813C-0432F0548648}" group="False" parallel="False" enabled="True" load="False" testMoniker="{FA5D1C3A-7D84-49BB-9E7A-B729B16AB010}Bank_Configuration" count="1" timeout="0" stopOnError="4" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 				<testParameters />
 				<environments activeCloud="SWT" />
-				<children>
-					<testItem name="Step 1: Login to SalseForce" key="{B838CE45-BBBA-4A43-BAA5-091A7585AA86}" group="False" parallel="False" enabled="True" load="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
-						<testParameters />
-						<environments activeCloud="SWT" />
-						<children>
-							<testItem name="Login to Salesforce with service account." key="{1A75BF0B-1AD8-47BB-96C0-7026BCE5196F}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{21823095-49D7-4B3D-973C-DEC7CADA04DD}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
-								<testParameters />
-								<environments activeCloud="SWT" />
-								<children />
-							</testItem>
-						</children>
-					</testItem>
-					<testItem name="Step 2 :Select Existing account and OpportunityCreation Page" key="{103BAE9A-A631-4366-A370-D5F9C78F1424}" group="False" parallel="False" enabled="True" load="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
-						<testParameters />
-						<environments activeCloud="SWT" />
-						<children>
-							<testItem name="OpportunityCreation_Test" key="{A61F8E8F-4770-40ED-B626-B62FFD182E12}" group="False" parallel="False" enabled="True" load="False" testMoniker="{1E22A1D5-31E5-4E4A-8D98-20086EB43B3E}New_Opportunity_Create" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
-								<testParameters />
-								<environments activeCloud="SWT" />
-								<children />
-							</testItem>
-						</children>
-					</testItem>
-					<testItem name="Step 3: User is able to make changes in newly created Opportunity" key="{7D8EB828-EE54-4975-9055-DB66FA7637C6}" group="False" parallel="False" enabled="True" load="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
-						<testParameters />
-						<environments activeCloud="SWT" />
-						<children>
-							<testItem name="ConfigOpportunity_Test" key="{0DF0834B-CCA9-482A-9478-28D71AAA5C33}" group="False" parallel="False" enabled="True" load="False" testMoniker="{7984F146-6587-4787-A9DE-79EE28057571}NewOpportunity_Validate" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
-								<testParameters />
-								<environments activeCloud="SWT" />
-								<children />
-							</testItem>
-						</children>
-					</testItem>
-					<testItem name="Step 4: Verify that conversion sales can be configured." key="{D2043E74-917F-4693-A9DA-558BFE7AF599}" group="False" parallel="False" enabled="True" load="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
-						<testParameters />
-						<environments activeCloud="SWT" />
-						<children>
-							<testItem name="ConfigConversion_Test" key="{DD2CE3D9-E87F-423B-83AE-09AEFFA2B6A4}" group="False" parallel="False" enabled="True" load="False" testMoniker="{07BBA548-EC6B-409C-A69F-528F69B4CACB}ConfigConversion_Validation" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
-								<testParameters />
-								<environments activeCloud="SWT" />
-								<children />
-							</testItem>
-						</children>
-					</testItem>
-					<testItem name="Step 5 :Legal/Finance user is able to see the field, but is NOT able to edit" key="{B76F15A4-C7F8-4D1A-B881-71FB716B8A92}" group="False" parallel="False" enabled="True" load="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
-						<testParameters />
-						<environments activeCloud="SWT" />
-						<children>
-							<testItem name="LegalUserValidation_Test" key="{E6018F45-AA38-4654-8076-973709E08B5F}" group="False" parallel="False" enabled="True" load="False" testMoniker="{832FAC7B-4EFB-4BCD-BB96-CE63CA5D9992}LegalUserValidation_Test" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
-								<testParameters />
-								<environments activeCloud="SWT" />
-								<children />
-							</testItem>
-						</children>
-					</testItem>
-				</children>
+				<children />
 			</testItem>
 		</children>
 	</testItems>
 	<variables key="{350913AB-D488-49BA-853C-4A0450655799}">
 		<data Version="4">
 			<Items>
-				<Variable Name="Password1" Type="Password" Local="False">
-					<DefValue StrValue="38003900360031003900330044003200460034004400380037003300460034003600430039003900410037003900340035004100390044003500390044004300420032003900370044004500450031004300340046004100440045003000430041003400420042004400350031003400420036004100390039003500" />
+				<Variable Name="SF_Username" Type="String" Local="True">
+					<DefValue StrValue="crmtest.4@aristocrat.com.usprod.qa1" />
 				</Variable>
-				<Variable Name="Accountname" Type="String" Local="True">
+				<Variable Name="SF_Password" Type="String" Local="True">
+					<DefValue StrValue="LifeisGood5" />
+				</Variable>
+				<Variable Name="SF_Login" Type="String" Local="True">
 					<DefValue />
 				</Variable>
-				<Variable Name="AccountStatus" Type="String" Local="False">
+				<Variable Name="url" Type="String" Local="True">
 					<DefValue />
 				</Variable>
-				<Variable Name="Location" Type="String" Local="False">
+				<Variable Name="accounturl" Type="String" Local="True">
 					<DefValue />
 				</Variable>
-				<Variable Name="SF_URL" Type="String" Local="True">
-					<DefValue StrValue="https://test.salesforce.com/" />
+				<Variable Name="quoteurl" Type="String" Local="True">
+					<DefValue />
 				</Variable>
-				<Variable Name="ParentAccount1" Type="String" Local="False">
-					<DefValue StrValue="BELLAGIO LAS VEGAS" />
+				<Variable Name="RFCurl" Type="String" Local="True">
+					<DefValue />
 				</Variable>
-				<Variable Name="OpportunityName" Type="String" Local="True">
+				<Variable Name="caseurl" Type="String" Local="True">
+					<DefValue />
+				</Variable>
+				<Variable Name="recentoppurl" Type="String" Local="True">
+					<DefValue />
+				</Variable>
+				<Variable Name="recentquoteurl" Type="String" Local="True">
+					<DefValue />
+				</Variable>
+				<Variable Name="SFUrl" Type="String" Local="True">
+					<DefValue />
+				</Variable>
+				<Variable Name="SOCUrl" Type="String" Local="True">
 					<DefValue />
 				</Variable>
 			</Items>
 		</data>
 	</variables>
 	<settings key="{BE4F0ECD-D8EE-4BF5-B81E-1C4D77CE23C5}">
-		<settingsVersion value="15.75" />
+		<settingsVersion value="15.76" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>
@@ -477,27 +371,17 @@
 			</data>
 		</setting>
 		<setting name="OpenApps_MSAA_TreeModel" type="1" value="False" />
-		<setting name="OpenApps_PriorityOfObjects" type="6" rowIndex="15" colIndex="0">
+		<setting name="OpenApps_PriorityOfObjects" type="6" rowIndex="5" colIndex="0">
 			<columns>
 				<column type="5" enabled="True" />
 			</columns>
 			<data>
+				<row val0="NativeMSAA" />
+				<row val0="NativeChromeObject" />
 				<row val0="NativeSlObject" />
 				<row val0="NativeWebObject" />
-				<row val0="NativeVBObject" />
-				<row val0="NativeDelphiObject" />
-				<row val0="NativeTextObject" />
-				<row val0="NativeJavaObject" />
-				<row val0="NativeChromeObject" />
-				<row val0="NativeClrObject" />
-				<row val0="NativeCPPObject" />
 				<row val0="NativeFirefoxObject" />
-				<row val0="NativeJavaFXObject" />
-				<row val0="NativeSAPObject" />
-				<row val0="NativeQtObject" />
 				<row val0="NativeWebDriverObject" />
-				<row val0="NativeUIAObject" />
-				<row val0="NativeMSAA" />
 			</data>
 		</setting>
 		<setting name="OpenApps_ProcessFilter_ProcessFilterMode" type="6" rowIndex="0" colIndex="0">
@@ -700,7 +584,7 @@
 			</columns>
 			<data />
 		</setting>
-		<setting name="Playback_ErrHandling_OnError" type="6" rowIndex="2" colIndex="1">
+		<setting name="Playback_ErrHandling_OnError" type="6" rowIndex="0" colIndex="1">
 			<columns>
 				<column type="5" enabled="True" />
 				<column type="2" enabled="True" />
@@ -754,10 +638,10 @@
 		<setting name="Playback_Runtime_DisableMouse" type="1" value="False" />
 		<setting name="Playback_Runtime_MinimizeBeforePlayback" type="1" value="False" />
 		<setting name="Playback_Runtime_UseCaseSensitiveParameters" type="1" value="False" />
-		<setting name="Playback_StopOnError" type="1" value="True" />
+		<setting name="Playback_StopOnError" type="1" value="False" />
 		<setting name="Playback_StopOnObjectRecognitionError" type="1" value="False" />
 		<setting name="Playback_StopOnWarning" type="1" value="False" />
-		<setting name="Playback_TestItemMaxReRunCount" type="2" value="1" />
+		<setting name="Playback_TestItemMaxReRunCount" type="2" value="2" />
 		<setting name="Playback_UnexpectedWndHandling_ClickOnFocusedControl" type="1" value="True" />
 		<setting name="Playback_UnexpectedWndHandling_IgnoreUnexpectedWindow" type="1" value="False" />
 		<setting name="Playback_UnexpectedWndHandling_PressEnter" type="1" value="True" />

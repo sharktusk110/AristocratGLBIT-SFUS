@@ -1,0 +1,222 @@
+﻿//module.exports.getObject
+//USEUNIT ReadExcel
+//USEUNIT Login
+//USEUNIT DynamicWait
+
+
+var opportunity_name;
+var quotename;
+var urc="https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q0Bn000000nRDZKA2/view";
+var quote_number;
+var ControllerTotalPrice;
+var MonthlyPaymentAmount
+var totalPrice;
+var rebate;
+var CabinetTotalPrice;
+var Tax;
+var HeaderContent = "Header Template has been added";
+var FooterContent = "Footer Template has been added";
+var SocName;
+var Econname;
+
+
+function Opportunity_Creation(Config) {
+  
+var app=Aliases.browser.Page_SFAppSearch_AccountSearch;
+var account=Aliases.browser.Page_SFAppSearch_AccountSearch.AccountSearch;
+var opportunity=Aliases.browser.Page_NewOpportunityCreation;
+
+   
+//Navigating for SF Home and selecting Aristocrat app for account related opportunity creation
+ Browsers.Item(btChrome).Run("https://test.salesforce.com/");
+ Project.Variables.SF_Login=Sys.Browser().Page("*").URL;
+ Login["SF_login"](Project.Variables.SF_Username,Project.Variables.SF_Password);
+ Delay(3000);
+ app.AppLauncher_Button.Click();
+ Delay(2000);
+ app.SearchAppsAndItems_SearchField.SetText("Aristocrat");
+ Delay(1000);
+ Sys.Desktop.Keys("[Down]")
+ Delay(500);
+ app.SearchAppsAndItems_SearchField.Keys("[Enter]");
+ Delay(1000);
+ //Navigating to account section
+ Browsers.Item(btChrome).Navigate("https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/o/Account/list?filterName=__Recent");
+ 
+ //Searching account for opportunity creation
+ account.SearchThisList_SearchField.SetText(Config[0]);
+ Log.Message("Account Name has enterd as " +Config[0]);
+ account.SearchThisList_SearchField.Keys("[Enter]");
+ 
+ 
+ account.Account_Node.Click();
+ Delay(2000);
+ Project.Variables.accounturl=Sys.Browser().Page("*").URL;
+ account.NewOpportunity_Button.Click();
+ Delay(5000);
+ 
+ //Filling opportunity creation mandatory field including opportunity name
+ opportunity_name=opportunity.OpportunityName_Field.Text;
+ opportunity_name=opportunity_name.split("-")[0]+"-"+(Math.floor(Math.random() * 10000000000) + 1)+"-"+opportunity_name.split("-")[2];
+ opportunity.OpportunityName_Field.SetText(opportunity_name);
+ Log.Message(opportunity_name);
+ 
+ 
+ //Filling opportunity creation mandatory field including gaming classification
+ opportunity.GamingClassification_Field.Click();
+ Delay(2000);
+ opportunity.GamingClassification_Field.Keys(Config[1]);
+ Delay(2000);
+ Log.Message("Gaming field has enterd as " + Config[1]);
+ opportunity.GamingClassification_Field.Keys("[Enter]");
+ Delay(2000);
+ 
+ 
+ // Filling opportunity creation mandatory field including type
+ opportunity.Type_Field.Click();
+ Delay(2000);
+ opportunity.Type_Field.Keys(Config[2]);
+ Delay(2000);
+ Log.Message("Opportunity field has enterd as " + Config[2]);
+ opportunity.Type_Field.Keys("[Enter]");
+ 
+ 
+// Filling opportunity creation mandatory field including market segment.
+ opportunity.MarketSegment_Field.Click();
+ Delay(2000);
+ opportunity.MarketSegment_Field.Keys(Config[3]);
+ Log.Message("MarketSegment Field has enterd as " +Config[3])
+ Delay(2000);
+ opportunity.MarketSegment_Field.Keys("[Enter]");
+
+ // Filling opportunity creation mandatory field including lead source.
+ opportunity.LeadSource_Field.Click();
+ Delay(2000);
+ opportunity.LeadSource_Field.Keys(Config[4]);
+ Log.Message("LeadSource Field has enterd as " +Config[4])
+ Delay(2000);
+ opportunity.LeadSource_Field.Keys("[Enter]");
+ Delay(2000);
+ // Submitting the opprotunity for creation
+ opportunity.Save_Button.Click();
+}
+
+//RFC Creation
+function RFC_Creation(){
+  
+//opportunity_name="BELLAGIO LAS VEGAS -3043631152- 07/29/2025";  
+var search_opportunity=Aliases.browser.Page_SearchOpportunity;
+var RFC =Aliases.browser.page_RFCCreation.RFC;
+//var url="https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning"+
+//         "/o/Opportunity/list?filterName=__Recent";
+
+Browsers.Item(btChrome).Navigate(Project.Variables.recentoppurl);
+Delay(2000);
+search_opportunity.SearchThisList_SearchField.SetText(opportunity_name);
+Delay(2000);
+search_opportunity.SearchThisList_SearchField.Keys("[Enter]");
+Delay(3000);
+
+//Opportunity creation Validation
+DynamicWait["dynamic_wait_visibility"](search_opportunity.Opportunity_Node, 10000);
+aqObject.CheckProperty(Aliases.browser.Page_SearchOpportunity.Opportunity_Node, "ContentText", cmpContains, opportunity_name);
+Log.Message("Opportunity found and text matches: " + opportunity_name);
+//Click on the created opportunity
+search_opportunity.Opportunity_Node.Click();
+Delay(5000);
+Project.Variables.RFCurl=Sys.Browser().Page("*").URL;
+//Click on RFC creation button
+RFC.NewRFCQuote_Button.Click();
+Delay(5000);
+quotename= RFC.RFCQuoteName_Field.Text;
+Log.Message("RFC quote name is as "+quotename);
+Delay(1000);
+RFC.RFCSave_Button.Click();
+Delay(2000);
+}
+
+function Quote_navigation(){
+  
+var Quote_nav=Aliases.browser.Page_QuoteNavigation;
+//var econ_config=Aliases.browser.Page_EconMainConfiguration;
+//var url="https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/o/"+
+//         "Quote/list?filterName=__Recent";
+
+//quotename="RFC CALIFORNIA HOTEL CASINO -1863394975- 07/17/2025"; 
+Browsers.Item(btChrome).Navigate(Project.Variables.recentquoteurl);
+Delay(3000);
+Quote_nav.SearchThisList_SearchField.SetText(quotename);
+Delay(2000);
+Quote_nav.SearchThisList_SearchField.Keys("[Enter]");
+Delay(2000);
+
+aqObject.CheckProperty(Aliases.browser.Page_QuoteNavigation.Searched_Node, "contentText", cmpContains, quotename);
+Log.Message("RFC found and text matches: " +quotename);
+Delay(2000);
+Quote_nav.Searched_Node.Click();
+Delay(3000);
+
+urc=Sys.Browser().Page("*").URL;
+}
+
+function AddLineItem_Cabinet(Config){
+
+var Add_item = Aliases.browser.Page_AddEdit_Button;
+var Configuration= Aliases.browser.Page_AddEdit_Button.AddEdit_Frame.Configuration_Panel;
+var str1;
+var str2="Delivery Address state WA requires Selling Model GSVLTWA for EGM line items.";
+Project.Variables.url=Sys.Browser().Page("*").URL;
+ 
+ Add_item.AddEditLine_Button.Click();
+ Delay(2000);
+ Add_item.AddEdit_Frame.Add_button.Click();
+ Delay(2000);
+ Add_item.AddEdit_Frame.AllFamilies_button.Click();
+ Delay(2000);
+ Add_item.FindElement("//span[@title='"+Config[0]+"']").Click();
+ Log.Message("Cabinet panel value has enterd as " +Config[0])
+ Delay(2000);
+ Add_item.AddEdit_Frame.CabinetSearch_Field.setText(Config[1]);
+ Delay(2000);
+ Add_item.AddEdit_Frame.CabinetSearch_Field.Keys("[Enter]");
+ Delay(2000);
+ Add_item.FindElement("//td[.='"+Config[1]+"']").Click();
+ Delay(2000);
+ Add_item.FindElement("//td[.='"+Config[2]+"']").Click();
+ Delay(3000);
+ Add_item.AddEdit_Frame.Continue_Button.Click();
+ Delay(2000);
+
+ Configuration.Promotion_Field.ClickItem(2);
+ Delay(3000);
+ Log.Message("Promotion value "+Config[3]);
+ 
+ Configuration.License_Field.Keys(Config[4]);
+ Log.Message("License Field "+Config[4]);
+ Delay(2000);
+
+ Configuration.Freight_Field.Keys(Config[17]);
+ Log.Message("Freight Field value as "+Config[17]);
+ Delay(2000);
+
+ Add_item.AddEdit_Frame.Save_Button.Click();
+ Delay(3000);
+ 
+ Add_item.AddEdit_Frame.Close2_Button.Click();
+ Delay(2000);
+ 
+ Browsers.Item(btChrome).Navigate(urc);
+ 
+ DynamicWait["dynamic_wait_visibility"](Add_item.AddEditLine_Button, 10000);
+ str1=Add_item.sectionHealthCheckResults.panelSalesTaxMustBeCalculated2.textContent;
+ 
+ Log.Message("Str1: "+str1);
+ Log.Message("Str2: "+str2);
+
+ if(aqString.Contains(str1,str2)>=0){
+ Log.Checkpoint("Delivery address related notification is appearing as per expectations.")
+ }else{
+   Log.Error("Delivery address related notification is not appearing as per expectations.");
+ }
+
+}

@@ -1,0 +1,1284 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="message 29">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="360"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="641"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="922"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.Page_Add_Edit_LineItem.Configuration_Panel.Var"/>
+					<Prp name="datetime" type="D" value="45842.3308252431"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="575"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="226"/>
+					<Prp name="object bottom" type="I" value="591"/>
+					<Prp name="object top" type="I" value="559"/>
+					<Prp name="image file name" type="S" value="visImage28.png"/>
+				</Node>
+			</Node>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45842.559996713"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="226"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="29"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.Page_Add_Edit_LineItem.Configuration_Panel.Var&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000bVhZCAU/view&quot;).FindElement(&quot;//tr[22]/td/c-egm-configurator-line-item-editor-row//select[contains(@class, 'slds-select')]&quot;))"/>
+			<Prp name="message" type="S" value="The combo box item 12 was selected."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 25">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="360"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="641"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="922"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.Page_Add_Edit_LineItem.Configuration_Panel.Freight"/>
+					<Prp name="datetime" type="D" value="45842.3306738542"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="575"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="214"/>
+					<Prp name="object bottom" type="I" value="591"/>
+					<Prp name="object top" type="I" value="559"/>
+					<Prp name="image file name" type="S" value="visImage24.png"/>
+				</Node>
+			</Node>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45842.5598533796"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="214"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="25"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.Page_Add_Edit_LineItem.Configuration_Panel.Freight&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000bVhZCAU/view&quot;).FindElement(&quot;//tr[17]/td/c-egm-configurator-line-item-editor-row//select[contains(@class, 'slds-select')]&quot;))"/>
+			<Prp name="message" type="S" value="The combo box item 4 was selected."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="item 1">
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="26"/>
+			<Prp name="stacktext" type="S" value="CreateOpportunities"/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{D5D6C4EF-B5D1-4007-9B07-095EEAC07F9F}"/>
+			<Prp name="unit 1" type="S" value="{17583B07-13F4-45FF-849A-65B12DF434DA}"/>
+		</Node>
+		<Node name="message 34">
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="stack end" type="I" value="2"/>
+			<Prp name="date" type="D" value="45842.5603278588"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="232"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="34"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;body&gt;&lt;p&gt;The test run has stopped because --&lt;/p&gt;&lt;ul&gt;&lt;li&gt;An error message was posted to the log and&lt;/li&gt;&lt;li&gt;The &lt;a href=&quot;aqa-help://6090&quot;&gt;On error&lt;/a&gt; project property is set to &quot;Stop project&quot; or &quot;Stop current item&quot;.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;If you don't want the test to stop on errors, set this property (&lt;b&gt;Project Editor &amp;rArr; Properties &amp;rArr; Playback&lt;/b&gt;), to &quot;Continue running&quot; or change your test commands so that they do not post errors to the log automatically. For example, if a window or process was not found, use WaitWindow, WaitProcess or similar methods to get the needed object.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;aqa-help://2207&quot;&gt;Read More&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="message" type="S" value="The test run has stopped because your test project is configured to stop on errors."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value="Picture1.png"/>
+			<Prp name="stack beginning" type="I" value="2"/>
+		</Node>
+		<Node name="message 18">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="360"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="641"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="922"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.Page_Add_Edit_LineItem.Configuration_Panel.PlayerTrackerInstall"/>
+					<Prp name="datetime" type="D" value="45842.3303769676"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="707"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="198"/>
+					<Prp name="object bottom" type="I" value="723"/>
+					<Prp name="object top" type="I" value="691"/>
+					<Prp name="image file name" type="S" value="visImage17.png"/>
+				</Node>
+			</Node>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45842.5595564468"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="198"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="18"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.Page_Add_Edit_LineItem.Configuration_Panel.PlayerTrackerInstall&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000bVhZCAU/view&quot;).FindElement(&quot;//tr[8]/td/c-egm-configurator-line-item-editor-row//select[contains(@class, 'slds-select')]&quot;))"/>
+			<Prp name="message" type="S" value="The combo box item 1 was selected."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 27">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="360"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="641"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="922"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.Page_Add_Edit_LineItem.Configuration_Panel.AftEft"/>
+					<Prp name="datetime" type="D" value="45842.3307579977"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="839"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="220"/>
+					<Prp name="object bottom" type="I" value="855"/>
+					<Prp name="object top" type="I" value="823"/>
+					<Prp name="image file name" type="S" value="visImage26.png"/>
+				</Node>
+			</Node>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45842.5599376505"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="220"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="27"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.Page_Add_Edit_LineItem.Configuration_Panel.AftEft&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000bVhZCAU/view&quot;).FindElement(&quot;//tr[21]/td/c-egm-configurator-line-item-editor-row//select[contains(@class, 'slds-select')]&quot;))"/>
+			<Prp name="message" type="S" value="The combo box item 1 was selected."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 32">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="1615"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="1649"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="1683"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.Page_Add_Edit_LineItem.SaveButton"/>
+					<Prp name="datetime" type="D" value="45842.3309398264"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="946"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="232"/>
+					<Prp name="object bottom" type="I" value="964"/>
+					<Prp name="object top" type="I" value="928"/>
+					<Prp name="image file name" type="S" value="visImage31.png"/>
+				</Node>
+			</Node>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45842.5601083449"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="232"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="32"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="A click at point (30, 16) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.Page_Add_Edit_LineItem.SaveButton&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000bVhZCAU/view&quot;).FindElement(&quot;//div[@role='dialog']//c-egm-configurator/div/div[3]/lightning-button[2]/button[@type='button']&quot;))"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 5">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="147"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="1419"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.Page_Add_Edit_LineItem.Cabinet_Panel.CabinetSearch"/>
+					<Prp name="datetime" type="D" value="45842.3293447106"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="163"/>
+					<Prp name="object bottom" type="I" value="347"/>
+					<Prp name="object top" type="I" value="316"/>
+					<Prp name="image file name" type="S" value="visImage4.png"/>
+				</Node>
+			</Node>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45842.5585125579"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="163"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.Page_Add_Edit_LineItem.Cabinet_Panel.CabinetSearch&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000bVhZCAU/view&quot;).FindElement(&quot;//c-product-navigator//lightning-input/lightning-primitive-input-simple//input[@type='text']&quot;))"/>
+			<Prp name="message" type="S" value="The text 'PGD-0243|01' was entered in the text editor."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 6">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="147"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="1419"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.Page_Add_Edit_LineItem.Cabinet_Panel.CabinetSearch"/>
+					<Prp name="datetime" type="D" value="45842.3293708912"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="165"/>
+					<Prp name="object bottom" type="I" value="347"/>
+					<Prp name="object top" type="I" value="316"/>
+					<Prp name="image file name" type="S" value="visImage5.png"/>
+				</Node>
+			</Node>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45842.5585388079"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="165"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="6"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Enter]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.Page_Add_Edit_LineItem.Cabinet_Panel.CabinetSearch&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000bVhZCAU/view&quot;).FindElement(&quot;//c-product-navigator//lightning-input/lightning-primitive-input-simple//input[@type='text']&quot;))"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 3">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="1500"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="1514"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="1528"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.Page_Add_Edit_LineItem.FindElement(&quot;//span[@title='EGM']&quot;)"/>
+					<Prp name="datetime" type="D" value="45842.3293190046"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="414"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="160"/>
+					<Prp name="object bottom" type="I" value="423"/>
+					<Prp name="object top" type="I" value="405"/>
+					<Prp name="image file name" type="S" value="visImage3.png"/>
+				</Node>
+			</Node>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45842.5584869097"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="160"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="A click at point (12, 8) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000bVhZCAU/view&quot;).FindElement(&quot;//span[@title='EGM']&quot;)"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 14">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="137"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="1783"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.Page_Add_Edit_LineItem.Scroll"/>
+					<Prp name="datetime" type="D" value="45842.3296594213"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="190"/>
+					<Prp name="object bottom" type="I" value="882"/>
+					<Prp name="object top" type="I" value="268"/>
+					<Prp name="image file name" type="S" value="visImage13.png"/>
+				</Node>
+			</Node>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45842.5588272801"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="190"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="14"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Down]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.Page_Add_Edit_LineItem.Scroll&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000bVhZCAU/view&quot;).FindElement(&quot;//div[3]/c-add-egm-wizard//div[2]/c-egm-configurator//div[contains(@class, 'flex-item-one-autoscroll')]&quot;))"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 16">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="360"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="641"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="922"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.Page_Add_Edit_LineItem.Configuration_Panel.ButtonPanel"/>
+					<Prp name="datetime" type="D" value="45842.3302942593"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="575"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="194"/>
+					<Prp name="object bottom" type="I" value="591"/>
+					<Prp name="object top" type="I" value="559"/>
+					<Prp name="image file name" type="S" value="visImage15.png"/>
+				</Node>
+			</Node>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45842.559473287"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="194"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="16"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.Page_Add_Edit_LineItem.Configuration_Panel.ButtonPanel&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000bVhZCAU/view&quot;).FindElement(&quot;//tr[6]/td/c-egm-configurator-line-item-editor-row//select[contains(@class, 'slds-select')]&quot;))"/>
+			<Prp name="message" type="S" value="The combo box item 7 was selected."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 13">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="360"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="641"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="922"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.Page_Add_Edit_LineItem.Configuration_Panel.GameTitle"/>
+					<Prp name="datetime" type="D" value="45842.329621713"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="862"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="188"/>
+					<Prp name="object bottom" type="I" value="878"/>
+					<Prp name="object top" type="I" value="846"/>
+					<Prp name="image file name" type="S" value="visImage12.png"/>
+				</Node>
+			</Node>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45842.5588010995"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="188"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="13"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.Page_Add_Edit_LineItem.Configuration_Panel.GameTitle&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000bVhZCAU/view&quot;).FindElement(&quot;//tr[4]/td/c-egm-configurator-line-item-editor-row//select[contains(@class, 'slds-select')]&quot;))"/>
+			<Prp name="message" type="S" value="The combo box item 1 was selected."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 0">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="636"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="718"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="800"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.Page_Add_Edit_LineItem.Add_Edit_Button"/>
+					<Prp name="datetime" type="D" value="45842.3292251042"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="381"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="154"/>
+					<Prp name="object bottom" type="I" value="399"/>
+					<Prp name="object top" type="I" value="363"/>
+					<Prp name="image file name" type="S" value="visImage0.png"/>
+				</Node>
+			</Node>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45842.5583935301"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="154"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="A click at point (73, 16) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.Page_Add_Edit_LineItem.Add_Edit_Button&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000bVhZCAU/view&quot;).FindElement(&quot;//button[@name='Quote.Add_Edit_Line_Items']&quot;))"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 1">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="1713"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="1745"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="1778"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.Page_Add_Edit_LineItem.Cabinet_Panel.AddButton"/>
+					<Prp name="datetime" type="D" value="45842.3292645486"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="232"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="156"/>
+					<Prp name="object bottom" type="I" value="250"/>
+					<Prp name="object top" type="I" value="214"/>
+					<Prp name="image file name" type="S" value="visImage1.png"/>
+				</Node>
+			</Node>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45842.5584325579"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="156"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="A click at point (28, 16) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.Page_Add_Edit_LineItem.Cabinet_Panel.AddButton&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000bVhZCAU/view&quot;).FindElement(&quot;//button[.='Add']&quot;))"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 11">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="360"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="641"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="922"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.Page_Add_Edit_LineItem.Configuration_Panel.License"/>
+					<Prp name="datetime" type="D" value="45842.3295372106"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="730"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="184"/>
+					<Prp name="object bottom" type="I" value="746"/>
+					<Prp name="object top" type="I" value="714"/>
+					<Prp name="image file name" type="S" value="visImage10.png"/>
+				</Node>
+			</Node>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45842.5587170139"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="184"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="11"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.Page_Add_Edit_LineItem.Configuration_Panel.License&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000bVhZCAU/view&quot;).FindElement(&quot;//tr[2]/td/c-egm-configurator-line-item-editor-row//select[contains(@class, 'slds-select')]&quot;))"/>
+			<Prp name="message" type="S" value="The combo box item 3 was selected."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 4">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="45842.5584875116"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="161"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="message" type="S" value="Cabinet panel value has enterd as EGM"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="message 2">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="1455"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="1614"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="1773"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.Page_Add_Edit_LineItem.Cabinet_Panel.SelectFamily"/>
+					<Prp name="datetime" type="D" value="45842.3292915741"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="331"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="158"/>
+					<Prp name="object bottom" type="I" value="349"/>
+					<Prp name="object top" type="I" value="313"/>
+					<Prp name="image file name" type="S" value="visImage2.png"/>
+				</Node>
+			</Node>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45842.558459537"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="158"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="A click at point (141, 16) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.Page_Add_Edit_LineItem.Cabinet_Panel.SelectFamily&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000bVhZCAU/view&quot;).FindElement(&quot;//button[.='All Families']&quot;))"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="item 2">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="232"/>
+			<Prp name="stacktext" type="S" value=""/>
+		</Node>
+		<Node name="message 19">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="360"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="641"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="922"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.Page_Add_Edit_LineItem.Configuration_Panel.Printer"/>
+					<Prp name="datetime" type="D" value="45842.3304202546"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="773"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="200"/>
+					<Prp name="object bottom" type="I" value="789"/>
+					<Prp name="object top" type="I" value="757"/>
+					<Prp name="image file name" type="S" value="visImage18.png"/>
+				</Node>
+			</Node>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45842.5596000116"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="200"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="19"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.Page_Add_Edit_LineItem.Configuration_Panel.Printer&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000bVhZCAU/view&quot;).FindElement(&quot;//tr[9]/td/c-egm-configurator-line-item-editor-row//select[contains(@class, 'slds-select')]&quot;))"/>
+			<Prp name="message" type="S" value="The combo box item 11 was selected."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 8">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="962"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="1354"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="1747"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.Page_Add_Edit_LineItem.FindElement(&quot;//td[.='Outright - Sale New']&quot;)"/>
+					<Prp name="datetime" type="D" value="45842.3294253588"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="511"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="169"/>
+					<Prp name="object bottom" type="I" value="527"/>
+					<Prp name="object top" type="I" value="495"/>
+					<Prp name="image file name" type="S" value="visImage7.png"/>
+				</Node>
+			</Node>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45842.5585932176"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="169"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="8"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="A click at point (348, 14) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000bVhZCAU/view&quot;).FindElement(&quot;//td[.='Outright - Sale New']&quot;)"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 22">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="360"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="641"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="922"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.Page_Add_Edit_LineItem.Configuration_Panel.Trim"/>
+					<Prp name="datetime" type="D" value="45842.3305462384"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="641"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="208"/>
+					<Prp name="object bottom" type="I" value="657"/>
+					<Prp name="object top" type="I" value="625"/>
+					<Prp name="image file name" type="S" value="visImage21.png"/>
+				</Node>
+			</Node>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45842.5597255903"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="208"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="22"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.Page_Add_Edit_LineItem.Configuration_Panel.Trim&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000bVhZCAU/view&quot;).FindElement(&quot;//tr[12]/td/c-egm-configurator-line-item-editor-row//select[contains(@class, 'slds-select')]&quot;))"/>
+			<Prp name="message" type="S" value="The combo box item 6 was selected."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 23">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="360"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="641"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="922"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.Page_Add_Edit_LineItem.Configuration_Panel.HardMeter"/>
+					<Prp name="datetime" type="D" value="45842.3305885648"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="707"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="210"/>
+					<Prp name="object bottom" type="I" value="723"/>
+					<Prp name="object top" type="I" value="691"/>
+					<Prp name="image file name" type="S" value="visImage22.png"/>
+				</Node>
+			</Node>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45842.5597683681"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="210"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="23"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.Page_Add_Edit_LineItem.Configuration_Panel.HardMeter&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000bVhZCAU/view&quot;).FindElement(&quot;//tr[13]/td/c-egm-configurator-line-item-editor-row//select[contains(@class, 'slds-select')]&quot;))"/>
+			<Prp name="message" type="S" value="The combo box item 3 was selected."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 9">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="1586"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="1634"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="1683"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.Page_Add_Edit_LineItem.Cabinet_Panel.ContinueButton"/>
+					<Prp name="datetime" type="D" value="45842.3294641551"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="946"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="171"/>
+					<Prp name="object bottom" type="I" value="964"/>
+					<Prp name="object top" type="I" value="928"/>
+					<Prp name="image file name" type="S" value="visImage8.png"/>
+				</Node>
+			</Node>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45842.5586322106"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="171"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="9"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="A click at point (43, 16) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.Page_Add_Edit_LineItem.Cabinet_Panel.ContinueButton&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000bVhZCAU/view&quot;).FindElement(&quot;//button[.='Continue']&quot;))"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 12">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="360"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="641"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="922"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.Page_Add_Edit_LineItem.Configuration_Panel.GameTheme"/>
+					<Prp name="datetime" type="D" value="45842.3295793056"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="796"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="186"/>
+					<Prp name="object bottom" type="I" value="812"/>
+					<Prp name="object top" type="I" value="780"/>
+					<Prp name="image file name" type="S" value="visImage11.png"/>
+				</Node>
+			</Node>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45842.5587589005"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="186"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="12"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.Page_Add_Edit_LineItem.Configuration_Panel.GameTheme&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000bVhZCAU/view&quot;).FindElement(&quot;//tr[3]/td/c-egm-configurator-line-item-editor-row//select[contains(@class, 'slds-select')]&quot;))"/>
+			<Prp name="message" type="S" value="The combo box item 31 was selected."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 26">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="360"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="641"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="922"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.Page_Add_Edit_LineItem.Configuration_Panel.Denom"/>
+					<Prp name="datetime" type="D" value="45842.3307156944"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="773"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="218"/>
+					<Prp name="object bottom" type="I" value="789"/>
+					<Prp name="object top" type="I" value="757"/>
+					<Prp name="image file name" type="S" value="visImage25.png"/>
+				</Node>
+			</Node>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45842.5598954398"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="218"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="26"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.Page_Add_Edit_LineItem.Configuration_Panel.Denom&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000bVhZCAU/view&quot;).FindElement(&quot;//tr[20]/td/c-egm-configurator-line-item-editor-row//select[contains(@class, 'slds-select')]&quot;))"/>
+			<Prp name="message" type="S" value="The combo box item 5 was selected."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 30">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="360"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="641"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="922"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.Page_Add_Edit_LineItem.Configuration_Panel.CandleColor"/>
+					<Prp name="datetime" type="D" value="45842.3308589583"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="641"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="228"/>
+					<Prp name="object bottom" type="I" value="657"/>
+					<Prp name="object top" type="I" value="625"/>
+					<Prp name="image file name" type="S" value="visImage29.png"/>
+				</Node>
+			</Node>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45842.5600384722"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="228"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="30"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.Page_Add_Edit_LineItem.Configuration_Panel.CandleColor&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000bVhZCAU/view&quot;).FindElement(&quot;//tr[23]/td/c-egm-configurator-line-item-editor-row//select[contains(@class, 'slds-select')]&quot;))"/>
+			<Prp name="message" type="S" value="The combo box item 25 was selected."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="message 31">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="360"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="641"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="922"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.Page_Add_Edit_LineItem.Configuration_Panel.TicketValidation"/>
+					<Prp name="datetime" type="D" value="45842.3309009259"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="707"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="230"/>
+					<Prp name="object bottom" type="I" value="723"/>
+					<Prp name="object top" type="I" value="691"/>
+					<Prp name="image file name" type="S" value="visImage30.png"/>
+				</Node>
+			</Node>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45842.5600807176"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="230"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="31"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.Page_Add_Edit_LineItem.Configuration_Panel.TicketValidation&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000bVhZCAU/view&quot;).FindElement(&quot;//tr[24]/td/c-egm-configurator-line-item-editor-row//select[contains(@class, 'slds-select')]&quot;))"/>
+			<Prp name="message" type="S" value="The combo box item 2 was selected."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 15">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="360"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="641"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="922"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.Page_Add_Edit_LineItem.Configuration_Panel.Topper"/>
+					<Prp name="datetime" type="D" value="45842.3296903819"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="868"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="192"/>
+					<Prp name="object bottom" type="I" value="884"/>
+					<Prp name="object top" type="I" value="852"/>
+					<Prp name="image file name" type="S" value="visImage14.png"/>
+				</Node>
+			</Node>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45842.5594314583"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="192"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="15"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.Page_Add_Edit_LineItem.Configuration_Panel.Topper&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000bVhZCAU/view&quot;).FindElement(&quot;//tr[5]/td/c-egm-configurator-line-item-editor-row//select[contains(@class, 'slds-select')]&quot;))"/>
+			<Prp name="message" type="S" value="The combo box item 12 was selected."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 21">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="360"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="641"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="922"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.Page_Add_Edit_LineItem.Configuration_Panel.Finish"/>
+					<Prp name="datetime" type="D" value="45842.3305044329"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="575"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="206"/>
+					<Prp name="object bottom" type="I" value="591"/>
+					<Prp name="object top" type="I" value="559"/>
+					<Prp name="image file name" type="S" value="visImage20.png"/>
+				</Node>
+			</Node>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45842.55968375"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="206"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="21"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.Page_Add_Edit_LineItem.Configuration_Panel.Finish&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000bVhZCAU/view&quot;).FindElement(&quot;//tr[11]/td/c-egm-configurator-line-item-editor-row//select[contains(@class, 'slds-select')]&quot;))"/>
+			<Prp name="message" type="S" value="The combo box item 4 was selected."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 28">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="360"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="641"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="922"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.Page_Add_Edit_LineItem.Configuration_Panel.Var"/>
+					<Prp name="datetime" type="D" value="45842.3307967477"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="575"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="222"/>
+					<Prp name="object bottom" type="I" value="591"/>
+					<Prp name="object top" type="I" value="559"/>
+					<Prp name="image file name" type="S" value="visImage27.png"/>
+				</Node>
+			</Node>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45842.5599646644"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="222"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="28"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="A click at point (250, 14) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.Page_Add_Edit_LineItem.Configuration_Panel.Var&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000bVhZCAU/view&quot;).FindElement(&quot;//tr[22]/td/c-egm-configurator-line-item-editor-row//select[contains(@class, 'slds-select')]&quot;))"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 24">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="360"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="641"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="922"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.Page_Add_Edit_LineItem.Configuration_Panel.EZPay"/>
+					<Prp name="datetime" type="D" value="45842.3306307176"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="773"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="212"/>
+					<Prp name="object bottom" type="I" value="789"/>
+					<Prp name="object top" type="I" value="757"/>
+					<Prp name="image file name" type="S" value="visImage23.png"/>
+				</Node>
+			</Node>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45842.5598107986"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="212"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="24"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.Page_Add_Edit_LineItem.Configuration_Panel.EZPay&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000bVhZCAU/view&quot;).FindElement(&quot;//tr[14]/td/c-egm-configurator-line-item-editor-row//select[contains(@class, 'slds-select')]&quot;))"/>
+			<Prp name="message" type="S" value="The combo box item 2 was selected."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 33">
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="stack end" type="I" value="1"/>
+			<Prp name="date" type="D" value="45842.560327037"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="154"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="33"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="&#xA;&#xA;Tested object:&#xA;Aliases.browser.Page_Add_Edit_LineItem.Add_Edit_Button&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000bVhZCAU/view&quot;).FindElement(&quot;//button[@name='Quote.Add_Edit_Line_Items']&quot;))"/>
+			<Prp name="message" type="S" value="There was an attempt to perform an action at point (73, 16) which is transparent or out of the window bounds."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value="Picture1.png"/>
+			<Prp name="stack beginning" type="I" value="0"/>
+		</Node>
+		<Node name="item 0">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="154"/>
+			<Prp name="stacktext" type="S" value="Add_LineItem_Cabinet"/>
+		</Node>
+		<Node name="message 17">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="360"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="641"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="922"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.Page_Add_Edit_LineItem.Configuration_Panel.PlayerTracker"/>
+					<Prp name="datetime" type="D" value="45842.3303354398"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="641"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="196"/>
+					<Prp name="object bottom" type="I" value="657"/>
+					<Prp name="object top" type="I" value="625"/>
+					<Prp name="image file name" type="S" value="visImage16.png"/>
+				</Node>
+			</Node>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45842.5595147454"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="196"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="17"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.Page_Add_Edit_LineItem.Configuration_Panel.PlayerTracker&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000bVhZCAU/view&quot;).FindElement(&quot;//tr[7]/td/c-egm-configurator-line-item-editor-row//select[contains(@class, 'slds-select')]&quot;))"/>
+			<Prp name="message" type="S" value="The combo box item 31 was selected."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 7">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="1123"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="1285"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="1448"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.Page_Add_Edit_LineItem.FindElement(&quot;//td[.='PGD-0243|01']&quot;)"/>
+					<Prp name="datetime" type="D" value="45842.329398044"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="410"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="167"/>
+					<Prp name="object bottom" type="I" value="427"/>
+					<Prp name="object top" type="I" value="393"/>
+					<Prp name="image file name" type="S" value="visImage6.png"/>
+				</Node>
+			</Node>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45842.5585661111"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="167"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="7"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="A click at point (144, 15) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000bVhZCAU/view&quot;).FindElement(&quot;//td[.='PGD-0243|01']&quot;)"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 10">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="360"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="641"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="922"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.Page_Add_Edit_LineItem.Configuration_Panel.Promotion"/>
+					<Prp name="datetime" type="D" value="45842.3294948032"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="664"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="174"/>
+					<Prp name="object bottom" type="I" value="680"/>
+					<Prp name="object top" type="I" value="648"/>
+					<Prp name="image file name" type="S" value="visImage9.png"/>
+				</Node>
+			</Node>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45842.5586746065"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="174"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="10"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.Page_Add_Edit_LineItem.Configuration_Panel.Promotion&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000bVhZCAU/view&quot;).FindElement(&quot;//tr/td/c-egm-configurator-line-item-editor-row//select[contains(@class, 'slds-select')]&quot;))"/>
+			<Prp name="message" type="S" value="The combo box item 2 was selected."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 20">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="360"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="641"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="922"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.Page_Add_Edit_LineItem.Configuration_Panel.BillAcceptor"/>
+					<Prp name="datetime" type="D" value="45842.3304619792"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="839"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="204"/>
+					<Prp name="object bottom" type="I" value="855"/>
+					<Prp name="object top" type="I" value="823"/>
+					<Prp name="image file name" type="S" value="visImage19.png"/>
+				</Node>
+			</Node>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45842.5596416551"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="204"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="20"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.Page_Add_Edit_LineItem.Configuration_Panel.BillAcceptor&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000bVhZCAU/view&quot;).FindElement(&quot;//tr[10]/td/c-egm-configurator-line-item-editor-row//select[contains(@class, 'slds-select')]&quot;))"/>
+			<Prp name="message" type="S" value="The combo box item 168 was selected."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Prp name="status" type="I" value="2"/>
+	</Node>
+</Nodes>

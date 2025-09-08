@@ -1,0 +1,4 @@
+﻿//USEUNIT OutrightSale_D_01
+//module.exports.getObject
+
+OutrightSale_D_01["Tax_Calculation"]();

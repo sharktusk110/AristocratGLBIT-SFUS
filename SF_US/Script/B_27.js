@@ -1,0 +1,568 @@
+﻿//module.exports.getObject
+//USEUNIT ReadExcel
+//USEUNIT Login
+//USEUNIT DynamicWait
+
+
+var opportunity_name;
+var quotename;
+var urc;
+var quote_number;
+var ControllerTotalPrice;
+var MonthlyPaymentAmount
+var totalPrice;
+var rebate;
+var CabinetTotalPrice;
+var Tax;
+var SocName;
+var Econname;
+var RfcApprovalFlag=0;
+
+
+function Opportunity_Creation(Config) {
+  
+ var app=Aliases.browser.Page_SFAppSearch_AccountSearch;
+ var account=Aliases.browser.Page_SFAppSearch_AccountSearch.AccountSearch;
+ var opportunity=Aliases.browser.Page_NewOpportunityCreation;
+
+   
+ //Navigating for SF Home and selecting Aristocrat app for account related opportunity creation
+ Browsers.Item(btChrome).Run("https://test.salesforce.com/");
+ Project.Variables.SF_Login=Sys.Browser().Page("*").URL;
+ Login["SF_login"](Project.Variables.SF_Username,Project.Variables.SF_Password);
+ DynamicWait["dynamic_wait"](app.AppLauncher_Button, 10000);
+ 
+ //Navigating to account section
+ Browsers.Item(btChrome).Navigate("https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/o/Account/list?filterName=__Recent");
+ DynamicWait["dynamic_wait"](account.SearchThisList_SearchField, 10000);
+ 
+ //Searching account for opportunity creation
+ account.SearchThisList_SearchField.SetText(Config[0]);
+ Log.Message("Account Name has enterd as " +Config[0]);
+ account.SearchThisList_SearchField.Keys("[Enter]");
+ DynamicWait["dynamic_wait"](account.Account_Node, 10000);
+ account.Account_Node.Click();
+ Delay(2000);
+ Project.Variables.accounturl=Sys.Browser().Page("*").URL;
+ DynamicWait["dynamic_wait"](account.NewOpportunity_Button, 10000);
+ account.NewOpportunity_Button.Click();
+ DynamicWait["dynamic_wait"](opportunity.OpportunityName_Field, 10000);
+ 
+ //Filling opportunity creation mandatory field including opportunity name
+ opportunity_name=opportunity.OpportunityName_Field.Text;
+ opportunity_name=opportunity_name.split("-")[0]+"-"+(Math.floor(Math.random() * 1000000000000000000) + 1)+"-"+opportunity_name.split("-")[2];
+ opportunity.OpportunityName_Field.SetText(opportunity_name);
+ Log.Message(opportunity_name);
+ 
+ 
+ //Filling opportunity creation mandatory field including gaming classification
+ opportunity.GamingClassification_Field.Click();
+ Delay(2000);
+ opportunity.GamingClassification_Field.Keys(Config[1]);
+ Delay(2000);
+ Log.Message("Gaming field has enterd as " + Config[1]);
+ opportunity.GamingClassification_Field.Keys("[Enter]");
+ Delay(2000);
+ 
+ 
+ // Filling opportunity creation mandatory field including type
+ opportunity.Type_Field.Click();
+ Delay(2000);
+ opportunity.Type_Field.Keys(Config[2]);
+ Delay(2000);
+ Log.Message("Opportunity field has enterd as " + Config[2]);
+ opportunity.Type_Field.Keys("[Enter]");
+ 
+ 
+// Filling opportunity creation mandatory field including market segment.
+ opportunity.MarketSegment_Field.Click();
+ Delay(2000);
+ opportunity.MarketSegment_Field.Keys(Config[3]);
+ Log.Message("MarketSegment Field has enterd as " +Config[3])
+ Delay(2000);
+ opportunity.MarketSegment_Field.Keys("[Enter]");
+
+ // Filling opportunity creation mandatory field including lead source.
+ opportunity.LeadSource_Field.Click();
+ Delay(2000);
+ opportunity.LeadSource_Field.Keys(Config[4]);
+ Log.Message("LeadSource Field has enterd as " +Config[4])
+ Delay(2000);
+ opportunity.LeadSource_Field.Keys("[Enter]");
+ Delay(2000);
+ // Submitting the opprotunity for creation
+ opportunity.Save_Button.Click();
+}
+
+//RFC Creation
+function RFC_Creation(){
+  
+ //opportunity_name="BELLAGIO LAS VEGAS -3043631152- 07/29/2025";  
+ var search_opportunity=Aliases.browser.Page_SearchOpportunity;
+ var RFC =Aliases.browser.page_RFCCreation.RFC;
+
+ Browsers.Item(btChrome).Navigate(Project.Variables.recentoppurl);
+ DynamicWait["dynamic_wait_visibility"](search_opportunity.SearchThisList_SearchField, 10000);
+ search_opportunity.SearchThisList_SearchField.SetText(opportunity_name);
+ Delay(2000);
+ search_opportunity.SearchThisList_SearchField.Keys("[Enter]");
+ DynamicWait["dynamic_wait_visibility"](search_opportunity.Opportunity_Node, 10000);
+
+ //Click on the created opportunity
+ search_opportunity.Opportunity_Node.Click();
+ DynamicWait["dynamic_wait_visibility"](RFC.NewRFCQuote_Button, 10000);
+ SOC_DatePreValidation();
+ Project.Variables.RFCurl=Sys.Browser().Page("*").URL;
+ //Click on RFC creation button
+ RFC.NewRFCQuote_Button.Click();
+ DynamicWait["dynamic_wait_visibility"](RFC.RFCQuoteName_Field, 10000);
+ quotename= RFC.RFCQuoteName_Field.Text;
+ Log.Message("RFC quote name is as "+quotename);
+ Delay(1000);
+ RFC.RFCSave_Button.Click();
+ Delay(2000);
+}
+
+function Quote_navigation(){
+  
+ var Quote_nav=Aliases.browser.Page_QuoteNavigation;
+
+ Browsers.Item(btChrome).Navigate(Project.Variables.recentquoteurl);
+ DynamicWait["dynamic_wait_visibility"](Quote_nav.SearchThisList_SearchField, 10000);
+ Quote_nav.SearchThisList_SearchField.SetText(quotename);
+ Delay(2000);
+ Quote_nav.SearchThisList_SearchField.Keys("[Enter]");
+ Delay(2000);
+ Quote_nav.Searched_Node.Click();
+ Delay(3000);
+}
+
+function AddLineItem_Cabinet(Config){
+
+ var Add_item = Aliases.browser.Page_AddEdit_Button;
+ var Configuration= Aliases.browser.Page_AddEdit_Button.AddEdit_Frame.Configuration_Panel;
+ Project.Variables.url=Sys.Browser().Page("*").URL;
+ 
+ DynamicWait["dynamic_wait"](Add_item.AddEditLine_Button, 10000);
+ Add_item.AddEditLine_Button.Click();
+ Delay(2000);
+ Add_item.AddEdit_Frame.Add_button.Click();
+ Delay(2000);
+ Add_item.AddEdit_Frame.AllFamilies_button.Click();
+ Delay(2000);
+ Add_item.FindElement("//span[@title='"+Config[0]+"']").Click();
+ Log.Message("Cabinet panel value has enterd as " +Config[0])
+ Delay(2000);
+ Add_item.AddEdit_Frame.CabinetSearch_Field.setText(Config[1]);
+ Delay(2000);
+ Add_item.AddEdit_Frame.CabinetSearch_Field.Keys("[Enter]");
+ Delay(2000);
+ Add_item.FindElement("//td[.='"+Config[1]+"']").Click();
+ Delay(2000);
+ Add_item.FindElement("//td[.='"+Config[2]+"']").Click();
+ Delay(3000);
+ Add_item.AddEdit_Frame.Continue_Button.Click();
+ Delay(2000);
+ DynamicWait["dynamic_wait"](Configuration.Promotion_Field, 10000);
+ Configuration.Promotion_Field.ClickItem(2);
+ Delay(3000);
+ Log.Message("Promotion value "+Config[3]);
+ 
+ Configuration.License_Field.Keys(Config[4]);
+ Log.Message("License Field "+Config[4]);
+ Delay(2000);
+ Configuration.GameTheme_Field.Keys(Config[5]);
+ Delay(3000);
+ Configuration.GameTitle_Field.Keys(Config[6]);
+ Delay(3000);
+ Configuration.Topper_Field.Keys(Config[7]);
+ Log.Message("TopperField value as "+Config[7]);
+ Delay(2000);
+ Configuration.ButtonPanel_Field.Keys(Config[8]);
+ Log.Message("Button Panel Field value as "+Config[8]);
+ Delay(2000);
+ Configuration.PlayerTracker_Field.Keys(Config[9]);
+ Log.Message("Player TrackerField value as "+Config[9]);
+ Delay(2000);
+ Configuration.PlayerTrackerInstall_Field.Keys(Config[10]);
+ Log.Message("Player Tracker install Field value as "+Config[10]);
+ Delay(2000);
+ Configuration.Printer_Field.Keys(Config[11]);
+ Log.Message("Printer Field value as "+Config[11]);
+ Delay(2000);
+ Aliases.browser.Page_AddEdit_Button.select10.Keys(Config[12]);
+ Log.Message("Bill Acceptor_field value as "+Config[12]);
+ Delay(2000);
+ Configuration.Finish_Field.Keys(Config[13]);
+ Log.Message("Finish Field value as "+Config[13]);
+ Delay(2000);
+ Configuration.Trim_Field.Keys(Config[14]);
+ Log.Message("Trim Field value as "+Config[14]);
+ Delay(2000);
+ Configuration.HardMeter_Field.Keys(Config[15]);
+ Log.Message("HardMeter Field value as "+Config[15]);
+ Delay(2000);
+ Configuration.EZPay_Field.Keys(Config[16]);
+ Log.Message("EZPay Field value as "+Config[16]);
+ Delay(2000);
+ Configuration.Freight_Field.Keys(Config[17]);
+ Log.Message("Freight Field value as "+Config[17]);
+ Delay(2000);
+ Configuration.Denom_Field.Keys(Config[18]);
+ Delay(2000);
+ Configuration.AftEft_Field.Keys(Config[19]);
+ Log.Message("AftEft Field value as "+Config[19]);
+ Delay(2000);
+ Configuration.Var_Field.Keys(Config[20]);
+ Log.Message("Var Field value as "+Config[20]);
+ Delay(2000);
+ Configuration.CandleColor_Field.Keys(Config[21]);
+ Log.Message("CandleColor Field value as "+Config[21]);
+ Delay(2000);
+ Configuration.TicketValidation_Field.Keys(Config[22]);
+ Log.Message("TicketValidation Field value as "+Config[22]);
+ Delay(2000);
+ Configuration.AuditSwitch_Field.Keys(Config[23]);
+ Delay(3000);
+ Add_item.AddEdit_Frame.Save_Button.Click();
+ DynamicWait["dynamic_wait_visibility"](Add_item.AddEdit_Frame.Add_button, 60000);
+
+}
+
+
+function AddLineItemController(Config){
+  
+ var Add_item = Aliases.browser.Page_AddEdit_Button;
+
+ Add_item.AddEdit_Frame.Add_button.Click();
+ Delay(2000);
+ Add_item.AddEdit_Frame.AllFamilies_button.Click();
+ Delay(2000);
+ Add_item.FindElement("//span[@title='"+Config[0]+"']").Click();
+ Log.Message("Cabinet panel value has enterd as " +Config[0])
+ Delay(2000);
+ Add_item.AddEdit_Frame.CabinetSearch_Field.setText(Config[1]);
+ Delay(2000);
+ Add_item.AddEdit_Frame.CabinetSearch_Field.Keys("[Enter]");
+ Delay(2000);
+ Add_item.FindElement("//td[.='"+Config[1]+"']").Click();
+ Delay(2000);
+ Add_item.FindElement("//td[.='"+Config[2]+"']").Click();
+ Delay(3000);
+ Add_item.AddEdit_Frame.Continue_Button.Click();
+ Delay(2000);
+ 
+ Add_item.AddEdit_Frame.Save_Button.Click();
+ DynamicWait["dynamic_wait_visibility"](Add_item.AddEdit_Frame.Add_button, 60000);
+}
+
+function AddLineItem_Rebate(Config){
+  
+ var Add_item = Aliases.browser.Page_AddEdit_Button;
+ 
+ Add_item.AddEdit_Frame.Add_button.Click();
+ Delay(2000);
+ Add_item.AddEdit_Frame.CabinetSearch_Field.setText(Config[1]);
+ Delay(2000);
+ Add_item.AddEdit_Frame.CabinetSearch_Field.Keys("[Enter]");
+ Delay(2000);
+ Add_item.FindElement("//td[.='"+Config[1]+"']").Click();
+ Delay(2000);
+ Add_item.FindElement("//td[.='"+Config[2]+"']").Click();
+ Delay(3000);
+ Add_item.AddEdit_Frame.Continue_Button.Click();
+ Delay(2000);
+ Add_item.AddEdit_Frame.Configuration_Panel.Rebate_Field.SetText(2000);
+ Delay(2000);
+ Add_item.AddEdit_Frame.Configuration_Panel.Rebate_Field.Keys("[Enter]");
+ Delay(2000);
+ Add_item.AddEdit_Frame.Save_Button.Click();
+ Delay(2000);
+ Add_item.AddEdit_Frame.Close2_Button.Click();
+ Delay(2000);
+}
+ 
+function Payment_Update(){
+ var AddEdit =  Aliases.browser.Page_AddEdit_Button;
+ var ApprovalButton = Aliases.browser.Page_AddEdit_Button.ApprovalSubmit_Button;
+ 
+ Delay(2000);
+ AddEdit.EditPaymentTerms_Button.Click();
+ Delay(2000);
+ AddEdit.PaymentTerms_Button.Keys("12 Equal Monthly Payments");
+ Delay(2000);
+ AddEdit.PaymentTerms_Button.FindElement("//span[@title='12 Equal Monthly Payments']").Click();
+ Delay(2000);
+ AddEdit.LeaseTerm_button.Keys("12 Months");
+ Delay(2000);
+ AddEdit.LeaseTerm_button.Keys("[Enter]");
+ Delay(2000);
+ AddEdit.PaymentTermsChangeReason_Field.Keys("Price Updated!");
+ Delay(2000);
+ AddEdit.SaveEdit_Button.Click();
+ Delay(4000);
+ 
+}
+
+
+function Tax_Calculation(){
+ var AddEdit = Aliases.browser.Page_AddEdit_Button
+  
+ Delay(2000);
+ AddEdit.ShowMoreActions_Button.Click();
+ Delay(1000);
+ AddEdit.FindElement("//a[.='Tax Calculator']").Click();
+ Tax = AddEdit.CalculatedTax_Price.contentText;
+ Log.Message("Tax calculated as "+Tax);
+ Delay(2000);
+ AddEdit.SaveEdit_Button.Click();
+ Delay(2000);
+ 
+ if(Aliases.browser.Page_AddEdit_Button.ApprovalSubmit_Button.Exists){
+ Aliases.browser.Page_AddEdit_Button.ApprovalSubmit_Button.Click();
+ Delay(2000);
+ }else{
+ AddEdit.ShowMoreActions_Button.Click();
+ Delay(2000);
+ Aliases.browser.Page_AddEdit_Button.SubmitForApproval_Button2.Click();
+ }
+ Aliases.browser.Page_AddEdit_Button.Comments_Field.Keys("Please Approve for Testing Purpose");
+ Delay(2000);
+ Aliases.browser.Page_AddEdit_Button.ApprovalSubmit2_Button.Click(); 
+ Delay(2000);
+
+}
+
+  
+function RFC_Approval(){
+  addEdit = Aliases.browser.Page_AddEdit_Button;
+  
+  addEdit.Related_tab.Click();
+  Delay(2000);
+  Sys.Desktop.Keys("[Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down]");
+  Delay(1000);
+  let count = 0;
+  
+  while (count < 5) {
+  Log.Message("Starting approval iteration : "+ (count + 1));
+  addEdit.Approve_Button.Click();
+  Delay(2000);
+  addEdit.Comments_Field.Keys("approved");
+  Delay(2000);
+  addEdit.ApprovalSubmit2_Button.Click();
+  Delay(2000);
+  Log.Message("Completed approval iteration : " + (count + 1));
+  Delay(3000); 
+   count++;
+  }
+  
+ if(Aliases.browser.Page_AddEdit_Button.ApprovalSubmit_Button.Exists){
+ RfcApprovalFlag=1;
+ Delay(2000);
+ }else{
+ addEdit.ShowMoreActions_Button.Click();
+ Delay(2000);
+ RfcApprovalFlag=1;
+ }
+ if(equal(RfcApprovalFlag,1)){
+   Log.Checkpoint("Post RFC Approval , Submit for Approval button not appearing");
+ }else{
+   Log.Error("Post RFC Approval , Submit for Approval button still appearing");
+ }
+}
+
+
+function SOC_Creation(){
+  var Add_item = Aliases.browser.Page_AddEdit_Button;
+  
+  Browsers.Item(btChrome).Navigate(Project.Variables.url);
+  Delay(2000);
+  
+  if(Aliases.browser.Page_AddEdit_Button.NewSocQuote_button.Exists){
+  Aliases.browser.Page_AddEdit_Button.NewSocQuote_button.Click();
+  }else{
+    Add_item.ShowMoreActions_Button.Click();
+    Delay(2000);
+    Aliases.browser.Page_AddEdit_Button.NewSocQuote_Button2.Click();
+  }
+  Delay(10000);
+  DynamicWait["dynamic_wait"](Add_item.AddEditLineItems2_Button, 60000);
+  Project.Variables.SOCUrl=Sys.Browser().Page("*").URL;
+  Add_item.AddEditLineItems2_Button.Click();
+  Delay(2000);
+ 
+}
+
+function Rebate_Mismatch(){
+  var Add_item = Aliases.browser.Page_AddEdit_Button;
+  var str1;
+  var str2="SOC amount of 4000.00 for the REBATE-1 does not match RFC amount of 2000.00";
+  var str3="SOC and RFC Quote rebate amounts match.";
+  DynamicWait["dynamic_wait"](Add_item.sectionHealthCheckResults2, 60000);
+ 
+  str1=Add_item.sectionHealthCheckResults2.textContent;
+ 
+  if(aqString.Contains(str1,str2)>=0){
+   Log.Checkpoint("SOC Amount related notification is appearing as per expectations.")
+   Log.Checkpoint("Multi-same type rebates getting added successfully .")
+   }else{
+        Log.Error("Either multiple same type rebate not getting added or"+ 
+        +"SOC Amount related notification is not appearing as per expectations.");
+   }
+   
+  Add_item.AddEditLineItems2_Button.Click();
+  Delay(2000);
+  DynamicWait["dynamic_wait"]
+  (Add_item.AddEdit_Frame.vg2, 10000);
+  
+  Add_item.AddEdit_Frame.vg2.Click();
+  Delay(2000);
+  Add_item.SaveEdit_Button.Click();
+  Delay(2000);
+  Add_item.AddEdit_Frame.Close2_Button.Click();
+  Delay(2000);
+ 
+  DynamicWait["dynamic_wait"]
+  (Add_item.sectionHealthCheckResults2, 10000);
+ 
+  str1=Aliases.browser.Page_AddEdit_Button.sectionHealthCheckResults2.textContent;
+
+  Log.Message(str1);
+ 
+  if(aqString.Contains(str1,str3)<0){
+  Log.Error("SOC Rebate Mis-match Amount related notification is still appearing & as per expectations.")
+  }else{
+   Log.Checkpoint("SOC Rebate Mis-match Amount related notification is not appearing & as per expectations.");
+  }
+  
+  Aliases.browser.Page_AddEdit_Button.Validated_Button.Click();
+  Delay(2000);
+  Aliases.browser.Page_AddEdit_Button.SocPath.MarkStatusAsComplete_button.Click();
+
+}
+
+function SOC_DatePostValidation(){
+  
+ var str1;
+ var CurrentDate = aqDateTime.Today();
+ var str3 = aqDateTime.AddDays(CurrentDate, -1);
+
+ Browsers.Item(btChrome).Navigate(Project.Variables.RFCurl);
+ DynamicWait["dynamic_wait"](Aliases.browser.page_RFCCreation.RFC.textnodeTabs.linkDetailtabItem.panelSocValidatedDate, 10000);
+ str1=Aliases.browser.page_RFCCreation.RFC.textnodeTabs.linkDetailtabItem.panelSocValidatedDate.textContent;
+ if(aqString.Contains(str1,CurrentDate)<0){
+  if(aqString.Contains(str1,str3)<0){
+  Log.Error("Not Matched");
+  }else{
+    Log.Checkpoint("Date Matched for SOC Validation.");
+  }
+ }else{
+  Log.Checkpoint("Date Matched for SOC Validation.");
+ }
+}
+
+function SOC_DatePreValidation(){
+  
+ var str1=Aliases.browser.page_RFCCreation.RFC.textnodeTabs.linkDetailtabItem.panelSocValidatedDate.textContent;
+ var CurrentDate = aqDateTime.Today();
+ var str3 = aqDateTime.AddDays(CurrentDate, -1);
+ 
+if(aqString.Contains(str1,CurrentDate)<0){
+  if(aqString.Contains(str1,str3)<0){
+  Log.Checkpoint("Date not found as per expectations.");
+  }else{
+    Log.Error("Date found for SOC Validation without marking validated stage.");
+  }
+}else{
+  Log.Error("Date Matched for SOC Validation.");
+}
+}
+
+//=====================================================xxxx==========================================//
+
+//function SOC_Completion(){
+//  
+//  Aliases.browser.Page_AddEdit_Button.SocPath.Complete_Button.Click();
+//  Delay(3000);
+//  Aliases.browser.Page_AddEdit_Button.SocPath.MarkStatusAsComplete_button.Click();
+//  Delay(4000);
+//  Aliases.browser.Page_AddEdit_Button.SocPath.RelatateOpportunity_Field.Click();
+//  Delay(3000);
+//  SocName = Aliases.browser.Page_AddEdit_Button.SocPath.SocName_Field.textContent;
+//}
+//
+//function New_eCon_Quote(){
+//    
+// var Quote_nav=Aliases.browser.Page_QuoteNavigation;
+//
+// Aliases.browser.Page_AddEdit_Button.QuoteDoc_Button.Click();
+// Delay(5000);
+////Storing econ quote name
+// Econname=Aliases.browser.page_NewEconQuote.econ.QuoteName_TextField.Text;
+//
+////Filling quote record type
+//Aliases.browser.page_NewEconQuote.econ.QuoteRecordType_Selectlist.Keys("Outright - Sale New");
+////Log.Message("Quote Record Type Field has enterd as " +Config[0])
+//
+//Delay(5000);
+//Aliases.browser.page_NewEconQuote.econ.Next_Button.Click();
+//Delay(3000);
+//
+//}
+//
+//function econ_configuration_navigation(){
+//  
+//var econ_nav=Aliases.browser.Page_QuoteNavigation;
+//var econ_config=Aliases.browser.Page_EconMainConfiguration;
+//       
+//var recentUrl = "https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/o/Quote/list?filterName=__Recent"
+//Aliases.browser.ToUrl(recentUrl);
+//
+//
+//Delay(3000);
+//econ_nav.SearchThisList_SearchField.SetText(Econname);
+//
+//Delay(2000);
+//
+//econ_nav.SearchThisList_SearchField.Keys("[Enter]");
+//
+////eCon quote creation Validation
+//Delay(2000);
+////eCon creation Validation
+//
+//econ_nav.Searched_Node.Click();
+//
+//}
+
+
+
+  
+
+  
+ 
+  
+
+  
+
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  

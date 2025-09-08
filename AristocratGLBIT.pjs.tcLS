@@ -24,7 +24,7 @@
 				<Prp name="relpath" type="S" value="MSD365\MSD365.mds.tcLS"/>
 			</Node>
 			<Node name="{24b6fa0b-0143-461a-9758-aeb9e9a9428b}">
-				<Prp name="default project" type="S" value="{04A55285-84AA-4898-B501-3643551AC644}"/>
+				<Prp name="default project" type="S" value="{29E236EC-E818-4DB8-9F93-7F5AA9DA85B5}"/>
 			</Node>
 			<Node name="{29e236ec-e818-4db8-9f93-7f5aa9da85b5}">
 				<Prp name="relpath" type="S" value="SF_US\SF_US.mds.tcLS"/>

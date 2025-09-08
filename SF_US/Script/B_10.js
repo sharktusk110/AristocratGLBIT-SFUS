@@ -1,0 +1,60 @@
+﻿//module.exports.getObject
+//USEUNIT DynamicWait
+
+
+function Bank_Configuration(){
+ var str1;
+ var soc=Aliases.browser.Page_SOCBankConfiguration;
+ 
+ Browsers.Item(btChrome).Navigate(Project.Variables.SOCUrl);
+ DynamicWait["dynamic_wait_visibility"](Aliases.browser.Page_AddEdit_Button.QuoteConfigurationBank_Button, 60000);
+ Aliases.browser.Page_AddEdit_Button.QuoteConfigurationBank_Button.Click();
+ DynamicWait["dynamic_wait_visibility"](Aliases.browser.Page_SOCBankConfiguration.textboxNumberOfMachines, 60000);
+ 
+ soc.textboxNumberOfMachines.SetText("1");
+ Delay(2000);
+ soc.panelNone.Click();
+ Delay(2000);
+ soc.panelNone.Keys("Pod");
+ Delay(2000);
+ soc.panelNone.Keys("[Enter]");
+ 
+ soc.panelNone2.Click();
+ Delay(2000);
+ soc.panelNone2.Keys("Not Required");
+ Delay(2000);
+ soc.panelNone2.Keys("[Enter]");
+ 
+ soc.panelNone3.Click();
+ Delay(2000);
+ soc.panelNone3.Keys("Not Required");
+ Delay(2000);
+ soc.panelNone3.Keys("[Enter]");
+ 
+ soc.panelNone4.Click();
+ Delay(2000);
+ soc.panelNone4.Keys("Not Required");
+ Delay(2000);
+ soc.panelNone4.Keys("[Enter]");
+ 
+ Delay(2000);
+ soc.buttonSave.Click();
+ 
+ DynamicWait["dynamic_wait"](Aliases.browser.Page_AddEdit_Button.Related_tab, 60000);
+ 
+ Aliases.browser.Page_AddEdit_Button.Related_tab.Click();
+ 
+ DynamicWait["dynamic_wait_visibility"](Aliases.browser.Page_AddEdit_Button.articleQuoteConfigurationBanks.panelQuoteConfigurationBanks, 60000);
+ 
+ str1=Aliases.browser.Page_AddEdit_Button.articleQuoteConfigurationBanks.panelQuoteConfigurationBanks.textContent;
+  Log.Message("str1"+str1);
+ if(aqString.Contains(str1,"12")>=0){
+   Log.Checkpoint("Configuration Bank added successfully.");
+ }else{
+   Log.Error("Configuration Bank hasn't been added successfully.");
+ }
+ 
+ 
+ 
+
+}

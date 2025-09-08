@@ -1,0 +1,165 @@
+﻿//module.exports.getObject
+
+function D_SeriesTestDataFromExcel28(){
+ // Path = "C:\\Users\\PS118692\\Desktop\\SoCreation_DataSheet.xlsx";
+  Sheet = "SF_TestData28"
+  var excelFile = Excel.Open(Project.Path+"\\Data_Sheets\\Data_Sheet.xlsx");
+  var excelSheet = excelFile.SheetByTitle(Sheet);
+  var RowIndex;
+  var rows = excelSheet.RowCount;
+  var cols = excelSheet.ColumnCount;
+  let config = new Array(rows);
+  for (RowIndex = 1; RowIndex <= rows; RowIndex++){
+      config[RowIndex] = new Array(cols)
+      
+      config[RowIndex][0]=String(excelSheet.Cell("D", RowIndex).Value);
+      
+      config[RowIndex][1]=String(excelSheet.Cell("F", RowIndex).Value);
+      config[RowIndex][2]=String(excelSheet.Cell("G", RowIndex).Value);
+      config[RowIndex][3]=String(excelSheet.Cell("H", RowIndex).Value);
+      config[RowIndex][4]=String(excelSheet.Cell("I", RowIndex).Value);
+      
+      config[RowIndex][5]=String(excelSheet.Cell("J", RowIndex).Value);
+      config[RowIndex][6]=String(excelSheet.Cell("K", RowIndex).Value);
+      config[RowIndex][7]=String(excelSheet.Cell("L", RowIndex).Value);
+      
+      
+      config[RowIndex][8]=String(excelSheet.Cell("M", RowIndex).Value);
+      config[RowIndex][9]=String(excelSheet.Cell("N", RowIndex).Value);
+      config[RowIndex][10]=String(excelSheet.Cell("O", RowIndex).Value);
+      config[RowIndex][11]=String(excelSheet.Cell("P", RowIndex).Value);
+      }
+  return config;
+}
+
+function D_SeriesTestDataFromExcel29(){
+ // Path = "C:\\Users\\PS118692\\Desktop\\SoCreation_DataSheet.xlsx";
+  Sheet = "SF_TestData29"
+  var excelFile = Excel.Open(Project.Path+"\\Data_Sheets\\Data_Sheet.xlsx");
+  var excelSheet = excelFile.SheetByTitle(Sheet);
+  var RowIndex;
+  var rows = excelSheet.RowCount;
+  var cols = excelSheet.ColumnCount;
+  let config = new Array(rows);
+  for (RowIndex = 1; RowIndex <= rows; RowIndex++){
+      config[RowIndex] = new Array(cols)
+      
+      config[RowIndex][0]=String(excelSheet.Cell("D", RowIndex).Value);
+      
+      config[RowIndex][1]=String(excelSheet.Cell("F", RowIndex).Value);
+      config[RowIndex][2]=String(excelSheet.Cell("G", RowIndex).Value);
+      config[RowIndex][3]=String(excelSheet.Cell("H", RowIndex).Value);
+      config[RowIndex][4]=String(excelSheet.Cell("I", RowIndex).Value);
+      
+      config[RowIndex][5]=String(excelSheet.Cell("J", RowIndex).Value);
+      config[RowIndex][6]=String(excelSheet.Cell("K", RowIndex).Value);
+      config[RowIndex][7]=String(excelSheet.Cell("L", RowIndex).Value);
+      
+      
+      config[RowIndex][8]=String(excelSheet.Cell("M", RowIndex).Value);
+      config[RowIndex][9]=String(excelSheet.Cell("N", RowIndex).Value);
+      config[RowIndex][10]=String(excelSheet.Cell("O", RowIndex).Value);
+      config[RowIndex][11]=String(excelSheet.Cell("P", RowIndex).Value);
+      config[RowIndex][12]=String(excelSheet.Cell("Q", RowIndex).Value);
+            }
+  return config;
+}
+
+function D_SeriesTestDataFromExcel(){
+ // Path = "C:\\Users\\PS118692\\Desktop\\SoCreation_DataSheet.xlsx";
+  Sheet = "SF_TestData"
+  var excelFile = Excel.Open(Project.Path+"\\Data_Sheets\\Data_Sheet.xlsx");
+  var excelSheet = excelFile.SheetByTitle(Sheet);
+  var RowIndex;
+  var rows = excelSheet.RowCount;
+  var cols = excelSheet.ColumnCount;
+  let config = new Array(rows);
+  for (RowIndex = 1; RowIndex <= rows; RowIndex++){
+      config[RowIndex] = new Array(cols)
+      
+      config[RowIndex][0]=String(excelSheet.Cell("D", RowIndex).Value);
+      
+      config[RowIndex][1]=String(excelSheet.Cell("F", RowIndex).Value);
+      config[RowIndex][2]=String(excelSheet.Cell("G", RowIndex).Value);
+      config[RowIndex][3]=String(excelSheet.Cell("H", RowIndex).Value);
+      config[RowIndex][4]=String(excelSheet.Cell("I", RowIndex).Value);
+      
+      config[RowIndex][5]=String(excelSheet.Cell("J", RowIndex).Value);
+      config[RowIndex][6]=String(excelSheet.Cell("K", RowIndex).Value);
+      config[RowIndex][7]=String(excelSheet.Cell("L", RowIndex).Value);
+      
+      
+      config[RowIndex][8]=String(excelSheet.Cell("M", RowIndex).Value);
+      config[RowIndex][9]=String(excelSheet.Cell("N", RowIndex).Value);
+      config[RowIndex][10]=String(excelSheet.Cell("O", RowIndex).Value);
+      config[RowIndex][11]=String(excelSheet.Cell("P", RowIndex).Value);
+      config[RowIndex][12]=String(excelSheet.Cell("Q", RowIndex).Value);
+      config[RowIndex][13]=String(excelSheet.Cell("R", RowIndex).Value);
+      config[RowIndex][14]=String(excelSheet.Cell("S", RowIndex).Value);
+      config[RowIndex][15]=String(excelSheet.Cell("T", RowIndex).Value);
+      config[RowIndex][16]=String(excelSheet.Cell("U", RowIndex).Value);
+      config[RowIndex][17]=String(excelSheet.Cell("V", RowIndex).Value);
+      config[RowIndex][18]=String(excelSheet.Cell("W", RowIndex).Value);
+      config[RowIndex][19]=String(excelSheet.Cell("X", RowIndex).Value);
+      config[RowIndex][20]=String(excelSheet.Cell("Y", RowIndex).Value);
+      config[RowIndex][21]=String(excelSheet.Cell("Z", RowIndex).Value);
+      config[RowIndex][22]=String(excelSheet.Cell("AA", RowIndex).Value);
+      config[RowIndex][23]=String(excelSheet.Cell("AB", RowIndex).Value);
+      config[RowIndex][24]=String(excelSheet.Cell("AC", RowIndex).Value);
+      config[RowIndex][25]=String(excelSheet.Cell("AD", RowIndex).Value);
+      config[RowIndex][26]=String(excelSheet.Cell("AE", RowIndex).Value);
+      config[RowIndex][27]=String(excelSheet.Cell("AF", RowIndex).Value);
+      config[RowIndex][28]=String(excelSheet.Cell("AG", RowIndex).Value);
+//      config[RowIndex][31]=String(excelSheet.Cell("AH", RowIndex).Value);
+//      config[RowIndex][32]=String(excelSheet.Cell("AI", RowIndex).Value);
+
+
+      config[RowIndex][31]=String(excelSheet.Cell("AJ", RowIndex).Value);
+      config[RowIndex][32]=String(excelSheet.Cell("AK", RowIndex).Value);
+      config[RowIndex][33]=String(excelSheet.Cell("AL", RowIndex).Value);
+      config[RowIndex][34]=String(excelSheet.Cell("AM", RowIndex).Value);
+      config[RowIndex][35]=String(excelSheet.Cell("AN", RowIndex).Value);
+      config[RowIndex][36]=String(excelSheet.Cell("AO", RowIndex).Value);
+      config[RowIndex][37]=String(excelSheet.Cell("AP", RowIndex).Value);
+      config[RowIndex][38]=String(excelSheet.Cell("AQ", RowIndex).Value);
+      config[RowIndex][39]=String(excelSheet.Cell("AR", RowIndex).Value);
+      config[RowIndex][40]=String(excelSheet.Cell("AS", RowIndex).Value);
+      config[RowIndex][41]=String(excelSheet.Cell("AT", RowIndex).Value);
+      config[RowIndex][42]=String(excelSheet.Cell("AU", RowIndex).Value);
+
+
+      config[RowIndex][43]=String(excelSheet.Cell("AV", RowIndex).Value);
+      //config[RowIndex][44]=String(excelSheet.Cell("AW", RowIndex).Value);
+      config[RowIndex][44]=String(excelSheet.Cell("AX", RowIndex).Value);
+      config[RowIndex][45]=String(excelSheet.Cell("AY", RowIndex).Value);
+      config[RowIndex][46]=String(excelSheet.Cell("AZ", RowIndex).Value);
+      config[RowIndex][47]=String(excelSheet.Cell("BA", RowIndex).Value);
+      config[RowIndex][48]=String(excelSheet.Cell("BB", RowIndex).Value);
+      config[RowIndex][49]=String(excelSheet.Cell("BC", RowIndex).Value);
+      config[RowIndex][50]=String(excelSheet.Cell("BD", RowIndex).Value);
+      config[RowIndex][51]=String(excelSheet.Cell("BE", RowIndex).Value);
+      config[RowIndex][52]=String(excelSheet.Cell("BF", RowIndex).Value);
+      config[RowIndex][53]=String(excelSheet.Cell("BG", RowIndex).Value);
+      config[RowIndex][54]=String(excelSheet.Cell("BH", RowIndex).Value);
+      config[RowIndex][55]=String(excelSheet.Cell("BI", RowIndex).Value);
+      config[RowIndex][56]=String(excelSheet.Cell("BJ", RowIndex).Value);
+      config[RowIndex][57]=String(excelSheet.Cell("BK", RowIndex).Value);
+      config[RowIndex][58]=String(excelSheet.Cell("BL", RowIndex).Value);
+      config[RowIndex][59]=String(excelSheet.Cell("BM", RowIndex).Value);
+      config[RowIndex][60]=String(excelSheet.Cell("BN", RowIndex).Value);
+      config[RowIndex][61]=String(excelSheet.Cell("BO", RowIndex).Value);
+      config[RowIndex][62]=String(excelSheet.Cell("BP", RowIndex).Value);
+      config[RowIndex][63]=String(excelSheet.Cell("BQ", RowIndex).Value);
+
+      
+      config[RowIndex][64]=String(excelSheet.Cell("BR", RowIndex).Value);
+      config[RowIndex][65]=String(excelSheet.Cell("BS", RowIndex).Value);
+      config[RowIndex][66]=String(excelSheet.Cell("BT", RowIndex).Value);
+      config[RowIndex][67]=String(excelSheet.Cell("BU", RowIndex).Value);
+      config[RowIndex][68]=String(excelSheet.Cell("BV", RowIndex).Value);
+      config[RowIndex][69]=String(excelSheet.Cell("BW", RowIndex).Value);
+      
+      config[RowIndex][70]=String(excelSheet.Cell("BX", RowIndex).Value);
+      }
+  return config;
+}

@@ -23,30 +23,12 @@
 		<Node name="logs">
 			<Node name="log idx=0000">
 				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="45821.7022153009"/>
+				<Prp name="datetime" type="D" value="45905.6462759028"/>
 				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{80542D62-823F-4864-8DFA-80191A859DEF}"/>
-				<Prp name="nameofroot" type="S" value="82030_B01_Accounts_Creation_Approve"/>
-				<Prp name="relpath" type="S" value="6_13_2025_4_51 PM_11_402\Description.tcLog"/>
+				<Prp name="key" type="S" value="{5D2606AD-9675-4C7A-A22A-498B31288CF6}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Unit1\getSOC_Lines]"/>
+				<Prp name="relpath" type="S" value="9_5_2025_3_30 PM_38_238\Description.tcLog"/>
 				<Prp name="status" type="I" value="2"/>
-			</Node>
-			<Node name="log idx=0001">
-				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="45821.7030143981"/>
-				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{08D33F7D-FFBA-44D3-B73A-A5F56B938459}"/>
-				<Prp name="nameofroot" type="S" value="Step 1: Login to SalseForce"/>
-				<Prp name="relpath" type="S" value="6_13_2025_4_52 PM_20_444\Description.tcLog"/>
-				<Prp name="status" type="I" value="2"/>
-			</Node>
-			<Node name="log idx=0002">
-				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="45821.7044987732"/>
-				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{16C2B608-6774-4DF2-BD70-35CB293A275C}"/>
-				<Prp name="nameofroot" type="S" value="Step 1: Login to SalseForce"/>
-				<Prp name="relpath" type="S" value="6_13_2025_4_54 PM_28_694\Description.tcLog"/>
-				<Prp name="status" type="I" value="1"/>
 			</Node>
 		</Node>
 		<Prp name="signature" type="S" value="{681DCC69-A39F-4C4D-8E7D-B2D9362FAF4F}"/>

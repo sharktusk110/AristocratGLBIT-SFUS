@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="item 1">
+			<Prp name="line no" type="I" value="9"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="getSOC_Lines"/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="child data"/>
+		<Node name="item 0">
+			<Prp name="line no" type="I" value="9"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="getSOC_Lines"/>
+		</Node>
+		<Node name="message 0">
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="&lt;p&gt;TestComplete failed to download the needed WebDriver.&lt;br&gt;You can download the chrome driver manually and put it in the &amp;lt;ProgramData&amp;gt;\SmartBear\WebDrivers\chrome folder.&lt;/p&gt;&lt;a href=&quot;aqa-help://2226&quot;&gt;Read more about this&lt;/a&gt;"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="picture" type="S" value="Picture1.png"/>
+			<Prp name="stack beginning" type="I" value="0"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stack end" type="I" value="0"/>
+			<Prp name="line no" type="I" value="9"/>
+			<Prp name="message" type="S" value="Failed to find WebDriver for the 'chrome' browser."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45905.646337338"/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{72A1055F-7EFA-435C-BF14-FD1B4294A018}"/>
+		</Node>
+		<Node name="message 1">
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;body&gt;&lt;p&gt;Reason: Invalid URI: The format of the URI could not be determined.&lt;/p&gt;There was an attempt to run the remote browser with the following capabilities: &lt;pre&gt;{&#xA;  &quot;browserName&quot; : &quot;chrome&quot;,&#xA;  &quot;screenResolution&quot; : &quot;1920x1080&quot;&#xA;}&lt;/pre&gt;&lt;p&gt;The hub URL: &lt;a href = 'aqa-url://localhost'&gt;localhost&lt;/a&gt; &lt;/p&gt; &lt;/body&gt; &lt;/html&gt;"/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="picture" type="S" value="Picture1.png"/>
+			<Prp name="stack beginning" type="I" value="1"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stack end" type="I" value="1"/>
+			<Prp name="line no" type="I" value="9"/>
+			<Prp name="message" type="S" value="Unable to connect to the remote browser."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45905.6463631713"/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Prp name="status" type="I" value="2"/>
+	</Node>
+</Nodes>

@@ -1,0 +1,27 @@
+﻿
+
+function getSOC_Lines(){
+  var Configuration= Aliases.browser.Page_AddEdit_Button.AddEdit_Frame.Configuration_Panel;
+  
+  Configuration.GameTheme_Field.SetText("coin");
+}
+
+function getSOC_Liness(){
+ 
+ var str1=Aliases.browser.page_RFCCreation.RFC.textnodeTabs.linkDetailtabItem.panelSocValidatedDate.textContent;
+//Log.Message(aqDateTime.Today());
+ var CurrentDate = aqDateTime.Today() 
+ var str3 = aqDateTime.AddDays(CurrentDate, -1)
+
+if(aqString.Contains(str1,CurrentDate)<0){
+  if(aqString.Contains(str1,str3)<0){
+  Log.Error("Not Matched");
+  }else{
+   Log.Checkpoint("Date Matched for SOC Validation");
+  }
+}else{
+  Log.Checkpoint("Date Matched for SOC Validation");
+}
+
+}
+

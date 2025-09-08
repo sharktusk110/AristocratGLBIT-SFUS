@@ -1,0 +1,54 @@
+﻿//USEUNIT OutrightSale_D_01
+//module.exports.getObject
+
+
+function ExcelUtility() {
+  
+Sheet="SF_TestData";
+
+var excelFile = Excel.Open(Project.Path+"\\Data_Sheets\\Data_Sheet.xlsx"); //Path of the Datasheet
+var excelSheet = excelFile.SheetByTitle(Sheet);
+var rows = excelSheet.RowCount;
+var cols = excelSheet.ColumnCount;
+
+var Config = new Array(rows).fill(0).map(() => new Array(cols).fill(0));
+Config=ReadExcel["D_SeriesTestDataFromExcel"]();
+
+for(let i=2;i<=rows;i++){
+  
+ConfigFilter1 = [Config[i][0],Config[i][1],Config[i][2],Config[i][3],Config[i][4]];
+ConfigFilter2 = [Config[i][5],Config[i][6],Config[i][7],Config[i][8],Config[i][9],Config[i][10],Config[i][11],Config[i][12],Config[i][13],Config[i][14],Config[i][15],Config[i][16],Config[i][17],Config[i][18],Config[i][19],Config[i][20],Config[i][21],Config[i][22],Config[i][23],Config[i][24],Config[i][25],Config[i][26],Config[i][27],Config[i][28]];
+ConfigFilter3 = [Config[i][31],Config[i][32],Config[i][33],Config[i][34],Config[i][35],Config[i][36],Config[i][37],Config[i][38],Config[i][39],Config[i][40],Config[i][41],Config[i][42]];
+ConfigFilter4 = [Config[i][43],Config[i][44],Config[i][45],Config[i][46],Config[i][47],Config[i][48],Config[i][49],Config[i][50],Config[i][51],Config[i][52],Config[i][53],Config[i][54],Config[i][55],Config[i][56],Config[i][57],Config[i][58],Config[i][59],Config[i][60],Config[i][61],Config[i][62],Config[i][63]];
+ConfigFilter5 = [Config[i][64],Config[i][65],Config[i][66]];
+ConfigFilter6 = [Config[i][67],Config[i][68],Config[i][69]];
+ConfigFilter7 = [Config[i][71]];
+
+OutrightSale_D_01["Opportunity_Creation"](ConfigFilter1);
+OutrightSale_D_01["RFC_Creation"]();
+OutrightSale_D_01["Quote_navigation"]();
+OutrightSale_D_01["AddLineItem_Cabinet"](ConfigFilter2);
+OutrightSale_D_01["AddLineItemController"](ConfigFilter5);
+OutrightSale_D_01["AddLineItem_Rebate"](ConfigFilter6);
+OutrightSale_D_01["cost_calculation"]();
+OutrightSale_D_01["Legal_Instructions"](ConfigFilter1);
+OutrightSale_D_01["Payment_Update"]();
+OutrightSale_D_01["Tax_Calculation"]();
+OutrightSale_D_01["RFC_Recall"]();
+OutrightSale_D_01["RFC_Approval"]();
+OutrightSale_D_01["RFC_Document_Validation"]();
+OutrightSale_D_01["SOC_Creation"]();
+OutrightSale_D_01["New_eCon_Quote"]();
+OutrightSale_D_01["econ_configuration_navigation"]();
+OutrightSale_D_01["getSOC_Lines"](ConfigFilter2);
+OutrightSale_D_01["econ_mainconfiguration"](ConfigFilter3);
+OutrightSale_D_01["econ_advancedconfiguration"](ConfigFilter4);
+OutrightSale_D_01["econ_approval"]();
+OutrightSale_D_01["caseQC"]();
+OutrightSale_D_01["econ_D65migration"]();
+OutrightSale_D_01["Navigate_to_RFC"]();
+
+
+
+
+}}
