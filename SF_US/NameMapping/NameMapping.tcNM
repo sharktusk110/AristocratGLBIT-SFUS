@@ -1296,6 +1296,86 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="frameSfxdash568484" Key="{9F0AFDD5-EB4A-49F2-89F8-A36453615D00}">
+										<Image FileName="-1992373279" Left="16" Top="332" Right="1259" Bottom="1427" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div//iframe[@title=&apos;dashboard&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;brandBand_2&apos;]//div//iframe" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div//iframe" />
+											</Selector>
+										</Selectors>
+										<Children>
+											<Child Name="panelMain" Key="{7640A1A2-4763-4925-8C4C-DBA83E6B149A}">
+												<Image FileName="-1992373279" Left="16" Top="332" Right="1259" Bottom="737" />
+												<TypeInfo Item0="{37F2FD9F-02B8-4D3B-B8C0-F1F48E3E3AD3}" />
+												<Selectors>
+													<Selector>
+														<Value Value="#main" />
+													</Selector>
+												</Selectors>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="navGlobal" Key="{FED3208C-07C3-445E-9DAF-FDF0054B1AD2}">
+										<Image FileName="-2049473919" Left="227" Top="262" Right="1897" Bottom="312" />
+										<Selectors>
+											<Selector>
+												<Value Value="//nav[contains(., &apos;Home&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[@aria-label=&apos;Global&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//one-app-nav-bar/nav[@role=&apos;navigation&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[contains(@class, &apos;slds-context-bar__secondary&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//one-app-nav-bar/nav" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkOpportunities" Key="{4BFC4BAC-B6E1-4B00-9459-23319ECD4324}">
+										<Image FileName="-2049473919" Left="669" Top="262" Right="808" Bottom="312" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Opportunities&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[@title=&apos;Opportunities&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//one-app-nav-bar-item-root[5]/a[contains(@class, &apos;slds-context-bar__label-action&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//one-app-nav-bar-item-root[5]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeOpportunities" Key="{63E745CD-7DFC-4434-B0F0-F770236D9C15}">
+										<Image FileName="-2049473919" Left="685" Top="274" Right="792" Bottom="300" />
+										<TypeInfo Item0="{37F2FD9F-02B8-4D3B-B8C0-F1F48E3E3AD3}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Opportunities&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//one-app-nav-bar-item-root[5]/a/span[contains(@class, &apos;slds-truncate&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;Opportunity/home&apos;)]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//one-appnav//one-app-nav-bar/nav[@role=&apos;navigation&apos;]//one-app-nav-bar-item-root[5]/a/span" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageRecentlyViewedAccountsSalesf" Key="{A052618C-A9F3-43A4-A9A8-8D1511E2104A}">
@@ -4667,6 +4747,52 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="headerOneheader" Key="{E699A3C4-35D6-4721-9BEA-AE5717978B58}">
+										<Image FileName="1782082799" Left="0" Top="130" Right="1920" Bottom="262" />
+										<Selectors>
+											<Selector>
+												<Value Value="#oneHeader" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[contains(., &apos;Skip to Navigation&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[contains(@class, &apos;slds-global-header_container&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section/header" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeSetup" Key="{CAA10B77-FE68-4F86-8691-067D9D94F181}">
+										<Image FileName="1782082799" Left="1753" Top="212" Right="1785" Bottom="244" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[.=&apos;Setup&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelSetup" Key="{E33041FF-2985-4BCB-AD64-AEC95EC42ECD}">
+										<Image FileName="1782082799" Left="1753" Top="212" Right="1785" Bottom="244" />
+										<TypeInfo Item0="{37F2FD9F-02B8-4D3B-B8C0-F1F48E3E3AD3}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//header[@id=&apos;oneHeader&apos;]//li[5]/div/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[5]/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeServiceSetupHome" Key="{A30FA21D-F253-4239-B577-3DC2DCB64418}">
+										<Image FileName="854998636" Left="1515" Top="476" Right="1801" Bottom="530" />
+										<TypeInfo Item0="{37F2FD9F-02B8-4D3B-B8C0-F1F48E3E3AD3}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#service_setup_home" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageEconGreenValleyRanchResortSp" Key="{073EE734-B25B-4A6F-8AD4-CDD73BDB192F}">
@@ -5528,6 +5654,66 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textnodeTabs" Key="{3CC2B1D0-4DB7-4FCB-80C9-EEAEE0FEA727}">
+										<Image FileName="1657722449" Left="11" Top="141" Right="11" Bottom="141" />
+										<TypeInfo Item0="{A374F74D-B3E8-48EC-B139-B4349BECE54E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Details&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div/lightning-tabset/div/lightning-tab-bar/ul[@aria-label=&apos;Tabs&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div/lightning-tabset/div/lightning-tab-bar/ul[@role=&apos;tablist&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div/lightning-tabset/div/lightning-tab-bar/ul[contains(@class, &apos;slds-tabs_default__nav&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;brandBand_2&apos;]//lightning-tab-bar/ul" />
+											</Selector>
+											<Selector>
+												<Value Value="//lightning-tab-bar/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkDetailtabItem" Key="{FEE39ADB-841C-4C43-91D1-36CF8AD3A700}">
+										<Image FileName="1657722449" Left="11" Top="141" Right="11" Bottom="141" />
+										<TypeInfo Item0="{3D5FE31A-A400-4706-B445-1735462AC069}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#detailTab__item" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[.=&apos;Details&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div/lightning-tab-bar/ul/li/a[@role=&apos;tab&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div/lightning-tab-bar/ul/li/a[contains(@class, &apos;slds-tabs_default__link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;brandBand_2&apos;]//li/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div/lightning-tab-bar/ul/li/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelSocValidatedDate" Key="{7B00EDD6-D8CC-4DA5-8E16-AF3C8995D922}">
+										<Image FileName="1657722449" Left="670" Top="1198" Right="1232" Bottom="1270" />
+										<TypeInfo Item0="{A374F74D-B3E8-48EC-B139-B4349BECE54E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//records-record-layout-section[6]//slot/records-record-layout-row[6]/slot/records-record-layout-item[2]//div[contains(@class, &apos;slds-form-element&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//records-record-layout-section[6]//records-record-layout-row[6]/slot/records-record-layout-item[2]/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageNewRfcQuoteSalesforce" Key="{A73DF490-EEC5-482B-81E2-7467F11FE1EB}">
@@ -5997,21 +6183,6 @@
 											</Selector>
 											<Selector>
 												<Value Value="//tr[9]/td/c-egm-configurator-line-item-editor-row//select" />
-											</Selector>
-										</Selectors>
-									</Child>
-									<Child Name="select10" Key="{6C106888-250B-48EC-A3BA-93E51B4EFC33}">
-										<Image FileName="2050692317" Left="374" Top="557" Right="931" Bottom="591" />
-										<TypeInfo Item0="{14DC9026-FC89-455F-B7E3-F0F5ECB84B33}" />
-										<Selectors>
-											<Selector>
-												<Value Value="//tr[10]/td/c-egm-configurator-line-item-editor-row//select[contains(@class, &apos;slds-select&apos;)]" />
-											</Selector>
-											<Selector>
-												<Value Value="//div[@id=&apos;wrapper-body&apos;]//tr[10]/td/c-egm-configurator-line-item-editor-row//select" />
-											</Selector>
-											<Selector>
-												<Value Value="//tr[10]/td/c-egm-configurator-line-item-editor-row//select" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -7412,6 +7583,390 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="panelSalesTaxMustBeCalculated2" Key="{423B41BD-F7F7-425C-815C-F9369DE3857F}">
+										<Image FileName="161624473" Left="1312" Top="789" Right="1872" Bottom="1237" />
+										<TypeInfo Item0="{A374F74D-B3E8-48EC-B139-B4349BECE54E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//*[@class=&apos;slds-accordion__content&apos;]/slot/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonSave2" Key="{ABCCFACE-4BD8-4899-A69B-9CB271F46257}">
+										<Image FileName="605050297" Left="1566" Top="1043" Right="1656" Bottom="1090" />
+										<TypeInfo Item0="{50C535F8-E35A-4EA0-A39C-A4992789A3EC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//c-add-egm-wizard//div[2]/c-egm-configurator//div[2]/lightning-button[2]/button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//c-add-egm-wizard//div[2]/c-egm-configurator//div[2]/lightning-button[2]/button[contains(@class, &apos;slds-button&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;wrapper-body&apos;]//c-add-egm-wizard//div[2]/c-egm-configurator//div[2]/lightning-button[2]/button" />
+											</Selector>
+											<Selector>
+												<Value Value="//c-add-egm-wizard//div[2]/c-egm-configurator//div[2]/lightning-button[2]/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode3" Key="{08906523-6D1D-43A3-AB33-A438C07EDDD1}">
+										<Image FileName="2131452497" Left="1661" Top="330" Right="1679" Bottom="349" />
+										<TypeInfo Item0="{A374F74D-B3E8-48EC-B139-B4349BECE54E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@id=&apos;wrapper-body&apos;]//div[3]/div/div/lightning-icon//*[name()=&apos;path&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//c-line-item-editor-row//div[3]//lightning-icon//lightning-primitive-icon/*[name()=&apos;svg&apos;]/*[name()=&apos;g&apos;]/*[name()=&apos;path&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeGameSalesOutrightOutrigh" Key="{8DCBD527-6951-45FB-88D7-6FD7D598598C}">
+										<Image FileName="-916550929" Left="191" Top="429" Right="839" Bottom="477" />
+										<TypeInfo Item0="{A374F74D-B3E8-48EC-B139-B4349BECE54E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//lightning-combobox[.=&apos;Game sales - Outright - Outright - Sale New&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//slot//article//div//lightning-combobox[contains(@class, &apos;slds-var-m-right_xx-small&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;lgt-accordion-section-949&apos;]//article//div//lightning-combobox" />
+											</Selector>
+											<Selector>
+												<Value Value="//slot//article//div//lightning-combobox" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonGameSalesOutrightOutright" Key="{1EAFF09C-5FE8-4B3B-999A-C783D4FB9F6F}">
+										<Image FileName="-916550929" Left="191" Top="429" Right="839" Bottom="477" />
+										<TypeInfo Item0="{50C535F8-E35A-4EA0-A39C-A4992789A3EC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Game sales - Outright - Outright - Sale New&apos;]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//div//lightning-combobox//lightning-base-combobox//button[@role=&apos;combobox&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div//lightning-combobox//lightning-base-combobox//button[contains(@class, &apos;slds-combobox__input&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;lgt-accordion-section-949&apos;]//div//lightning-combobox//lightning-base-combobox//button" />
+											</Selector>
+											<Selector>
+												<Value Value="//lightning-combobox//lightning-base-combobox//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonSave3" Key="{6BC1E2C6-34EF-4203-B783-A40FDAEE5ED0}">
+										<Image FileName="719657225" Left="1572" Top="1049" Right="1662" Bottom="1096" />
+										<TypeInfo Item0="{50C535F8-E35A-4EA0-A39C-A4992789A3EC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//c-egm-configurator/div/div[3]/lightning-button/button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//c-egm-configurator/div/div[3]/lightning-button/button[contains(@class, &apos;slds-button&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;wrapper-body&apos;]//div[2]/c-egm-configurator//div[3]/lightning-button/button" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//c-egm-configurator/div/div[3]/lightning-button/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelOutrightSaleNew" Key="{6D5E9C9E-82A5-4039-A3CC-B701B490AD6C}">
+										<Image FileName="744471428" Left="986" Top="483" Right="1760" Bottom="512" />
+										<TypeInfo Item0="{A374F74D-B3E8-48EC-B139-B4349BECE54E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//tr[4]/td/div[contains(@class, &apos;slds-truncate&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;wrapper-body&apos;]//tr[4]/td/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr[4]/td/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonQuoteAddEditLineItems2" Key="{457F9C6F-159D-4DA3-B7A5-D71DF095A5AB}">
+										<Image FileName="-639109505" Left="1180" Top="339" Right="1355" Bottom="377" />
+										<TypeInfo Item0="{50C535F8-E35A-4EA0-A39C-A4992789A3EC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//forcegenerated-highlightspanel_quote___0127f000000ejr7qak___compact___view___recordlayout2//runtime_platform_actions-executor-lightning-component/slot/slot/lightning-button/button[@name=&apos;Quote.Add_Edit_Line_Items&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//forcegenerated-highlightspanel_quote___0127f000000ejr7qak___compact___view___recordlayout2//runtime_platform_actions-executor-lightning-component/slot/slot/lightning-button/button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//forcegenerated-highlightspanel_quote___0127f000000ejr7qak___compact___view___recordlayout2//runtime_platform_actions-executor-lightning-component/slot/slot/lightning-button/button[contains(@class, &apos;slds-button&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;brandBand_2&apos;]//forcegenerated-highlightspanel_quote___0127f000000ejr7qak___compact___view___recordlayout2//slot/slot/lightning-button/button" />
+											</Selector>
+											<Selector>
+												<Value Value="//forcegenerated-highlightspanel_quote___0127f000000ejr7qak___compact___view___recordlayout2//runtime_platform_actions-executor-lightning-component/slot/slot/lightning-button/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="sectionHealthCheckResults2" Key="{0B1E5F0E-AB07-4D44-923A-41B1F6805F69}">
+										<Image FileName="764658939" Left="1291" Top="632" Right="1893" Bottom="1220" />
+										<TypeInfo Item0="{A374F74D-B3E8-48EC-B139-B4349BECE54E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//forcegenerated-flexipage_ati_soc_quote_record_page_quote__view_js___lmt___1729820481000/record_flexipage-desktop-record-page-decorator/div/records-record-layout-event-broker/slot//section[contains(@class, &apos;slds-accordion__section&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;brandBand_2&apos;]//forcegenerated-flexipage_ati_soc_quote_record_page_quote__view_js___lmt___1729820481000//slot/lightning-accordion-section/div/section" />
+											</Selector>
+											<Selector>
+												<Value Value="//forcegenerated-flexipage_ati_soc_quote_record_page_quote__view_js___lmt___1729820481000//div/slot/lightning-accordion-section/div/section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="vg" Key="{5B07B7BA-89C7-4E21-80A3-4BA28571CBB6}">
+										<Image FileName="1838936265" Left="1733" Top="648" Right="1754" Bottom="669" />
+										<TypeInfo Item0="{37F2FD9F-02B8-4D3B-B8C0-F1F48E3E3AD3}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//tr[5]/td/c-line-item-editor-row//div[3]//lightning-icon[3]//lightning-primitive-icon/*[name()=&apos;svg&apos;][contains(@class, &apos;slds-icon&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;wrapper-body&apos;]//tr[5]//lightning-icon[3]/span/lightning-primitive-icon/*[name()=&apos;svg&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr[5]/td/c-line-item-editor-row//div[3]//lightning-icon[3]//lightning-primitive-icon/*[name()=&apos;svg&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelShowHideChildItems" Key="{59BAFCBC-8D4F-4E86-B866-62E39EDFC431}">
+										<Image FileName="1727847624" Left="134" Top="251" Right="1787" Bottom="985" />
+										<TypeInfo Item0="{37F2FD9F-02B8-4D3B-B8C0-F1F48E3E3AD3}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//section//c-add-edit-line-items//div//div[contains(@class, &apos;flex-item-one-autoscroll&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;wrapper-body&apos;]//c-add-edit-line-items/div/div/div/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//c-add-edit-line-items/div/div/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="vg4" Key="{1EE21077-A968-4D26-B123-1A15747DD00A}">
+										<Image FileName="1885716650" Left="1750" Top="645" Right="1767" Bottom="662" />
+										<TypeInfo Item0="{37F2FD9F-02B8-4D3B-B8C0-F1F48E3E3AD3}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//tr[8]/td/c-line-item-editor-row//div[3]//lightning-icon[3]//lightning-primitive-icon/*[name()=&apos;svg&apos;][contains(@class, &apos;slds-icon&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;wrapper-body&apos;]//tr[8]//lightning-icon[3]/span/lightning-primitive-icon/*[name()=&apos;svg&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr[8]/td/c-line-item-editor-row//div[3]//lightning-icon[3]//lightning-primitive-icon/*[name()=&apos;svg&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeSubmitForApproval" Key="{1539DC04-B879-4287-87CE-54EB4CD97145}">
+										<Image FileName="-808839900" Left="11" Top="141" Right="11" Bottom="141" />
+										<TypeInfo Item0="{A374F74D-B3E8-48EC-B139-B4349BECE54E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@id=&apos;brandBand_2&apos;]//runtime_platform_actions-executor-delayed-aura-legacy/slot/slot/lightning-menu-item//span" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//slot/lightning-menu-item/div/a/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonShowMoreActions4" Key="{6660CFA4-8274-4F63-9E09-B93066D2F958}">
+										<Image FileName="641136211" Left="1811" Top="388" Right="1859" Bottom="435" />
+										<TypeInfo Item0="{50C535F8-E35A-4EA0-A39C-A4992789A3EC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Show more actions&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//runtime_platform_actions-actions-ribbon/ul/li[6]/lightning-button-menu/button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//runtime_platform_actions-actions-ribbon/ul/li[6]/lightning-button-menu/button[contains(@class, &apos;slds-button&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;brandBand_2&apos;]//li[6]/lightning-button-menu/button" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//runtime_platform_actions-actions-ribbon/ul/li[6]/lightning-button-menu/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkMenuitem3" Key="{4AF82409-F81A-4033-BD43-1EF3366621FF}">
+										<Image FileName="641136211" Left="11" Top="141" Right="11" Bottom="141" />
+										<TypeInfo Item0="{3D5FE31A-A400-4706-B445-1735462AC069}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//slot/runtime_platform_actions-action-renderer[2]/runtime_platform_actions-executor-page-reference/slot/slot//a[@role=&apos;menuitem&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;brandBand_2&apos;]//runtime_platform_actions-action-renderer[2]/runtime_platform_actions-executor-page-reference/slot/slot//a" />
+											</Selector>
+											<Selector>
+												<Value Value="//slot/runtime_platform_actions-action-renderer[2]/runtime_platform_actions-executor-page-reference/slot/slot//a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeNewSocQuote" Key="{BC911FD8-04A5-4882-AF3B-9045E2A84A79}">
+										<Image FileName="641136211" Left="11" Top="141" Right="11" Bottom="141" />
+										<TypeInfo Item0="{A374F74D-B3E8-48EC-B139-B4349BECE54E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@id=&apos;brandBand_2&apos;]//runtime_platform_actions-executor-page-reference/slot/slot/lightning-menu-item//span" />
+											</Selector>
+											<Selector>
+												<Value Value="//runtime_platform_actions-action-renderer[2]/runtime_platform_actions-executor-page-reference/slot/slot/lightning-menu-item//span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="vg2" Key="{9FADEC22-5A9A-488A-B00A-84E0CB7B810E}">
+										<Image FileName="-1989203564" Left="1710" Top="936" Right="1731" Bottom="957" />
+										<TypeInfo Item0="{37F2FD9F-02B8-4D3B-B8C0-F1F48E3E3AD3}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//tr[25]/td/c-line-item-editor-row//div[3]//lightning-icon[3]//lightning-primitive-icon/*[name()=&apos;svg&apos;][contains(@class, &apos;slds-icon&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;wrapper-body&apos;]//tr[25]//lightning-icon[3]/span/lightning-primitive-icon/*[name()=&apos;svg&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr[25]/td/c-line-item-editor-row//div[3]//lightning-icon[3]//lightning-primitive-icon/*[name()=&apos;svg&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="select10" Key="{0B1A9EA6-D64D-403F-90EC-29A1CE24BCA8}">
+										<Image FileName="1171577280" Left="376" Top="602" Right="921" Bottom="644" />
+										<TypeInfo Item0="{14DC9026-FC89-455F-B7E3-F0F5ECB84B33}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//tr[10]/td/c-egm-configurator-line-item-editor-row//select[contains(@class, &apos;slds-select&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;wrapper-body&apos;]//tr[10]/td/c-egm-configurator-line-item-editor-row//select" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr[10]/td/c-egm-configurator-line-item-editor-row//select" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel2" Key="{C24D094F-9A39-4642-881D-561A5BF06E16}">
+										<Image FileName="977720016" Left="515" Top="601" Right="1427" Bottom="630" />
+										<TypeInfo Item0="{A374F74D-B3E8-48EC-B139-B4349BECE54E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/div/div/div[contains(@class, &apos;detail&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkStageComplete" Key="{E0A18B32-8DA9-4275-89A5-CDA511458F4C}">
+										<Image FileName="-829272828" Left="482" Top="609" Right="809" Bottom="657" />
+										<TypeInfo Item0="{3D5FE31A-A400-4706-B445-1735462AC069}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(., &apos;Validated&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[@title=&apos;Validated&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//forcegenerated-flexipage_ati_soc_quote_record_page_quote__view_js___lmt___1729820481000//div/div/ul/li[2]/a[contains(@class, &apos;tabHeader&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;brandBand_2&apos;]//forcegenerated-flexipage_ati_soc_quote_record_page_quote__view_js___lmt___1729820481000//div/ul/li[2]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//forcegenerated-flexipage_ati_soc_quote_record_page_quote__view_js___lmt___1729820481000//div/div/ul/li[2]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonQuoteConfigurationBank" Key="{0534C3FA-046C-46F6-B691-CF3CB605CA56}">
+										<Image FileName="2084707468" Left="1217" Top="388" Right="1473" Bottom="435" />
+										<TypeInfo Item0="{50C535F8-E35A-4EA0-A39C-A4992789A3EC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[@name=&apos;Quote.Configuration_Bank&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[.=&apos;Add Configuration Bank&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//runtime_platform_actions-executor-page-reference/slot/slot/lightning-button/button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//runtime_platform_actions-executor-page-reference/slot/slot/lightning-button/button[contains(@class, &apos;slds-button&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;brandBand_2&apos;]//li[2]//slot/slot/lightning-button/button" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//runtime_platform_actions-executor-page-reference/slot/slot/lightning-button/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="articleQuoteConfigurationBanks" Key="{7F4CAFB4-751A-4CA1-BE05-95BA64F661D5}">
+										<Image FileName="-1008436847" Left="54" Top="681" Right="1251" Bottom="984" />
+										<TypeInfo Item0="{A374F74D-B3E8-48EC-B139-B4349BECE54E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//article[contains(., &apos;Quote Configuration Banks&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//slot/flexipage-component2/slot/lst-dynamic-related-list/article[contains(@class, &apos;slds-card&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//flexipage-tab2[@id=&apos;tab-4&apos;]//article" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//slot/flexipage-component2/slot/lst-dynamic-related-list/article" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelQuoteConfigurationBanks" Key="{AADE5739-1C08-498C-835B-1FDBFC884032}">
+										<Image FileName="-1008436847" Left="79" Top="706" Right="1089" Bottom="742" />
+										<TypeInfo Item0="{A374F74D-B3E8-48EC-B139-B4349BECE54E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//lst-dynamic-related-list-with-user-prefs/lst-related-list-view-manager/lst-common-list-internal/lst-list-view-manager-header//div[contains(@class, &apos;slds-no-space&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;brandBand_2&apos;]//flexipage-tab2[@id=&apos;tab-4&apos;]//div/div/div/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//flexipage-tab2[@id=&apos;tab-4&apos;]//lst-list-view-manager-header/div/div/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelStatus" Key="{24CE3049-ABB1-4024-9B0F-382B01672378}">
+										<Image FileName="729613832" Left="670" Top="733" Right="1232" Bottom="836" />
+										<TypeInfo Item0="{A374F74D-B3E8-48EC-B139-B4349BECE54E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//records-record-layout-row[3]/slot/records-record-layout-item[2]/div/div[contains(@class, &apos;slds-form-element&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;sectionContent-240&apos;]//records-record-layout-row[3]/slot/records-record-layout-item[2]/div/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//records-record-layout-row[3]/slot/records-record-layout-item[2]/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageBellagioLasVegasAccountSales2" Key="{C7E432F4-EF39-4D65-A4D9-DE3657CEA973}">
@@ -7906,6 +8461,83 @@
 									</Property>
 								</Properties>
 							</Child>
+							<Child Name="pageAddConfigurationBankSalesfor" Key="{51EF12B9-0A8F-4677-9E27-A802B96E2BE4}">
+								<Image FileName="-1140508185" Left="11" Top="141" Right="1931" Bottom="1138" />
+								<TypeInfo Item0="{7DA5E657-AFDF-4817-BFF5-CD1FFFF3D38A}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/action/quick/Quote.Configuration_Bank*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textboxNumberOfMachines" Key="{46D8308A-F1B0-48F3-B22D-6C0AF064F2BC}">
+										<Image FileName="-1140508185" Left="389" Top="477" Right="936" Bottom="531" />
+										<TypeInfo Item0="{4F644DF2-1470-4844-81F5-B5BC59CFD9B0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Number of Machines*&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//section//section//fieldset//div[2]//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//section//section//fieldset//div[2]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelNone" Key="{8DC82AC5-328C-48D3-BB85-FF7D227C468C}">
+										<Image FileName="-1395100554" Left="984" Top="418" Right="1531" Bottom="498" />
+										<TypeInfo Item0="{A374F74D-B3E8-48EC-B139-B4349BECE54E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;--None--&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//section//section//fieldset//div[2]//div[contains(@class, &apos;uiMenu&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelNone2" Key="{1373F3B4-D6E3-46A7-A482-4AD297BE2C36}">
+										<Image FileName="-424174099" Left="389" Top="515" Right="936" Bottom="595" />
+										<TypeInfo Item0="{A374F74D-B3E8-48EC-B139-B4349BECE54E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div/div[4]/div/div/div/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelNone3" Key="{B9E70CCE-77C8-4ACA-96A5-8017E2ED510B}">
+										<Image FileName="-424174099" Left="389" Top="623" Right="936" Bottom="703" />
+										<TypeInfo Item0="{A374F74D-B3E8-48EC-B139-B4349BECE54E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//section//section//fieldset//div[5]//div[contains(@class, &apos;uiMenu&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelNone4" Key="{959BFD84-F56C-4337-8054-DAFC90A330BF}">
+										<Image FileName="61768087" Left="389" Top="513" Right="1530" Bottom="593" />
+										<TypeInfo Item0="{A374F74D-B3E8-48EC-B139-B4349BECE54E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//section//section//fieldset//div[9]//div[contains(@class, &apos;uiMenu&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonSave" Key="{DE6AA62F-70D2-4BA8-B8C2-27EC2527C3DA}">
+										<Image FileName="444331272" Left="1487" Top="954" Right="1577" Bottom="1001" />
+										<TypeInfo Item0="{50C535F8-E35A-4EA0-A39C-A4992789A3EC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div/div/footer/button[contains(@class, &apos;slds-button_brand&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
 						</Children>
 					</Child>
 					<Child Name="SnippingTool" Key="{849F84DF-7D21-4077-87D7-F340283377F8}">
@@ -8151,6 +8783,21 @@
 					<Child Name="SearchThisList_SearchField" Owner="{4DF76F06-560E-434F-A7B1-7CDA2ED8B46C}" />
 					<Child Name="Account_Node" Owner="{52B32F14-6C44-4242-9A10-4D5B46FCFC2C}" />
 					<Child Name="NewOpportunity_Button" Owner="{2806EFF6-6B66-44E2-B117-5EE8B30ACF36}" />
+					<Child Name="frameSfxdash568484" Owner="{9F0AFDD5-EB4A-49F2-89F8-A36453615D00}">
+						<Child Name="panelMain" Owner="{7640A1A2-4763-4925-8C4C-DBA83E6B149A}" />
+					</Child>
+					<Child Name="navGlobal" Owner="{FED3208C-07C3-445E-9DAF-FDF0054B1AD2}">
+						<Child Name="linkOpportunities" Owner="{4BFC4BAC-B6E1-4B00-9459-23319ECD4324}">
+							<Child Name="textnodeOpportunities" Owner="{63E745CD-7DFC-4434-B0F0-F770236D9C15}" />
+						</Child>
+					</Child>
+					<Child Name="headerOneheader" Owner="{E699A3C4-35D6-4721-9BEA-AE5717978B58}">
+						<Child Name="textnodeSetup" Owner="{CAA10B77-FE68-4F86-8691-067D9D94F181}">
+							<Child Name="panelSetup" Owner="{E33041FF-2985-4BCB-AD64-AEC95EC42ECD}">
+								<Child Name="textnodeServiceSetupHome" Owner="{A30FA21D-F253-4239-B577-3DC2DCB64418}" />
+							</Child>
+						</Child>
+					</Child>
 				</Child>
 				<Child Name="SearchAppsAndItems_SearchField" Owner="{7EEC0A1E-7E53-4BF9-A661-E70F066295AA}" />
 				<Child Name="AppLauncher_Button" Owner="{F19E6F21-EC49-406B-8374-681DDE0CEA80}" />
@@ -8312,6 +8959,11 @@
 							<Child Name="linkConfig" Owner="{5EAF072D-ABE5-4B11-B649-C9CBF4B6CAF8}" />
 						</Child>
 					</Child>
+					<Child Name="textnodeTabs" Owner="{3CC2B1D0-4DB7-4FCB-80C9-EEAEE0FEA727}">
+						<Child Name="linkDetailtabItem" Owner="{FEE39ADB-841C-4C43-91D1-36CF8AD3A700}">
+							<Child Name="panelSocValidatedDate" Owner="{7B00EDD6-D8CC-4DA5-8E16-AF3C8995D922}" />
+						</Child>
+					</Child>
 				</Child>
 			</Child>
 			<Child Name="Page_SearchOpportunity" Owner="{C367F00C-1E7E-4040-A5D8-E190C46C85EC}">
@@ -8362,6 +9014,13 @@
 					<Child Name="panelSuccessNotification" Owner="{35DBE07D-74A9-4DC0-9296-A922C697026B}" />
 					<Child Name="PDF_frame" Owner="{185D6E63-4A30-494C-9365-5B70B123BC01}" />
 					<Child Name="AttachToQuote_Button" Owner="{6374285D-185A-4EA8-84B5-9D8113502DBD}" />
+					<Child Name="Save2_Button" Owner="{ABCCFACE-4BD8-4899-A69B-9CB271F46257}" />
+					<Child Name="Edit_Button" Owner="{08906523-6D1D-43A3-AB33-A438C07EDDD1}" />
+					<Child Name="Save_Button3" Owner="{6BC1E2C6-34EF-4203-B783-A40FDAEE5ED0}" />
+					<Child Name="panelOutrightSaleNew" Owner="{6D5E9C9E-82A5-4039-A3CC-B701B490AD6C}" />
+					<Child Name="panelShowHideChildItems" Owner="{59BAFCBC-8D4F-4E86-B866-62E39EDFC431}" />
+					<Child Name="vg4" Owner="{1EE21077-A968-4D26-B123-1A15747DD00A}" />
+					<Child Name="vg2" Owner="{9FADEC22-5A9A-488A-B00A-84E0CB7B810E}" />
 				</Child>
 				<Child Name="Total_Price" Owner="{1B744C9B-83F0-4AB0-92F9-3CAA9BD0239E}" />
 				<Child Name="EditPaymentTerms_Button" Owner="{945A98E2-8509-4BA7-AD5D-6B69A2B4147A}" />
@@ -8404,6 +9063,7 @@
 				<Child Name="SendDocusign_Button" Owner="{52E20F79-1323-4127-BA91-33313F2E3DA0}" />
 				<Child Name="sectionHealthCheckResults" Owner="{3B5E1B6D-70AE-4467-8284-2E254FFC4E48}">
 					<Child Name="panelHealthCheckResults" Owner="{57FB548E-1A05-4D8B-BCDB-F3D2C56675BA}" />
+					<Child Name="panelSalesTaxMustBeCalculated2" Owner="{423B41BD-F7F7-425C-815C-F9369DE3857F}" />
 				</Child>
 				<Child Name="NewSocQuote_button" Owner="{F4F60C93-760D-4A4B-8C22-ED313CA77603}" />
 				<Child Name="Header_Name" Owner="{CEFECF49-A525-4348-AC3E-76FBE8CB84C4}" />
@@ -8420,6 +9080,25 @@
 					<Child Name="MarkStatusAsComplete_Button" Owner="{43468FBC-17B5-442E-8AC1-D762E298B98C}" />
 				</Child>
 				<Child Name="textnode2" Owner="{1CED61B8-E6C7-48A0-A3C0-9E6DE2C1359D}" />
+				<Child Name="textnodeGameSalesOutrightOutrigh" Owner="{8DCBD527-6951-45FB-88D7-6FD7D598598C}">
+					<Child Name="buttonGameSalesOutrightOutright" Owner="{1EAFF09C-5FE8-4B3B-999A-C783D4FB9F6F}" />
+				</Child>
+				<Child Name="AddEditLineItems2_Button" Owner="{457F9C6F-159D-4DA3-B7A5-D71DF095A5AB}" />
+				<Child Name="sectionHealthCheckResults2" Owner="{0B1E5F0E-AB07-4D44-923A-41B1F6805F69}" />
+				<Child Name="vg" Owner="{5B07B7BA-89C7-4E21-80A3-4BA28571CBB6}" />
+				<Child Name="SubmitForApproval_Button2" Owner="{1539DC04-B879-4287-87CE-54EB4CD97145}" />
+				<Child Name="buttonShowMoreActions4" Owner="{6660CFA4-8274-4F63-9E09-B93066D2F958}">
+					<Child Name="linkMenuitem3" Owner="{4AF82409-F81A-4033-BD43-1EF3366621FF}" />
+				</Child>
+				<Child Name="NewSocQuote_Button2" Owner="{BC911FD8-04A5-4882-AF3B-9045E2A84A79}" />
+				<Child Name="select10" Owner="{0B1A9EA6-D64D-403F-90EC-29A1CE24BCA8}" />
+				<Child Name="panel2" Owner="{C24D094F-9A39-4642-881D-561A5BF06E16}" />
+				<Child Name="Validated_Button" Owner="{E0A18B32-8DA9-4275-89A5-CDA511458F4C}" />
+				<Child Name="QuoteConfigurationBank_Button" Owner="{0534C3FA-046C-46F6-B691-CF3CB605CA56}" />
+				<Child Name="articleQuoteConfigurationBanks" Owner="{7F4CAFB4-751A-4CA1-BE05-95BA64F661D5}">
+					<Child Name="panelQuoteConfigurationBanks" Owner="{AADE5739-1C08-498C-835B-1FDBFC884032}" />
+				</Child>
+				<Child Name="panelStatus" Owner="{24CE3049-ABB1-4024-9B0F-382B01672378}" />
 			</Child>
 			<Child Name="sectionSkipToNavigation" Owner="{A0C85768-5A40-4D0E-8BE7-C401921E3637}">
 				<Child Name="textnodeTabs" Owner="{DB0F772D-58B2-4612-B6F1-C29A25CD9884}">
@@ -8455,6 +9134,14 @@
 				<Child Name="textnode" Owner="{3AFBBEAD-2F11-46D4-B087-67A1098F0A00}" />
 			</Child>
 			<Child Name="pageLoginSalesforce2" Owner="{6DA8C3B5-9DE0-417B-A7DE-2410AC2C55C7}" />
+			<Child Name="Page_SOCBankConfiguration" Owner="{51EF12B9-0A8F-4677-9E27-A802B96E2BE4}">
+				<Child Name="textboxNumberOfMachines" Owner="{46D8308A-F1B0-48F3-B22D-6C0AF064F2BC}" />
+				<Child Name="panelNone" Owner="{8DC82AC5-328C-48D3-BB85-FF7D227C468C}" />
+				<Child Name="panelNone2" Owner="{1373F3B4-D6E3-46A7-A482-4AD297BE2C36}" />
+				<Child Name="panelNone3" Owner="{B9E70CCE-77C8-4ACA-96A5-8017E2ED510B}" />
+				<Child Name="panelNone4" Owner="{959BFD84-F56C-4337-8054-DAFC90A330BF}" />
+				<Child Name="buttonSave" Owner="{DE6AA62F-70D2-4BA8-B8C2-27EC2527C3DA}" />
+			</Child>
 		</Child>
 		<Child Name="explorer" Owner="{54A8C89A-F972-4B15-8558-398DB71549EF}">
 			<Child Name="wndXamlExplorerHostIslandWindow" Owner="{481C636A-F652-4E50-856D-03A190BFBD3D}">

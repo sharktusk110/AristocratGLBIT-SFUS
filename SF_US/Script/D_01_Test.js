@@ -24,29 +24,29 @@ ConfigFilter5 = [Config[i][64],Config[i][65],Config[i][66]];
 ConfigFilter6 = [Config[i][67],Config[i][68],Config[i][69]];
 ConfigFilter7 = [Config[i][71]];
 
-//OutrightSale_D_01["Opportunity_Creation"](ConfigFilter1);
-//OutrightSale_D_01["RFC_Creation"]();
-//OutrightSale_D_01["Quote_navigation"]();
-//OutrightSale_D_01["AddLineItem_Cabinet"](ConfigFilter2);
-//OutrightSale_D_01["AddLineItemController"](ConfigFilter5);
-//OutrightSale_D_01["AddLineItem_Rebate"](ConfigFilter6);
-//OutrightSale_D_01["cost_calculation"]();
-//OutrightSale_D_01["Legal_Instructions"](ConfigFilter1);
-//OutrightSale_D_01["Payment_Update"]();
-//OutrightSale_D_01["Tax_Calculation"]();
-//OutrightSale_D_01["RFC_Recall"]();
+OutrightSale_D_01["Opportunity_Creation"](ConfigFilter1);
+OutrightSale_D_01["RFC_Creation"]();
+OutrightSale_D_01["Quote_navigation"]();
+OutrightSale_D_01["AddLineItem_Cabinet"](ConfigFilter2);
+OutrightSale_D_01["AddLineItemController"](ConfigFilter5);
+OutrightSale_D_01["AddLineItem_Rebate"](ConfigFilter6);
+OutrightSale_D_01["cost_calculation"]();
+OutrightSale_D_01["Legal_Instructions"](ConfigFilter1);
+OutrightSale_D_01["Payment_Update"]();
+OutrightSale_D_01["Tax_Calculation"]();
+OutrightSale_D_01["RFC_Recall"]();
 //OutrightSale_D_01["RFC_Approval"]();
 //OutrightSale_D_01["RFC_Document_Validation"]();
 //OutrightSale_D_01["SOC_Creation"]();
 //OutrightSale_D_01["New_eCon_Quote"]();
 //OutrightSale_D_01["econ_configuration_navigation"]();
 //OutrightSale_D_01["getSOC_Lines"](ConfigFilter2);
-OutrightSale_D_01["econ_mainconfiguration"](ConfigFilter3);
-OutrightSale_D_01["econ_advancedconfiguration"](ConfigFilter4);
-OutrightSale_D_01["econ_approval"]();
-OutrightSale_D_01["caseQC"]();
-OutrightSale_D_01["econ_D65migration"]();
-OutrightSale_D_01["Navigate_to_RFC"]();
+//OutrightSale_D_01["econ_mainconfiguration"](ConfigFilter3);
+//OutrightSale_D_01["econ_advancedconfiguration"](ConfigFilter4);
+//OutrightSale_D_01["econ_approval"]();
+//OutrightSale_D_01["caseQC"]();
+//OutrightSale_D_01["econ_D65migration"]();
+//OutrightSale_D_01["Navigate_to_RFC"]();
 
 
 

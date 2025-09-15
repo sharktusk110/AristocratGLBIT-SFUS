@@ -20,39 +20,56 @@
 				<child name="Unit1" key="{72A1055F-7EFA-435C-BF14-FD1B4294A018}" path="Unit1.js" />
 				<child name="GamingOpsMSPCoin_D_02" key="{A15DB709-CA92-4368-B11B-A0B8AF8708F6}" path="GamingOpsMSPCoin_D_02.js" />
 			</folder>
+			<folder name="B Series">
+				<child name="B_28" key="{ED722FAE-4919-4D84-BF0B-D05CEA47DF4B}" path="B_28.js" />
+				<child name="B_29" key="{30A667C3-E9A9-4928-95FE-D513965180E8}" path="B_29.js" />
+				<child name="B_27" key="{93F056D9-668B-4AE6-9185-E1884BA23416}" path="B_27.js" />
+				<child name="B_10" key="{FA5D1C3A-7D84-49BB-9E7A-B729B16AB010}" path="B_10.js" />
+				<child name="B_09" key="{3900AD26-6C3A-4C56-ACB3-113921910686}" path="B_09.js" />
+			</folder>
 		</folder>
 		<folder name="Tests">
-			<folder name="OutrightSale(D_01)_Test">
-				<child name="D_01_Test" key="{17583B07-13F4-45FF-849A-65B12DF434DA}" path="D_01_Test.js" />
-				<child name="OpportunityCreation_Test" key="{65B962D5-EDA3-4AA5-A7D8-4BC36B54EFF4}" path="OpportunityCreation_Test.js" />
-				<child name="RFCCreation_Test" key="{D98221D1-7BB2-4D51-9AD4-6022C14AB2A3}" path="RFCCreation_Test.js" />
-				<child name="QuoteNavigation_Test" key="{D47DB0EC-29F3-430A-9DFC-8479D60A70A0}" path="QuoteNavigation_Test.js" />
-				<child name="AddLineItemCabinet_Test" key="{95CF1BFC-91CC-47C1-9E88-6803BFFD9325}" path="AddLineItemCabinet_Test.js" />
-				<child name="AddLineItemController_Test" key="{4A9B7DD5-4063-459D-B693-8C5A16E4C0DF}" path="AddLineItemController_Test.js" />
-				<child name="AddLineItemRebate_Test" key="{EA66F67B-5AAB-4CB5-986B-F82578F83F2D}" path="AddLineItemRebate_Test.js" />
-				<child name="CostCalculation_Test" key="{43AD1841-52F9-4BDA-8F88-A7CD82969429}" path="CostCalculation_Test.js" />
-				<child name="LegalInstructions_Test" key="{152AC769-7B20-47D5-90DF-DB9BF1BB0712}" path="LegalInstructions_Test.js" />
-				<child name="PaymentUpdate_Test" key="{F5E02CBF-64F7-41BE-8017-571A458C51B6}" path="PaymentUpdate_Test.js" />
-				<child name="TaxCalculation_Test" key="{E4CB125E-43CA-4D67-ACA7-E827852F0839}" path="TaxCalculation_Test.js" />
-				<child name="RFCRecall_Test" key="{F85EFC2E-ECDA-4065-9475-27E4BBF98994}" path="RFCRecall_Test.js" />
-				<child name="RFCApproval_Test" key="{9BFBABB1-B306-4932-9C3E-8A46E631A576}" path="RFCApproval_Test.js" />
-				<child name="RFCDocumentValidation_Test" key="{E82E571A-E462-4C2D-8389-4C572B4FCD13}" path="RFCDocumentValidation_Test.js" />
-				<child name="SOCCreation_Test" key="{A6B14B8C-8A65-4AAB-B292-FD7D4F760F68}" path="SOCCreation_Test.js" />
-				<child name="NeweConQuote_Test" key="{61DC6403-7FE2-4E74-8A9D-ADDDF1893453}" path="NeweConQuote_Test.js" />
-				<child name="econConfigurationNavigation_Test" key="{AE6A6943-2157-49CF-9ED9-23407C805D1B}" path="econConfigurationNavigation_Test.js" />
-				<child name="econMainConfiguration_Test" key="{F81E8FE8-612C-414D-B154-BB791626DD36}" path="econMainConfiguration_Test.js" />
-				<child name="econAdvancedConfiguration_Test" key="{C5880183-E54C-4907-9EF5-3164D0470F9A}" path="econAdvancedConfiguration_Test.js" />
-				<child name="econApproval_Test" key="{A305A657-5FC0-4158-AA47-089CE3BC57D9}" path="econApproval_Test.js" />
-				<child name="CaseQC_Test" key="{A06D5C20-96E2-4FCB-96C4-31AA25FA0D60}" path="CaseQC_Test.js" />
-				<child name="econD65migration_Test" key="{1DF59708-195A-46E0-A1A2-63CED5272F13}" path="econD65migration_Test.js" />
-				<child name="NavigatetoRFCValidation_Test" key="{FAE6AC10-8E81-4734-AE87-49F033BB3C19}" path="NavigatetoRFCValidation_Test.js" />
-				<child name="SOC_Lines_Test" key="{79E7F083-3ACD-45AA-A640-BC8FB4B4F86F}" path="SOC_Lines_Test.js" />
+			<folder name="D_Series_Test">
+				<folder name="GamingOpsMSPCoin(D_02)_Test">
+					<child name="OpportunityCreation_D_02_01_Test" key="{3CCA1AFD-B22A-4CC2-9990-F961ADEBCE84}" path="OpportunityCreation_D_02_01_Test.js" />
+					<child name="RFCCreation_D_02_02_Test" key="{9530DE59-0605-4627-974A-1010B21DDB7E}" path="RFCCreation_D_02_02_Test.js" />
+					<child name="QuoteNavigation_D_02_03_Test" key="{EBC6E7A6-1D0B-4F4B-A12D-42C724BA00EB}" path="QuoteNavigation_D_02_03_Test.js" />
+					<child name="D_02_Test" key="{045FE620-15A0-4081-94CF-C82223E928F9}" path="D_02_Test.js" />
+				</folder>
+				<folder name="OutrightSale(D_01)_Test">
+					<child name="D_01_Test" key="{17583B07-13F4-45FF-849A-65B12DF434DA}" path="D_01_Test.js" />
+					<child name="OpportunityCreation_Test" key="{65B962D5-EDA3-4AA5-A7D8-4BC36B54EFF4}" path="OpportunityCreation_Test.js" />
+					<child name="RFCCreation_Test" key="{D98221D1-7BB2-4D51-9AD4-6022C14AB2A3}" path="RFCCreation_Test.js" />
+					<child name="QuoteNavigation_Test" key="{D47DB0EC-29F3-430A-9DFC-8479D60A70A0}" path="QuoteNavigation_Test.js" />
+					<child name="AddLineItemCabinet_Test" key="{95CF1BFC-91CC-47C1-9E88-6803BFFD9325}" path="AddLineItemCabinet_Test.js" />
+					<child name="AddLineItemController_Test" key="{4A9B7DD5-4063-459D-B693-8C5A16E4C0DF}" path="AddLineItemController_Test.js" />
+					<child name="AddLineItemRebate_Test" key="{EA66F67B-5AAB-4CB5-986B-F82578F83F2D}" path="AddLineItemRebate_Test.js" />
+					<child name="CostCalculation_Test" key="{43AD1841-52F9-4BDA-8F88-A7CD82969429}" path="CostCalculation_Test.js" />
+					<child name="LegalInstructions_Test" key="{152AC769-7B20-47D5-90DF-DB9BF1BB0712}" path="LegalInstructions_Test.js" />
+					<child name="PaymentUpdate_Test" key="{F5E02CBF-64F7-41BE-8017-571A458C51B6}" path="PaymentUpdate_Test.js" />
+					<child name="TaxCalculation_Test" key="{E4CB125E-43CA-4D67-ACA7-E827852F0839}" path="TaxCalculation_Test.js" />
+					<child name="RFCRecall_Test" key="{F85EFC2E-ECDA-4065-9475-27E4BBF98994}" path="RFCRecall_Test.js" />
+					<child name="RFCApproval_Test" key="{9BFBABB1-B306-4932-9C3E-8A46E631A576}" path="RFCApproval_Test.js" />
+					<child name="RFCDocumentValidation_Test" key="{E82E571A-E462-4C2D-8389-4C572B4FCD13}" path="RFCDocumentValidation_Test.js" />
+					<child name="SOCCreation_Test" key="{A6B14B8C-8A65-4AAB-B292-FD7D4F760F68}" path="SOCCreation_Test.js" />
+					<child name="NeweConQuote_Test" key="{61DC6403-7FE2-4E74-8A9D-ADDDF1893453}" path="NeweConQuote_Test.js" />
+					<child name="econConfigurationNavigation_Test" key="{AE6A6943-2157-49CF-9ED9-23407C805D1B}" path="econConfigurationNavigation_Test.js" />
+					<child name="econMainConfiguration_Test" key="{F81E8FE8-612C-414D-B154-BB791626DD36}" path="econMainConfiguration_Test.js" />
+					<child name="econAdvancedConfiguration_Test" key="{C5880183-E54C-4907-9EF5-3164D0470F9A}" path="econAdvancedConfiguration_Test.js" />
+					<child name="econApproval_Test" key="{A305A657-5FC0-4158-AA47-089CE3BC57D9}" path="econApproval_Test.js" />
+					<child name="CaseQC_Test" key="{A06D5C20-96E2-4FCB-96C4-31AA25FA0D60}" path="CaseQC_Test.js" />
+					<child name="econD65migration_Test" key="{1DF59708-195A-46E0-A1A2-63CED5272F13}" path="econD65migration_Test.js" />
+					<child name="NavigatetoRFCValidation_Test" key="{FAE6AC10-8E81-4734-AE87-49F033BB3C19}" path="NavigatetoRFCValidation_Test.js" />
+					<child name="SOC_Lines_Test" key="{79E7F083-3ACD-45AA-A640-BC8FB4B4F86F}" path="SOC_Lines_Test.js" />
+				</folder>
 			</folder>
-			<folder name="GamingOpsMSPCoin(D_02)_Test">
-				<child name="OpportunityCreation_D_02_01_Test" key="{3CCA1AFD-B22A-4CC2-9990-F961ADEBCE84}" path="OpportunityCreation_D_02_01_Test.js" />
-				<child name="RFCCreation_D_02_02_Test" key="{9530DE59-0605-4627-974A-1010B21DDB7E}" path="RFCCreation_D_02_02_Test.js" />
-				<child name="QuoteNavigation_D_02_03_Test" key="{EBC6E7A6-1D0B-4F4B-A12D-42C724BA00EB}" path="QuoteNavigation_D_02_03_Test.js" />
-				<child name="D_02_Test" key="{045FE620-15A0-4081-94CF-C82223E928F9}" path="D_02_Test.js" />
+			<folder name="B_Series_Test">
+				<child name="B_28_1_Test" key="{1366C43A-69F8-464A-A52F-473C99724A33}" path="B_28_1_Test.js" />
+				<child name="B_29_Test" key="{8D033787-03F2-4345-A337-6533F44102C2}" path="B_29_Test.js" />
+				<child name="B_27_Test" key="{F9E590A1-7E55-40B6-8B8B-E2DF339CE8AB}" path="B_27_Test.js" />
+				<child name="B_28_2_Test" key="{9AB45B4A-1713-4B65-A588-90461E645F3F}" path="B_28_2_Test.js" />
+				<child name="B_10_Test" key="{FACCFC30-A068-4150-B97E-1E9E7CB345E4}" path="B_10_Test.js" />
+				<child name="B_09_Test" key="{D66597A1-4D04-4D9E-A734-2C3DDF116D9D}" path="B_09_Test.js" />
 			</folder>
 		</folder>
 	</children>

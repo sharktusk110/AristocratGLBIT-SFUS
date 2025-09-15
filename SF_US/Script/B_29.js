@@ -1,0 +1,155 @@
+﻿//module.exports.getObject
+//USEUNIT ReadExcel
+//USEUNIT Login
+//USEUNIT DynamicWait
+
+var AddEdit = Aliases.browser.Page_AddEdit_Button;
+var Configuration= Aliases.browser.Page_AddEdit_Button.AddEdit_Frame.Configuration_Panel;
+
+function AddLineItem_Cabinet(Config){
+
+ Project.Variables.url=Sys.Browser().Page("*").URL;
+ AddEdit.AddEditLine_Button.Click();
+ Delay(2000);
+ AddEdit.AddEdit_Frame.Add_button.Click();
+ Delay(2000);
+ AddEdit.AddEdit_Frame.AllFamilies_button.Click();
+ Delay(2000);
+ AddEdit.FindElement("//span[@title='"+Config[0]+"']").Click();
+ Log.Message("Cabinet panel value has enterd as " +Config[0])
+ Delay(2000);
+ AddEdit.AddEdit_Frame.CabinetSearch_Field.setText(Config[1]);
+ Delay(2000);
+ AddEdit.AddEdit_Frame.CabinetSearch_Field.Keys("[Enter]");
+ Delay(2000);
+ AddEdit.FindElement("//td[.='"+Config[1]+"']").Click();
+ Delay(2000);
+ AddEdit.FindElement("//td[.='"+Config[2]+"']").Click();
+ Delay(3000);
+ AddEdit.AddEdit_Frame.Continue_Button.Click();
+ Delay(2000);
+
+ Configuration.Promotion_Field.ClickItem(2);
+ Delay(3000);
+  
+ Configuration.License_Field.Keys(Config[4]);
+ Delay(2000);
+
+ Configuration.Freight_Field.Keys(Config[5]);
+ Delay(2000);
+
+ AddEdit.AddEdit_Frame.Save_Button.Click();
+ Delay(3000);
+ 
+ AddEdit.AddEdit_Frame.Close2_Button.Click();
+
+}
+
+function AddLineItem_Fee(Config){
+
+ var str1;
+ AddEdit.AddEditLine_Button.Click();
+ Delay(2000);
+ AddEdit.AddEdit_Frame.Add_button.Click();
+ Delay(2000);
+
+ AddEdit.AddEdit_Frame.CabinetSearch_Field.setText(Config[0]);
+ Delay(2000);
+ AddEdit.AddEdit_Frame.CabinetSearch_Field.Keys("[Enter]");
+ Delay(2000);
+ AddEdit.FindElement("//td[.='"+Config[0]+"']").Click();
+ Delay(2000);
+
+ AddEdit.FindElement("//td[.='"+Config[2]+"']").Click();
+
+ AddEdit.AddEdit_Frame.Continue_Button.Click();
+ Delay(2000);
+
+ AddEdit.AddEdit_Frame.Save_Button.Click();
+ Delay(3000);
+ 
+ AddEdit.AddEdit_Frame.Close2_Button.Click();
+ 
+ Browsers.Item(btChrome).Navigate(Project.Variables.url);
+ 
+ DynamicWait["dynamic_wait"]
+ (AddEdit.sectionHealthCheckResults.panelSalesTaxMustBeCalculated2, 10000);
+ 
+ str1=AddEdit.sectionHealthCheckResults.panelSalesTaxMustBeCalculated2.textContent;
+ Log.Message("STR1"+str1);
+  if(aqString.Contains(str1,Config[1])>=0){
+ Log.Error("Unexpectedly,Mandatory Fee related notification is still appearing.")
+ }else{
+   Log.Checkpoint("Expectedly,Mandatory Fee related notification is not appearing.");
+ }
+ 
+ Delay(2000);
+ AddEdit.ShowMoreActions_Button.Click();
+ Delay(1000);
+ AddEdit.FindElement("//a[.='Tax Calculator']").Click();
+ Delay(2000);
+ AddEdit.SaveEdit_Button.Click();
+ Delay(2000);
+ 
+ if(AddEdit.ApprovalSubmit_Button.Exists){
+ AddEdit.ApprovalSubmit_Button.Click();
+ Delay(2000);
+ }else{
+ AddEdit.ShowMoreActions_Button.Click();
+ Delay(2000);
+ AddEdit.SubmitForApproval_Button2.Click();
+ }
+ AddEdit.Comments_Field.Keys("Please Approve for Testing Purpose");
+ Delay(2000);
+ AddEdit.ApprovalSubmit2_Button.Click();
+ if(AddEdit.panel2.Exists){
+ if(aqString.Contains(Aliases.browser.Page_AddEdit_Button.panel2.textContent,"The Quote can't be 'Submitted for Approval' because it has some errors:")>=0){
+   Log.Error("Submit for approval functionality not working as expected");
+ }
+ }else{
+   Log.Checkpoint("Submit for approval functionality is working as expected");
+ }
+ 
+
+}
+
+function Tax_Calculation(Config){
+  
+ AddEdit.ShowMoreActions_Button.Click();
+ Delay(1000);
+ AddEdit.FindElement("//a[.='Tax Calculator']").Click();
+ Delay(2000);
+ AddEdit.SaveEdit_Button.Click();
+ Delay(2000);
+ 
+ if(AddEdit.ApprovalSubmit_Button.Exists){
+ AddEdit.ApprovalSubmit_Button.Click();
+ Delay(2000);
+ }else{
+ AddEdit.ShowMoreActions_Button.Click();
+ Delay(2000);
+ AddEdit.SubmitForApproval_Button2.Click();
+ }
+ AddEdit.Comments_Field.Keys("Please Approve for Testing Purpose");
+ Delay(2000);
+ AddEdit.ApprovalSubmit2_Button.Click();
+ if(AddEdit.panel2.Exists & aqString.Contains(AddEdit.panel2.textContent,"The Quote can't be 'Submitted for Approval' because it has some errors:")>=0){
+   Log.Checkpoint("Submit for approval functionality is working as expected");
+   AddEdit.Close_Button.Click();
+ }else{
+   Log.Error("Submit for approval functionality not working as expected");
+ }
+ 
+  DynamicWait["dynamic_wait"]
+ (AddEdit.sectionHealthCheckResults.panelSalesTaxMustBeCalculated2, 10000);
+ 
+ str1=AddEdit.sectionHealthCheckResults.panelSalesTaxMustBeCalculated2.textContent;
+ 
+  if(aqString.Contains(str1,Config[1])>=0){
+ Log.Checkpoint("Expectedly,mandatory Fee related notification is appearing fine.")
+ }else{
+   Log.Error("Expectedly,mandatory Fee related notification is not appearing.");
+ }
+ 
+
+}

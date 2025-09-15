@@ -1,16 +1,27 @@
 ﻿
 
-function getSOC_Lines(Config){
-  Browsers.Item(btEdge).Navigate("https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000eDJVCA2/view");
-  aqObject.CheckProperty(Aliases.browser.Page_EconMainConfiguration.LicenseType_Field, "contentText", cmpEqual, Config[4]);
-  Delay(1000);
-  aqObject.CheckProperty(Aliases.browser.Page_EconMainConfiguration.GameTheme_Field, "contentText", cmpEqual, Config[5]);
-  Delay(1000);
-  aqObject.CheckProperty(Aliases.browser.Page_EconMainConfiguration.Topper_Field, "contentText", cmpEqual, Config[7]);
-  Delay(1000);
-  aqObject.CheckProperty(Aliases.browser.Page_EconMainConfiguration.ProgressiveType_Field, "contentText", cmpEqual, Config[9]);
-  Delay(1000);
+function getSOC_Lines(){
+  var Configuration= Aliases.browser.Page_AddEdit_Button.AddEdit_Frame.Configuration_Panel;
+  
+  Configuration.GameTheme_Field.SetText("coin");
+}
 
+function getSOC_Liness(){
+ 
+ var str1=Aliases.browser.page_RFCCreation.RFC.textnodeTabs.linkDetailtabItem.panelSocValidatedDate.textContent;
+//Log.Message(aqDateTime.Today());
+ var CurrentDate = aqDateTime.Today() 
+ var str3 = aqDateTime.AddDays(CurrentDate, -1)
+
+if(aqString.Contains(str1,CurrentDate)<0){
+  if(aqString.Contains(str1,str3)<0){
+  Log.Error("Not Matched");
+  }else{
+   Log.Checkpoint("Date Matched for SOC Validation");
+  }
+}else{
+  Log.Checkpoint("Date Matched for SOC Validation");
+}
 
 }
 

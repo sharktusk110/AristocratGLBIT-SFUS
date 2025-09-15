@@ -2,7 +2,9 @@
 <Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
 	<children>
 		<folder name="CommonUtility" />
-		<folder name="Pages" />
+		<folder name="Pages">
+			<child name="Test2" key="{D32D9DFD-56A8-470B-A3B8-5F049DB0FA13}" path="Test2.tcKDTest" />
+		</folder>
 		<folder name="BrowserUtilities" />
 		<folder name="Tests" />
 		<child name="Test1" key="{1AB4A9C4-9913-4938-9412-C086D717B964}" path="Test1.tcKDTest" />

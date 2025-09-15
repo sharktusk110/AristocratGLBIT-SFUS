@@ -23,38 +23,11 @@
 		<Node name="logs">
 			<Node name="log idx=0000">
 				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="45875.4569398611"/>
+				<Prp name="datetime" type="D" value="45908.5983188657"/>
 				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{9ACC01CC-867C-48C6-9DB2-E8600A0B885F}"/>
-				<Prp name="nameofroot" type="S" value="Script Test Log [D_01_Test\ExcelUtility]"/>
-				<Prp name="relpath" type="S" value="8_6_2025_10_57 AM_59_604\Description.tcLog"/>
-				<Prp name="status" type="I" value="2"/>
-			</Node>
-			<Node name="log idx=0001">
-				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="45875.4606308333"/>
-				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{5E9619D8-24C2-4E89-9370-4B006D869880}"/>
-				<Prp name="nameofroot" type="S" value="Script Test Log [D_01_Test\ExcelUtility]"/>
-				<Prp name="relpath" type="S" value="8_6_2025_11_03 AM_18_504\Description.tcLog"/>
-				<Prp name="status" type="I" value="2"/>
-			</Node>
-			<Node name="log idx=0002">
-				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="45875.4665193519"/>
-				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{C2F8BFF5-D10A-4429-B511-D2B6D07FBC99}"/>
-				<Prp name="nameofroot" type="S" value="Script Test Log [D_01_Test\ExcelUtility]"/>
-				<Prp name="relpath" type="S" value="8_6_2025_11_11 AM_47_272\Description.tcLog"/>
-				<Prp name="status" type="I" value="2"/>
-			</Node>
-			<Node name="log idx=0003">
-				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="45875.4879177431"/>
-				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{A3A274DD-67FC-4981-8B6C-6363AE5DA126}"/>
-				<Prp name="nameofroot" type="S" value="Script Test Log [OpportunityCreation_D_02_01_Test\OpportunityCreation]"/>
-				<Prp name="relpath" type="S" value="8_6_2025_11_42 AM_36_93\Description.tcLog"/>
+				<Prp name="key" type="S" value="{31725ADF-616B-46C0-8FEC-FFE5E1346E66}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [B_09_Test\ExcelUtility]"/>
+				<Prp name="relpath" type="S" value="9_8_2025_2_21 PM_34_750\Description.tcLog"/>
 				<Prp name="status" type="I" value="2"/>
 			</Node>
 		</Node>

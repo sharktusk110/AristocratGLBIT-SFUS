@@ -1,5 +1,72 @@
 ﻿//module.exports.getObject
 
+function D_SeriesTestDataFromExcel28(){
+ // Path = "C:\\Users\\PS118692\\Desktop\\SoCreation_DataSheet.xlsx";
+  Sheet = "SF_TestData28"
+  var excelFile = Excel.Open(Project.Path+"\\Data_Sheets\\Data_Sheet.xlsx");
+  var excelSheet = excelFile.SheetByTitle(Sheet);
+  var RowIndex;
+  var rows = excelSheet.RowCount;
+  var cols = excelSheet.ColumnCount;
+  let config = new Array(rows);
+  for (RowIndex = 1; RowIndex <= rows; RowIndex++){
+      config[RowIndex] = new Array(cols)
+      
+      config[RowIndex][0]=String(excelSheet.Cell("D", RowIndex).Value);
+      
+      config[RowIndex][1]=String(excelSheet.Cell("F", RowIndex).Value);
+      config[RowIndex][2]=String(excelSheet.Cell("G", RowIndex).Value);
+      config[RowIndex][3]=String(excelSheet.Cell("H", RowIndex).Value);
+      config[RowIndex][4]=String(excelSheet.Cell("I", RowIndex).Value);
+      
+      config[RowIndex][5]=String(excelSheet.Cell("J", RowIndex).Value);
+      config[RowIndex][6]=String(excelSheet.Cell("K", RowIndex).Value);
+      config[RowIndex][7]=String(excelSheet.Cell("L", RowIndex).Value);
+      
+      
+      config[RowIndex][8]=String(excelSheet.Cell("M", RowIndex).Value);
+      config[RowIndex][9]=String(excelSheet.Cell("N", RowIndex).Value);
+      config[RowIndex][10]=String(excelSheet.Cell("O", RowIndex).Value);
+      config[RowIndex][11]=String(excelSheet.Cell("P", RowIndex).Value);
+      config[RowIndex][12]=String(excelSheet.Cell("Q", RowIndex).Value);
+      config[RowIndex][13]=String(excelSheet.Cell("R", RowIndex).Value);
+      }
+  return config;
+}
+
+function D_SeriesTestDataFromExcel29(){
+ // Path = "C:\\Users\\PS118692\\Desktop\\SoCreation_DataSheet.xlsx";
+  Sheet = "SF_TestData29"
+  var excelFile = Excel.Open(Project.Path+"\\Data_Sheets\\Data_Sheet.xlsx");
+  var excelSheet = excelFile.SheetByTitle(Sheet);
+  var RowIndex;
+  var rows = excelSheet.RowCount;
+  var cols = excelSheet.ColumnCount;
+  let config = new Array(rows);
+  for (RowIndex = 1; RowIndex <= rows; RowIndex++){
+      config[RowIndex] = new Array(cols)
+      
+      config[RowIndex][0]=String(excelSheet.Cell("D", RowIndex).Value);
+      
+      config[RowIndex][1]=String(excelSheet.Cell("F", RowIndex).Value);
+      config[RowIndex][2]=String(excelSheet.Cell("G", RowIndex).Value);
+      config[RowIndex][3]=String(excelSheet.Cell("H", RowIndex).Value);
+      config[RowIndex][4]=String(excelSheet.Cell("I", RowIndex).Value);
+      
+      config[RowIndex][5]=String(excelSheet.Cell("J", RowIndex).Value);
+      config[RowIndex][6]=String(excelSheet.Cell("K", RowIndex).Value);
+      config[RowIndex][7]=String(excelSheet.Cell("L", RowIndex).Value);
+      
+      
+      config[RowIndex][8]=String(excelSheet.Cell("M", RowIndex).Value);
+      config[RowIndex][9]=String(excelSheet.Cell("N", RowIndex).Value);
+      config[RowIndex][10]=String(excelSheet.Cell("O", RowIndex).Value);
+      config[RowIndex][11]=String(excelSheet.Cell("P", RowIndex).Value);
+      config[RowIndex][12]=String(excelSheet.Cell("Q", RowIndex).Value);
+            }
+  return config;
+}
+
 function D_SeriesTestDataFromExcel(){
  // Path = "C:\\Users\\PS118692\\Desktop\\SoCreation_DataSheet.xlsx";
   Sheet = "SF_TestData"

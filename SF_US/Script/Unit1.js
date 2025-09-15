@@ -1,38 +1,32 @@
 ﻿
 
-function getSOC_Lines(Config){
-  Browsers.Item(btEdge).Navigate("https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000eDJVCA2/view");
-  aqObject.CheckProperty(Aliases.browser.Page_EconMainConfiguration.LicenseType_Field, "contentText", cmpEqual, Config[4]);
-  Delay(1000);
-  aqObject.CheckProperty(Aliases.browser.Page_EconMainConfiguration.GameTheme_Field, "contentText", cmpEqual, Config[5]);
-  Delay(1000);
-  aqObject.CheckProperty(Aliases.browser.Page_EconMainConfiguration.Topper_Field, "contentText", cmpEqual, Config[7]);
-  Delay(1000);
-  aqObject.CheckProperty(Aliases.browser.Page_EconMainConfiguration.ProgressiveType_Field, "contentText", cmpEqual, Config[9]);
-  Delay(1000);
+function getSOC_Lines(){
+  server = "localhost"
+  capabilities = {
+  "browserName": "chrome",
+  "screenResolution": "1920x1080"
+   }
+  url = "https://services.smartbear.com/samples/TestComplete15/smartstore/"
+  Browsers.RemoteItem(server, capabilities).Run(url)
+  
+}
 
+function getSOC_Liness(){
+ 
+ var str1=Aliases.browser.page_RFCCreation.RFC.textnodeTabs.linkDetailtabItem.panelSocValidatedDate.textContent;
+//Log.Message(aqDateTime.Today());
+ var CurrentDate = aqDateTime.Today() 
+ var str3 = aqDateTime.AddDays(CurrentDate, -1)
+
+if(aqString.Contains(str1,CurrentDate)<0){
+  if(aqString.Contains(str1,str3)<0){
+  Log.Error("Not Matched");
+  }else{
+   Log.Checkpoint("Date Matched for SOC Validation");
+  }
+}else{
+  Log.Checkpoint("Date Matched for SOC Validation");
+}
 
 }
 
-function Test1()
-{
-  Browsers.Item(btEdge).Navigate("https://test.salesforce.com/");
-  let browser = Aliases.browser;
-  browser.BrowserWindow.Maximize();
-  let submitButton = browser.pageLoginSalesforce.formLoginForm.submitbuttonLogInToSandbox;
-  submitButton.ClickButton();
-  submitButton.ClickButton();
-  let page = browser.pageLoginSalesforce2;
-  page.Wait();
-  page.Wait();
-  page = browser.Page_SFAppSearch_AccountSearch;
-  page.Wait();
-  page.Wait();
-  browser.ToUrl("https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/o/Quote/list?filterName=__Recent");
-  page = browser.Page_QuoteNavigation;
-  page.Wait();
-  page.Wait();
-  page.Wait();
-  page.Wait();
-  page.SearchThisList_SearchField.Click();
-}

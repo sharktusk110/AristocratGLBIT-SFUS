@@ -10,132 +10,17 @@
 	<config language="{90F89436-9452-4F95-9882-6B5210079F13}" />
 	<testItems key="{3BE3F0B1-C250-46CA-B68C-FA21E0D5CD91}" version="14">
 		<children>
-			<testItem name="ProjectTestItem1" key="{3503E505-BD91-47C0-8663-4A82E7843A86}" group="False" parallel="False" enabled="True" load="False" testMoniker="*|*" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+			<testItem name="ProjectTestItem1" key="{3503E505-BD91-47C0-8663-4A82E7843A86}" group="False" parallel="False" enabled="False" load="False" testMoniker="*|*" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 				<testParameters>
 					<param0 name="Expression" type="1" localVarName="" value="" />
 				</testParameters>
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
-			<testItem name="D Series" key="{930E729C-1B91-474C-AFF3-F232211536CD}" group="True" parallel="False" enabled="True" load="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+			<testItem name="ExcelUtility" key="{FB28F500-ED9E-4E53-97BC-8A5034A65CBC}" group="False" parallel="False" enabled="True" load="False" testMoniker="{D66597A1-4D04-4D9E-A734-2C3DDF116D9D}ExcelUtility" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 				<testParameters />
-				<children>
-					<testItem name="OutrightSale_D_01" key="{44EBD632-0A98-42C5-9AD7-447E6D7C6065}" group="True" parallel="False" enabled="True" load="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
-						<testParameters />
-						<children>
-							<testItem name="OpportunityCreation" key="{5DEF06AB-4D8A-4232-9E70-6E730BC8EFE7}" group="False" parallel="False" enabled="True" load="False" testMoniker="{65B962D5-EDA3-4AA5-A7D8-4BC36B54EFF4}OpportunityCreation" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
-								<testParameters />
-								<environments activeCloud="SWT" />
-								<children />
-							</testItem>
-							<testItem name="RFCCreation" key="{24EF7D67-F56C-4366-95B2-E46CF07B386F}" group="False" parallel="False" enabled="True" load="False" testMoniker="{D98221D1-7BB2-4D51-9AD4-6022C14AB2A3}RFCCreation" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
-								<testParameters />
-								<environments activeCloud="SWT" />
-								<children />
-							</testItem>
-							<testItem name="QuoteNavgation" key="{5463CA13-0CF3-4FC0-A974-13A5B06F2E72}" group="False" parallel="False" enabled="True" load="False" testMoniker="{D47DB0EC-29F3-430A-9DFC-8479D60A70A0}QuoteNavgation" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
-								<testParameters />
-								<environments activeCloud="CBT" />
-								<children />
-							</testItem>
-							<testItem name="AddLineItemCabinate" key="{7D56F4D8-B818-41F8-B08A-4BAA8E1D7C9D}" group="False" parallel="False" enabled="True" load="False" testMoniker="{95CF1BFC-91CC-47C1-9E88-6803BFFD9325}AddLineItemCabinate" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
-								<testParameters />
-								<environments activeCloud="SWT" />
-								<children />
-							</testItem>
-							<testItem name="AddLineItemController" key="{06CF9899-4C18-4C52-97DA-B1C79307C8B0}" group="False" parallel="False" enabled="True" load="False" testMoniker="{4A9B7DD5-4063-459D-B693-8C5A16E4C0DF}AddLineItemController" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
-								<testParameters />
-								<environments activeCloud="SWT" />
-								<children />
-							</testItem>
-							<testItem name="AddLineItemRebate" key="{AAC99A1C-0D8A-488F-9103-A58E53B1370D}" group="False" parallel="False" enabled="True" load="False" testMoniker="{EA66F67B-5AAB-4CB5-986B-F82578F83F2D}AddLineItemRebate" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
-								<testParameters />
-								<environments activeCloud="CBT" />
-								<children />
-							</testItem>
-							<testItem name="CalculationCost" key="{EC08391D-2E9C-47B3-8F5D-A734F4F7E780}" group="False" parallel="False" enabled="True" load="False" testMoniker="{43AD1841-52F9-4BDA-8F88-A7CD82969429}CalculationCost" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
-								<testParameters />
-								<environments activeCloud="CBT" />
-								<children />
-							</testItem>
-							<testItem name="LegalInstruction" key="{845D6BE2-039E-4413-A74D-2E0295B048B3}" group="False" parallel="False" enabled="True" load="False" testMoniker="{152AC769-7B20-47D5-90DF-DB9BF1BB0712}LegalInstruction" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
-								<testParameters />
-								<environments activeCloud="CBT" />
-								<children />
-							</testItem>
-							<testItem name="paymentUpdate" key="{E4C99376-D5B3-45AF-9D4F-F86C2CB51B9C}" group="False" parallel="False" enabled="True" load="False" testMoniker="{F5E02CBF-64F7-41BE-8017-571A458C51B6}paymentUpdate" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
-								<testParameters />
-								<environments activeCloud="CBT" />
-								<children />
-							</testItem>
-							<testItem name="Taxcalculation" key="{24B652B8-DC68-416F-8A8A-99E4173D4256}" group="False" parallel="False" enabled="True" load="False" testMoniker="{E4CB125E-43CA-4D67-ACA7-E827852F0839}Taxcalculation" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
-								<testParameters />
-								<environments activeCloud="CBT" />
-								<children />
-							</testItem>
-							<testItem name="RFCRecall" key="{44DFCDFE-9A64-45A0-8DE8-66C1292B3521}" group="False" parallel="False" enabled="True" load="False" testMoniker="{F85EFC2E-ECDA-4065-9475-27E4BBF98994}RFCRecall" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
-								<testParameters />
-								<environments activeCloud="CBT" />
-								<children />
-							</testItem>
-							<testItem name="RFCApproval" key="{99E7EACC-8A0E-4FE8-94A7-5CB42B700EED}" group="False" parallel="False" enabled="True" load="False" testMoniker="{9BFBABB1-B306-4932-9C3E-8A46E631A576}RFCApproval" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
-								<testParameters />
-								<environments activeCloud="CBT" />
-								<children />
-							</testItem>
-							<testItem name="RFCDocValidation" key="{541ADFBF-C578-491B-AC2A-6B875D27E8A6}" group="False" parallel="False" enabled="True" load="False" testMoniker="{E82E571A-E462-4C2D-8389-4C572B4FCD13}RFCDocValidation" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
-								<testParameters />
-								<environments activeCloud="CBT" />
-								<children />
-							</testItem>
-							<testItem name="SocCreation" key="{749DE685-E482-4ABC-B966-C32577A3F0E1}" group="False" parallel="False" enabled="True" load="False" testMoniker="{A6B14B8C-8A65-4AAB-B292-FD7D4F760F68}SocCreation" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
-								<testParameters />
-								<environments activeCloud="CBT" />
-								<children />
-							</testItem>
-							<testItem name="NeweCon" key="{D5A744AF-7547-4ACA-B168-8BC332A2E77D}" group="False" parallel="False" enabled="True" load="False" testMoniker="{61DC6403-7FE2-4E74-8A9D-ADDDF1893453}NeweCon" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
-								<testParameters />
-								<environments activeCloud="CBT" />
-								<children />
-							</testItem>
-							<testItem name="eConConfigNav" key="{AA0EA91A-2300-4C66-914A-EE37E544A9D4}" group="False" parallel="False" enabled="True" load="False" testMoniker="{AE6A6943-2157-49CF-9ED9-23407C805D1B}eConConfigNav" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
-								<testParameters />
-								<environments activeCloud="SWT" />
-								<children />
-							</testItem>
-							<testItem name="eConMainConfig" key="{EF513988-D702-462C-A3D5-7513B995B2DB}" group="False" parallel="False" enabled="True" load="False" testMoniker="{F81E8FE8-612C-414D-B154-BB791626DD36}eConMainConfig" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
-								<testParameters />
-								<environments activeCloud="SWT" />
-								<children />
-							</testItem>
-							<testItem name="eConAdvancedConfig" key="{873BE004-0AF2-456E-A7B6-6BEE9BD7C31D}" group="False" parallel="False" enabled="True" load="False" testMoniker="{C5880183-E54C-4907-9EF5-3164D0470F9A}eConAdvancedConfig" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
-								<testParameters />
-								<environments activeCloud="CBT" />
-								<children />
-							</testItem>
-							<testItem name="eConApproval" key="{476AB13D-1419-4388-970F-AF05087C06E7}" group="False" parallel="False" enabled="True" load="False" testMoniker="{A305A657-5FC0-4158-AA47-089CE3BC57D9}eConApproval" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
-								<testParameters />
-								<environments activeCloud="CBT" />
-								<children />
-							</testItem>
-							<testItem name="Case" key="{3CF59281-CD30-4313-97A3-F5E7C08D1EFB}" group="False" parallel="False" enabled="True" load="False" testMoniker="{A06D5C20-96E2-4FCB-96C4-31AA25FA0D60}Case" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
-								<testParameters />
-								<environments activeCloud="CBT" />
-								<children />
-							</testItem>
-							<testItem name="eConD65Migration" key="{1046F742-84B4-470E-8AC1-218DDE08A38F}" group="False" parallel="False" enabled="True" load="False" testMoniker="{1DF59708-195A-46E0-A1A2-63CED5272F13}eConD65Migration" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
-								<testParameters />
-								<environments activeCloud="CBT" />
-								<children />
-							</testItem>
-							<testItem name="NavRfcValidation" key="{1CBF890A-0B59-44B6-BF8E-3BA17E303280}" group="False" parallel="False" enabled="True" load="False" testMoniker="{FAE6AC10-8E81-4734-AE87-49F033BB3C19}NavRfcValidation" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
-								<testParameters />
-								<environments activeCloud="CBT" />
-								<children />
-							</testItem>
-						</children>
-					</testItem>
-				</children>
+				<environments activeCloud="CBT" />
+				<children />
 			</testItem>
 		</children>
 	</testItems>
@@ -175,11 +60,14 @@
 				<Variable Name="SFUrl" Type="String" Local="True">
 					<DefValue />
 				</Variable>
+				<Variable Name="SOCUrl" Type="String" Local="True">
+					<DefValue />
+				</Variable>
 			</Items>
 		</data>
 	</variables>
 	<settings key="{BE4F0ECD-D8EE-4BF5-B81E-1C4D77CE23C5}">
-		<settingsVersion value="15.71" />
+		<settingsVersion value="15.76" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>
@@ -696,7 +584,7 @@
 			</columns>
 			<data />
 		</setting>
-		<setting name="Playback_ErrHandling_OnError" type="6" rowIndex="2" colIndex="1">
+		<setting name="Playback_ErrHandling_OnError" type="6" rowIndex="0" colIndex="1">
 			<columns>
 				<column type="5" enabled="True" />
 				<column type="2" enabled="True" />
@@ -750,10 +638,10 @@
 		<setting name="Playback_Runtime_DisableMouse" type="1" value="False" />
 		<setting name="Playback_Runtime_MinimizeBeforePlayback" type="1" value="False" />
 		<setting name="Playback_Runtime_UseCaseSensitiveParameters" type="1" value="False" />
-		<setting name="Playback_StopOnError" type="1" value="True" />
+		<setting name="Playback_StopOnError" type="1" value="False" />
 		<setting name="Playback_StopOnObjectRecognitionError" type="1" value="False" />
 		<setting name="Playback_StopOnWarning" type="1" value="False" />
-		<setting name="Playback_TestItemMaxReRunCount" type="2" value="1" />
+		<setting name="Playback_TestItemMaxReRunCount" type="2" value="2" />
 		<setting name="Playback_UnexpectedWndHandling_ClickOnFocusedControl" type="1" value="True" />
 		<setting name="Playback_UnexpectedWndHandling_IgnoreUnexpectedWindow" type="1" value="False" />
 		<setting name="Playback_UnexpectedWndHandling_PressEnter" type="1" value="True" />
