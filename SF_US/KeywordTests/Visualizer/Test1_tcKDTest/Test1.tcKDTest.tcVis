@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{03A5F065-7F0B-4A38-988B-0ABAC0C63C48}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="0" kind="0" dateTime="45894.7487152778" objectName="Aliases.browser.page__login.Globaltab__panel.Opportunity__tab" objectLeft="653" objectTop="425" objectRight="735" objectBottom="443" clickPointX="691" clickPointY="432" imageFileName="tcvi140282890322044.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="1" kind="0" dateTime="45894.7487847222" objectName="NameMapping.Sys.browser.pageHomeSearch.textnodeHome" objectLeft="203" objectTop="292" objectRight="242" objectBottom="314" clickPointX="222" clickPointY="307" imageFileName="tcvi140288468322045.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="45894.7489351852" objectName="NameMapping.Sys.browser.pageCasinoRoyaleAccountSalesforc.RFCQuotes__Tab" objectLeft="653" objectTop="458" objectRight="696" objectBottom="476" clickPointX="669" clickPointY="468" imageFileName="tcvi1403019063220413.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

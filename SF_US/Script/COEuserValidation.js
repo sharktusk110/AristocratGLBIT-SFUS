@@ -47,19 +47,18 @@
   {
 
   Aliases.browser.page__Home.GlobalAll__tab.Click();
+  Delay(3000);
+  
+  Aliases.browser.page__Home.GlobalAll__tab.SetText("Quotes");
   Delay(2000);
   
-  
-  Aliases.browser.page__Home.GlobalAll__tab.Keys("[Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Enter]");
-  Delay(3000);
+  Aliases.browser.page__Home.GlobalAll__tab.Keys("[Down][Enter]");
   
   Log.Message("Sets the text Project.Variables.OpportunityName in the 'GlobalSearch_Bar' text editor")
   Aliases.browser.page__Home.GlobalSearch__field.SetText(Project.Variables.OpportunityName);
   Delay(2000);
   
    Aliases.browser.page__Home.GlobalSearch__field.Keys("[Enter]");
-  //Aliases.browser.Page__PreAccountApproval.Home__Panel.UserLogedIn__Panel.SelectAccount__Tab.Click();
-  //Delay(2000);
   
   Aliases.browser.page__Home.NewOpportunity__tab.Click();
   Delay(2000);
@@ -105,7 +104,7 @@
   Delay(2000);
   
   Aliases.browser.page__Home.Submit__button.ClickButton();
-  Delay(3000);
+  Delay(4000);
   
   Aliases.browser.page__Home.Related__tab.Approve__tab.Click();
   Delay(2000);
@@ -114,7 +113,7 @@
   Delay(2000);
   
   Aliases.browser.page__Home.Submit__button.ClickButton();
-  Delay(3000);
+  Delay(4000);
   
  Aliases.browser.page__Home.Related__tab.Approve__tab.Click();
   Delay(2000);
@@ -123,7 +122,7 @@
   Delay(2000);
   
   Aliases.browser.page__Home.Submit__button.ClickButton();
-  Delay(3000);
+  Delay(4000);
   
     Aliases.browser.page__Home.Related__tab.Approve__tab.Click();
   Delay(2000);
@@ -132,7 +131,7 @@
   Delay(2000);
   
   Aliases.browser.page__Home.Submit__button.ClickButton();
-  Delay(3000);
+  Delay(4000);
   
   Aliases.browser.page__Home.Related__tab.Approve__tab.Click();
   Delay(2000);
@@ -141,7 +140,7 @@
   Delay(2000);
   
   Aliases.browser.page__Home.Submit__button.ClickButton();
-  Delay(3000);
+  Delay(4000);
   
   Aliases.browser.page__Home.Related__tab.Approve__tab.Click();
   Delay(2000);
@@ -150,7 +149,7 @@
   Delay(2000);
   
   Aliases.browser.page__Home.Submit__button.ClickButton();
-  Delay(3000);
+  Delay(4000);
   }
 
 

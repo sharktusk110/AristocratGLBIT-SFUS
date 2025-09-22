@@ -4,5 +4,14 @@
 		<child name="panelProspectApprovalStatus" key="{3AD47465-BC86-410B-AF6A-6431E15A1E39}">
 			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="panelProspectApprovalStatus" ID="{3AD47465-BC86-410B-AF6A-6431E15A1E39}" FileName="Regions\panelProspectApprovalStatus.png" Update="False" />
 		</child>
+		<child name="panelShowDetails" key="{27CDA338-323A-4867-AFBB-4DB62B9E364A}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="panelShowDetails" ID="{27CDA338-323A-4867-AFBB-4DB62B9E364A}" FileName="Regions\panelShowDetails.png" Update="False" />
+		</child>
+		<child name="OutQuoting__panel" key="{B32F5F1D-AB2F-4B26-9010-7755BA013280}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="OutQuoting__panel" ID="{B32F5F1D-AB2F-4B26-9010-7755BA013280}" FileName="Regions\OutQuoting__panel.png" Update="False" />
+		</child>
+		<child name="panelShowDetails1" key="{60FE4D9F-D9D8-4285-A9D4-D81BA054044B}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="panelShowDetails1" ID="{60FE4D9F-D9D8-4285-A9D4-D81BA054044B}" FileName="Regions\panelShowDetails1.png" Update="False" />
+		</child>
 	</children>
 </Root>

@@ -221,7 +221,7 @@ function OpenRFC_Quote()
   Delay(3000);
   
   Log.Message("Sets the text Project.Variables.OpportunityName in the 'GlobalSearch_Bar' text editor")
-  Aliases.browser.page__Home.GlobalSearch__field.SetText(Project.Variables.OpportunityName);
+  Aliases.browser.page__Home.GlobalSearch__field.Keys(Project.Variables.OpportunityName);
   Delay(2000);
   
    Aliases.browser.page__Home.GlobalSearch__field.Keys("[Enter]");

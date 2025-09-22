@@ -1,0 +1,154 @@
+﻿//USEUNIT DataRead
+
+
+function Create_SocQuote()
+{
+   Aliases.browser.page__RFCQuote.SocQuote__button.Click();
+     
+}
+
+function UpdateConfig_EditLineItem()
+
+{
+   
+   
+   
+   
+   var LoginDataMap=dataReader("SF_opportunity"); //Sheetname
+   var GameTheme=LoginDataMap["C02"]["GameTheme"];
+   var GameTitle=LoginDataMap["C02"]["GameTitle"];
+   var Topper=LoginDataMap["C02"]["Topper"];
+   var ButtonPanel=LoginDataMap["C02"]["ButtonPanel"];
+   var Denom=LoginDataMap["C02"]["Denom"];
+   var VAR=LoginDataMap["C02"]["VAR"];
+   var TicketValidation=LoginDataMap["C02"]["TicketValidation"];
+   var CandleColor=LoginDataMap["C02"]["CandleColor"];
+   var AuditSwitch=LoginDataMap["C02"]["AuditSwitch"];
+   var UnitDisc=LoginDataMap["C02"]["UnitDisc"];
+  
+
+
+ // NameMapping.Sys.browser.pageCasinoRoyaleAccountSalesforc.SOCAddEditLineItems__tab.click();
+  Delay(3000);
+  
+ // NameMapping.Sys.browser.pageCasinoRoyaleAccountSalesforc.ConverTool__tab.Click();
+  Delay(2000);
+  
+  //Aliases.browser.page__RFCQuote.Page__Configu.ConfigureEditLineItem__panel.GameTheme__tab.Keys("[Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Enter]");
+  //Delay(4000);
+  
+  Aliases.browser.page__RFCQuote.Page__Configu.ConfigureEditLineItem__panel.GameTheme__tab.Click();
+  Aliases.browser.page__RFCQuote.Page__Configu.ConfigureEditLineItem__panel.GameTheme__tab.Keys(GameTheme);
+  KeyboardOperations("Enter", 1)
+  Delay(4000);
+  
+  Aliases.browser.page__RFCQuote.Page__Configu.ConfigureEditLineItem__panel.GameTitle__tab.Click();
+  Aliases.browser.page__RFCQuote.Page__Configu.ConfigureEditLineItem__panel.GameTitle__tab.Keys(GameTitle);
+   KeyboardOperations("Enter", 1)
+  Delay(4000);
+  
+  Aliases.browser.page__RFCQuote.Page__Configu.ConfigureEditLineItem__panel.Topper__tab.Click();
+  Aliases.browser.page__RFCQuote.Page__Configu.ConfigureEditLineItem__panel.Topper__tab.Keys(Topper);
+  KeyboardOperations("Enter", 1)
+  Delay(4000);
+  
+  Aliases.browser.page__RFCQuote.Page__Configu.ConfigureEditLineItem__panel.ButtonPanel__tab.Click();
+  Aliases.browser.page__RFCQuote.Page__Configu.ConfigureEditLineItem__panel.ButtonPanel__tab.Keys(ButtonPanel);
+  KeyboardOperations("Enter", 1)
+  Delay(4000);
+  
+  Aliases.browser.page__RFCQuote.Page__Configu.ConfigureEditLineItem__panel.Denom__tab.Click();
+  Aliases.browser.page__RFCQuote.Page__Configu.ConfigureEditLineItem__panel.Denom__tab.Keys(Denom);
+  KeyboardOperations("Enter", 1)
+  Delay(4000);
+  
+  
+  Aliases.browser.page__RFCQuote.Page__Configu.ConfigureEditLineItem__panel.Var__tab.Click();
+  Aliases.browser.page__RFCQuote.Page__Configu.ConfigureEditLineItem__panel.Var__tab.Keys(VAR);
+  KeyboardOperations("Enter", 1)
+  Delay(4000);
+  
+  Aliases.browser.page__RFCQuote.Page__Configu.ConfigureEditLineItem__panel.CandleColor__tab.Click();
+  Aliases.browser.page__RFCQuote.Page__Configu.ConfigureEditLineItem__panel.CandleColor__tab.Keys(CandleColor);
+  KeyboardOperations("Enter", 1)
+  Delay(4000);
+  
+  Aliases.browser.page__RFCQuote.Page__Configu.ConfigureEditLineItem__panel.TicketValidation__tab.Click();
+  Aliases.browser.page__RFCQuote.Page__Configu.ConfigureEditLineItem__panel.TicketValidation__tab.Keys(TicketValidation);
+  KeyboardOperations("Enter", 1)
+  Delay(4000);
+  
+  
+  Aliases.browser.page__RFCQuote.Page__Configu.ConfigureEditLineItem__panel.AuditTab__tab.Click();
+  Aliases.browser.page__RFCQuote.Page__Configu.ConfigureEditLineItem__panel.AuditTab__tab.Keys(AuditSwitch);
+  KeyboardOperations("Enter", 1)
+  Delay(4000);
+  
+  Aliases.browser.page__EditLineItem.Configure__Panel.UnitDiscount__Box.Click();
+  Aliases.browser.page__EditLineItem.Configure__Panel.UnitDiscount__Box.Keys(UnitDisc);
+  KeyboardOperations("Enter", 1)
+  Delay(4000);
+  
+   Aliases.browser.page__EditLineItem.Save__button.click();
+  Delay(8000);
+  
+  Aliases.browser.page__EditLineItem.Close__button.Click();
+  Delay(2000);
+  
+  
+  
+/* Aliases.browser.page__RFCQuote.Page__Configu.ConfigureEditLineItem__panel.GameTitle__tab.Keys("");
+ KeyboardOperations("Enter", 1)
+  Aliases.browser.page__RFCQuote.Page__Configu.ConfigureEditLineItem__panel.GameTitle__tab.Keys("[Down][Down][Enter]");
+  Delay(2000);
+  
+  Aliases.browser.page__RFCQuote.Page__Configu.ConfigureEditLineItem__panel.Topper__tab.Keys("[Down][Down][Enter]");
+  Delay(2000);
+  
+  Aliases.browser.page__RFCQuote.Page__Configu.ConfigureEditLineItem__panel.ButtonPanel__tab.Keys("[Down][Down][Enter]");
+  Delay(2000);
+  
+  Aliases.browser.page__RFCQuote.Page__Configu.ConfigureEditLineItem__panel.Denom__tab.Keys("[Down][Down][Enter]");
+  Delay(2000);
+  
+  Aliases.browser.page__RFCQuote.Page__Configu.ConfigureEditLineItem__panel.Var__tab.Keys("[Down][Down][Enter]");
+  Delay(2000);
+  
+  Aliases.browser.page__RFCQuote.Page__Configu.ConfigureEditLineItem__panel.CandleColor__tab.Keys("[Down][Down][Enter]");
+  Delay(2000);
+  
+  Aliases.browser.page__RFCQuote.Page__Configu.ConfigureEditLineItem__panel.TicketValidation__tab.Keys("[Down][Down][Enter]");
+  Delay(2000);
+  
+  Aliases.browser.page__RFCQuote.Page__Configu.ConfigureEditLineItem__panel.AuditTab__tab.Keys("[Down][Down][Enter]");
+  Delay(2000);
+  
+  Aliases.browser.page__EditLineItem.Configure__Panel.UnitDiscount__Box.Keys(100);
+  Delay(2000);
+  
+  Aliases.browser.page__EditLineItem.Save__button.click();
+  Delay(8000);
+  
+  Aliases.browser.page__EditLineItem.Close__button.Click();
+  Delay(2000);*/
+}
+
+function Click_Validate()
+{
+  Aliases.browser.page__RFCQuote.LinkValidated__tab.Click();
+  Delay(2000);
+  
+  Aliases.browser.page__RFCQuote.MarkAsCurrentStatus__button.Click();
+  Delay(2000);
+
+}
+
+function Click_Complete()
+{
+   Aliases.browser.page__RFCQuote.LinkComplete__tab.click();
+   Delay(2000);
+   
+   Aliases.browser.page__RFCQuote.MarkStatusAsComplete__tab.Click();
+   Delay(2000);
+
+}

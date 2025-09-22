@@ -6,56 +6,83 @@
 			<child name="AccountCreation_Name" key="{D1A050D2-8A50-4BC5-B99F-FFAF838C618B}" path="AccountCreation_Name.js" />
 			<child name="DataRead" key="{9F20CAD3-A4AC-451F-BEDF-BA026AB77C2F}" path="DataRead.js" />
 			<child name="AccountCreation_Name1" key="{3B406A5C-AB8F-4803-AEC8-7F38AFD1DBA9}" path="AccountCreation_Name1.js" />
+			<child name="PageDown" key="{F5C63C41-179B-4420-920A-71C063FBD4DA}" path="PageDown.js" />
 		</folder>
 		<folder name="Pages">
-			<folder name="B02">
-				<child name="SwitchUser" key="{63AAD0CB-4B12-4C47-A70B-F905026ED777}" path="SwitchUser.js" />
-				<child name="OpportunityCreation" key="{63A3FB4C-4CAA-4B53-8646-CFC0FF1D6328}" path="OpportunityCreation.js" />
-				<child name="ConfigOpportunity_For_OutrightSale" key="{10B269D2-301B-4E42-862F-59213E3B579C}" path="ConfigOpportunity_For_OutrightSale.js" />
-				<child name="ConfigOpportunity_For_ConversionSale" key="{89D7067C-3534-45A4-8510-B2B6FA07C1D5}" path="ConfigOpportunity_For_ConversionSale.js" />
+			<folder name="B_Series">
+				<folder name="B02">
+					<child name="SwitchUser" key="{63AAD0CB-4B12-4C47-A70B-F905026ED777}" path="SwitchUser.js" />
+					<child name="OpportunityCreation" key="{63A3FB4C-4CAA-4B53-8646-CFC0FF1D6328}" path="OpportunityCreation.js" />
+					<child name="ConfigOpportunity_For_OutrightSale" key="{10B269D2-301B-4E42-862F-59213E3B579C}" path="ConfigOpportunity_For_OutrightSale.js" />
+					<child name="ConfigOpportunity_For_ConversionSale" key="{89D7067C-3534-45A4-8510-B2B6FA07C1D5}" path="ConfigOpportunity_For_ConversionSale.js" />
+				</folder>
+				<folder name="B03">
+					<child name="RFC_Quote_Creation" key="{9FA3C611-A318-41DE-9946-6279D04A124A}" path="RFC_Quote_Creation.js" />
+					<child name="RFC_ApplyPrefrences" key="{68DBE55F-076F-48A6-8F06-CC7A1922D00E}" path="RFC_ApplyPrefrences.js" />
+					<child name="OutrightSale_Verify" key="{3E70A336-3C9A-4F64-8130-6341039BF992}" path="OutrightSale_Verify.js" />
+					<child name="ConfigGOpsSale" key="{057914E7-5026-4E60-B43F-85A44D7B3F0D}" path="ConfigGOpsSale.js" />
+					<child name="RFC_Quote_Config" key="{5675830D-361A-4782-823C-E1C79AC3D893}" path="RFC_Quote_Config.js" />
+					<child name="ConfigQuote_For_OutrightSale" key="{0F29051D-0CCD-4B29-8A60-6DD528F69B7D}" path="ConfigQuote_For_OutrightSale.js" />
+				</folder>
+				<folder name="B04">
+					<child name="CreateRFCForAddress" key="{46F1530B-18A2-4914-ACA6-E05EB5CD0D58}" path="CreateRFCForAddress.js" />
+				</folder>
+				<folder name="B05">
+					<child name="B05_Submit_for_approval" key="{1011DB65-BA74-4E8D-B637-D6DC44153444}" path="B05_Submit_for_approval.js" />
+				</folder>
+				<folder name="B06">
+					<child name="COEuserValidation" key="{CE785392-59DE-4348-91A6-7F119891ADFD}" path="COEuserValidation.js" />
+				</folder>
 			</folder>
-			<folder name="B03">
-				<child name="RFC_Quote_Creation" key="{9FA3C611-A318-41DE-9946-6279D04A124A}" path="RFC_Quote_Creation.js" />
-				<child name="RFC_ApplyPrefrences" key="{68DBE55F-076F-48A6-8F06-CC7A1922D00E}" path="RFC_ApplyPrefrences.js" />
-				<child name="OutrightSale_Verify" key="{3E70A336-3C9A-4F64-8130-6341039BF992}" path="OutrightSale_Verify.js" />
-				<child name="ConfigGOpsSale" key="{057914E7-5026-4E60-B43F-85A44D7B3F0D}" path="ConfigGOpsSale.js" />
-				<child name="RFC_Quote_Config" key="{5675830D-361A-4782-823C-E1C79AC3D893}" path="RFC_Quote_Config.js" />
-				<child name="ConfigQuote_For_OutrightSale" key="{0F29051D-0CCD-4B29-8A60-6DD528F69B7D}" path="ConfigQuote_For_OutrightSale.js" />
-			</folder>
-			<folder name="B04">
-				<child name="CreateRFCForAddress" key="{46F1530B-18A2-4914-ACA6-E05EB5CD0D58}" path="CreateRFCForAddress.js" />
-			</folder>
-			<folder name="B05">
-				<child name="B05_Submit_for_approval" key="{1011DB65-BA74-4E8D-B637-D6DC44153444}" path="B05_Submit_for_approval.js" />
-			</folder>
-			<folder name="B06">
-				<child name="COEuserValidation" key="{CE785392-59DE-4348-91A6-7F119891ADFD}" path="COEuserValidation.js" />
-			</folder>
-		</folder>
-		<folder name="Tests">
-			<folder name="B02">
-				<child name="ConfigOpportunityConversion_Test" key="{07BBA548-EC6B-409C-A69F-528F69B4CACB}" path="ConfigOpportunityConversion_Test.js" />
-				<child name="ConfigOpportunityOutright_Test" key="{7984F146-6587-4787-A9DE-79EE28057571}" path="ConfigOpportunityOutright_Test.js" />
-				<child name="LegalUserValidation_Test" key="{832FAC7B-4EFB-4BCD-BB96-CE63CA5D9992}" path="LegalUserValidation_Test.js" />
-				<child name="OpportunityCreation_Test" key="{1E22A1D5-31E5-4E4A-8D98-20086EB43B3E}" path="OpportunityCreation_Test.js" />
-			</folder>
-			<folder name="B03">
-				<child name="RFC_Quote_Creation_Test" key="{6C11C8D3-5ADE-4B83-8F62-4CAFEFFE5065}" path="RFC_Quote_Creation_Test.js" />
-				<child name="RFC_Quote_Config_Test" key="{736F1A69-5078-46E3-9A2E-43916AB841AD}" path="RFC_Quote_Config_Test.js" />
-				<child name="RFC_ApplyPrefrences_Test" key="{1C912DEF-4F76-4FBF-963D-3A8D5DFD1657}" path="RFC_ApplyPrefrences_Test.js" />
-				<child name="ConfigGOpsSale_Test" key="{D46A96F7-D315-43CF-9FA1-28A3A967A014}" path="ConfigGOpsSale_Test.js" />
-				<child name="ConfigQuote_For_OutrightSale_Test" key="{A7892094-236B-418C-A090-0971F4F21C5C}" path="ConfigQuote_For_OutrightSale_Test.js" />
-			</folder>
-			<folder name="B04">
-				<child name="CreateRFCForAddress_Test" key="{6738B5A5-9AFE-429B-BC08-5E778ED26A3F}" path="CreateRFCForAddress_Test.js" />
-			</folder>
-			<folder name="B05">
-				<child name="B05_Submit_for_approval_Test" key="{16DF2457-BCD2-4CAF-8ED4-873366BC7DB3}" path="B05_Submit_for_approval_Test.js" />
-			</folder>
-			<folder name="B06">
-				<child name="BO6_COEuserValidation_Test" key="{F427FF8D-FED5-43CF-9D49-835209189C9C}" path="BO6_COEuserValidation_Test.js" />
+			<folder name="C_Series">
+				<folder name="C01">
+					<child name="Opportunity_Quoting_Stage" key="{5EDA08CA-694F-482E-A9D2-51C63FCA9A9A}" path="Opportunity_Quoting_Stage.js" />
+				</folder>
+				<folder name="C02">
+					<child name="Oppor_Quoting_ConfigStage" key="{AA051598-03F1-4C53-9F98-BE29651505DB}" path="Oppor_Quoting_ConfigStage.js" />
+				</folder>
+				<folder name="C05">
+					<child name="RFC_SOC_logic_untouched" key="{C1B0F775-D741-4122-B099-A0198A1D4427}" path="RFC_SOC_logic_untouched.js" />
+				</folder>
 			</folder>
 			<child name="Test2" key="{A0B46A3D-5C47-4B87-92D4-A1010A8535CE}" path="Test2.js" />
+		</folder>
+		<folder name="Tests">
+			<folder name="B_Series">
+				<folder name="B02">
+					<child name="ConfigOpportunityConversion_Test" key="{07BBA548-EC6B-409C-A69F-528F69B4CACB}" path="ConfigOpportunityConversion_Test.js" />
+					<child name="ConfigOpportunityOutright_Test" key="{7984F146-6587-4787-A9DE-79EE28057571}" path="ConfigOpportunityOutright_Test.js" />
+					<child name="LegalUserValidation_Test" key="{832FAC7B-4EFB-4BCD-BB96-CE63CA5D9992}" path="LegalUserValidation_Test.js" />
+					<child name="OpportunityCreation_Test" key="{1E22A1D5-31E5-4E4A-8D98-20086EB43B3E}" path="OpportunityCreation_Test.js" />
+				</folder>
+				<folder name="B03">
+					<child name="RFC_Quote_Creation_Test" key="{6C11C8D3-5ADE-4B83-8F62-4CAFEFFE5065}" path="RFC_Quote_Creation_Test.js" />
+					<child name="RFC_Quote_Config_Test" key="{736F1A69-5078-46E3-9A2E-43916AB841AD}" path="RFC_Quote_Config_Test.js" />
+					<child name="RFC_ApplyPrefrences_Test" key="{1C912DEF-4F76-4FBF-963D-3A8D5DFD1657}" path="RFC_ApplyPrefrences_Test.js" />
+					<child name="ConfigGOpsSale_Test" key="{D46A96F7-D315-43CF-9FA1-28A3A967A014}" path="ConfigGOpsSale_Test.js" />
+					<child name="ConfigQuote_For_OutrightSale_Test" key="{A7892094-236B-418C-A090-0971F4F21C5C}" path="ConfigQuote_For_OutrightSale_Test.js" />
+				</folder>
+				<folder name="B04">
+					<child name="CreateRFCForAddress_Test" key="{6738B5A5-9AFE-429B-BC08-5E778ED26A3F}" path="CreateRFCForAddress_Test.js" />
+				</folder>
+				<folder name="B05">
+					<child name="B05_Submit_for_approval_Test" key="{16DF2457-BCD2-4CAF-8ED4-873366BC7DB3}" path="B05_Submit_for_approval_Test.js" />
+				</folder>
+				<folder name="B06">
+					<child name="BO6_COEuserValidation_Test" key="{F427FF8D-FED5-43CF-9D49-835209189C9C}" path="BO6_COEuserValidation_Test.js" />
+				</folder>
+			</folder>
+			<folder name="C_Series">
+				<folder name="C01">
+					<child name="Opportunity_Quoting_Stage_Test" key="{AF081E10-A7E8-47A7-B354-3ECE0AFA083D}" path="Opportunity_Quoting_Stage_Test.js" />
+				</folder>
+				<folder name="C02">
+					<child name="Oppor_Quoting_ConfigStage_Test" key="{50C58645-EDDF-4624-9788-916540AD52C3}" path="Oppor_Quoting_ConfigStage_Test.js" />
+				</folder>
+				<folder name="C05">
+					<child name="RFC_SOC_logic_untouched_Test" key="{9CCF63A4-B199-4B61-9BA4-647BE92E4768}" path="RFC_SOC_logic_untouched_Test.js" />
+				</folder>
+			</folder>
 		</folder>
 	</children>
 </Root>

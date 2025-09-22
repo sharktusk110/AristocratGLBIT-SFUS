@@ -10,8 +10,10 @@ function Openconfigopportunity()
   Aliases.browser.page__Home.GlobalAll__tab.Click();
   Delay(2000);
    
-  Aliases.browser.page__Home.GlobalAll__tab.Keys("[Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Enter]");
+  Aliases.browser.page__Home.GlobalAll__tab.SetText("Opportunities");
   Delay(2000);
+  
+  Aliases.browser.page__Home.GlobalAll__tab.Keys("[Down][Enter]");
   
   Log.Message("Sets the text Project.Variables.OpportunityName in the 'GlobalSearch_Bar' text editor")
   Aliases.browser.page__Home.GlobalSearch__field.Keys(Project.Variables.OpportunityName);
